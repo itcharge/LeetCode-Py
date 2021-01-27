@@ -7,7 +7,7 @@ Solutions to LeetCode by Python, LeetCode 题解
 
 如果是新手刷题的话，推荐先从简单等级的算法题开始刷起。等简单题上手熟练之后，再开始按照标签类别，刷中等难度的题。中等难度的题刷差不多之后，可以考虑刷面试题 or 难题。
 
-其实 LeetCode 官方网站上就有整理好的刷题清单。链接为：https://leetcode-cn.com/leetbook/。
+其实 LeetCode 官方网站上就有整理好的刷题清单。链接为：[https://leetcode-cn.com/leetbook/](https://leetcode-cn.com/leetbook/)
 
 我这里稍微做了一下整理。推荐刷题顺序如下：
 
