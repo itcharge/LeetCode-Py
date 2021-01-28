@@ -1,16 +1,15 @@
 
 
-# 0026. 删除排序数组中的重复项
+# [0026. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 
 ## 题目相关
 
-- 链接：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 - 标签：数组
 - 关键词：双指针
 
 ## 题目大意
 
-给定一个有序数组，删除重复元素，并输出去除重复元素之后数组的长度。要求不能使用额外的数组空间。
+给定一个有序数组，删除重复元素，并输出去除重复元素之后数组的长度。要求不能使用额外的数组空间
 
 ## 解题思路
 
