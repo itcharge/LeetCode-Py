@@ -1,5 +1,5 @@
 # LeetCode-Py
-Solutions to LeetCode by Python, LeetCode 题解
+LeetCode 题解, Solutions to LeetCode by Python
 
 # LeetCode 刷题顺序和技巧
 
