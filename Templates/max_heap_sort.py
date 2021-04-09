@@ -1,5 +1,5 @@
 # 调整为大顶堆
-def heapify(nums, index, end):
+def heapify(nums: [int], index: int, end: int):
 	left = index * 2 + 1
 	right = left + 1
 	while left <= end:
@@ -19,7 +19,7 @@ def heapify(nums, index, end):
 		right = left + 1
 
 # 初始化大顶堆
-def buildMaxHeap(nums):
+def buildMaxHeap(nums: [int]):
 	size = len(nums)
 	# (size-2) // 2 是最后一个非叶节点，叶节点不用调整
 	for i in range((size - 2) // 2, -1, -1):
@@ -31,7 +31,7 @@ def buildMaxHeap(nums):
 # 2. 让堆顶最大元素与最后一个交换，然后调整第一个元素到倒数第二个元素，这一步获取最大值
 # 3. 再交换堆顶元素与倒数第二个元素，然后调整第一个元素到倒数第三个元素，这一步获取第二大值
 # 4. 以此类推，直到最后一个元素交换之后完毕。
-def maxHeapSort(nums):
+def maxHeapSort(nums: [int]):
 	buildMaxHeap(nums)
 	size = len(nums)
 	for i in range(size):
@@ -39,5 +39,4 @@ def maxHeapSort(nums):
 		heapify(nums, 0, size-i-2)
 	return nums
 	
-
 print(maxHeapSort([2,3,1,4,5]))
