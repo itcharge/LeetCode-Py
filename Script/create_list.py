@@ -2,6 +2,7 @@ import os
 import re
 import numpy as np
 import pandas as pd
+from urllib.parse import quote
 
 def gen_markdown_table(frame):
 	
@@ -70,9 +71,11 @@ def create_list(solotions_path, output_path):
 			if not title_label:
 				title_label = " "
 			if title_id and title_name and title_url and title_label and title_diff:
-				title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_id + ". " + title_name + ".md)"
-				title_name_url = "[" + title_name + "](" + title_url + ")"
 				title_id = "{:0>4d}".format(int(title_id))
+				title_chinese = quote(title_id + ". " + title_name + ".md")
+				title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
+				title_name_url = "[" + title_name + "](" + title_url + ")"
+				
 				frame.loc[frame_cout] = [title_id, title_name_url, title_solution_url, title_label, title_diff]
 				frame_cout += 1
 #				print(title_id, title_name_url, title_url, title_label, title_diff, title_solution_url)	
@@ -106,3 +109,4 @@ readme_path = '../README.md'
 
 create_list(solotions_path, list_path) 
 merge_file(list_path, readme_head_path, readme_path)
+
