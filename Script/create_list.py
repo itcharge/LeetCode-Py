@@ -24,7 +24,7 @@ def gen_markdown_table(frame):
 	SPLIT = ":{}"
 	line = "|"
 	for i in range(W):
-		line = "{} {} |".format(line, SPLIT.format('-'*4))
+		line = "{} {} |".format(line, SPLIT.format('-'*6))
 	lines += [line]
 	
 	## 数据部分
