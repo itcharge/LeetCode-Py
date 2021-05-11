@@ -86,14 +86,16 @@ def create_list(solotions_path, output_path):
 		f.write(table)
 	f.close()
 	print("Create success")
+	return frame_cout
 
-def merge_file(list_path, readme_head_path, readme_path):
+def merge_file(list_path, readme_head_path, readme_path, solutions_count):
 	readme_head_file = open(readme_head_path)
 	list_file = open(list_path)
 	readme_file = open(readme_path,'w')
 	
 	for line in readme_head_file:
 		readme_file.writelines(line)
+	readme_file.writelines("# 3. LeetCode 题解（已解决 {} 道）\n ".format(solutions_count))
 	
 	for line in list_file:
 		readme_file.writelines(line)
@@ -103,10 +105,10 @@ def merge_file(list_path, readme_head_path, readme_path):
 	readme_file.close()
 
 solotions_path = '../Solutions'
-list_path = './list.md'
+list_path = './README_LIST.md'
 readme_head_path = './README_HEAD.md'
 readme_path = '../README.md'
 
-create_list(solotions_path, list_path) 
-merge_file(list_path, readme_head_path, readme_path)
+frame_cout = create_list(solotions_path, list_path) 
+merge_file(list_path, readme_head_path, readme_path, frame_cout)
 
