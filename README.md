@@ -53,9 +53,10 @@ LeetCode 题解, Solutions to LeetCode by Python
 
 刷算法题，有一个十分有用的捷径，就是「写解题报告」。如果你刷完一道题，能把这道题的解题步骤，做题思路用通俗易懂的话写成解题报告，那么这道题就算是掌握了。其实就相当于「费曼学习法」的思维。这样，也可以减少刷题的遍数，遇到之前刷过的题，但一时之间没有思路的，可以看看自己之前的解题报告。这样就节省了大量重复刷题的时间。
 
-# 3. LeetCode 题解
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
+
+# 3. LeetCode 题解（已解决 127 道）
+ | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0001 | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 数组、哈希表 | 简单 |
 | 0002 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0002.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md) | 递归、链表、数学 | 简单 |
@@ -84,6 +85,7 @@ LeetCode 题解, Solutions to LeetCode by Python
 | 0056 | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.md) | 数组、排序 | 简单 |
 | 0061 | [旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0061.%20%E6%97%8B%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | 链表、双指针 | 简单 |
 | 0062 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0062.%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.md) | 数组、动态规划 | 简单 |
+| 0067 | [二进制求和](https://leetcode-cn.com/problems/add-binary/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0067.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C.md) | 数学、字符串、位运算 | 简单 |
 | 0069 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0069.%20x%20%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md) | 数学、二分查找 | 简单 |
 | 0070 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0070.%20%E7%88%AC%E6%A5%BC%E6%A2%AF.md) | 动态规划 | 简单 |
 | 0073 | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0073.%20%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6.md) | 数组 | 简单 |
@@ -100,6 +102,7 @@ LeetCode 题解, Solutions to LeetCode by Python
 | 0107 | [二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0107.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86%20II.md) | 树、广度优先搜索 | 简单 |
 | 0108 | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0108.%20%E5%B0%86%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) | 树、深度优先搜索 | 简单 |
 | 0110 | [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0110.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md) | 树、深度优先搜索、递归 | 简单 |
+| 0111 | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0111.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6.md) | 树、深度优先搜索、广度优先搜索 | 简单 |
 | 0112 | [路径总和](https://leetcode-cn.com/problems/path-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0112.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C.md) | 树、深度优先搜索 | 简单 |
 | 0118 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0118.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92.md) | 数组 | 简单 |
 | 0119 | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0119.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%20II.md) | 数组 | 简单 |
