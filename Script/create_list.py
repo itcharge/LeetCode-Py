@@ -52,7 +52,7 @@ def create_list(solotions_path, output_path):
 			title_diff = None
 			for i in range(len(lines)):
 				if i == 0:
-					pattern = re.compile(r'\[([1-9]\d*|0)+\. (.*)\]\((.*)\)')
+					pattern = re.compile(r'\[([0-9]\d*|0)+\. (.*)\]\((.*)\)')
 					match = pattern.finditer(lines[i])
 					for a in match:
 						title_id, title_name, title_url = a.group(1,2,3)
