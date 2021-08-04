@@ -1,6 +1,6 @@
 # 1. 算法和数据结构
 
-![](http://qncdn.bujige.net/images/20210705164838.png)
+![](http://qcdn.itcharge.cn/images/20210705164838.png)
 
 > 数据结构是程序的骨架，而算法则是程序的灵魂。
 
@@ -48,7 +48,7 @@ Pascal 语言之父、结构化程序设计的先驱 [Niklaus Emil Wirth](https:
 
 集合结构中的数据元素是无序的，并且每个数据元素都是唯一的，集合中没有相同的数据元素。集合结构很像数学意义上的「集合」。
 
-![](http://qncdn.bujige.net/images/20210705164847.png)
+![](http://qcdn.itcharge.cn/images/20210705164847.png)
 
 #### 2. 线性结构
 
@@ -56,7 +56,7 @@ Pascal 语言之父、结构化程序设计的先驱 [Niklaus Emil Wirth](https:
 
 线性结构中的数据元素（除了第一个和最后一个元素），左侧和右侧分别只有一个数据与其相邻。线性结构类型包括：数组、链表，以及由它们衍生出来的栈、队列、哈希表。
 
-![](http://qncdn.bujige.net/images/20210705164854.png)
+![](http://qcdn.itcharge.cn/images/20210705164854.png)
 
 #### 3. 树形结构
 
@@ -64,7 +64,7 @@ Pascal 语言之父、结构化程序设计的先驱 [Niklaus Emil Wirth](https:
 
 最简单的树形结构是二叉树。这种结构可以简单的表示为：根， 左子树， 右子树。 左子树和右子树又有自己的子树。当然除了二叉树，树形结构类型还包括：多叉树、字典树等。
 
-![](http://qncdn.bujige.net/images/20210705164900.png)
+![](http://qcdn.itcharge.cn/images/20210705164900.png)
 
 #### 4. 图形结构
 
@@ -74,7 +74,7 @@ Pascal 语言之父、结构化程序设计的先驱 [Niklaus Emil Wirth](https:
 
 在图形结构中，任意两个结点之间都可能相关，即结点之间的邻接关系可以是任意的。图形结构类型包括：无向图、有向图、连通图等。
 
-![](http://qncdn.bujige.net/images/20210705164906.png)
+![](http://qcdn.itcharge.cn/images/20210705164906.png)
 
 ### 1.1.2 数据的物理结构
 
@@ -86,7 +86,7 @@ Pascal 语言之父、结构化程序设计的先驱 [Niklaus Emil Wirth](https:
 
 > 顺序存储结构（Sequential Storage Structure）：将数据元素存放在一片地址连续的存储单元里，数据元素之间的逻辑关系通过数据元素的存储地址来直接反映。
 
-![](http://qncdn.bujige.net/images/20210705164911.png)
+![](http://qcdn.itcharge.cn/images/20210705164911.png)
 
 在顺序存储结构中，逻辑上相邻的数据元素在物理地址上也必然相邻 。
 
@@ -96,7 +96,7 @@ Pascal 语言之父、结构化程序设计的先驱 [Niklaus Emil Wirth](https:
 
 > 链式存储结构（Linked  Storage Structure）：将数据元素存放在任意的存储单元里，存储单元可以连续，也可以不连续。
 
-![](http://qncdn.bujige.net/images/20210705164916.png)
+![](http://qcdn.itcharge.cn/images/20210705164916.png)
 
 链式存储结构中，逻辑上相邻的数据元素在物理地址上可能相邻，可也能不相邻。其在物理地址上的表现是随机的。链式存储结构中，一般将每个数据元素占用的若干单元的组合称为一个链结点。每个链结点不仅要存放一个数据元素的数据信息，还要存放一个指出这个数据元素在逻辑关系的直接后继元素所在链结点的地址，该地址被称为指针。换句话说，数据元素之间的逻辑关系是通过指针来间接反映的。
 
