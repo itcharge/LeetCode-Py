@@ -55,7 +55,7 @@ LeetCode 题解, Solutions to LeetCode by Python
 
 
 
-# 3. LeetCode 题解（已完成 298 道）
+# 3. LeetCode 题解（已完成 302 道）
  | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0001 | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 数组、哈希表 | 简单 |
@@ -148,6 +148,7 @@ LeetCode 题解, Solutions to LeetCode by Python
 | 0121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0121.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.md) | 数组、动态规划 | 简单 |
 | 0122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0122.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.md) | 数组、贪心算法 | 简单 |
 | 0123 | [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0123.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20III.md) | 数组、动态规划 | 困难 |
+| 0124 | [二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0124.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%AF%E5%BE%84%E5%92%8C.md) | 树、深度优先搜索、动态规划、二叉树 | 困难 |
 | 0125 | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.md) | 字符串、双指针 | 简单 |
 | 0127 | [单词接龙](https://leetcode-cn.com/problems/word-ladder/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0127.%20%E5%8D%95%E8%AF%8D%E6%8E%A5%E9%BE%99.md) | 广度优先搜索、哈希表、字符串 | 困难 |
 | 0130 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0130.%20%E8%A2%AB%E5%9B%B4%E7%BB%95%E7%9A%84%E5%8C%BA%E5%9F%9F.md) | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
@@ -188,7 +189,9 @@ LeetCode 题解, Solutions to LeetCode by Python
 | 0204 | [计数质数](https://leetcode-cn.com/problems/count-primes/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0204.%20%E8%AE%A1%E6%95%B0%E8%B4%A8%E6%95%B0.md) | 数学、哈希表 | 简单 |
 | 0205 | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0205.%20%E5%90%8C%E6%9E%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md) | 哈希表 | 简单 |
 | 0206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | 链表 | 简单 |
+| 0207 | [课程表](https://leetcode-cn.com/problems/course-schedule/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0207.%20%E8%AF%BE%E7%A8%8B%E8%A1%A8.md) | 深度优先搜索、广度优先搜索、图、拓扑排序 | 中等 |
 | 0209 | [长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0209.%20%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) | 数组、双指针、二分查找 | 中等 |
+| 0210 | [课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0210.%20%E8%AF%BE%E7%A8%8B%E8%A1%A8%20II.md) | 深度优先搜索、广度优先搜索、图、拓扑排序 | 中等 |
 | 0213 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0213.%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%20II.md) | 动态规划 | 中等 |
 | 0215 | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0215.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E7%AC%ACK%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0.md) | 数组、堆排序 | 中等 |
 | 0217 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0217.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.md) | 数组、哈希表 | 简单 |
@@ -228,6 +231,7 @@ LeetCode 题解, Solutions to LeetCode by Python
 | 0322 | [零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0322.%20%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2.md) | 动态规划 | 中等 |
 | 0326 | [3 的幂](https://leetcode-cn.com/problems/power-of-three/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0326.%203%20%E7%9A%84%E5%B9%82.md) | 数学 | 简单 |
 | 0328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0328.%20%E5%A5%87%E5%81%B6%E9%93%BE%E8%A1%A8.md) | 链表 | 中等 |
+| 0329 | [矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0329.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84.md) | 深度优先搜索、广度优先搜索、图、拓扑排序、记忆化搜索、动态规划 | 困难 |
 | 0334 | [递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0334.%20%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.md) |   | 中等 |
 | 0337 | [打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0337.%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%20III.md) | 树、深度优先搜索、动态规划、二叉树 | 中等 |
 | 0342 | [4的幂](https://leetcode-cn.com/problems/power-of-four/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0342.%204%E7%9A%84%E5%B9%82.md) | 位运算 | 简单 |
