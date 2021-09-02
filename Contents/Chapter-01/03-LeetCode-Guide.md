@@ -1,0 +1,228 @@
+## 1. LeetCode 是什么
+
+**「LeetCode」** 是一个代码在线评测平台（Online Judge），包含了 **算法**、**数据库**、**Shell**、**多线程** 等不同分类的题目，其中以算法题目为主。我们可以通过解决 LeetCode 题库中的问题来练习编程技能，以及提高算法能力。
+
+LeetCode 上有 2300+ 道的编程问题，支持 16+ 种编程语言（C、C++、Java、Python 等），还有一个活跃的社区，可以用于分享技术话题、职业经历、题目交流等。
+
+并且许多知名互联网公司在面试的时候喜欢考察 LeetCode 题目，通常会以手写代码的形式出现。需要面试者对给定问题进行分析并给出解答，有时还会要求面试者分析算法的时间复杂度和空间复杂度，以及算法思路。面试官通过考察面试者对常用算法的熟悉程度和实现能力来确定面试者解决问题的思维能力水平。
+
+所以无论是面试国内还是国外的知名互联网公司，通过 LeetCode 刷题，充分准备好算法，对拿到一个好公司的好 offer 都是有帮助的。
+
+## 2. LeetCode 新手入门
+
+### 2.1 LeetCode 注册
+
+1. 打开 LeetCode 中文主页，链接：[力扣（LeetCode）官网](https://leetcode-cn.com/)。
+2. 输入手机号，获取验证码。
+3. 输入验证码之后，点击「登录 / 注册」，就注册好了。
+
+![](https://qcdn.itcharge.cn/images/20210901155409.png)
+
+### 2.2 LeetCode 题库
+
+「[题库](https://leetcode-cn.com/problemset/algorithms/)」是 LeetCode 上最直接的练习入口，在这里可以根据题目的标签、难度、状态进行刷题。也可以按照随机一题开始刷题。
+
+![](https://qcdn.itcharge.cn/images/20210901155423.png)
+
+#### 1. 题目标签
+
+LeetCode 的题目涉及了许多算法和数据结构。有贪心，搜索，动态规划，链表，二叉树，哈希表等等，可以通过选择对应标签进行专项刷题，同时也可以看到对应专题的完成度情况。
+
+![](https://qcdn.itcharge.cn/images/20210901155435.png)
+
+#### 2. 题目列表
+
+LeetCode 提供了题目的搜索过滤功能。可以筛选相关题单、不同难易程度、题目完成状态、不同标签的题目。还可以根据题目编号、题解数目、通过率、难度、出现频率等进行排序。
+
+![](https://qcdn.itcharge.cn/images/20210901155450.png)
+
+#### 3. 当前进度
+
+当前进度提供了一个直观的进度展示。在这里可以看到自己的练习概况。进度会自动展现当前的做题情况。也可以点击「[进度设置]([进度管理 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/session/))」创建新的进度，在这里还可以修改、删除相关的进度。
+
+![](https://qcdn.itcharge.cn/images/20210901155500.png)
+
+#### 4. 题目详情
+
+从题目大相关题目点击进去，就可以看到这道题目的内容描述和代码编辑器。在这里还可以查看相关的题解和自己的提交记录。
+
+![](https://qcdn.itcharge.cn/images/20210901155529.png)
+
+### 2.3 LeetCode 刷题语言
+
+大厂在面试算法的时候考察的是基本功，用什么语言没有什么限制，也不会影响成绩。日常刷题建议使用自己熟悉的语言，或者语法简洁的语言刷题。
+
+相对于 `Java`、`Python` 而言，`C`、`C++` 相关的语法比较复杂，在做题的时候一方面需要思考思路，另一方面还要研究语法。并且复杂的语法也不利于看懂思路，耗费时间较多，不利于刷题效率。在面试的时候往往需要一个小时内尽可能的完成更多的题目，`C++` 一旦语法出错很容易慌乱。当然 LeetCode 周赛的大神更偏向于使用 `C++` 刷题，这是因为用 `C++` 参加算法竞赛已经成为传统了，绝大多数的 `OI / ACM` 竞赛选手都是 `C++` 大神。
+
+就我个人经历而言，我大学参加 `ACM` 竞赛的时候，用的是 `C`、`C++` 语言和一点点的 `Java`。现在刷 LeetCode 为了更高的刷题效率，选择了 `Python`。感觉用 `Python` 刷题能更加专注于算法与数据结构本身，也能获得更快的刷题效率。
+
+> 人生苦短，我用 `Python`。
+
+### 2.4 LeetCode 刷题流程
+
+在「2.2 LeetCode 题库 —— 4. 题目详情」中我们介绍了题目的相关情况。
+
+![](https://qcdn.itcharge.cn/images/20210901155529.png)
+
+可以看到左侧区域为题目内容描述区域，在这里可以看到题目的内容描述和一些示例数据。而右侧是代码编辑区域，代码编辑区域里边默认显示了待实现的方法。
+
+我们需要在代码编辑器中根据方法给定的参数实现对应的算法，并返回题目要求的结果。然后还要经过「执行代码」测试结果，点击「提交」后，显示执行结果为「**通过**」时，才算完成一道题目。
+
+![](https://qcdn.itcharge.cn/images/20210901155545.png)
+
+总结一下我们的刷题流程为：
+
+1. 在 LeetCode 题库中选择一道自己想要解决的题目。
+2. 查看题目左侧的题目描述，理解题目要求。
+3. 思考解决思路，并在右侧代码编辑区域实现对应的方法，并返回题目要求的结果。
+4. 如果实在想不出解决思路，可以查看题目相关的题解，努力理解他人的解题思路和代码。
+5. 点击「执行代码」按钮测试结果。
+   - 如果输出结果与预期结果不符，则回到第 3 步重新思考解决思路，并改写代码。
+6. 如果输出结果与预期符合，则点击「提交」按钮。
+   - 如果执行结果显示「编译出错」、「解答错误」、「执行出错」、「超出时间限制」、「超出内存限制」等情况，则需要回到第 3 步重新思考解决思路，或者思考特殊数据，并改写代码。
+7. 如果执行结果显示「通过」，恭喜你通过了这道题目。
+
+接下来我们将通过「[1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)」这道题目来讲解如何在 LeetCode 上刷题。
+
+### 2.5 LeetCode 第一题
+
+#### 2.5.1 题目链接
+
+- [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)
+
+#### 2.5.2 题目大意
+
+- 描述：给定一个整数数组 `nums` 和一个整数目标值 `target`。
+
+- 要求：在该数组中找出和为 `target` 的两个整数，并输出这两个整数的下标。
+
+#### 2.5.3 解题思路
+
+1. 思路一：暴力搜索
+
+最简单的思路是遍历数组，对于数组中每一个数 `nums[i]`，寻找数组中是否存在 `target - nums[i]`。
+
+但是这样利用了两重循环暴力搜素，时间复杂度为 $O(n^2)$，虽然能解决问题，但是还有更好的解决思路。
+
+2. 思路二：哈希表
+
+另一种思路是利用哈希表。字典中键值对信息为 `target-nums[i] ：i`。`i` 为下标。
+
+遍历数组，对于每一个数 `nums[i]`，先查找字典中是否存在 `target - nums[i]`，存在则输出 `target - nums[i]` 对应的下标和当前数组的下标 `i`。没有则在字典中存入 `target-nums[i]` 的下标 `i`。
+
+#### 2.5.4 解题代码
+
+1. 思路一：暴力搜索
+
+```Python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        size = len(nums)
+        for i in range(size):
+            for j in range(i + 1, size):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+        return []
+```
+
+2. 思路二：哈希表
+
+```Python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        size = len(nums)
+        num_dict = dict()
+        for i in range(size):
+            if target - nums[i] in num_dict:
+                return [num_dict[target - nums[i]], i]
+            num_dict[nums[i]] = i
+        return []
+```
+
+理解了上面这道题的题意，就可以试着自己编写代码，并尝试提交通过。也可以通过我的解题思路和解题代码，理解之后进行编写代码，并尝试提交通过。
+
+如果提交结果显示「通过」，那么恭喜你完成了 LeetCode 上的第一题。虽然只是一道题，但这意味着刷题计划的开始！希望你能坚持下去，得到应有的收获。
+
+## 3. LeetCode 刷题攻略
+
+### 3.1 LeetCode 前期准备
+
+刷 LeetCode 之前最好有一些「数据结构」和「算法」类的基础知识储备。这些基础包括：
+
+- 常考的数据结构：**数组**、**字符串**、**链表**、**树（如二叉树）** 等。
+- 常考的算法：**分治算法**、**贪心算法**、**穷举算法**、**回溯算法**、**动态规划** 等。
+
+还可以搭配相关的书籍资料进行学习：
+
+- 【书籍】「[算法（第 4 版）- 谢路云 译](https://book.douban.com/subject/19952400/)」
+- 【书籍】「[大话数据结构 - 程杰 著](https://book.douban.com/subject/6424904/)」 
+- 【书籍】「[趣学算法 - 陈小玉 著](https://book.douban.com/subject/27109832/)」
+- 【书籍】「[算法图解 - 袁国忠 译](https://book.douban.com/subject/26979890/)」
+- 【书籍】「[算法竞赛入门经典（第 2 版） - 刘汝佳 著](https://book.douban.com/subject/25902102/)」
+- 【书籍】「[数据结构与算法分析 - 冯舜玺 译](https://book.douban.com/subject/1139426/)」
+- 【书籍】「[算法导论（原书第 3 版） - 殷建平 / 徐云 / 王刚 / 刘晓光 / 苏明 / 邹恒明 / 王宏志 译](https://book.douban.com/subject/20432061/)」
+
+### 3.2 LeetCode 刷题顺序
+
+讲个笑话，从前有个人以为 LeetCode 的题目是按照难易程度排序的，所以他从「[1. 两数之和](https://leetcode-cn.com/problems/two-sum)」 开始刷题，结果他卡在了 「[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)」这道困难题上。
+
+LeetCode 的题目序号并不是按照难易程度进行排序的，所以除非硬核人士，不建议按照序号顺序刷题。如果是新手刷题的话，推荐先从「简单」难度等级的算法题开始刷题。等简单题上手熟练之后，再开始按照标签类别，刷中等难度的题。中等难度的题刷差不多之后，可以考虑刷面试题或者难题。
+
+其实 LeetCode 官方网站上就有整理好的题目不错的刷题清单。链接为：[https://leetcode-cn.com/leetbook/](https://leetcode-cn.com/leetbook/)。可以先刷这里边的题目卡片。我这里也做了一个整理。
+
+
+
+推荐刷题顺序和目录如下：
+
+1. [初级算法](https://leetcode-cn.com/leetbook/detail/top-interview-questions-easy/)
+2. [数组类算法](https://leetcode-cn.com/leetbook/detail/all-about-array/)
+3. [数组和字符串](https://leetcode-cn.com/leetbook/detail/array-and-string/)
+4. [链表类算法](https://leetcode-cn.com/leetbook/detail/linked-list/)
+5. [哈希表](https://leetcode-cn.com/leetbook/detail/hash-table/)
+6. [队列 & 栈](https://leetcode-cn.com/leetbook/detail/queue-stack/)
+7. [递归](https://leetcode-cn.com/leetbook/detail/recursion/)
+8. [二分查找](https://leetcode-cn.com/leetbook/detail/binary-search/)
+9. [二叉树](https://leetcode-cn.com/leetbook/detail/data-structure-binary-tree/)
+10. [中级算法](https://leetcode-cn.com/leetbook/detail/top-interview-questions-medium/)
+11. [高级算法](https://leetcode-cn.com/leetbook/detail/top-interview-questions-hard/)
+12. [算法面试题汇总](https://leetcode-cn.com/leetbook/detail/top-interview-questions/)
+
+当然还可以通过官方新推出的[「数据结构」 - 学习计划](https://leetcode-cn.com/study-plan/data-structures/)、[「算法」 - 学习计划](https://leetcode-cn.com/study-plan/algorithms/) 每天坚持刷题。
+
+或者按照我总结的刷题列表进行刷题（待写）。
+
+### 3.3 LeetCode 刷题技巧
+
+#### 3.3.1 「5 分钟思考法」
+
+**「5 分钟思考法」** 的意思是：如果一道题如果 5 分钟之内有思路，就立即动手解题。如果 5 分钟之后还没有思路，就直接去看题解。然后根据题解的思路，自己去实现代码。如果发现自己看了题解也无法实现代码，就认真阅读题解的代码，并理解代码的逻辑。
+
+刷题其实跟英语里边的背单词过程是类似的。
+
+一开始，先学简单的单词，掌握了基本词汇之后，再学习词组，学习句子，然后再看文章。而且，背单词的时候也不是背一遍就会了。而是不断的重复记忆。
+
+算法刷题也是一样，零基础刷题的时候，不要过分纠结怎么自己就想不出来算法的解法，怎么就想不到更加高效的方法。学英语的时候，不也是从第一个字母开始学起的嘛。
+
+一开始的时候，不会做的题就去看题解，尽可能的快速入门。
+
+#### 3.3.2 「重复刷题」
+
+算法题有时候一遍刷过去，过的时间长了可能就忘了，看到之前做的题不能够立马想到解题思路。这其实还是跟背单词一样，单词也不是看一遍就完全记住了。所以题目刷完一遍并不是结束了，还需要不断的回顾。
+
+而且，一道题目可能有多种解法，还可能有复杂度更低的算法思路。
+
+最开始做的时候，可能是一种思路，再做第二遍的时候，可能会想到了新的解法，新的优化方式等等。
+
+所以，算法题一遍之后遇见不会的，还可以多刷几遍，不断加深理解。
+
+####  3.3.3 「写解题报告」
+
+刷算法题，有一个十分有用的捷径，就是「写解题报告」。如果你刷完一道题，能把这道题的解题步骤，做题思路用通俗易懂的话写成解题报告，那么这道题就算是掌握了。其实就相当于「费曼学习法」的思维。这样，也可以减少刷题的遍数，遇到之前刷过的题，但一时之间没有思路的，可以看看自己之前的解题报告。这样就节省了大量重复刷题的时间。
+
+## 参考资料
+
+- 【文章】[What is LeetCode? - Quora](https://www.quora.com/What-is-Leetcode)
+- 【文章】[LeetCode 帮助中心 - 力扣（LeetCode）](https://support.leetcode-cn.com/hc/)
+- 【回答】[刷 leetcode 使用 python 还是 c++？ - 知乎](https://www.zhihu.com/question/319448129)
+- 【回答】[刷完 LeetCode 是什么水平？能拿到什么水平的 offer？ - 知乎](https://www.zhihu.com/question/32019460)
+
