@@ -45,17 +45,25 @@ def create_list(solotions_path, output_path):
 			
 			lines = f.readlines()
 			title_id = None
+			title_offer_id = None
 			title_name = None
 			title_solution_url = None
 			title_url = None
 			title_label = None
 			title_diff = None
+			
 			for i in range(len(lines)):
 				if i == 0:
 					pattern = re.compile(r'\[([0-9]\d*|0)+\. (.*)\]\((.*)\)')
 					match = pattern.finditer(lines[i])
-					for a in match:
-						title_id, title_name, title_url = a.group(1,2,3)
+					pattern_1 = re.compile(r'\[(剑指 Offer [0-9]\d*|0)+\. (.*)\]\((.*)\)')
+					match_1 = pattern_1.finditer(lines[i])
+					if match:
+						for a in match:
+							title_id, title_name, title_url = a.group(1,2,3)
+					if match_1:
+						for a in match_1:
+							title_offer_id, title_name, title_url = a.group(1,2,3)
 				elif "标签" in lines[i]:
 					pattern = re.compile(r'- 标签：(.*)')
 					match = pattern.finditer(lines[i])
@@ -79,6 +87,15 @@ def create_list(solotions_path, output_path):
 				frame.loc[frame_cout] = [title_id, title_name_url, title_solution_url, title_label, title_diff]
 				frame_cout += 1
 #				print(title_id, title_name_url, title_url, title_label, title_diff, title_solution_url)	
+			if title_offer_id and title_name and title_url and title_label and title_diff:
+				title_chinese = quote(title_offer_id + ". " + title_name + ".md")
+				title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
+				title_name_url = "[" + title_name + "](" + title_url + ")"
+				
+				frame.loc[frame_cout] = [title_offer_id, title_name_url, title_solution_url, title_label, title_diff]
+				frame_cout += 1
+				print(title_offer_id, title_name_url, title_url, title_label, title_diff, title_solution_url)	
+				
 			f.close()
 		
 	table = gen_markdown_table(frame)
