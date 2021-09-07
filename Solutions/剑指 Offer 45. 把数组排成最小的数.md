@@ -13,30 +13,25 @@
 
 本质上是给数组进行排序。假设 `x`、`y` 是数组 `nums` 中的两个元素。如果拼接字符串 `x + y > y + x`，则 `x < y `。`x` 应该排在 `y` 前面。反之，则 `x > y`。
 
-按照上述规则，对原数组进行排序。这里采用快速排序的做法进行实现。
+按照上述规则，对原数组进行排序。这里使用了 `functools.cmp_to_key` 自定义排序函数。
 
 ## 代码
 
 ```Python
+import functools
+
 class Solution:
-
-    def quickSort(self, nums, low: int, high: int):
-        if low >= high:
-            return
-        i, j = low, high
-        while i < j:
-            while nums[i] + nums[high] <= nums[high] + nums[i] and i < j:
-                i += 1
-            while nums[j] + nums[high] >= nums[high] + nums[j] and i < j:
-                j -= 1
-            nums[i], nums[high] = nums[high], nums[i]
-            self.quickSort(nums, low, i - 1)
-            self.quickSort(nums, i + 1, high)
-        return nums
-
     def minNumber(self, nums: List[int]) -> str:
-        s_nums = [str(num) for num in nums]
-        res = self.quickSort(s_nums, 0, len(s_nums) - 1)
-        return ''.join(res)
+        def cmp(a, b):
+            if a + b == b + a:
+                return 0
+            elif a + b > b + a:
+                return 1
+            else:
+                return -1
+
+        nums_s = list(map(str, nums))
+        nums_s.sort(key=functools.cmp_to_key(cmp))
+        return ''.join(nums_s)
 ```
 
