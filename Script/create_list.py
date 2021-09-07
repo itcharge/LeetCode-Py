@@ -46,6 +46,8 @@ def create_list(solotions_path, output_path):
 			lines = f.readlines()
 			title_id = None
 			title_offer_id = None
+			title_offer_id1 = None
+			title_offer_id2 = None
 			title_name = None
 			title_solution_url = None
 			title_url = None
@@ -56,14 +58,14 @@ def create_list(solotions_path, output_path):
 				if i == 0:
 					pattern = re.compile(r'\[([0-9]\d*|0)+\. (.*)\]\((.*)\)')
 					match = pattern.finditer(lines[i])
-					pattern_1 = re.compile(r'\[(剑指 Offer [0-9]\d*|0)+\. (.*)\]\((.*)\)')
+					pattern_1 = re.compile(r'\[(剑指 Offer [0-9]\d*|0)+(- [I]*)*\. (.*)\]\((.*)\)')
 					match_1 = pattern_1.finditer(lines[i])
 					if match:
 						for a in match:
 							title_id, title_name, title_url = a.group(1,2,3)
 					if match_1:
 						for a in match_1:
-							title_offer_id, title_name, title_url = a.group(1,2,3)
+							title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3)
 				elif "标签" in lines[i]:
 					pattern = re.compile(r'- 标签：(.*)')
 					match = pattern.finditer(lines[i])
