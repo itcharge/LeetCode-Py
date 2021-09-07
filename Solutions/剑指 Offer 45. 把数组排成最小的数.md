@@ -1,0 +1,42 @@
+## [剑指 Offer 45. 把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+
+- 标签：贪心、字符串、排序
+- 难度：中等
+
+## 题目大意
+
+给定一个非负整数数组 `nums`。
+
+要求：将数组中的数字拼接起来排成一个数，打印能拼接出的所有数字中的最小的一个。
+
+## 解题思路
+
+本质上是给数组进行排序。假设 `x`、`y` 是数组 `nums` 中的两个元素。如果拼接字符串 `x + y > y + x`，则 `x < y `。`x` 应该排在 `y` 前面。反之，则 `x > y`。
+
+按照上述规则，对原数组进行排序。这里采用快速排序的做法进行实现。
+
+## 代码
+
+```Python
+class Solution:
+
+    def quickSort(self, nums, low: int, high: int):
+        if low >= high:
+            return
+        i, j = low, high
+        while i < j:
+            while nums[i] + nums[high] <= nums[high] + nums[i] and i < j:
+                i += 1
+            while nums[j] + nums[high] >= nums[high] + nums[j] and i < j:
+                j -= 1
+            nums[i], nums[high] = nums[high], nums[i]
+            self.quickSort(nums, low, i - 1)
+            self.quickSort(nums, i + 1, high)
+        return nums
+
+    def minNumber(self, nums: List[int]) -> str:
+        s_nums = [str(num) for num in nums]
+        res = self.quickSort(s_nums, 0, len(s_nums) - 1)
+        return ''.join(res)
+```
+
