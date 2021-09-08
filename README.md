@@ -1,61 +1,111 @@
-# LeetCode-Py
+# 算法通关手册（LeetCode）
 
-LeetCode 题解, Solutions to LeetCode by Python
+- 作者：ITCharge
+- 公众号：程序员充电站
+- 版本：1.0 beta
 
-# LeetCode 刷题顺序和技巧
+> 一本面向有 Python 编程基础，但缺乏算法知识、刷题经验的教科书和工具书。
 
-# 1. LeetCode 刷题顺序
+## 关于本书
 
-如果是新手刷题的话，推荐先从简单等级的算法题开始刷起。等简单题上手熟练之后，再开始按照标签类别，刷中等难度的题。中等难度的题刷差不多之后，可以考虑刷面试题 or 难题。
+笔者其实在大学期间就有在 OJ 系统上刷题写题解的习惯。但是毕业工作之后，日常忙于开发需求和业务逻辑，基本上就没再接触算法和刷题了。但是我心里一直有一个想法，就是把自己学到的算法知识和刷题经验整合起来，分享给大家，和大家交流一下算法知识和做题心得。一方面可以帮助大家学习算法，另一方面也有助于自己更深层次的理解算法。
 
-其实 LeetCode 官方网站上就有整理好的刷题清单。链接为：[https://leetcode-cn.com/leetbook/](https://leetcode-cn.com/leetbook/)
+这本书不仅仅只是一本算法题解书，更是一本算法基础知识的讲解书。我打算从基础的数据结构和基础的算法开始讲解，然后再进行具体题目讲解。让大家从理论到实际刷题，双方面的掌握算法知识。
 
-我这里稍微做了一下整理。推荐刷题顺序如下：
+## 关于作者
 
-1. [初级算法](https://leetcode-cn.com/leetbook/detail/top-interview-questions-easy/)
-2. [数组类算法](https://leetcode-cn.com/leetbook/detail/all-about-array/)
-3. [数组和字符串](https://leetcode-cn.com/leetbook/detail/array-and-string/)
-4. [链表类算法](https://leetcode-cn.com/leetbook/detail/linked-list/)
-5. [哈希表](https://leetcode-cn.com/leetbook/detail/hash-table/)
-6. [队列 & 栈](https://leetcode-cn.com/leetbook/detail/queue-stack/)
-7. [递归](https://leetcode-cn.com/leetbook/detail/recursion/)
-8. [二分查找](https://leetcode-cn.com/leetbook/detail/binary-search/)
-9. [二叉树](https://leetcode-cn.com/leetbook/detail/data-structure-binary-tree/)
-10. [中级算法](https://leetcode-cn.com/leetbook/detail/top-interview-questions-medium/)
-11. [高级算法](https://leetcode-cn.com/leetbook/detail/top-interview-questions-hard/)
-12. [算法面试题汇总](https://leetcode-cn.com/leetbook/detail/top-interview-questions/)
+我是一名 iOS / macOS 的开发程序员，另外也是北航软院的一名非全硕士（在读）。曾在大学期间参加过 3 年的 ACM 比赛， 但水平有限，未能取得很好的成绩。但是 3 年的 ACM 经历，给我最大的收获是训练了自己的逻辑思维和解决实际问题的能力，这种能力为我今后的工作、学习打下了坚实的基础。
 
-# 2. LeetCode 刷题技巧
+我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 09 月 08 日已经刷了 430+ 道题目，并且完成了 370+ 道题解。努力向着 500+、1000+、1500+ 道题前进。
 
-## 2.1 「5 分钟思考法」
+## 内容章节
 
-「5 分钟思考法」意思就是如果一道题如果 5 分钟之内有思路，就立即动手解题。如果 5 分钟之后还没有思路，就直接去看题解。然后根据题解的思路，自己去实现代码。如果发现自己看了题解也无法实现代码，就认真阅读题解的代码，并理解代码的逻辑。
+- [绪论](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/index.md)
+  - [算法与数据结构](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/01-Data-Structures-Algorithms.md)
+  - 算法复杂度
+  - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-LeetCode-Guide.md)
+- 数组
 
-刷题其实跟英语里边的背单词过程是类似的。
+  - 数组简介
+  - 排序算法
+    - 冒泡排序
+    - 选择排序
+    - 插入排序
+    - 计数排序
+    - 堆排序
+    - 快速排序
+    - 谢尔排序
+    - 桶排序
+  - 查找
+    - 线性查找
+    - 二分查找
+    - 三分查找
+  - 双指针
+  - 滑动窗口
+  - 树状数组
+- 栈和队列
 
-一开始，先学简单的单词，掌握了基本词汇之后，再学习词组，学习句子，然后再看文章。而且，背单词的时候也不是背一遍就会了。而是不断的重复记忆。
+  - 栈和深度优先搜索
+  - 队列和宽度优先搜索
+- 链表
+  - 元素处理
+  - 排序
+  - 查找
+- 字符串
 
-算法刷题也是一样，零基础刷题的时候，不要过分纠结怎么自己就想不出来算法的解法，怎么就想不到更加高效的方法。学英语的时候，不也是从第一个字母开始学起的嘛。
+  -  单模式串匹配
 
-一开始的时候，不会做的题就去看题解，尽可能的快速入门。
+     - BF 算法
+     - BM 算法
+     - KMP 算法
+     - RK 算法
+     - Sunday 算法
 
-## 2.2 「重复刷题」
+  -  多模式串匹配
 
-算法题有时候一遍刷过去，过的时间长了可能就忘了，看到之前做的题不能够立马想到解题思路。这其实还是跟背单词一样，单词也不是看一遍就完全记住了。所以题目刷完一遍并不是结束了，还需要不断的回顾。
+     - 字典树
 
-而且，一道题目可能有多种解法，还可能有复杂度更低的算法思路。
+     - AC 自动机
+- 树
 
-最开始做的时候，可能是一种思路，再做第二遍的时候，可能会想到了新的解法，新的优化方式等等。
+  - 二叉树
+  - 二叉搜索树
+  - 线段树
+  - 并查集
+- 哈希表
+- 图
 
-所以，算法题一遍之后遇见不会的，还可以多刷几遍，不断加深理解。
+  - 图的简介与存储方式
+  - 拓扑排序
+  - 欧拉路径
+  - 哈密顿路径
+  - 生成树
+    - 最小生成树
+    - 次小生成树
+    - 最小树形图
+  - 单源最短路
+  - 多源最短路径
+  - K 短路径
+  - 差分约束系统
+  - 强连通分量
+  - 双联通分量
+  - LCA
+  - 二分图
+  - 网络流
+- 基础算法
 
-##  2.3 「写解题报告」
+  - 位运算
+  - 枚举算法
+  - 递归算法
+  - 贪心算法
+  - 分治算法
+  - 回溯算法
+  - 动态规划
+- LeetCode 题解
 
-刷算法题，有一个十分有用的捷径，就是「写解题报告」。如果你刷完一道题，能把这道题的解题步骤，做题思路用通俗易懂的话写成解题报告，那么这道题就算是掌握了。其实就相当于「费曼学习法」的思维。这样，也可以减少刷题的遍数，遇到之前刷过的题，但一时之间没有思路的，可以看看自己之前的解题报告。这样就节省了大量重复刷题的时间。
+---
 
-
-
-# 3. LeetCode 题解（已完成 377 道）
+## LeetCode 题解（已完成 377 道）
  | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0001 | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 数组、哈希表 | 简单 |
