@@ -39,7 +39,6 @@ def create_list(solotions_path, output_path):
 	files =  os.listdir(solotions_path)
 	frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
 	frame_cout = 0
-	index = 0
 	for file in files:
 		if not os.path.isdir(file) and ".md" in file: #判断是否是文件夹   
 			f = open(solotions_path + "/" + file)
@@ -57,19 +56,32 @@ def create_list(solotions_path, output_path):
 			
 			for i in range(len(lines)):
 				if i == 0:
+					pattern_1 = re.compile(r'\[剑指 Offer ([0-9]\d*|0)+( - [I]*)*\. (.*)\]\((.*)\)')
+					if re.search(pattern_1, lines[i]):
+						match_1 = pattern_1.finditer(lines[i])
+						for a in match_1:
+							print(a)
+							title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3,4)
+							if title_offer_id2:
+								title_offer_id = "剑指 Offer " + title_offer_id1 + title_offer_id2
+							else:
+								title_offer_id = "剑指 Offer " + title_offer_id1
+						continue
+					
+					pattern_2 = re.compile(r'\[剑指 Offer II ([0-9]\d*|0)+\. (.*)\]\((.*)\)')
+					if re.search(pattern_2, lines[i]):
+						match_2 = pattern_2.finditer(lines[i])
+						for a in match_2:
+							print(a)
+							title_offer_id1, title_name, title_url = a.group(1,2,3)
+							title_offer_id = "剑指 Offer II " + title_offer_id1
+						continue
+					
 					pattern = re.compile(r'\[([0-9]\d*|0)+\. (.*)\]\((.*)\)')
 					match = pattern.finditer(lines[i])
-					pattern_1 = re.compile(r'\[剑指 Offer ([0-9]\d*|0)+( - [I]*)*\. (.*)\]\((.*)\)')
-					match_1 = pattern_1.finditer(lines[i])
-					if match:
-						for a in match:
-							title_id, title_name, title_url = a.group(1,2,3)
-					if match_1:
-						for a in match_1:
-							print(index)
-							print(a)
-							index += 1
-							title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3,4)
+					for a in match:
+						print(a)
+						title_id, title_name, title_url = a.group(1,2,3)
 				elif "标签" in lines[i]:
 					pattern = re.compile(r'- 标签：(.*)')
 					match = pattern.finditer(lines[i])
@@ -85,19 +97,14 @@ def create_list(solotions_path, output_path):
 			if not title_label:
 				title_label = " "
 			
-			if title_offer_id1 and title_name and title_url and title_label and title_diff:
-				if title_offer_id2:
-					title_offer_id = "剑指 Offer " + title_offer_id1 + title_offer_id2
-				else:
-					title_offer_id = "剑指 Offer " + title_offer_id1
-					
+			if title_offer_id and title_name and title_url and title_label and title_diff:					
 				title_chinese = quote(title_offer_id + ". " + title_name + ".md")
 				title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
 				title_name_url = "[" + title_name + "](" + title_url + ")"
 				
 				frame.loc[frame_cout] = [title_offer_id, title_name_url, title_solution_url, title_label, title_diff]
 				frame_cout += 1
-				print(title_offer_id, title_name_url, title_url, title_label, title_diff, title_solution_url)
+#				print(title_offer_id, title_name_url, title_url, title_label, title_diff, title_solution_url)
 			elif title_id and title_name and title_url and title_label and title_diff:
 				title_id = "{:0>4d}".format(int(title_id))
 				title_chinese = quote(title_id + ". " + title_name + ".md")
