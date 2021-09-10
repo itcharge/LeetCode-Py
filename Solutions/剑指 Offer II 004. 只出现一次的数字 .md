@@ -21,6 +21,8 @@
 
 将这些二进制位置上出现 `1` 的个数不是 `3` 的倍数位置值置为 `1`，是 `3` 的倍数则置为 `0`。这样对应下来的二进制就是答案所求。
 
+注意：因为 Python 的整数没有位数限制，所以不能通过最高位确定正负。所以 Python 中负整数的补码会被当做正整数。所以在遍历到最后 `31` 位时进行 `ans -= (1 << 31)` 操作，目的是将负数的补码转换为「负号 + 原码」的形式。这样就可以正常识别二进制下的负数。参考：[Two's Complement Binary in Python? - Stack Overflow](https://stackoverflow.com/questions/12946116/twos-complement-binary-in-python/12946226)
+
 ## 代码
 
 1. 哈希表
