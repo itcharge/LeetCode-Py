@@ -29,7 +29,7 @@ class Solution:
         left = index * 2 + 1
         right = left + 1
         while left <= end:
-            # 当前节点为非叶子结点
+            # 当前节点为非叶子节点
             max_index = index
             if nums[left] > nums[max_index]:
                 max_index = left
