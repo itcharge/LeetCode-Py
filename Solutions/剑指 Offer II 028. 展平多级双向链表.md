@@ -39,7 +39,7 @@ class Solution:
             # 如果 child 链表不为空，将 child 链表扁平化
             tail = self.dfs(node.child)
 
-            # 将扁平化的 child 链表链接在该结点之后
+            # 将扁平化的 child 链表链接在该节点之后
             temp = node.next
             node.next = node.child
             node.next.prev = node
