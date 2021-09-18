@@ -120,6 +120,7 @@ def create_list(solotions_path, output_path):
 		
 	table = gen_markdown_table(frame)
 	with open(output_path, 'w') as f:
+		f.writelines("# LeetCode 题解（已完成 {} 道）\n\n".format(frame_cout))
 		f.write(table)
 	f.close()
 	print("Create success")
@@ -132,7 +133,7 @@ def merge_file(list_path, readme_head_path, readme_path, solutions_count):
 	
 	for line in readme_head_file:
 		readme_file.writelines(line)
-	readme_file.writelines("## LeetCode 题解（已完成 {} 道）\n ".format(solutions_count))
+#	readme_file.writelines("# LeetCode 题解（已完成 {} 道）\n ".format(solutions_count))
 	
 	for line in list_file:
 		readme_file.writelines(line)
