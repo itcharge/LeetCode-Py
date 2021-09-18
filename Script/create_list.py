@@ -143,7 +143,7 @@ def merge_file(list_path, readme_head_path, readme_path, solutions_count):
 	readme_file.close()
 
 solotions_path = '../Solutions'
-list_path = './README_LIST.md'
+list_path = '../Contents/Chapter-01/04-Solutions-List.md'
 readme_head_path = '../Contents/index.md'
 readme_path = '../README.md'
 

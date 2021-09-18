@@ -25,7 +25,7 @@
 - [算法与数据结构](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/01-Data-Structures-Algorithms.md)
 - [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Algorithm-Complexity.md)
 - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-LeetCode-Guide.md)
-- [LeetCode 题解]()
+- [LeetCode 题解](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/04-Solutions-List.md)
 
 ## 数组
 
