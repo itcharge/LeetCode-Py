@@ -1,4 +1,4 @@
-# LeetCode 题解（已完成 467 道）
+# LeetCode 题解（已完成 468 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -421,6 +421,7 @@
 | 剑指 Offer II 028 | [展平多级双向链表](https://leetcode-cn.com/problems/Qv1Da2/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20028.%20%E5%B1%95%E5%B9%B3%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md) | 深度优先搜索、链表、双向链表 | 中等 |
 | 剑指 Offer II 029 | [排序的循环链表](https://leetcode-cn.com/problems/4ueAj6/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20029.%20%E6%8E%92%E5%BA%8F%E7%9A%84%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8.md) | 链表 | 中等 |
 | 剑指 Offer II 030 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode-cn.com/problems/FortPu/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20030.%20%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E9%9A%8F%E6%9C%BA%E8%AE%BF%E9%97%AE%E9%83%BD%E6%98%AF%20O%281%29%20%E7%9A%84%E5%AE%B9%E5%99%A8.md) |   | 简单 |
+| 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode-cn.com/problems/OrIXps/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20031.%20%E6%9C%80%E8%BF%91%E6%9C%80%E5%B0%91%E4%BD%BF%E7%94%A8%E7%BC%93%E5%AD%98.md) | 设计、哈希表、链表、双向链表 | 中等 |
 | 剑指 Offer II 032 | [有效的变位词](https://leetcode-cn.com/problems/dKk3P7/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20032.%20%E6%9C%89%E6%95%88%E7%9A%84%E5%8F%98%E4%BD%8D%E8%AF%8D.md) | 哈希表、字符串、排序 | 简单 |
 | 剑指 Offer II 033 | [变位词组](https://leetcode-cn.com/problems/sfvd7V/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20033.%20%E5%8F%98%E4%BD%8D%E8%AF%8D%E7%BB%84.md) | 哈希表、字符串、排序 | 中等 |
 | 剑指 Offer II 036 | [后缀表达式](https://leetcode-cn.com/problems/8Zf90G/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20036.%20%E5%90%8E%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F.md) | 栈、数组、数学 | 中等 |
