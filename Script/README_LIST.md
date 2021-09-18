@@ -1,3 +1,5 @@
+# LeetCode 题解（已完成 467 道）
+
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0001 | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 数组、哈希表 | 简单 |
@@ -271,6 +273,7 @@
 | 0705 | [设计哈希集合](https://leetcode-cn.com/problems/design-hashset/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0705.%20%E8%AE%BE%E8%AE%A1%E5%93%88%E5%B8%8C%E9%9B%86%E5%90%88.md) | 哈希表 | 简单 |
 | 0706 | [设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0706.%20%E8%AE%BE%E8%AE%A1%E5%93%88%E5%B8%8C%E6%98%A0%E5%B0%84.md) | 哈希表 | 简单 |
 | 0707 | [设计链表](https://leetcode-cn.com/problems/design-linked-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0707.%20%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8.md) | 链表 | 中等 |
+| 0708 | [循环有序列表的插入](https://leetcode-cn.com/problems/insert-into-a-sorted-circular-linked-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0708.%20%E5%BE%AA%E7%8E%AF%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8%E7%9A%84%E6%8F%92%E5%85%A5.md) | 链表 | 中等 |
 | 0713 | [乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0713.%20%E4%B9%98%E7%A7%AF%E5%B0%8F%E4%BA%8EK%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) | 数组、滑动窗口 | 中等 |
 | 0714 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0714.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9.md) | 贪心、数组、动态规划 | 中等 |
 | 0718 | [最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0718.%20%E6%9C%80%E9%95%BF%E9%87%8D%E5%A4%8D%E5%AD%90%E6%95%B0%E7%BB%84.md) | 数组、二分查找、动态规划、滑动窗口、哈希函数、滚动哈希 | 中等 |
@@ -295,6 +298,7 @@
 | 0872 | [叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0872.%20%E5%8F%B6%E5%AD%90%E7%9B%B8%E4%BC%BC%E7%9A%84%E6%A0%91.md) | 树、深度优先搜索、二叉树 | 简单 |
 | 0873 | [最长的斐波那契子序列的长度](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0873.%20%E6%9C%80%E9%95%BF%E7%9A%84%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E9%95%BF%E5%BA%A6.md) | 数组、哈希表、动态规划 | 中等 |
 | 0876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9.md) | 链表、指针 | 简单 |
+| 0877 | [石子游戏](https://leetcode-cn.com/problems/stone-game) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0877.%20%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F.md) | 数组、数学、动态规划、博弈 | 中等 |
 | 0918 | [环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0918.%20%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.md) | 数组、动态规划 | 中等 |
 | 0938 | [二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0938.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E8%8C%83%E5%9B%B4%E5%92%8C.md) | 二叉树 | 简单 |
 | 0946 | [验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0946.%20%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.md) | 栈、数组、模拟 | 中等 |
@@ -415,6 +419,7 @@
 | 剑指 Offer II 026 | [重排链表](https://leetcode-cn.com/problems/LGjMqU/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20026.%20%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.md) | 栈、递归、链表、双指针 | 中等 |
 | 剑指 Offer II 027 | [回文链表](https://leetcode-cn.com/problems/aMhZSa/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20027.%20%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8.md) | 栈、递归、链表、双指针 | 简单 |
 | 剑指 Offer II 028 | [展平多级双向链表](https://leetcode-cn.com/problems/Qv1Da2/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20028.%20%E5%B1%95%E5%B9%B3%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md) | 深度优先搜索、链表、双向链表 | 中等 |
+| 剑指 Offer II 029 | [排序的循环链表](https://leetcode-cn.com/problems/4ueAj6/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20029.%20%E6%8E%92%E5%BA%8F%E7%9A%84%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8.md) | 链表 | 中等 |
 | 剑指 Offer II 030 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode-cn.com/problems/FortPu/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20030.%20%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E9%9A%8F%E6%9C%BA%E8%AE%BF%E9%97%AE%E9%83%BD%E6%98%AF%20O%281%29%20%E7%9A%84%E5%AE%B9%E5%99%A8.md) |   | 简单 |
 | 剑指 Offer II 032 | [有效的变位词](https://leetcode-cn.com/problems/dKk3P7/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20032.%20%E6%9C%89%E6%95%88%E7%9A%84%E5%8F%98%E4%BD%8D%E8%AF%8D.md) | 哈希表、字符串、排序 | 简单 |
 | 剑指 Offer II 033 | [变位词组](https://leetcode-cn.com/problems/sfvd7V/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20033.%20%E5%8F%98%E4%BD%8D%E8%AF%8D%E7%BB%84.md) | 哈希表、字符串、排序 | 中等 |
