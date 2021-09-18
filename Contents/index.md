@@ -25,7 +25,7 @@
   - [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Algorithm-Complexity.md)
   - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-LeetCode-Guide.md)
 - [数组](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/index.md)
-  - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array.md)
+  - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array.md)
   - 排序算法
     - 冒泡排序
     - 选择排序
