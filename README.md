@@ -123,7 +123,7 @@
 
 ---
 
-# LeetCode 题解（已完成 490 道）
+# LeetCode 题解（已完成 491 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -576,6 +576,7 @@
 | 剑指 Offer II 047 | [二叉树剪枝](https://leetcode-cn.com/problems/pOCWxh/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20047.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E5%89%AA%E6%9E%9D.md) | 树、深度优先搜索、二叉树 | 中等 |
 | 剑指 Offer II 048 | [序列化与反序列化二叉树](https://leetcode-cn.com/problems/h54YBf/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20048.%20%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%A0%91.md) | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 | 困难 |
 | 剑指 Offer II 049 | [从根节点到叶节点的路径数字之和](https://leetcode-cn.com/problems/3Etpl5/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20049.%20%E4%BB%8E%E6%A0%B9%E8%8A%82%E7%82%B9%E5%88%B0%E5%8F%B6%E8%8A%82%E7%82%B9%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C.md) | 树、深度优先搜索、二叉树 | 中等 |
+| 剑指 Offer II 050 | [向下的路径节点之和](https://leetcode-cn.com/problems/6eUYwP/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20050.%20%E5%90%91%E4%B8%8B%E7%9A%84%E8%B7%AF%E5%BE%84%E8%8A%82%E7%82%B9%E4%B9%8B%E5%92%8C.md) | 树、深度优先搜索、二叉树 | 中等 |
 | 剑指 Offer II 051 | [节点之和最大的路径](https://leetcode-cn.com/problems/jC7MId/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20051.%20%E8%8A%82%E7%82%B9%E4%B9%8B%E5%92%8C%E6%9C%80%E5%A4%A7%E7%9A%84%E8%B7%AF%E5%BE%84.md) | 树、深度优先搜索、动态规划、二叉树 | 困难 |
 | 剑指 Offer II 054 | [所有大于等于节点的值之和](https://leetcode-cn.com/problems/w6cpku/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20054.%20%E6%89%80%E6%9C%89%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E%E8%8A%82%E7%82%B9%E7%9A%84%E5%80%BC%E4%B9%8B%E5%92%8C.md) | 树、深度优先搜索、二叉搜索树、二叉树 | 中等 |
 | 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode-cn.com/problems/kTOapQ/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20055.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E8%BF%AD%E4%BB%A3%E5%99%A8.md) | 栈、树、设计、二叉搜索树、二叉树、迭代器 | 中等 |
