@@ -123,7 +123,7 @@
 
 ---
 
-# LeetCode 题解（已完成 518 道）
+# LeetCode 题解（已完成 519 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -314,6 +314,7 @@
 | 0300 | [最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0300.%20%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97.md) | 二分查找、动态规划 | 中等 |
 | 0304 | [二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0304.%20%E4%BA%8C%E7%BB%B4%E5%8C%BA%E5%9F%9F%E5%92%8C%E6%A3%80%E7%B4%A2%20-%20%E7%9F%A9%E9%98%B5%E4%B8%8D%E5%8F%AF%E5%8F%98.md) | 设计、数组、矩阵、前缀和 | 中等 |
 | 0309 | [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0309.%20%E6%9C%80%E4%BD%B3%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F.md) | 数组、动态规划 | 中等 |
+| 0315 | [计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0315.%20%E8%AE%A1%E7%AE%97%E5%8F%B3%E4%BE%A7%E5%B0%8F%E4%BA%8E%E5%BD%93%E5%89%8D%E5%85%83%E7%B4%A0%E7%9A%84%E4%B8%AA%E6%95%B0.md) | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
 | 0318 | [最大单词长度乘积](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0318.%20%E6%9C%80%E5%A4%A7%E5%8D%95%E8%AF%8D%E9%95%BF%E5%BA%A6%E4%B9%98%E7%A7%AF.md) | 位运算、数组、字符串 | 中等 |
 | 0322 | [零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0322.%20%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2.md) | 动态规划 | 中等 |
 | 0326 | [3 的幂](https://leetcode-cn.com/problems/power-of-three/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0326.%203%20%E7%9A%84%E5%B9%82.md) | 数学 | 简单 |
