@@ -60,7 +60,7 @@ def create_list(solotions_path, output_path):
 					if re.search(pattern_1, lines[i]):
 						match_1 = pattern_1.finditer(lines[i])
 						for a in match_1:
-							print(a)
+#							print(a)
 							title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3,4)
 							if title_offer_id2:
 								title_offer_id = "剑指 Offer " + title_offer_id1 + title_offer_id2
@@ -72,15 +72,25 @@ def create_list(solotions_path, output_path):
 					if re.search(pattern_2, lines[i]):
 						match_2 = pattern_2.finditer(lines[i])
 						for a in match_2:
-							print(a)
+#							print(a)
 							title_offer_id1, title_name, title_url = a.group(1,2,3)
 							title_offer_id = "剑指 Offer II " + title_offer_id1
 						continue
 					
+					pattern_3 = re.compile(r'\[面试题 ([0-9]\d*|0)+\.+([0-9]\d*|0)+\. (.*)\]\((.*)\)')
+					if re.search(pattern_3, lines[i]):
+						match_3 = pattern_3.finditer(lines[i])
+						for a in match_3:
+							print(a)
+							title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3,4)
+							title_offer_id = "面试题 " + title_offer_id1 + "." + title_offer_id2
+						continue
+						
+					
 					pattern = re.compile(r'\[([0-9]\d*|0)+\. (.*)\]\((.*)\)')
 					match = pattern.finditer(lines[i])
 					for a in match:
-						print(a)
+#						print(a)
 						title_id, title_name, title_url = a.group(1,2,3)
 				elif "标签" in lines[i]:
 					pattern = re.compile(r'- 标签：(.*)')
@@ -104,7 +114,7 @@ def create_list(solotions_path, output_path):
 				
 				frame.loc[frame_cout] = [title_offer_id, title_name_url, title_solution_url, title_label, title_diff]
 				frame_cout += 1
-				print(frame_cout, title_offer_id, title_name_url, title_url, title_label, title_diff, title_solution_url)
+##				print(frame_cout, title_offer_id, title_name_url, title_url, title_label, title_diff, title_solution_url)
 			elif title_id and title_name and title_url and title_label and title_diff:
 				title_id = "{:0>4d}".format(int(title_id))
 				title_chinese = quote(title_id + ". " + title_name + ".md")
@@ -113,7 +123,7 @@ def create_list(solotions_path, output_path):
 				
 				frame.loc[frame_cout] = [title_id, title_name_url, title_solution_url, title_label, title_diff]
 				frame_cout += 1
-				print(frame_cout, title_id, title_name_url, title_url, title_label, title_diff, title_solution_url)	
+#				print(frame_cout, title_id, title_name_url, title_url, title_label, title_diff, title_solution_url)	
 				
 				
 			f.close()
