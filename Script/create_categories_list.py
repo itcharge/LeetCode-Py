@@ -1,0 +1,175 @@
+import os
+import re
+import numpy as np
+import pandas as pd
+from urllib.parse import quote
+
+def gen_markdown_table(frame):
+	
+	ELEMENT = " {} |"
+	
+	H = frame.shape[0]
+	W = frame.shape[1]
+	
+	LINE = "|" + ELEMENT * W
+	
+	head_name = ["题号", "标题", "题解", "标签", "难度"]
+	
+	lines = []
+	
+	## 表头部分
+	lines += ["| {} | {} | {} | {} | {} |".format(head_name[0], head_name[1], head_name[2], head_name[3], head_name[4])]
+
+	## 分割线
+	SPLIT = ":{}"
+	line = "|"
+	for i in range(W):
+		line = "{} {} |".format(line, SPLIT.format('-'*6))
+	lines += [line]
+	
+	## 数据部分
+	frame = frame.sort_values(by='题号')
+	frame = frame.reset_index(drop=True)
+	for i in range(H):
+		lines += ["| {} | {} | {} | {} | {} |".format(frame.at[i, '题号'], frame.at[i, '标题'], frame.at[i, '题解'], frame.at[i, '标签'], frame.at[i, '难度'])]
+	table = '\n'.join(lines)
+	return table
+
+
+def create_categories_list(solotions_path, input_path, output_path):
+	f = open(input_path)
+	lines = f.readlines()
+	for i in range(len(lines)):
+		pattern = re.compile(r'\s*(#{2,6})\s*(.*?)\s*(?:\1)\s+')
+		match = pattern.match(lines[i])
+		if match:
+			print(match.groups())
+				
+
+def create_list(solotions_path, output_path):
+	files =  os.listdir(solotions_path)
+	frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+	frame_cout = 0
+	for file in files:
+		if not os.path.isdir(file) and ".md" in file: #判断是否是文件夹   
+			f = open(solotions_path + "/" + file)
+			
+			lines = f.readlines()
+			title_id = None
+			title_offer_id = None
+			title_offer_id1 = None
+			title_offer_id2 = None
+			title_name = None
+			title_solution_url = None
+			title_url = None
+			title_label = None
+			title_diff = None
+			
+			for i in range(len(lines)):
+				if i == 0:
+					pattern_1 = re.compile(r'\[剑指 Offer ([0-9]\d*|0)+( - [I]*)*\. (.*)\]\((.*)\)')
+					if re.search(pattern_1, lines[i]):
+						match_1 = pattern_1.finditer(lines[i])
+						for a in match_1:
+#							print(a)
+							title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3,4)
+							if title_offer_id2:
+								title_offer_id = "剑指 Offer " + title_offer_id1 + title_offer_id2
+							else:
+								title_offer_id = "剑指 Offer " + title_offer_id1
+						continue
+					
+					pattern_2 = re.compile(r'\[剑指 Offer II ([0-9]\d*|0)+\. (.*)\]\((.*)\)')
+					if re.search(pattern_2, lines[i]):
+						match_2 = pattern_2.finditer(lines[i])
+						for a in match_2:
+							print(a)
+							title_offer_id1, title_name, title_url = a.group(1,2,3)
+							title_offer_id = "剑指 Offer II " + title_offer_id1
+						continue
+					
+					pattern_3 = re.compile(r'\[面试题 ([0-9]\d*|0)+\.+([0-9]\d*|0)+\. (.*)\]\((.*)\)')
+					if re.search(pattern_3, lines[i]):
+						match_3 = pattern_3.finditer(lines[i])
+						for a in match_3:
+							print(a)
+							title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3,4)
+							title_offer_id = "面试题 " + title_offer_id1 + "." + title_offer_id2
+						continue
+						
+					
+					pattern = re.compile(r'\[([0-9]\d*|0)+\. (.*)\]\((.*)\)')
+					match = pattern.finditer(lines[i])
+					for a in match:
+						print(a)
+						title_id, title_name, title_url = a.group(1,2,3)
+				elif "标签" in lines[i]:
+					pattern = re.compile(r'- 标签：(.*)')
+					match = pattern.finditer(lines[i])
+					for a in match:
+						title_label = a.group(1)
+				elif "难度" in lines[i]:
+					pattern = re.compile(r'- 难度：(.*)')
+					match = pattern.finditer(lines[i])
+					for a in match:
+						title_diff = a.group(1)
+			if not title_diff:
+				title_diff = "简单"
+			if not title_label:
+				title_label = " "
+			
+			if title_offer_id and title_name and title_url and title_label and title_diff:					
+				title_chinese = quote(title_offer_id + ". " + title_name + ".md")
+				title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
+				title_name_url = "[" + title_name + "](" + title_url + ")"
+				
+				frame.loc[frame_cout] = [title_offer_id, title_name_url, title_solution_url, title_label, title_diff]
+				frame_cout += 1
+				print(frame_cout, title_offer_id, title_name_url, title_url, title_label, title_diff, title_solution_url)
+			elif title_id and title_name and title_url and title_label and title_diff:
+				title_id = "{:0>4d}".format(int(title_id))
+				title_chinese = quote(title_id + ". " + title_name + ".md")
+				title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
+				title_name_url = "[" + title_name + "](" + title_url + ")"
+				
+				frame.loc[frame_cout] = [title_id, title_name_url, title_solution_url, title_label, title_diff]
+				frame_cout += 1
+				print(frame_cout, title_id, title_name_url, title_url, title_label, title_diff, title_solution_url)	
+				
+				
+			f.close()
+		
+	table = gen_markdown_table(frame)
+	with open(output_path, 'w') as f:
+		f.writelines("# LeetCode 题解（已完成 {} 道）\n\n".format(frame_cout))
+		f.write(table)
+	f.close()
+	print("Create success")
+	return frame_cout
+
+def merge_file(list_path, readme_head_path, readme_path, solutions_count):
+	readme_head_file = open(readme_head_path)
+	list_file = open(list_path)
+	readme_file = open(readme_path,'w')
+	
+	for line in readme_head_file:
+		readme_file.writelines(line)
+#	readme_file.writelines("# LeetCode 题解（已完成 {} 道）\n ".format(solutions_count))
+	
+	for line in list_file:
+		readme_file.writelines(line)
+	
+	readme_head_file.close()
+	list_file.close()
+	readme_file.close()
+
+solotions_path = '../Solutions'
+input_path = '../Contents/Assets/Categories-Origin-List.md'
+output_path = '../Contents/Chapter-01/05-Categories-List.md'
+readme_head_path = '../Contents/index.md'
+readme_path = '../README.md'
+
+#frame_cout = create_list(solotions_path, output_path) 
+#merge_file(list_path, readme_head_path, readme_path, frame_cout)
+
+create_categories_list(solotions_path, input_path, output_path)
