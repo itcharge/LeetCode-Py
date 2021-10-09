@@ -16,7 +16,7 @@
 
 我是一名 iOS / macOS 的开发程序员，另外也是北航软院的一名非全硕士（在读）。曾在大学期间参加过 3 年的 ACM 比赛， 但水平有限，未能取得很好的成绩。但是 3 年的 ACM 经历，给我最大的收获是训练了自己的逻辑思维和解决实际问题的能力，这种能力为我今后的工作、学习打下了坚实的基础。
 
-我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 09 月 08 日已经刷了 560+ 道题目，并且完成了 500+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
+我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 10 月 09 日已经刷了 600+ 道题目，并且完成了 540+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
 
 # 内容章节
 
@@ -29,7 +29,9 @@
 
 ## 数组
 
-- [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array.md)
+- 数组基础知识
+  - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array.md)
+  - 数组基础题目
 - 排序算法
   - 冒泡排序
   - 选择排序
@@ -123,7 +125,7 @@
 
 ---
 
-# LeetCode 题解（已完成 538 道）
+# LeetCode 题解（已完成 540 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -445,6 +447,7 @@
 | 0765 | [情侣牵手](https://leetcode-cn.com/problems/couples-holding-hands/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0765.%20%E6%83%85%E4%BE%A3%E7%89%B5%E6%89%8B.md) | 贪心、深度优先搜索、广度优先搜索、并查集、图 | 困难 |
 | 0778 | [水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0778.%20%E6%B0%B4%E4%BD%8D%E4%B8%8A%E5%8D%87%E7%9A%84%E6%B3%B3%E6%B1%A0%E4%B8%AD%E6%B8%B8%E6%B3%B3.md) | 深度优先搜索、广度优先搜索、并查集、数组、二分查找、矩阵、堆（优先队列） | 困难 |
 | 0779 | [第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0779.%20%E7%AC%ACK%E4%B8%AA%E8%AF%AD%E6%B3%95%E7%AC%A6%E5%8F%B7.md) | 递归 | 中等 |
+| 0785 | [判断二分图](https://leetcode-cn.com/problems/is-graph-bipartite/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0785.%20%E5%88%A4%E6%96%AD%E4%BA%8C%E5%88%86%E5%9B%BE.md) | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
 | 0801 | [使序列递增的最小交换次数](https://leetcode-cn.com/problems/minimum-swaps-to-make-sequences-increasing/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0801.%20%E4%BD%BF%E5%BA%8F%E5%88%97%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BA%A4%E6%8D%A2%E6%AC%A1%E6%95%B0.md) | 动态规划 | 中等 |
 | 0802 | [找到最终的安全状态](https://leetcode-cn.com/problems/find-eventual-safe-states/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0802.%20%E6%89%BE%E5%88%B0%E6%9C%80%E7%BB%88%E7%9A%84%E5%AE%89%E5%85%A8%E7%8A%B6%E6%80%81.md) | 深度优先搜索、广度优先搜索、图、拓扑排序 | 中等 |
 | 0814 | [二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0814.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E5%89%AA%E6%9E%9D.md) | 树、深度优先搜索、二叉树 | 中等 |
@@ -482,6 +485,7 @@
 | 1049 | [最后一块石头的重量 II](https://leetcode-cn.com/problems/last-stone-weight-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1049.%20%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F%20II.md) | 数组、动态规划 | 中等 |
 | 1065 | [字符串的索引对](https://leetcode-cn.com/problems/index-pairs-of-a-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1065.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E7%B4%A2%E5%BC%95%E5%AF%B9.md) | 字典树、数组、字符串、排序 | 简单 |
 | 1122 | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1122.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%9B%B8%E5%AF%B9%E6%8E%92%E5%BA%8F.md) | 数组、哈希表、计数排序、排序 | 简单 |
+| 1136 | [平行课程](https://leetcode-cn.com/problems/parallel-courses/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1136.%20%E5%B9%B3%E8%A1%8C%E8%AF%BE%E7%A8%8B.md) | 图、拓扑排序 | 中等 |
 | 1137 | [第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1137.%20%E7%AC%AC%20N%20%E4%B8%AA%E6%B3%B0%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md) | 记忆化搜索、数学、动态规划 | 简单 |
 | 1143 | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1143.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%AD%90%E5%BA%8F%E5%88%97.md) | 字符串、动态规划 | 中等 |
 | 1202 | [交换字符串中的元素](https://leetcode-cn.com/problems/smallest-string-with-swaps/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1202.%20%E4%BA%A4%E6%8D%A2%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0.md) | 深度优先搜索、广度优先搜索、并查集、哈希表、字符串 | 中等 |
