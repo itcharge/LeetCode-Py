@@ -29,7 +29,9 @@
 
 ## 数组
 
-- [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array.md)
+- 数组基础知识
+  - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array.md)
+  - 数组基础题目
 - 排序算法
   - 冒泡排序
   - 选择排序
