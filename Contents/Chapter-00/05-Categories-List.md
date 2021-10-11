@@ -120,7 +120,6 @@
 | 0150 | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0150.%20%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.md) | 栈 | 中等 |
 | 0232 | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) | 栈、设计 | 简单 |
 | 0394 | [字符串解码](https://leetcode-cn.com/problems/decode-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | 栈、深度优先搜索 | 中等 |
-|  | None |   |   |   |
 
 ### 深度优先搜索题目
 
@@ -208,9 +207,52 @@
 
 ## 06. 树
 
-### 二叉树
+### 二叉树遍历题目
 
-### 二叉搜索树
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 栈、树 | 中等 |
+| 0094 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 栈、树、哈希表 | 简单 |
+| 0145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 栈、树 | 简单 |
+| 0102 | [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 树、广度优先搜索 | 中等 |
+| 0103 | [二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0103.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 树、广度优先搜索、二叉树 | 中等 |
+| 0107 | [二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0107.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86%20II.md) | 树、广度优先搜索 | 中等 |
+
+### 二叉树递归问题
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0104.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md) | 树、深度优先搜索、递归 | 简单 |
+| 0101 | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0101.%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md) | 树、深度优先搜索、广度优先搜索 | 简单 |
+| 0112 | [路径总和](https://leetcode-cn.com/problems/path-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0112.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C.md) | 树、深度优先搜索 | 简单 |
+| 0113 | [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0113.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%20II.md) | 树、深度优先搜索、回溯、二叉树 | 中等 |
+| 0236 | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0236.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md) | 树 | 中等 |
+| 0297 | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0297.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md) | 树、设计 | 困难 |
+
+### 二叉树构造问题
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.md) | 树、数组、哈希表、分治、二叉树 | 中等 |
+| 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0106.%20%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.md) | 树、数组、哈希表、分治、二叉树 | 中等 |
+| 0116 | [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0116.%20%E5%A1%AB%E5%85%85%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8F%B3%E4%BE%A7%E8%8A%82%E7%82%B9%E6%8C%87%E9%92%88.md) | 树、深度优先搜索、广度优先搜索 | 中等 |
+| 0117 | [填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0117.%20%E5%A1%AB%E5%85%85%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8F%B3%E4%BE%A7%E8%8A%82%E7%82%B9%E6%8C%87%E9%92%88%20II.md) | 树、深度优先遍历 | 中等 |
+
+### 二叉搜索树问题
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0098 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0098.%20%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) | 树、深度优先搜索、递归 | 中等 |
+| 0173 | [二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0173.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E8%BF%AD%E4%BB%A3%E5%99%A8.md) | 栈、树、设计 | 中等 |
+| 0700 | [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0700.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%90%9C%E7%B4%A2.md) | 数 | 简单 |
+| 0701 | [二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0701.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C.md) | 树 | 中等 |
+| 0450 | [删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0450.%20%E5%88%A0%E9%99%A4%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md) | 树 | 中等 |
+| 0703 | [数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0703.%20%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E7%AC%AC%20K%20%E5%A4%A7%E5%85%83%E7%B4%A0.md) | 树、设计、二叉搜索树、二叉树、数据流、堆（优先队列） | 简单 |
+| 0235 | [二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0235.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md) | 树 | 简单 |
+| 剑指 Offer 68 - I | [二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%2068%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md) | 树、深度优先搜索、二叉搜索树、二叉树 | 简单 |
+| 0110 | [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0110.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md) | 树、深度优先搜索、递归 | 简单 |
+| 剑指 Offer 55 - II | [平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%2055%20-%20II.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md) | 树、深度优先搜索、二叉树 | 简单 |
+| 0108 | 将有序数组转换为二叉搜索树  |   |   |   |
 
 ### 线段树
 
@@ -244,16 +286,32 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
+| 0705 | [设计哈希集合](https://leetcode-cn.com/problems/design-hashset/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0705.%20%E8%AE%BE%E8%AE%A1%E5%93%88%E5%B8%8C%E9%9B%86%E5%90%88.md) | 哈希表 | 简单 |
+| 0706 | [设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0706.%20%E8%AE%BE%E8%AE%A1%E5%93%88%E5%B8%8C%E6%98%A0%E5%B0%84.md) | 哈希表 | 简单 |
 | 0217 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0217.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.md) | 数组、哈希表 | 简单 |
+| 0219 | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0219.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20II.md) | 数组、哈希表 | 简单 |
+| 0220 | [存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0220.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20III.md) | 排序、有序集合、哈希表 | 中等 |
 | 0136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0136.%20%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97.md) | 位运算、位运算 | 简单 |
+| 0349 | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0349.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.md) | 数组、哈希表 | 简单 |
 | 0350 | [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0350.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md) | 数组、哈希表 | 简单 |
-| 0001 | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 数组、哈希表 | 简单 |
 | 0036 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0036.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC.md) | 哈希表 | 中等 |
 | 0048 | [旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0048.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md) | 数组 | 中等 |
+| 0001 | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 数组、哈希表 | 简单 |
+| 0015 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 数组、双指针 | 中等 |
 | 0018 | [四数之和](https://leetcode-cn.com/problems/4sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0018.%20%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 数组、哈希表、双指针 | 中等 |
 | 0454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0454.%20%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0%20II.md) | 哈希表 | 中等 |
 | 0041 | 缺失的第一个正数 |   |   |   |
 | 0128 | 最长连续序列 |   |   |   |
+| 0202 | [快乐数](https://leetcode-cn.com/problems/happy-number/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0202.%20%E5%BF%AB%E4%B9%90%E6%95%B0.md) | 哈希表、数学 | 简单 |
+| 0242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0242.%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) | 字符串、哈希表、排序 | 简单 |
+| 0205 | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0205.%20%E5%90%8C%E6%9E%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md) | 哈希表 | 简单 |
+| 0451 | [根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0451.%20%E6%A0%B9%E6%8D%AE%E5%AD%97%E7%AC%A6%E5%87%BA%E7%8E%B0%E9%A2%91%E7%8E%87%E6%8E%92%E5%BA%8F.md) | 哈希表、字符串、桶排序、计数、排序、堆（优先队列） | 中等 |
+| 0049 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0049.%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md) | 字符串、哈希表 | 中等 |
+| 0599 | [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0599.%20%E4%B8%A4%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%B4%A2%E5%BC%95%E6%80%BB%E5%92%8C.md) | 哈希表 | 简单 |
+| 0387 | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0387.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) | 字符串、哈希表 | 简单 |
+| 0447 | [回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0447.%20%E5%9B%9E%E6%97%8B%E9%95%96%E7%9A%84%E6%95%B0%E9%87%8F.md) | 哈希表、数学 | 中等 |
+| 0149 | [直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0149.%20%E7%9B%B4%E7%BA%BF%E4%B8%8A%E6%9C%80%E5%A4%9A%E7%9A%84%E7%82%B9%E6%95%B0.md) | 哈希表、数学 | 困难 |
+| 0359 | [日志速率限制器](https://leetcode-cn.com/problems/logger-rate-limiter/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0359.%20%E6%97%A5%E5%BF%97%E9%80%9F%E7%8E%87%E9%99%90%E5%88%B6%E5%99%A8.md) | 设计、哈希表 | 简单 |
 
 ## 08. 图论
 
@@ -261,13 +319,39 @@
 
 ### 枚举算法
 
-### 递归算法
+### 递归、递推算法题目
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0344 | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) | 字符串 | 简单 |
+| 0024 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0024.%20%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md) | 递归、链表 | 中等 |
+| 0118 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0118.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92.md) | 数组 | 简单 |
+| 0119 | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0119.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%20II.md) | 数组 | 简单 |
+| 0206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | 链表 | 简单 |
+| 剑指 Offer 24 | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | 递归、链表 | 简单 |
+| 剑指 Offer II 024 | [反转链表](https://leetcode-cn.com/problems/UHnkqh/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | 递归、链表 | 简单 |
+| 0509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0509.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md) | 数组 | 简单 |
+| 0070 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0070.%20%E7%88%AC%E6%A5%BC%E6%A2%AF.md) | 动态规划 | 简单 |
+| 0104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0104.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md) | 树、深度优先搜索、递归 | 简单 |
+| 0050 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0050.%20Pow%28x%2C%20n%29.md) | 数学、二分查找 | 中等 |
+| 0021 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md) | 递归、链表 | 简单 |
+| 0779 | [第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0779.%20%E7%AC%ACK%E4%B8%AA%E8%AF%AD%E6%B3%95%E7%AC%A6%E5%8F%B7.md) | 递归 | 中等 |
+| 0095 | [不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0095.%20%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%20II.md) | 树、二叉搜索树、动态规划、回溯、二叉树 | 中等 |
 
 ### 贪心算法
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0056 | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.md) | 数组、排序 | 中等 |
+| 0455 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0455.%20%E5%88%86%E5%8F%91%E9%A5%BC%E5%B9%B2.md) | 贪心、数组、排序 | 简单 |
+| 0860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0860.%20%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.md) | 贪心、数组 | 简单 |
+| 0056 | 合并区间 |   |   |   |
+| 0435 | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0435.%20%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4.md) | 贪心、数组、动态规划、排序 | 中等 |
+| 0452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0452.%20%E7%94%A8%E6%9C%80%E5%B0%91%E6%95%B0%E9%87%8F%E7%9A%84%E7%AE%AD%E5%BC%95%E7%88%86%E6%B0%94%E7%90%83.md) | 贪心、数组、排序 | 中等 |
+| 0055 | [跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0055.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md) | 贪心算法、数组、动态规划 | 中等 |
+| 0045 | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0045.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%20II.md) | 贪心、数组、动态规划 | 中等 |
+| 0392 | [判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0392.%20%E5%88%A4%E6%96%AD%E5%AD%90%E5%BA%8F%E5%88%97.md) | 双指针、字符串、动态规划 | 简单 |
+| 0122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0122.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.md) | 数组、贪心算法 | 简单 |
+| 0561 | [数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0561.%20%E6%95%B0%E7%BB%84%E6%8B%86%E5%88%86%20I.md) | 数组 | 简单 |
 
 ### 分治算法
 
