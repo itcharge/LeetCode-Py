@@ -71,6 +71,9 @@ def create_categories_list(solotions_path, input_path, output_path):
 					category_h3, category_h3_file_path = match1.group(1,2)
 					category_h3_file_content += "### " + category_h3 + "\n\n"
 					category_file_content += "### " + category_h3 + "\n\n"
+				else:
+					category_h3 = title_content
+					category_file_content += "### " + category_h3 + "\n\n"
 			elif title_size == "####":
 				category_h4 = title_content
 				category_h3_file_content += "#### " + category_h4 + "\n\n"
