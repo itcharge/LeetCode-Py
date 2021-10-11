@@ -1,6 +1,6 @@
 ## 01. 数组
 
-### [数组基础题目](../Contents/Chapter-02/01-Array-Basic/10-Array-Basic-List.md)
+### [数组基础题目](../Contents/Chapter-01/01-Array-Basic/10-Array-Basic-List.md)
 
 #### 数组操作题目
 
@@ -10,19 +10,19 @@
 
 ###### 面试题 01.07. 旋转矩阵、面试题 01.08. 零矩阵、0498. 对角线遍历、0048. 旋转图像、0118. 杨辉三角、0119. 杨辉三角 II、0073. 矩阵置零
 
-### [排序题目](../Contents/Chapter-02/02-Array-Sort/10-Array-Sort-List.md)
+### [排序题目](../Contents/Chapter-01/02-Array-Sort/10-Array-Sort-List.md)
 
 ###### 0217. 存在重复元素、0136. 只出现一次的数字、0056. 合并区间、0561. 数组拆分 I、0215. 数组中的第K个最大元素、0088. 合并两个有序数组
 
-### [二分查找题目](../Contents/Chapter-02/03-Array-Binary-search/10-Array-Binary-search-List.md)
+### [二分查找题目](../Contents/Chapter-01/03-Array-Binary-search/10-Array-Binary-search-List.md)
 
 ###### 0035. 搜索插入位置、0167. 两数之和 II - 输入有序数组、0209. 长度最小的子数组、0153. 寻找旋转排序数组中的最小值
 
-### [双指针题目](../Contents/Chapter-02/04-Array-Two-Pointers/10-Array-Two-Pointers-List.md)
+### [双指针题目](../Contents/Chapter-01/04-Array-Two-Pointers/10-Array-Two-Pointers-List.md)
 
 ###### 0026. 删除有序数组中的重复项、0080. 删除有序数组中的重复项 II、0350. 两个数组的交集 II、0283. 移动零、0027. 移除元素、0167. 两数之和 II - 输入有序数组、0075. 颜色分类、0088. 合并两个有序数组、0125. 验证回文串、0345. 反转字符串中的元音字母、0011. 盛最多水的容器、0015. 三数之和、0018. 四数之和、0334. 递增的三元子序列
 
-### [滑动窗口题目](../Contents/Chapter-02/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md)
+### [滑动窗口题目](../Contents/Chapter-01/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md)
 
 ###### 0485. 最大连续 1 的个数、0209. 长度最小的子数组
 

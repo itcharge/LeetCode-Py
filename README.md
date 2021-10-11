@@ -22,16 +22,16 @@
 
 ## 00. 绪论
 
-- [算法与数据结构](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/01-Data-Structures-Algorithms.md)
-- [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Algorithm-Complexity.md)
-- [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-LeetCode-Guide.md)
-- [LeetCode 题解](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/04-Solutions-List.md)
+- [算法与数据结构](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-00/01-Data-Structures-Algorithms.md)
+- [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-00/02-Algorithm-Complexity.md)
+- [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-00/03-LeetCode-Guide.md)
+- [LeetCode 题解](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-00/04-Solutions-List.md)
 
 ## 01. 数组
 
 - 数组基础知识
-  - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array-Basic.md)
-  - [数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/10-Array-Basic-List.md)
+  - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/01-Array-Basic/01-Array-Basic.md)
+  - [数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/01-Array-Basic/10-Array-Basic-List.md)
 - 排序算法
   - 冒泡排序
   - 选择排序
@@ -41,13 +41,13 @@
   - 快速排序
   - 谢尔排序
   - 桶排序
-  - [数组排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/02-Array-Sort/10-Array-Sort-List.md)
+  - [数组排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/10-Array-Sort-List.md)
 - 二分查找
-  - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/03-Array-Binary-search/10-Array-Binary-search-List.md)
+  - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-Array-Binary-search/10-Array-Binary-search-List.md)
 - 双指针
-  - [双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/04-Array-Two-Pointers/10-Array-Two-Pointers-List.md)
+  - [双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/04-Array-Two-Pointers/10-Array-Two-Pointers-List.md)
 - 滑动窗口
-  - [滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md)
+  - [滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md)
 
 ## 02. 栈
 

@@ -231,7 +231,7 @@ def get_problem_id_row(problem_id_path, problem_id):
 
 solotions_path = '../Solutions'
 input_path = '../Contents/Assets/Categories-Origin-List.md'
-output_path = '../Contents/Chapter-01/05-Categories-List.md'
+output_path = '../Contents/Chapter-00/05-Categories-List.md'
 
 
 create_categories_list(solotions_path, input_path, output_path)
