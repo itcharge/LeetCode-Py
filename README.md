@@ -20,14 +20,14 @@
 
 # 内容章节
 
-## 绪论
+## 00. 绪论
 
 - [算法与数据结构](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/01-Data-Structures-Algorithms.md)
 - [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Algorithm-Complexity.md)
 - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-LeetCode-Guide.md)
 - [LeetCode 题解](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/04-Solutions-List.md)
 
-## 数组
+## 01. 数组
 
 - 数组基础知识
   - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array-Basic.md)
@@ -49,24 +49,24 @@
 - 滑动窗口
   - [滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md)
 
-## 栈
+## 02. 栈
 
 - 栈基础知识
 - 栈和深度优先搜索
 - 单调栈
 
-## 队列
+## 03. 队列
 
 - 队列基础知识
 - 队列和宽度优先搜索
 
-## 链表
+## 04. 链表
 
 - 链表基础知识
 - 链表排序
 - 链表查找
 
-## 字符串
+## 05. 字符串
 
 - 单模式串匹配算法
   - BF 算法
@@ -78,20 +78,20 @@
   - 字典树
   - AC 自动机
 
-## 树
+## 06. 树
 
 - 二叉树
 - 二叉搜索树
-- 二叉平衡数
+- 二叉平衡树
 - 线段树
 - 树状数组
 - 并查集
 
-## 哈希表
+## 07. 哈希表
 
 - 哈希表基础知识
 
-## 图论
+## 08. 图论
 
 - 图基础知识
 - 拓扑排序
@@ -111,7 +111,7 @@
 - 二分图
 - 网络流
 
-## 基础算法
+## 09. 基础算法
 
 - 枚举算法
 - 递归算法

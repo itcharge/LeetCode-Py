@@ -46,6 +46,7 @@ def create_categories_list(solotions_path, input_path, output_path):
 	category_h6 = None
 	category_h3_file_path = None
 	category_h3_file_content = ""
+	category_file_content = ""
 	
 	for i in range(len(lines)):
 		pattern = re.compile(r'(#{2,6}) (.*)')
@@ -54,6 +55,7 @@ def create_categories_list(solotions_path, input_path, output_path):
 			title_size, title_content =  match.group(1,2)
 			if title_size == "##":
 				category_h2 = title_content
+				category_file_content += "## " + category_h2 + "\n\n"
 			elif title_size == "###":
 				if category_h3 and category_h3_file_path and category_h3_file_content:
 #					print(category_h3_file_content)
@@ -68,9 +70,11 @@ def create_categories_list(solotions_path, input_path, output_path):
 				if match1:
 					category_h3, category_h3_file_path = match1.group(1,2)
 					category_h3_file_content += "### " + category_h3 + "\n\n"
+					category_file_content += "### " + category_h3 + "\n\n"
 			elif title_size == "####":
 				category_h4 = title_content
 				category_h3_file_content += "#### " + category_h4 + "\n\n"
+				category_file_content += "#### " + category_h4 + "\n\n"
 			elif title_size == "######":
 				category_h6 = title_content
 				problem_ids = title_content.split('、')
@@ -87,11 +91,18 @@ def create_categories_list(solotions_path, input_path, output_path):
 						frame_cout += 1
 				table = gen_markdown_table(frame)
 				category_h3_file_content += table + "\n\n"
+				category_file_content += table + "\n\n"
 	
 	if category_h3 and category_h3_file_path and category_h3_file_content:
 		with open(category_h3_file_path, 'w') as fi:
 			fi.write(category_h3_file_content)
 		fi.close()
+		
+	if category_file_content:
+		with open(output_path, 'w') as fi:
+			fi.write(category_file_content)
+		fi.close()
+		
 				
 				
 					
@@ -214,29 +225,10 @@ def get_problem_id_row(problem_id_path, problem_id):
 	f.close()
 	return res
 	
-def merge_file(list_path, readme_head_path, readme_path, solutions_count):
-	readme_head_file = open(readme_head_path)
-	list_file = open(list_path)
-	readme_file = open(readme_path,'w')
-	
-	for line in readme_head_file:
-		readme_file.writelines(line)
-#	readme_file.writelines("# LeetCode 题解（已完成 {} 道）\n ".format(solutions_count))
-	
-	for line in list_file:
-		readme_file.writelines(line)
-	
-	readme_head_file.close()
-	list_file.close()
-	readme_file.close()
 
 solotions_path = '../Solutions'
 input_path = '../Contents/Assets/Categories-Origin-List.md'
 output_path = '../Contents/Chapter-01/05-Categories-List.md'
-readme_head_path = '../Contents/index.md'
-readme_path = '../README.md'
 
-#frame_cout = create_list(solotions_path, output_path) 
-#merge_file(list_path, readme_head_path, readme_path, frame_cout)
 
 create_categories_list(solotions_path, input_path, output_path)
