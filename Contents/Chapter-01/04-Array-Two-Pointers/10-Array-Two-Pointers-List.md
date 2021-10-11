@@ -4,6 +4,7 @@
 | :------ | :------ | :------ | :------ | :------ |
 | 0026 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) | 数组、双指针 | 简单 |
 | 0080 | [删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II.md) | 数组、双指针 | 中等 |
+| 0344 | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) | 字符串 | 简单 |
 | 0350 | [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0350.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md) | 数组、哈希表 | 简单 |
 | 0283 | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) | 数组、双指针 | 简单 |
 | 0027 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.md) | 数组、双指针 | 简单 |
