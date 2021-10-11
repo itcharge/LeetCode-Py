@@ -31,7 +31,7 @@
 
 - 数组基础知识
   - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array.md)
-  - 数组基础题目
+  - [数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/10-Array-Basic-List.md)
 - 排序算法
   - 冒泡排序
   - 选择排序
@@ -41,12 +41,13 @@
   - 快速排序
   - 谢尔排序
   - 桶排序
-- 查找
-  - 二分查找
-  - 三分查找
+  - [数组排序题目]([LeetCode-Py/10-Array-Sort-List.md at main · itcharge/LeetCode-Py · GitHub](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/02-Array-Sort/10-Array-Sort-List.md))
+- 二分查找
+  - [二分查找题目]([LeetCode-Py/10-Array-Binary-search-List.md at main · itcharge/LeetCode-Py · GitHub](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/03-Array-Binary-search/10-Array-Binary-search-List.md))
 - 双指针
+  - [双指针题目]([LeetCode-Py/10-Array-Two-Pointers-List.md at main · itcharge/LeetCode-Py · GitHub](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/04-Array-Two-Pointers/10-Array-Two-Pointers-List.md))
 - 滑动窗口
-- 树状数组
+  - [滑动窗口题目]([LeetCode-Py/10-Array-Sliding-Window-List.md at main · itcharge/LeetCode-Py · GitHub](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md))
 
 ## 栈
 
@@ -68,17 +69,13 @@
 ## 字符串
 
 -  单模式串匹配算法
-
   - BF 算法
   - BM 算法
   - KMP 算法
   - RK 算法
   - Sunday 算法
-
 - 多模式串匹配
-
   - 字典树
-
   - AC 自动机
 
 ## 树
@@ -87,6 +84,7 @@
 - 二叉搜索树
 - 二叉平衡数
 - 线段树
+- 树状数组
 - 并查集
 
 ## 哈希表
