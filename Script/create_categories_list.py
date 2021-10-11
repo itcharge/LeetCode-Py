@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from urllib.parse import quote
 
+
 def gen_markdown_table(frame):
 	
 	ELEMENT = " {} |"
