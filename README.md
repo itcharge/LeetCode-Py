@@ -30,7 +30,7 @@
 ## 数组
 
 - 数组基础知识
-  - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array.md)
+  - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/01-Array-Basic.md)
   - [数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Array-Basic/10-Array-Basic-List.md)
 - 排序算法
   - 冒泡排序
