@@ -41,13 +41,13 @@
   - 快速排序
   - 谢尔排序
   - 桶排序
-  - [数组排序题目]([LeetCode-Py/10-Array-Sort-List.md at main · itcharge/LeetCode-Py · GitHub](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/02-Array-Sort/10-Array-Sort-List.md))
+  - [数组排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/02-Array-Sort/10-Array-Sort-List.md)
 - 二分查找
-  - [二分查找题目]([LeetCode-Py/10-Array-Binary-search-List.md at main · itcharge/LeetCode-Py · GitHub](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/03-Array-Binary-search/10-Array-Binary-search-List.md))
+  - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/03-Array-Binary-search/10-Array-Binary-search-List.md)
 - 双指针
-  - [双指针题目]([LeetCode-Py/10-Array-Two-Pointers-List.md at main · itcharge/LeetCode-Py · GitHub](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/04-Array-Two-Pointers/10-Array-Two-Pointers-List.md))
+  - [双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/04-Array-Two-Pointers/10-Array-Two-Pointers-List.md)
 - 滑动窗口
-  - [滑动窗口题目]([LeetCode-Py/10-Array-Sliding-Window-List.md at main · itcharge/LeetCode-Py · GitHub](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md))
+  - [滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md)
 
 ## 栈
 
