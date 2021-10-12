@@ -134,7 +134,7 @@
 ## 07. 哈希表
 
 - ~~[哈希表知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-07/01-Hash-Table.md)~~
-- [哈希表题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-0710-Hash-Table-List.md)
+- [哈希表题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-07/10-Hash-Table-List.md)
 
 ## 08. 图论
 
