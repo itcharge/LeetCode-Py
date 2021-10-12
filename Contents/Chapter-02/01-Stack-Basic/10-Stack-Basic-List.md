@@ -1,0 +1,13 @@
+### 栈基础题目
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0155 | [最小栈](https://leetcode-cn.com/problems/min-stack/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0155.%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) | 栈、设计 | 简单 |
+| 0020 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0020.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md) | 栈、字符串 | 简单 |
+| 0227 | [基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0227.%20%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8%20II.md) | 栈、字符串 | 中等 |
+| 0739 | [每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0739.%20%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6.md) | 栈、哈希表 | 中等 |
+| 剑指 Offer II 038 | [每日温度](https://leetcode-cn.com/problems/iIQa4I/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%20II%20038.%20%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6.md) | 栈、数组、单调栈 | 中等 |
+| 0150 | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0150.%20%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.md) | 栈 | 中等 |
+| 0232 | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) | 栈、设计 | 简单 |
+| 0394 | [字符串解码](https://leetcode-cn.com/problems/decode-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | 栈、深度优先搜索 | 中等 |
+

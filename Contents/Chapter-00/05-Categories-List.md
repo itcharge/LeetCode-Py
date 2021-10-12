@@ -156,7 +156,7 @@
 
 ## 02. 栈
 
-### 栈题目
+### 栈基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -200,7 +200,7 @@
 
 ## 03. 队列
 
-### 队列题目
+### 队列基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -405,7 +405,7 @@
 
 ## 09. 基础算法
 
-### 枚举算法
+### 枚举算法题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -432,9 +432,7 @@
 | 0779 | [第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0779.%20%E7%AC%ACK%E4%B8%AA%E8%AF%AD%E6%B3%95%E7%AC%A6%E5%8F%B7.md) | 递归 | 中等 |
 | 0095 | [不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0095.%20%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%20II.md) | 树、二叉搜索树、动态规划、回溯、二叉树 | 中等 |
 
-### 回溯算法
-
-#### 回溯算法题目
+### 回溯算法题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -453,7 +451,7 @@
 | 1079 | 活字印刷 |   |   |   |
 | 0079 | [单词搜索](https://leetcode-cn.com/problems/word-search/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0079.%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2.md) | 数组、回溯算法 | 中等 |
 
-### 贪心算法
+### 贪心算法题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |

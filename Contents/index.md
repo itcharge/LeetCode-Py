@@ -34,93 +34,151 @@
   - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/01-Array-Basic/01-Array-Basic.md)
   - [数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/01-Array-Basic/10-Array-Basic-List.md)
 - 排序算法
-  - 冒泡排序
-  - 选择排序
-  - 插入排序
-  - 计数排序
-  - 堆排序
-  - 快速排序
-  - 谢尔排序
-  - 桶排序
+  - ~~[冒泡排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/01-Array-Bubble-Sort.md)~~
+  - ~~[插入排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/03-Array-Insertion-Sort.md)~~
+  - ~~[计数排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/04-Array-Counting-Sort.md)~~
+  - ~~[堆排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/05-Array-Heap-Sort.md)~~
+  - ~~[快速排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/06-Array-Quick-Sort.md)~~
+  - ~~[谢尔排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/07-Array-Shell-Sort.md)~~
+  - ~~[桶排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/08-Array-Bucket-Sort.md)~~
   - [数组排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/02-Array-Sort/10-Array-Sort-List.md)
 - 二分查找
-  - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-Array-Binary-search/10-Array-Binary-search-List.md)
+  - ~~[二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-Array-Binary-Search/01-Array-Binary-Search.md)~~
+  - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/03-Array-Binary-Search/10-Array-Binary-search-List.md)
 - 双指针
+  - ~~[双指针基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/04-Array-Two-Pointers/01-Array-Two-Pointers.md)~~
   - [双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/04-Array-Two-Pointers/10-Array-Two-Pointers-List.md)
 - 滑动窗口
+  - ~~[滑动窗口基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/05-Array-Sliding-Window/01-Array-Sliding-Window.md)~~
   - [滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-01/05-Array-Sliding-Window/10-Array-Sliding-Window-List.md)
 
 ## 02. 栈
 
 - 栈基础知识
+  - ~~[栈基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Stack-Basic/01-Stack-Basic.md)~~
+  - [栈基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/01-Stack-Basic/10-Stack-Basic-List.md)
 - 栈和深度优先搜索
+  - ~~[深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/02-Stack-DFS/01-Stack-DFS.md)~~
+  - [深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/02-Stack-DFS/10-Stack-DFS-List.md)
 - 单调栈
+  - ~~[单调栈知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/03-Monotone-Stack/01-Monotone-Stack.md)~~
+  - [单调栈题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-02/03-Monotone-Stack/10-Monotone-Stack-List.md)
 
 ## 03. 队列
 
 - 队列基础知识
-- 队列和宽度优先搜索
+  - ~~[队列基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-03/01-Queue-Basic/01-Queue-Basic.md)~~
+  - [队列基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-03/01-Queue-Basic/10-Queue-Basic-List.md)
+- 队列和广度优先搜索
+  - ~~[广度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-03/02-Queue-BFS/01-Queue-BFS.md)~~
+  - [广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-03/02-Queue-BFS/10-Queue-BFS-List.md)
+- 优先队列
+  - ~~[优先队列知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-03/03-Priority-Queue/01-Priority-Queue.md)~~
+  - [优先队列题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-03/03-Priority-Queue/10-Priority-Queue-List.md)
 
 ## 04. 链表
 
 - 链表基础知识
+  - ~~[链表基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-04/01-Linked-List-Basic/01-Linked-List-Basic.md)~~
+  - [链表经典题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-04/01-Linked-List-Basic/10-Linked-List-Basic-List.md)
 - 链表排序
-- 链表查找
+  - [链表排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-04/10-Linked-List-Sort-List.md)
+- 链表双指针
+  - ~~[链表双指针知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-04/03-Linked-List-Two-Pointers/01-Linked-List-Two-Pointers.md)~~
+  - [链表双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-04/03-Linked-List-Two-Pointers/10-Linked-List-Two-Pointers-List.md)
 
 ## 05. 字符串
 
-- 单模式串匹配算法
-  - BF 算法
-  - BM 算法
-  - KMP 算法
-  - RK 算法
-  - Sunday 算法
+- 字符串基础知识
+  - ~~[字符串基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-05/01-String-Basic/01-String-Basic.md)~~
+  - [字符串经典题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-05/01-String-Basic/10-String-Basic-List.md)
+- ~~单模式串匹配算法~~
+  - ~~BF 算法~~
+  - ~~BM 算法~~
+  - ~~KMP 算法~~
+  - ~~RK 算法~~
+  - ~~Sunday 算法~~
+  - ~~单模式串匹配题目~~
 - 多模式串匹配
   - 字典树
-  - AC 自动机
+    - [字典树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-05/03-String-Multi-Pattern-Matching/01-Tire-Tree/01-Tire-Tree.md)
+    - [字典树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-05/03-String-Multi-Pattern-Matching/01-Tire-Tree/01-Tire-Tree-List.md)
+  - ~~AC 自动机~~
 
 ## 06. 树
 
+- [树基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/01-Tree-Basic/01-Tree-Basic.md)
 - 二叉树
+  - [二叉树基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/02-Binary-Tree/01-Binary-Tree-Basic/01-Binary-Tree-Basic.md)
+  - 二叉树遍历
+    - ~~[二叉树遍历知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/02-Binary-Tree/02-Binary-Tree-Traverse/01-Binary-Tree-Traverse.md)~~
+    - [二叉树遍历题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/02-Binary-Tree/02-Binary-Tree-Traverse/10-Binary-Tree-Traverse-List.md)
+  - 二叉树递归
+    - ~~[二叉树递归知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/02-Binary-Tree/03-Binary-Tree-Recursive/01-Binary-Tree-Recursive.md)~~
+    - [二叉树递归题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/02-Binary-Tree/03-Binary-Tree-Recursive/10-Binary-Tree-Recursive-List.md)
+  - 二叉树构造
+    - ~~[二叉树构造知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/02-Binary-Tree/04-Binary-Tree-Construction/01-Binary-Tree-Construction.md)~~
+    - [二叉树构造题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/02-Binary-Tree/04-Binary-Tree-Construction/10-Binary-Tree-Construction-List.md)
 - 二叉搜索树
-- 二叉平衡树
+  - ~~[二叉搜索树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/03-Binary-Search-Tree/01-Binary-Search-Tree.md)~~
+  - [二叉搜索树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/03-Binary-Search-Tree/10-Binary-Search-Tree-List.md)
 - 线段树
+  - [线段树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/04-Segment-Tree/01-Segment-Tree.md)
 - 树状数组
+  - ~~[树状数组知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/05-Binary-Indexed-Tree/01-Binary-Indexed-Tree.md)~~
+  - [树状数组题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/05-Binary-Indexed-Tree/10-Binary-Indexed-Tree-List.md)
 - 并查集
+  - ~~[并查集知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/06-Union-Find/01-Union-Find.md)~~
+  - [并查集题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-06/06-Union-Find/10-Union-Find-List.md)
 
 ## 07. 哈希表
 
-- 哈希表基础知识
+- ~~[哈希表知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-07/01-Hash-Table.md)~~
+- [哈希表题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-0710-Hash-Table-List.md)
 
 ## 08. 图论
 
-- 图基础知识
-- 拓扑排序
-- 欧拉路径
-- 哈密顿路径
-- 生成树
-  - 最小生成树
-  - 次小生成树
-  - 最小树形图
-- 单源最短路
-- 多源最短路径
-- K 短路径
-- 差分约束系统
-- 强连通分量
-- 双联通分量
-- LCA
-- 二分图
-- 网络流
+- ~~图论基础知识~~
+- ~~拓扑排序~~
+- ~~欧拉路径~~
+- ~~哈密顿路径~~
+- ~~生成树~~
+  - ~~最小生成树~~
+  - ~~次小生成树~~
+  - ~~最小树形图~~
+- ~~单源最短路~~
+- ~~多源最短路径~~
+- ~~K 短路径~~
+- ~~差分约束系统~~
+- ~~强连通分量~~
+- ~~双联通分量~~
+- ~~LCA~~
+- ~~二分图~~
+- ~~网络流~~
 
 ## 09. 基础算法
 
 - 枚举算法
+  - ~~[枚举算法知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/01-Enumeration-Algorithm/01-Enumeration-Algorithm.md)~~
+  - [枚举算法题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/01-Enumeration-Algorithm/10-Enumeration-Algorithm-List.md)
 - 递归算法
-- 贪心算法
-- 分治算法
+  - ~~[递归算法知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/02-Recursive-Algorithm/01-Recursive-Algorithm.md)~~
+  - [递归算法题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/02-Recursive-Algorithm/10-Recursive-Algorithm-List.md)
 - 回溯算法
+  - ~~[回溯算法知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/05-Backtracking-Algorithm/01-Backtracking-Algorithm.md)~~
+  - [回溯算法题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/05-Backtracking-Algorithm/10-Backtracking-Algorithm-List.md)
+- 贪心算法
+  - ~~[贪心算法知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/03-Greedy-Algorithm/01-Greedy-Algorithm.md)~~
+  - [贪心算法题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/03-Greedy-Algorithm/10-Greedy-Algorithm-List.md)
+- 分治算法
+  - ~~[分治算法知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/04-Divide-And-Conquer-Algorithm/01-Divide-And-Conquer-Algorithm.md)~~
+  - [分治算法题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/04-Divide-And-Conquer-Algorithm/10-Divide-And-Conquer-Algorithm-List.md)
 - 动态规划
+  - ~~[动态规划知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/06-Dynamic-Programming/01-Dynamic-Programming.md)~~
+  - [动态规划题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/06-Dynamic-Programming/10-Dynamic-Programming-List.md)
 - 位运算
+  - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/07-Bit-Operation/01-Bit-Operation.md)~~
+  - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/Chapter-09/07-Bit-Operation/10-Bit-Operation-List.md)
 
 ---
 
