@@ -2,7 +2,41 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
+| 0674 | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0674.%20%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97.md) | 数组 | 简单 |
 | 0485 | [最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0.md) | 数组 | 简单 |
+| 0487 | 最大连续1的个数 II |   |   |   |
+| 1004 | [最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1004.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD1%E7%9A%84%E4%B8%AA%E6%95%B0%20III.md) | 双指针、滑动窗口 | 中等 |
 | 0209 | [长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0209.%20%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) | 数组、双指针、二分查找 | 中等 |
 | 0076 | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0076.%20%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2.md) | 哈希表、字符串、滑动窗口 | 困难 |
+| 0643 | 子数组最大平均数 I |   |   |   |
+| 1052 | 爱生气的书店老板 |   |   |   |
+| 1423 | 可获得的最大点数 |   |   |   |
+| 1456 | 定长子串中元音的最大数目 |   |   |   |
+| 1658 | 将 x 减到 0 的最小操作数 |   |   |   |
+| 0424 | [替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0424.%20%E6%9B%BF%E6%8D%A2%E5%90%8E%E7%9A%84%E6%9C%80%E9%95%BF%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6.md) | 双指针、滑动窗口 | 中等 |
+| 0003 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) | 字符串、哈希表、双指针、字符串、滑动窗口 | 中等 |
+| 1695 | 删除子数组的最大得分 |   |   |   |
+| 0438 | 找到字符串中所有字母异位词 |   |   |   |
+| 0567 | 字符串的排列 |   |   |   |
+| 1208 | 尽可能使字符串相等 |   |   |   |
+| 1493 | 删掉一个元素以后全为 1 的最长子数组 |   |   |   |
+| 0978 | 最长湍流子数组 |   |   |   |
+| 0995 | K 连续位的最小翻转次数 |   |   |   |
+| 0727 | 最小窗口子序列 |   |   |   |
+| 1100 | 长度为 K 的无重复字符子串 |   |   |   |
+| 1151 | 最少交换次数来组合所有的 1 |   |   |   |
+| 1176 | 健身计划评估 |   |   |   |
+| 0159 | [至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0159.%20%E8%87%B3%E5%A4%9A%E5%8C%85%E5%90%AB%E4%B8%A4%E4%B8%AA%E4%B8%8D%E5%90%8C%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) | 哈希表、双指针、字符串、滑动窗口 | 中等 |
+| 0340 | 至多包含 K 个不同字符的最长子串 |   |   |   |
+| 0795 | 区间子数组个数 |   |   |   |
+| 0992 | K 个不同整数的子数组 |   |   |   |
+| 0713 | [乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0713.%20%E4%B9%98%E7%A7%AF%E5%B0%8F%E4%BA%8EK%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) | 数组、滑动窗口 | 中等 |
+| 0904 | 水果成篮 |   |   |   |
+| 1358 | 包含所有三种字符的子字符串数目 |   |   |   |
+| 0467 | 环绕字符串中唯一的子字符串 |   |   |   |
+| 0239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0239.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC.md) | 队列，数组、滑动窗口、单调队列、堆（优先队列） | 困难 |
+| 0480 | 滑动窗口中位数 |   |   |   |
+| 0220 | [存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0220.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20III.md) | 排序、有序集合、哈希表 | 中等 |
+| 0683 | K 个关闭的灯泡 |   |   |   |
+| 1438 | 绝对差不超过限制的最长连续子数组 |   |   |   |
 
