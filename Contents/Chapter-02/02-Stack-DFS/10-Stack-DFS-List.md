@@ -22,7 +22,7 @@
 | 0130 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0130.%20%E8%A2%AB%E5%9B%B4%E7%BB%95%E7%9A%84%E5%8C%BA%E5%9F%9F.md) | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
 | 0417 | 太平洋大西洋水流问题 |   |   |   |
 | 1020 | 飞地的数量 |   |   |   |
-| 1254 | 统计封闭岛屿的数目 |   |   |   |
+| 1254 | [统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1254.%20%E7%BB%9F%E8%AE%A1%E5%B0%81%E9%97%AD%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%95%B0%E7%9B%AE.md) | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
 | 1034 | 边框着色 |   |   |   |
 | 剑指 Offer 13 | [机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E5%89%91%E6%8C%87%20Offer%2013.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md) | 深度优先搜索、广度优先搜索、动态规划 | 中等 |
 | 0529 | 扫雷游戏 |   |   |   |
