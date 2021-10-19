@@ -1,4 +1,4 @@
-# LeetCode 题解（已完成 549 道）
+# LeetCode 题解（已完成 551 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -355,9 +355,11 @@
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1005.%20K%20%E6%AC%A1%E5%8F%96%E5%8F%8D%E5%90%8E%E6%9C%80%E5%A4%A7%E5%8C%96%E7%9A%84%E6%95%B0%E7%BB%84%E5%92%8C.md) | 贪心、数组、排序 | 简单 |
 | 1008 | [前序遍历构造二叉搜索树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1008.%20%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) | 栈、树、二叉搜索树、数组、二叉树、单调栈 | 中等 |
 | 1011 | [在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1011.%20%E5%9C%A8%20D%20%E5%A4%A9%E5%86%85%E9%80%81%E8%BE%BE%E5%8C%85%E8%A3%B9%E7%9A%84%E8%83%BD%E5%8A%9B.md) | 数组、二分查找 | 中等 |
+| 1020 | [飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1020.%20%E9%A3%9E%E5%9C%B0%E7%9A%84%E6%95%B0%E9%87%8F.md) | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
 | 1023 | [驼峰式匹配](https://leetcode-cn.com/problems/camelcase-matching/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1023.%20%E9%A9%BC%E5%B3%B0%E5%BC%8F%E5%8C%B9%E9%85%8D.md) | 字典树、双指针、字符串、字符串匹配 | 中等 |
 | 1025 | [除数博弈](https://leetcode-cn.com/problems/divisor-game) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1025.%20%E9%99%A4%E6%95%B0%E5%8D%9A%E5%BC%88.md) | 脑筋急转弯、数学、动态规划、博弈 | 简单 |
 | 1028 | [从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1028.%20%E4%BB%8E%E5%85%88%E5%BA%8F%E9%81%8D%E5%8E%86%E8%BF%98%E5%8E%9F%E4%BA%8C%E5%8F%89%E6%A0%91.md) | 树、深度优先搜索、字符串、二叉树 | 困难 |
+| 1034 | [边框着色](https://leetcode-cn.com/problems/coloring-a-border/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1034.%20%E8%BE%B9%E6%A1%86%E7%9D%80%E8%89%B2.md) | 深度优先搜索、广度优先搜索、数组、矩阵 | 中等 |
 | 1035 | [不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1035.%20%E4%B8%8D%E7%9B%B8%E4%BA%A4%E7%9A%84%E7%BA%BF.md) | 数组、动态规划 | 中等 |
 | 1038 | [把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1038.%20%E6%8A%8A%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E8%BD%AC%E6%8D%A2%E4%B8%BA%E7%B4%AF%E5%8A%A0%E6%A0%91.md) | 树、深度优先搜索、二叉搜索树、二叉树 | 中等 |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1047.%20%E5%88%A0%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E7%9B%B8%E9%82%BB%E9%87%8D%E5%A4%8D%E9%A1%B9.md) | 字符串、栈 | 简单 |
