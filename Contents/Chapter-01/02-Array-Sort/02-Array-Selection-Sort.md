@@ -39,6 +39,7 @@ def selectionSort(arr):
         # 如果找到最小数，将 i 位置上元素与最小数位置上元素进行交换
         if i != min_i:
             arr[i], arr[min_i] = arr[min_i], arr[i]
+            
     return arr
 ```
 
