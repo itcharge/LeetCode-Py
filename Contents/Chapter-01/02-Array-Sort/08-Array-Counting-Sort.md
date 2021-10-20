@@ -17,21 +17,29 @@
 
 ## 4. 算法分析
 
-
+- 当输入元素是 `n` 个 `0 ~ k` 之间的整数时，计数排序的时间复杂度为 $O(n + k)$。
+- 由于用于计数的数组 `counts` 的长度取决于待排序数组中数据的范围（等于待排序数组最大值减去最小值再加 `1`）。所以计数排序对于数据范围很大的数组，需要大量的时间和内存。
+- 计数排序一般用于排序整数，不适用于按字母顺序排序人名。
+- 计数排序是 **稳定排序算法**。
 
 ## 5. 代码实现
 
 ```Python
 def countingSort(arr):
-    arr_min = min(arr)
-    arr_max = max(arr)
+    arr_min, arr_max = min(arr), max(arr)
     size = arr_max - arr_min + 1
     counts = [0 for _ in range(size)]
     
-    for i in arr:
-        c[i - arr_min] += 1
-    for i in range(1, size):
-        counts[i] = counts[i ]
-        
+    for num in arr:
+        c[num - arr_min] += 1
+    for j in range(1, size):
+        counts[j] += counts[j - 1]
+    
+    res = [0 for _ in range(len(arr))]
+    for i in range(len(arr) - 1, -1, -1):
+        res[counts[arr[i] - arr_min] - 1] = arr[i]
+        counts[arr[i] - arr_min] -= 1
+    
+    return res  
 ```
 
