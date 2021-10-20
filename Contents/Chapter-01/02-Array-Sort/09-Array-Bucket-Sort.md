@@ -48,7 +48,7 @@ def insertionSort(arr):
     
 def bucketSort(arr, bucket_size = 5):
     arr_min, arr_max = min(arr), max(arr)
-    bucket_count = (arr_max - arr_min + 1) // bucket_size
+    bucket_count = (arr_max - arr_min) // bucket_size + 1
     buckets = [[] for _ in range(bucket_count)]
     
     for num in arr:
