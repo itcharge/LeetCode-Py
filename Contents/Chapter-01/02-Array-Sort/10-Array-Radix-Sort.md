@@ -1,0 +1,45 @@
+## 1. 算法思想
+
+> 基数排序（Radix Sort）基本思想：
+>
+> 将整数按位数切割成不同的数字，然后按每个位数分别比较进行排序。
+
+## 2. 算法步骤
+
+基数排序算法可以采用「最低位优先法（Least Significant Digit First）」或者「最高位优先法（Most Significant Digit first）」。最常用的是「最低位优先法」。
+
+下面我们以最低位优先法为例，讲解一下算法步骤。
+
+- 遍历数组元素，获取数组最大值元素，并取得位数。
+- 以个位元素为索引，对数组元素排序。
+- 合并数组。
+- 之后依次以十位，百位，…，直到最大值元素的最高位处值为索引，进行排序，并合并数组，最终完成排序。
+
+## 3. 动画演示
+
+![](https://www.runoob.com/wp-content/uploads/2019/03/radixSort.gif)
+
+## 4. 算法分析
+
+- 基数排序的时间复杂度是 $O(k * n)$。其中 `n` 是待排序元素的个数，`k` 是数字位数。`k` 的大小取决于数字位的选择（十进制位、二进制位）和待排序元素所属数据类型全集的大小。
+- 基数排序是 **稳定排序算法**。
+
+## 5. 代码实现
+
+```Python
+def radixSort(arr):
+    size = len(str(max(arr)))
+    buckets = [[] for _ in range(10)]
+    
+    for i in range(size):
+        buckets = [[] for _ in range(10)]
+        for num in arr:
+            buckets[num // (10**k) % 10].append(num)
+    	arr.clear()
+    	for bucket in buckets:
+        	for num in bucket:
+                arr.append(num)
+            
+    return arr
+```
+
