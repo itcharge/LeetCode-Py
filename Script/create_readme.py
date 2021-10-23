@@ -1,7 +1,6 @@
 import create_solutions_list as gen
 
 # 生成分类题解列表
-
 solotions_path = '../Solutions'
 categories_origin_list_path = '../Contents/Assets/Categories-Origin-List.md'
 categories_list_path = '../Contents/00.Introduction/05.Categories-List.md'

@@ -70,7 +70,7 @@
 
 ###### 0125. 验证回文串、0557. 反转字符串中的单词 III、0049. 字母异位词分组、0003. 无重复字符的最长子串、0005. 最长回文子串、0344. 反转字符串
 
-### [字典树题目](../Contents/05.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree-List.md)
+### [字典树题目](../Contents/05.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/10.Tire-Tree-List.md)
 
 ###### 0208. 实现 Trie (前缀树)、0677. 键值映射、0648. 单词替换、0642. 设计搜索自动补全系统、0211. 添加与搜索单词 - 数据结构设计、0421. 数组中两个数的最大异或值、0212. 单词搜索 II、0425. 单词方块、0336. 回文对
 
