@@ -181,7 +181,9 @@
   - [动态规划题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/06.Dynamic-Programming/10.Dynamic-Programming-List.md)
 - 位运算
   - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
-  - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)# LeetCode 题解（已完成 553 道）
+  - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
+
+# LeetCode 题解（已完成 553 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
