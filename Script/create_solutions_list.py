@@ -155,7 +155,7 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
 	
 	for line in readme_catelogue_list_file:
 		readme_file.writelines(line)
-		content_index_file.writelines(line)
+#		content_index_file.writelines(line)
 	
 	for line in list_file:
 		readme_file.writelines(line)
@@ -251,6 +251,7 @@ def get_problem_id_row(problem_id_path, problem_id):
 	title_diff = None
 	res = None
 	
+	# 本地不存在
 	if not os.path.exists(problem_id_path):
 		title_offer_id = ""
 		pattern_1 = re.compile(r'剑指 Offer ([0-9]\d*|0)+( - [I]*)*\. (.*)')
