@@ -18,9 +18,9 @@
 
 - 电子书地址：[https://algo.itcharge.cn](https://algo.itcharge.cn)
 
-![](https://qcdn.itcharge.cn/images/20211028135317.png)
+![](https://qcdn.itcharge.cn/images/20211028150802.png)
 
-![](https://qcdn.itcharge.cn/images/20211028135337.png)
+![](https://qcdn.itcharge.cn/images/20211028150822.png)
 
 ## 关于作者
 
@@ -28,9 +28,9 @@
 
 我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 10 月 09 日已经刷了 600+ 道题目，并且完成了 540+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
 
-在公众号「程序员充电站」里回复 "算法打卡"，拉你进 LeetCode 算法打卡计划群一起组队打卡。
+在公众号 **「程序员充电站」** 里回复 "**算法打卡**"，拉你进 LeetCode 算法打卡计划群一起组队打卡。
 
-- 进群暗号：算法打卡
+- 进群暗号：**算法打卡**
 - 进群要求：少闲聊、多分享、改备注。
 
 ![](https://qcdn.itcharge.cn/images/wechat-qr-code.png)
