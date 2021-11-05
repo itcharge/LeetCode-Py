@@ -26,7 +26,7 @@
   - [基数排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/10.Array-Radix-Sort.md)
   - [数组排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/10.Array-Sort-List.md)
 - 二分查找
-  - ~~[二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/01.Array-Binary-Search.md)~~
+  - [二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/01.Array-Binary-Search.md)
   - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/10.Array-Binary-search-List.md)
 - 双指针
   - ~~[双指针基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/01.Array-Two-Pointers.md)~~
