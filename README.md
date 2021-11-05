@@ -18,9 +18,9 @@
 
 - 电子书地址：[https://algo.itcharge.cn](https://algo.itcharge.cn)
 
-![](https://qcdn.itcharge.cn/images/20211028150802.png)
+![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/algo-book-light.png)
 
-![](https://qcdn.itcharge.cn/images/20211028150822.png)
+![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/algo-book-dark.png)
 
 ## 关于作者
 
@@ -33,7 +33,7 @@
 - 进群暗号：**算法打卡**
 - 进群要求：少闲聊、多分享、改备注。
 
-![](https://qcdn.itcharge.cn/images/wechat-qr-code.png)
+![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/itcharge-qr-code.png)
 
 ## 版权说明
 
@@ -67,7 +67,7 @@
   - [基数排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/10.Array-Radix-Sort.md)
   - [数组排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/10.Array-Sort-List.md)
 - 二分查找
-  - ~~[二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/01.Array-Binary-Search.md)~~
+  - [二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/01.Array-Binary-Search.md)
   - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/10.Array-Binary-search-List.md)
 - 双指针
   - ~~[双指针基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/01.Array-Two-Pointers.md)~~

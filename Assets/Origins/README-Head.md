@@ -18,9 +18,9 @@
 
 - 电子书地址：[https://algo.itcharge.cn](https://algo.itcharge.cn)
 
-![](https://qcdn.itcharge.cn/images/20211028150802.png)
+![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/algo-book-light.png)
 
-![](https://qcdn.itcharge.cn/images/20211028150822.png)
+![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/algo-book-dark.png)
 
 ## 关于作者
 
@@ -33,7 +33,7 @@
 - 进群暗号：**算法打卡**
 - 进群要求：少闲聊、多分享、改备注。
 
-![](https://qcdn.itcharge.cn/images/wechat-qr-code.png)
+![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/itcharge-qr-code.png)
 
 ## 版权说明
 
