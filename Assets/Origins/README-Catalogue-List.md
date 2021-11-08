@@ -13,7 +13,7 @@
 - 数组基础知识
   - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/01.Array-Basic/01.Array-Basic.md)
   - [数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/01.Array-Basic/10.Array-Basic-List.md)
-- 排序算法
+- 数组排序算法
   - [冒泡排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/01.Array-Bubble-Sort.md)
   - [选择排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/02.Array-Selection-Sort.md)
   - [插入排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/03.Array-Insertion-Sort.md)
@@ -28,12 +28,12 @@
 - 二分查找
   - [二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/01.Array-Binary-Search.md)
   - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/10.Array-Binary-search-List.md)
-- 双指针
-  - ~~[双指针基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/01.Array-Two-Pointers.md)~~
-  - [双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/10.Array-Two-Pointers-List.md)
-- 滑动窗口
-  - ~~[滑动窗口基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/01.Array-Sliding-Window.md)~~
-  - [滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/10.Array-Sliding-Window-List.md)
+- 数组双指针
+  - [数组双指针知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/01.Array-Two-Pointers.md)
+  - [数组双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/10.Array-Two-Pointers-List.md)
+- 数组滑动窗口
+  - [数组滑动窗口知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/01.Array-Sliding-Window.md)
+  - [数组滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/10.Array-Sliding-Window-List.md)
 
 ## 02. 栈
 
