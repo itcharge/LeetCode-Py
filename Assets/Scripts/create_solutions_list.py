@@ -166,6 +166,7 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
 
 # 根据题解目录, 题目分类原始列表目录，生成分类题解，并将整体保存到 categories_list_path
 def gen_categories_list(solotions_path, categories_origin_list_path, categories_list_path):
+	
 	f = open(categories_origin_list_path)
 	lines = f.readlines()
 	category_h2 = None
