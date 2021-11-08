@@ -80,8 +80,6 @@
   - [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
   - [0153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - 第 10 天课程题目：
-  - 
-
 - [更多二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/10.Array-Binary-Search-List.md)
 
 ---
