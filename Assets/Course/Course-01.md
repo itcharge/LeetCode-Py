@@ -15,13 +15,17 @@
 - 组队、修改群昵称。
 - 熟悉打卡规则。
 
+---
+
 #### Task 01：算法与数据结构简介、LeetCode 入门及攻略（1 天）
 
 - [算法与数据结构基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/01.Data-Structures-Algorithms.md)
 - [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/02.Algorithm-Complexity.md)
 - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/03.LeetCode-Guide.md)
-- 第 01 天课程题目：
+- 第 01 天课程题目列表
   - [0001. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+
+---
 
 #### Task 02：数组基础（2 天）
 
@@ -35,6 +39,8 @@
   - [0054. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
   - [0498. 对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/)
 - [更多数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/01.Array-Basic/10.Array-Basic-List.md)
+
+---
 
 #### Task 03 数组排序（4 天）
 
@@ -60,7 +66,9 @@
   - [0908. 最小差值 I](https://leetcode-cn.com/problems/smallest-range-i/)
 - [更多排序相关题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/10.Array-Sort-List.md)
 
-#### Task 04 数组二分查找（2 天）
+---
+
+#### Task 04 数组二分查找（3 天）
 
 - [二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/01.Array-Binary-Search.md)
 - 第 08 天课程题目：
@@ -71,18 +79,22 @@
   - [0069. Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)
   - [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
   - [0153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+- 第 10 天课程题目：
+  - 
+
 - [更多二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/10.Array-Binary-Search-List.md)
 
-#### Task 05 数组双指针、滑动窗口（4 天）
+---
+
+#### Task 05 数组双指针、滑动窗口（3 天）
 
 - [双指针基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/01.Array-Two-Pointers.md)
-- 第 10 天课程题目：
+- 第 11 天课程题目：
   - [0633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/)
   - [0080. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
-- 第 11 天课程题目：
+- 第 12 天课程题目：
 - [更多双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/10.Array-Two-Pointers-List.md)
 - [滑动窗口基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/01.Array-Sliding-Window.md)
-- 第 12 天课程题目：
 - 第 13 天课程题目：
 - [更多滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/10.Array-Sliding-Window-List.md)
 
