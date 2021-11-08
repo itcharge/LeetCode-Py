@@ -54,7 +54,7 @@
 - 数组基础知识
   - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/01.Array-Basic/01.Array-Basic.md)
   - [数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/01.Array-Basic/10.Array-Basic-List.md)
-- 排序算法
+- 数组排序算法
   - [冒泡排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/01.Array-Bubble-Sort.md)
   - [选择排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/02.Array-Selection-Sort.md)
   - [插入排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/03.Array-Insertion-Sort.md)
@@ -69,12 +69,12 @@
 - 二分查找
   - [二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/01.Array-Binary-Search.md)
   - [二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/10.Array-Binary-search-List.md)
-- 双指针
-  - ~~[双指针基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/01.Array-Two-Pointers.md)~~
-  - [双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/10.Array-Two-Pointers-List.md)
-- 滑动窗口
-  - ~~[滑动窗口基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/01.Array-Sliding-Window.md)~~
-  - [滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/10.Array-Sliding-Window-List.md)
+- 数组双指针
+  - [数组双指针知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/01.Array-Two-Pointers.md)
+  - [数组双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/10.Array-Two-Pointers-List.md)
+- 数组滑动窗口
+  - [数组滑动窗口知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/01.Array-Sliding-Window.md)
+  - [数组滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/10.Array-Sliding-Window-List.md)
 
 ## 02. 栈
 
@@ -204,7 +204,7 @@
   - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
   - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
 
-# LeetCode 题解（已完成 555 道）
+# LeetCode 题解（已完成 557 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -542,6 +542,7 @@
 | 0832 | [翻转图像](https://leetcode-cn.com/problems/flipping-an-image) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0832.%20%E7%BF%BB%E8%BD%AC%E5%9B%BE%E5%83%8F.md) | 数组、双指针、矩阵、模拟 | 简单 |
 | 0836 | [矩形重叠](https://leetcode-cn.com/problems/rectangle-overlap/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0836.%20%E7%9F%A9%E5%BD%A2%E9%87%8D%E5%8F%A0.md) | 数学 | 简单 |
 | 0841 | [钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0841.%20%E9%92%A5%E5%8C%99%E5%92%8C%E6%88%BF%E9%97%B4.md) | 深度优先搜索、图 | 中等 |
+| 0845 | [数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0845.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E5%B1%B1%E8%84%89.md) | 数组、双指针、动态规划、枚举 | 中等 |
 | 0860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0860.%20%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.md) | 贪心、数组 | 简单 |
 | 0867 | [转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0867.%20%E8%BD%AC%E7%BD%AE%E7%9F%A9%E9%98%B5.md) | 数组 | 简单 |
 | 0872 | [叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0872.%20%E5%8F%B6%E5%AD%90%E7%9B%B8%E4%BC%BC%E7%9A%84%E6%A0%91.md) | 树、深度优先搜索、二叉树 | 简单 |
@@ -585,6 +586,7 @@
 | 1254 | [统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1254.%20%E7%BB%9F%E8%AE%A1%E5%B0%81%E9%97%AD%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%95%B0%E7%9B%AE.md) | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
 | 1268 | [搜索推荐系统](https://leetcode-cn.com/problems/search-suggestions-system/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1268.%20%E6%90%9C%E7%B4%A2%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md) | 字典树、数组、字符串 | 中等 |
 | 1319 | [连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1319.%20%E8%BF%9E%E9%80%9A%E7%BD%91%E7%BB%9C%E7%9A%84%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.md) | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
+| 1343 | [大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1343.%20%E5%A4%A7%E5%B0%8F%E4%B8%BA%20K%20%E4%B8%94%E5%B9%B3%E5%9D%87%E5%80%BC%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84%E6%95%B0%E7%9B%AE.md) | 数组、滑动窗口 | 中等 |
 | 1480 | [一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1480.%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81%E5%92%8C.md) | 数组 | 简单 |
 | 1486 | [数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1486.%20%E6%95%B0%E7%BB%84%E5%BC%82%E6%88%96%E6%93%8D%E4%BD%9C.md) | 位运算、数组 | 简单 |
 | 1561 | [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1561.%20%E4%BD%A0%E5%8F%AF%E4%BB%A5%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9C%80%E5%A4%A7%E7%A1%AC%E5%B8%81%E6%95%B0%E7%9B%AE.md) | 贪心、数组、数学、博弈、排序 | 中等 |
