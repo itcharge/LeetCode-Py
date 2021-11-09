@@ -1,22 +1,22 @@
-## Leetcode 刷题课程第一期
+# Leetcode 刷题课程第一期
 
-### 课程信息
+## 课程信息
 
 - 学习周期：13 天，每天平均花费时间 1 小时 - 3 小时不等，根据个人学习接受能力强弱有所浮动。
 - 学习形式：理论学习 + 题目刷题
 - 人群定位：有 Python 语言编程基础，想要学习算法、数据结构基础知识，想在 LeetCode 刷算法题的学员。
 - 难度系数：⭐⭐⭐
 
-### 课程大纲
+## 课程大纲
 
-#### Task 00：熟悉规则（1 天）
+### Task 00：熟悉规则（1 天）
 
 - 组队、修改群昵称。
 - 熟悉打卡规则。
 
 ---
 
-#### Task 01：算法与数据结构简介、LeetCode 入门及攻略（1 天）
+### Task 01：数据结构与算法简介、LeetCode 入门及攻略（1 天）
 
 - 第 01 天学习内容：
 
@@ -34,7 +34,7 @@
 
 ---
 
-#### Task 02：数组基础（2 天）
+### Task 02：数组基础（2 天）
 
 - 第 02 ~ 03 天学习内容：
   - [数组基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/01.Array-Basic/01.Array-Basic.md)
@@ -53,7 +53,7 @@
 
 ---
 
-#### Task 03 数组排序（4 天）
+### Task 03 数组排序（4 天）
 
 - 第 04 天学习内容：
   - [冒泡排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/01.Array-Bubble-Sort.md)、[选择排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/02.Array-Selection-Sort.md)、[插入排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/03.Array-Insertion-Sort.md)
@@ -89,7 +89,7 @@
 
 ---
 
-#### Task 04 数组二分查找（3 天）
+### Task 04 数组二分查找（3 天）
 
 - 第 08 ~ 10 天学习内容：
   - [二分查找知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/01.Array-Binary-Search.md)
@@ -112,7 +112,7 @@
 
 ---
 
-#### Task 05 数组双指针、滑动窗口（3 天）
+### Task 05 数组双指针、滑动窗口（3 天）
 
 - 第 11 ~ 12 天学习内容：
   - [双指针基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/01.Array-Two-Pointers.md)
