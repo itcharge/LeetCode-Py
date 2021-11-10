@@ -204,7 +204,7 @@
   - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
   - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
 
-# LeetCode 题解（已完成 561 道）
+# LeetCode 题解（已完成 562 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -392,6 +392,7 @@
 | 0286 | [墙与门](https://leetcode-cn.com/problems/walls-and-gates/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0286.%20%E5%A2%99%E4%B8%8E%E9%97%A8.md) | 广度优先搜索 | 中等 |
 | 0287 | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0287.%20%E5%AF%BB%E6%89%BE%E9%87%8D%E5%A4%8D%E6%95%B0.md) | 数组、双指针、二分查找 | 中等 |
 | 0288 | [单词的唯一缩写](https://leetcode-cn.com/problems/unique-word-abbreviation/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0288.%20%E5%8D%95%E8%AF%8D%E7%9A%84%E5%94%AF%E4%B8%80%E7%BC%A9%E5%86%99.md) | 设计、哈希表 | 中等 |
+| 0289 | [生命游戏](https://leetcode-cn.com/problems/game-of-life) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0289.%20%E7%94%9F%E5%91%BD%E6%B8%B8%E6%88%8F.md) | 数组、矩阵、模拟 | 中等 |
 | 0290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0290.%20%E5%8D%95%E8%AF%8D%E8%A7%84%E5%BE%8B.md) | 哈希表 | 简单 |
 | 0292 | [Nim 游戏](https://leetcode-cn.com/problems/nim-game/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0292.%20Nim%20%E6%B8%B8%E6%88%8F.md) | 数学 | 简单 |
 | 0295 | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0295.%20%E6%95%B0%E6%8D%AE%E6%B5%81%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md) | 设计、双指针、数据流、排序、堆（优先队列） | 困难 |
