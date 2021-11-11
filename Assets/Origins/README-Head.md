@@ -12,9 +12,11 @@
 
 ### 项目地址：
 
+欢迎 Star ⭐️ 和 Fork，这是对我最大的鼓励和支持。
+
 - GitHub 地址：[https://github.com/itcharge/LeetCode-Py](https://github.com/itcharge/LeetCode-Py)
 
-支持黑暗模式的在线电子书《算法通关手册》：
+支持黑暗模式的在线电子书《算法通关手册》。
 
 - 电子书地址：[https://algo.itcharge.cn](https://algo.itcharge.cn)
 
