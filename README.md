@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-- **「算法与数据结构」** 基础知识的讲解教程，「LeetCode」540+ 道题目的详细解析。本项目易于理解，没有大跨度的思维跳跃，项目中使用部分图示、例子来帮助理解。
+- **「算法与数据结构」** 基础知识的讲解教程，「LeetCode」580+ 道题目的详细解析。本项目易于理解，没有大跨度的思维跳跃，项目中使用部分图示、例子来帮助理解。
 
 - 本教程先从基础的数据结构和算法开始讲解，再针对不同分类的数据结构和算法，进行具体题目的讲解分析。让读者可以通过「算法基础理论学习」和「编程实战学习」相结合的方式，彻底的掌握算法知识。
 
@@ -28,7 +28,7 @@
 
 我是一名 iOS / macOS 的开发程序员，另外也是北航软院的一名非全硕士（在读）。曾在大学期间学习过算法知识，并参加过 3 年的 ACM 比赛， 但水平有限，未能取得理想成绩。但是这 3 年的 ACM 经历，给我最大的收获是锻炼了自己的逻辑思维和解决实际问题的能力，这种能力为我今后的工作、学习打下了坚实的基础。
 
-我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 10 月 09 日已经刷了 600+ 道题目，并且完成了 540+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
+我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 11 月 13 日已经刷了 640+ 道题目，并且完成了 580+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
 
 在公众号 **「程序员充电站」** 里回复 "**算法打卡**"，拉你进 LeetCode 算法打卡计划群一起组队打卡。
 
@@ -206,7 +206,7 @@
   - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
   - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
 
-# LeetCode 题解（已完成 583 道）
+# LeetCode 题解（已完成 585 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -324,6 +324,7 @@
 | 0143 | [重排链表](https://leetcode-cn.com/problems/reorder-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0143.%20%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.md) | 栈、递归、链表、双指针 | 中等 |
 | 0144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 栈、树 | 中等 |
 | 0145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 栈、树 | 简单 |
+| 0147 | [对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0147.%20%E5%AF%B9%E9%93%BE%E8%A1%A8%E8%BF%9B%E8%A1%8C%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.md) | 链表、排序 | 中等 |
 | 0148 | [排序链表](https://leetcode-cn.com/problems/sort-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0148.%20%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.md) | 链表、双指针、分治、排序、归并排序 | 中等 |
 | 0149 | [直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0149.%20%E7%9B%B4%E7%BA%BF%E4%B8%8A%E6%9C%80%E5%A4%9A%E7%9A%84%E7%82%B9%E6%95%B0.md) | 哈希表、数学 | 困难 |
 | 0150 | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0150.%20%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.md) | 栈 | 中等 |
@@ -466,6 +467,7 @@
 | 0473 | [火柴拼正方形](https://leetcode-cn.com/problems/matchsticks-to-square/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0473.%20%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2.md) | 位运算、数组、动态规划、回溯、状态压缩 | 中等 |
 | 0474 | [一和零](https://leetcode-cn.com/problems/ones-and-zeroes/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0474.%20%E4%B8%80%E5%92%8C%E9%9B%B6.md) | 数组、字符串、动态规划 | 中等 |
 | 0485 | [最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0.md) | 数组 | 简单 |
+| 0487 | [最大连续1的个数 II](https://leetcode-cn.com/problems/max-consecutive-ones-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0487.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD1%E7%9A%84%E4%B8%AA%E6%95%B0%20II.md) | 数组、动态规划、滑动窗口 | 中等 |
 | 0491 | [递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0491.%20%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97.md) | 位运算、数组、哈希、回溯 | 中等 |
 | 0494 | [目标和](https://leetcode-cn.com/problems/target-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0494.%20%E7%9B%AE%E6%A0%87%E5%92%8C.md) | 深度优先搜索、动态规划 | 中等 |
 | 0496 | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0496.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20I.md) | 栈、数组、哈希表、单调栈 | 简单 |
