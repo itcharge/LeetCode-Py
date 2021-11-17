@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-- **「算法与数据结构」** 基础知识的讲解教程，「LeetCode」580+ 道题目的详细解析。本项目易于理解，没有大跨度的思维跳跃，项目中使用部分图示、例子来帮助理解。
+- **「算法与数据结构」** 基础知识的讲解教程，「LeetCode」600+ 道题目的详细解析。本项目易于理解，没有大跨度的思维跳跃，项目中使用部分图示、例子来帮助理解。
 
 - 本教程先从基础的数据结构和算法开始讲解，再针对不同分类的数据结构和算法，进行具体题目的讲解分析。让读者可以通过「算法基础理论学习」和「编程实战学习」相结合的方式，彻底的掌握算法知识。
 
@@ -28,7 +28,7 @@
 
 我是一名 iOS / macOS 的开发程序员，另外也是北航软院的一名非全硕士（在读）。曾在大学期间学习过算法知识，并参加过 3 年的 ACM 比赛， 但水平有限，未能取得理想成绩。但是这 3 年的 ACM 经历，给我最大的收获是锻炼了自己的逻辑思维和解决实际问题的能力，这种能力为我今后的工作、学习打下了坚实的基础。
 
-我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 11 月 13 日已经刷了 640+ 道题目，并且完成了 580+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
+我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 11 月 17 日已经刷了 650+ 道题目，并且完成了 600+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
 
 在公众号 **「程序员充电站」** 里回复 "**算法打卡**"，拉你进 LeetCode 算法打卡计划群一起组队打卡。
 
@@ -48,7 +48,7 @@
 - [算法与数据结构](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/01.Data-Structures-Algorithms.md)
 - [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/02.Algorithm-Complexity.md)
 - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/03.LeetCode-Guide.md)
-- [LeetCode 题解（字典序排序，580+ 道题解）](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/04.Solutions-List.md)
+- [LeetCode 题解（字典序排序，600+ 道题解）](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/04.Solutions-List.md)
 - [LeetCode 题解（按分类排序，推荐刷题列表 ★★★）](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/05.Categories-List.md)
 
 ## 01. 数组
@@ -206,7 +206,7 @@
   - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
   - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
 
-# LeetCode 题解（已完成 596 道）
+# LeetCode 题解（已完成 600 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -343,6 +343,7 @@
 | 0168 | [Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0168.%20Excel%E8%A1%A8%E5%88%97%E5%90%8D%E7%A7%B0.md) | 数学 | 简单 |
 | 0169 | [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md) | 数组、哈希表 | 简单 |
 | 0170 | [两数之和 III - 数据结构设计](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0170.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%20III%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1.md) | 设计、哈希表 | 简单 |
+| 0171 | [Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0171.%20Excel%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7.md) | 数组、字符串 | 简单 |
 | 0172 | [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0172.%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md) | 数学 | 简单 |
 | 0173 | [二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0173.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E8%BF%AD%E4%BB%A3%E5%99%A8.md) | 栈、树、设计 | 中等 |
 | 0179 | [最大数](https://leetcode-cn.com/problems/largest-number/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0179.%20%E6%9C%80%E5%A4%A7%E6%95%B0.md) | 贪心、字符串、排序 | 中等 |
@@ -437,6 +438,7 @@
 | 0377 | [组合总和 Ⅳ](https://leetcode-cn.com/problems/combination-sum-iv/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0377.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C%20%E2%85%A3.md) | 数组、动态规划 | 中等 |
 | 0378 | [有序矩阵中第 K 小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0378.%20%E6%9C%89%E5%BA%8F%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%AC%AC%20K%20%E5%B0%8F%E7%9A%84%E5%85%83%E7%B4%A0.md) | 数组、二分查找、矩阵、排序、堆（优先队列） | 中等 |
 | 0380 | [常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0380.%20%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0.md) | 数组、哈希表 | 中等 |
+| 0383 | [赎金信](https://leetcode-cn.com/problems/ransom-note) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0383.%20%E8%B5%8E%E9%87%91%E4%BF%A1.md) | 哈希表、字符串、计数 | 简单 |
 | 0386 | [字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0386.%20%E5%AD%97%E5%85%B8%E5%BA%8F%E6%8E%92%E6%95%B0.md) | 深度优先搜索、字典树 | 中等 |
 | 0387 | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0387.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) | 字符串、哈希表 | 简单 |
 | 0389 | [找不同](https://leetcode-cn.com/problems/find-the-difference/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0389.%20%E6%89%BE%E4%B8%8D%E5%90%8C.md) | 位运算、哈希表 | 简单 |
@@ -444,7 +446,9 @@
 | 0394 | [字符串解码](https://leetcode-cn.com/problems/decode-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81.md) | 栈、深度优先搜索 | 中等 |
 | 0399 | [除法求值](https://leetcode-cn.com/problems/evaluate-division/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0399.%20%E9%99%A4%E6%B3%95%E6%B1%82%E5%80%BC.md) | 深度优先搜索、广度优先搜索、并查集、图、数组、最短路 | 中等 |
 | 0404 | [左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0404.%20%E5%B7%A6%E5%8F%B6%E5%AD%90%E4%B9%8B%E5%92%8C.md) | 树 | 简单 |
+| 0405 | [数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0405.%20%E6%95%B0%E5%AD%97%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E6%95%B0.md) | 位运算、数学 | 简单 |
 | 0406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0406.%20%E6%A0%B9%E6%8D%AE%E8%BA%AB%E9%AB%98%E9%87%8D%E5%BB%BA%E9%98%9F%E5%88%97.md) | 贪心、数组、排序 | 中等 |
+| 0409 | [最长回文串](https://leetcode-cn.com/problems/longest-palindrome) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0409.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2.md) | 贪心、哈希表、字符串 | 简单 |
 | 0410 | [分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0410.%20%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.md) | 二分查找、动态规划 | 困难 |
 | 0412 | [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0412.%20Fizz%20Buzz.md) |   | 简单 |
 | 0415 | [字符串相加](https://leetcode-cn.com/problems/add-strings/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0415.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.md) | 字符串、大数加法 | 简单 |
