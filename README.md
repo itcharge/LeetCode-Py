@@ -206,7 +206,7 @@
   - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
   - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
 
-# LeetCode 题解（已完成 600 道）
+# LeetCode 题解（已完成 603 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -461,6 +461,7 @@
 | 0429 | [N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0429.%20N%20%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 树、广度优先搜索 | 中等 |
 | 0430 | [扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0430.%20%E6%89%81%E5%B9%B3%E5%8C%96%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md) | 链表 | 中等 |
 | 0435 | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0435.%20%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4.md) | 贪心、数组、动态规划、排序 | 中等 |
+| 0438 | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0438.%20%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) | 哈希表、字符串、滑动窗口 | 中等 |
 | 0445 | [两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0445.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0%20II.md) | 栈、链表、数学 | 中等 |
 | 0447 | [回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0447.%20%E5%9B%9E%E6%97%8B%E9%95%96%E7%9A%84%E6%95%B0%E9%87%8F.md) | 哈希表、数学 | 中等 |
 | 0450 | [删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0450.%20%E5%88%A0%E9%99%A4%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md) | 树 | 中等 |
@@ -633,6 +634,8 @@
 | 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode-cn.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1593.%20%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BD%BF%E5%94%AF%E4%B8%80%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%95%B0%E7%9B%AE%E6%9C%80%E5%A4%A7.md) | 哈希表、字符串、回溯 | 中等 |
 | 1603 | [设计停车系统](https://leetcode-cn.com/problems/design-parking-system) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1603.%20%E8%AE%BE%E8%AE%A1%E5%81%9C%E8%BD%A6%E7%B3%BB%E7%BB%9F.md) | 设计、计数、模拟 | 简单 |
 | 1631 | [最小体力消耗路径](https://leetcode-cn.com/problems/path-with-minimum-effort/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1631.%20%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84.md) | 深度优先搜索、广度优先搜索、并查集、数组、二分查找、矩阵、堆（优先队列） | 中等 |
+| 1658 | [将 x 减到 0 的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-reduce-x-to-zero/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1658.%20%E5%B0%86%20x%20%E5%87%8F%E5%88%B0%200%20%E7%9A%84%E6%9C%80%E5%B0%8F%E6%93%8D%E4%BD%9C%E6%95%B0.md) | 数组、哈希表、二分查找、前缀和、滑动窗口 | 中等 |
+| 1695 | [删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86.md) | 数组、哈希表、滑动窗口 | 中等 |
 | 1698 | [字符串的不同子字符串个数](https://leetcode-cn.com/problems/number-of-distinct-substrings-in-a-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1698.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E4%B8%8D%E5%90%8C%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AA%E6%95%B0.md) | 字典树、字符串、后缀数组、哈希函数、滚动哈希 | 中等 |
 | 1720 | [解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1720.%20%E8%A7%A3%E7%A0%81%E5%BC%82%E6%88%96%E5%90%8E%E7%9A%84%E6%95%B0%E7%BB%84.md) | 位运算 | 简单 |
 | 1858 | [包含所有前缀的最长单词](https://leetcode-cn.com/problems/longest-word-with-all-prefixes/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/1858.%20%E5%8C%85%E5%90%AB%E6%89%80%E6%9C%89%E5%89%8D%E7%BC%80%E7%9A%84%E6%9C%80%E9%95%BF%E5%8D%95%E8%AF%8D.md) | 深度优先搜索、字典树 | 中等 |
