@@ -206,7 +206,7 @@
   - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
   - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
 
-# LeetCode 题解（已完成 608 道）
+# LeetCode 题解（已完成 609 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -578,6 +578,7 @@
 | 0881 | [救生艇](https://leetcode-cn.com/problems/boats-to-save-people/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0881.%20%E6%95%91%E7%94%9F%E8%89%87.md) | 贪心、数组、双指针、排序 | 中等 |
 | 0886 | [可能的二分法](https://leetcode-cn.com/problems/possible-bipartition/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0886.%20%E5%8F%AF%E8%83%BD%E7%9A%84%E4%BA%8C%E5%88%86%E6%B3%95.md) | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
 | 0897 | [递增顺序搜索树](https://leetcode-cn.com/problems/increasing-order-search-tree/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0897.%20%E9%80%92%E5%A2%9E%E9%A1%BA%E5%BA%8F%E6%90%9C%E7%B4%A2%E6%A0%91.md) | 栈、树、深度优先搜索、二叉搜索树、二叉树 | 简单 |
+| 0904 | [水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0904.%20%E6%B0%B4%E6%9E%9C%E6%88%90%E7%AF%AE.md) | 数组、哈希表、滑动窗口 | 中等 |
 | 0908 | [最小差值 I](https://leetcode-cn.com/problems/smallest-range-i/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0908.%20%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC%20I.md) | 数组、数学 | 简单 |
 | 0912 | [排序数组](https://leetcode-cn.com/problems/sort-an-array/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md) | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列） | 中等 |
 | 0918 | [环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0918.%20%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.md) | 数组、动态规划 | 中等 |
