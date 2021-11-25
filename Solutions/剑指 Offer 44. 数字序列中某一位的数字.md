@@ -1,7 +1,7 @@
 ## [剑指 Offer 44. 数字序列中某一位的数字](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)
 
-- 标签：
-- 难度：
+- 标签：数学、二分查找
+- 难度：中等
 
 ## 题目大意
 
