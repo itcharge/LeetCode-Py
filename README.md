@@ -12,7 +12,7 @@
 
 ### 项目地址：
 
-欢迎 Star ⭐️  和 Fork，这是对我最大的鼓励和支持。
+欢迎 **「Star ⭐️」** 和 **「Fork」**，这是对我最大的鼓励和支持。
 
 - GitHub 地址：[https://github.com/itcharge/LeetCode-Py](https://github.com/itcharge/LeetCode-Py)
 
@@ -28,7 +28,7 @@
 
 我是一名 iOS / macOS 的开发程序员，另外也是北航软院的一名非全硕士（在读）。曾在大学期间学习过算法知识，并参加过 3 年的 ACM 比赛， 但水平有限，未能取得理想成绩。但是这 3 年的 ACM 经历，给我最大的收获是锻炼了自己的逻辑思维和解决实际问题的能力，这种能力为我今后的工作、学习打下了坚实的基础。
 
-我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 11 月 17 日已经刷了 650+ 道题目，并且完成了 600+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
+我从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 11 月 26 日已经刷了 700+ 道题目，并且完成了 650+ 道题解。努力向着 1000+、1500+、2000+ 道题前进。
 
 在公众号 **「程序员充电站」** 里回复 "**算法打卡**"，拉你进 LeetCode 算法打卡计划群一起组队打卡。
 
@@ -48,7 +48,7 @@
 - [算法与数据结构](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/01.Data-Structures-Algorithms.md)
 - [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/02.Algorithm-Complexity.md)
 - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/03.LeetCode-Guide.md)
-- [LeetCode 题解（字典序排序，600+ 道题解）](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/04.Solutions-List.md)
+- [LeetCode 题解（字典序排序，650+ 道题解）](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/04.Solutions-List.md)
 - [LeetCode 题解（按分类排序，推荐刷题列表 ★★★）](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/05.Categories-List.md)
 
 ## 01. 数组
@@ -206,7 +206,7 @@
   - ~~[位运算知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
   - [位运算题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
 
-# LeetCode 题解（已完成 637 道）
+# LeetCode 题解（已完成 653 道）
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -467,6 +467,7 @@
 | 0429 | [N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0429.%20N%20%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md) | 树、广度优先搜索 | 中等 |
 | 0430 | [扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0430.%20%E6%89%81%E5%B9%B3%E5%8C%96%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md) | 链表 | 中等 |
 | 0435 | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0435.%20%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4.md) | 贪心、数组、动态规划、排序 | 中等 |
+| 0437 | [路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0437.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%20III.md) | 树、深度优先搜索、二叉树 | 中等 |
 | 0438 | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0438.%20%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) | 哈希表、字符串、滑动窗口 | 中等 |
 | 0445 | [两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0445.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0%20II.md) | 栈、链表、数学 | 中等 |
 | 0447 | [回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/0447.%20%E5%9B%9E%E6%97%8B%E9%95%96%E7%9A%84%E6%95%B0%E9%87%8F.md) | 哈希表、数学 | 中等 |
@@ -841,9 +842,24 @@
 | 面试题 02.07 | [链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2002.07.%20%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4.md) | 哈希表、链表、双指针 | 简单 |
 | 面试题 02.08 | [环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2002.08.%20%E7%8E%AF%E8%B7%AF%E6%A3%80%E6%B5%8B.md) | 链表、双指针 | 中等 |
 | 面试题 03.02 | [栈的最小值](https://leetcode-cn.com/problems/min-stack-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2003.02.%20%E6%A0%88%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC.md) | 栈、设计 | 简单 |
+| 面试题 03.04 | [化栈为队](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2003.04.%20%E5%8C%96%E6%A0%88%E4%B8%BA%E9%98%9F.md) | 栈、设计 | 简单 |
+| 面试题 04.02 | [最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2004.02.%20%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91.md) | 树、二叉搜索树、数组、分治、二叉树 | 简单 |
+| 面试题 04.05 | [合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2004.05.%20%E5%90%88%E6%B3%95%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) | 树、深度优先搜索、递归 | 中等 |
+| 面试题 04.06 | [后继者](https://leetcode-cn.com/problems/successor-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2004.06.%20%E5%90%8E%E7%BB%A7%E8%80%85.md) | 树、深度优先搜索、二叉搜索树、二叉树 | 中等 |
+| 面试题 04.08 | [首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2004.08.%20%E9%A6%96%E4%B8%AA%E5%85%B1%E5%90%8C%E7%A5%96%E5%85%88.md) | 树 | 中等 |
+| 面试题 04.12 | [求和路径](https://leetcode-cn.com/problems/paths-with-sum-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2004.12.%20%E6%B1%82%E5%92%8C%E8%B7%AF%E5%BE%84.md) | 树、深度优先搜索、二叉树 | 中等 |
+| 面试题 08.04 | [幂集](https://leetcode-cn.com/problems/power-set-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.04.%20%E5%B9%82%E9%9B%86.md) | 位运算、数组、回溯算法 | 中等 |
+| 面试题 08.07 | [无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.07.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88.md) | 字符串、回溯 | 中等 |
+| 面试题 08.08 | [有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.08.%20%E6%9C%89%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88.md) | 字符串、回溯 | 中等 |
+| 面试题 08.09 | [括号](https://leetcode-cn.com/problems/bracket-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.09.%20%E6%8B%AC%E5%8F%B7.md) | 字符串、回溯算法 | 中等 |
+| 面试题 08.10 | [颜色填充](https://leetcode-cn.com/problems/color-fill-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.10.%20%E9%A2%9C%E8%89%B2%E5%A1%AB%E5%85%85.md) | 深度优先搜索、广度优先搜索、数组、矩阵 | 中等 |
 | 面试题 08.12 | [八皇后](https://leetcode-cn.com/problems/eight-queens-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.12.%20%E5%85%AB%E7%9A%87%E5%90%8E.md) | 数组、回溯 | 困难 |
 | 面试题 10.01 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2010.01.%20%E5%90%88%E5%B9%B6%E6%8E%92%E5%BA%8F%E7%9A%84%E6%95%B0%E7%BB%84.md) | 数组、双指针、排序 | 简单 |
+| 面试题 10.02 | [变位词组](https://leetcode-cn.com/problems/group-anagrams-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2010.02.%20%E5%8F%98%E4%BD%8D%E8%AF%8D%E7%BB%84.md) | 哈希表、字符串、排序 | 中等 |
+| 面试题 10.09 | [排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2010.09.%20%E6%8E%92%E5%BA%8F%E7%9F%A9%E9%98%B5%E6%9F%A5%E6%89%BE.md) | 数组、二分查找、分治、矩阵 | 中等 |
 | 面试题 16.02 | [单词频率](https://leetcode-cn.com/problems/words-frequency-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2016.02.%20%E5%8D%95%E8%AF%8D%E9%A2%91%E7%8E%87.md) | 设计、字典树、数组、哈希表、字符串 | 中等 |
 | 面试题 16.05 | [阶乘尾数](https://leetcode-cn.com/problems/factorial-zeros-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2016.05.%20%E9%98%B6%E4%B9%98%E5%B0%BE%E6%95%B0.md) | 数学 | 简单 |
+| 面试题 16.26 | [计算器](https://leetcode-cn.com/problems/calculator-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2016.26.%20%E8%AE%A1%E7%AE%97%E5%99%A8.md) | 栈、字符串 | 中等 |
+| 面试题 17.14 | [最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2017.14.%20%E6%9C%80%E5%B0%8FK%E4%B8%AA%E6%95%B0.md) | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
 | 面试题 17.15 | [最长单词](https://leetcode-cn.com/problems/longest-word-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2017.15.%20%E6%9C%80%E9%95%BF%E5%8D%95%E8%AF%8D.md) | 字典树、数组、哈希表、字符串 | 中等 |
 | 面试题 17.17 | [多次搜索](https://leetcode-cn.com/problems/multi-search-lcci/) | [Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/%E9%9D%A2%E8%AF%95%E9%A2%98%2017.17.%20%E5%A4%9A%E6%AC%A1%E6%90%9C%E7%B4%A2.md) | 字典树、数组、哈希表、字符串、字符串匹配、滑动窗口 | 中等 |
