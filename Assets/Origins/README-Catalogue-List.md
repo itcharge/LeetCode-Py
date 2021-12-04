@@ -35,46 +35,51 @@
   - [数组滑动窗口知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/01.Array-Sliding-Window.md)
   - [数组滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/10.Array-Sliding-Window-List.md)
 
-## 02. 栈
-
-- 栈基础知识
-  - ~~[栈基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Stack/01.Stack-Basic/01.Stack-Basic.md)~~
-  - [栈基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Stack/01.Stack-Basic/10.Stack-Basic-List.md)
-- 栈和深度优先搜索
-  - ~~[深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Stack/02.Stack-DFS/01.Stack-DFS.md)~~
-  - [深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Stack/02.Stack-DFS/10.Stack-DFS-List.md)
-- 单调栈
-  - ~~[单调栈知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Stack/03.Monotone-Stack/01.Monotone-Stack.md)~~
-  - [单调栈题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Stack/03.Monotone-Stack/10.Monotone-Stack-List.md)
-
-## 03. 队列
-
-- 队列基础知识
-  - ~~[队列基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Queue/01.Queue-Basic/01.Queue-Basic.md)~~
-  - [队列基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Queue/01.Queue-Basic/10.Queue-Basic-List.md)
-- 队列和广度优先搜索
-  - ~~[广度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Queue/02.Queue-BFS/01.Queue-BFS.md)~~
-  - [广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Queue/02.Queue-BFS/10.Queue-BFS-List.md)
-- 优先队列
-  - ~~[优先队列知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Queue/03.Priority-Queue/01.Priority-Queue.md)~~
-  - [优先队列题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Queue/03.Priority-Queue/10.Priority-Queue-List.md)
-
-## 04. 链表
+## 02. 链表
 
 - 链表基础知识
-  - ~~[链表基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Linked-List/01.Linked-List-Basic/01.Linked-List-Basic.md)~~
-  - [链表经典题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Linked-List/01.Linked-List-Basic/10.Linked-List-Basic-List.md)
+  - ~~[链表基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/01.Linked-List-Basic/01.Linked-List-Basic.md)~~
+  - [链表经典题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/01.Linked-List-Basic/10.Linked-List-Basic-List.md)
 - 链表排序
-  - [链表排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Linked-List/10.Linked-List-Sort-List.md)
+  - [链表排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/10.Linked-List-Sort-List.md)
 - 链表双指针
-  - ~~[链表双指针知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Linked-List/03.Linked-List-Two-Pointers/01.Linked-List-Two-Pointers.md)~~
-  - [链表双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Linked-List/03.Linked-List-Two-Pointers/10.Linked-List-Two-Pointers-List.md)
+  - ~~[链表双指针知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/03.Linked-List-Two-Pointers/01.Linked-List-Two-Pointers.md)~~
+  - [链表双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/03.Linked-List-Two-Pointers/10.Linked-List-Two-Pointers-List.md)
+  - 
+## 03. 栈
 
-## 05. 字符串
+- 栈基础知识
+  - [栈基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/01.Stack-Basic/01.Stack-Basic.md)
+  - [栈基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/01.Stack-Basic/10.Stack-Basic-List.md)
+- 栈和深度优先搜索
+  - ~~[深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/01.Stack-DFS.md)~~
+  - [深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/10.Stack-DFS-List.md)
+- 单调栈
+  - ~~[单调栈知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/01.Monotone-Stack.md)~~
+  - [单调栈题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/10.Monotone-Stack-List.md)
+
+## 04. 队列
+
+- 队列基础知识
+  - [队列基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/01.Queue-Basic.md)
+  - [队列基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/10.Queue-Basic-List.md)
+- 队列和广度优先搜索
+  - ~~[广度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/01.Queue-BFS.md)~~
+  - [广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/10.Queue-BFS-List.md)
+- 优先队列
+  - ~~[优先队列知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/03.Priority-Queue/01.Priority-Queue.md)~~
+  - [优先队列题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/03.Priority-Queue/10.Priority-Queue-List.md)
+
+## 05. 哈希表
+
+- ~~[哈希表知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/05.Hash-Table/01.Hash-Table.md)~~
+- [哈希表题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/05.Hash-Table/10.Hash-Table-List.md)
+- 
+## 06. 字符串
 
 - 字符串基础知识
-  - ~~[字符串基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/05.String/01.String-Basic/01.String-Basic.md)~~
-  - [字符串经典题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/05.String/01.String-Basic/10.String-Basic-List.md)
+  - ~~[字符串基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/01.String-Basic/01.String-Basic.md)~~
+  - [字符串经典题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/01.String-Basic/10.String-Basic-List.md)
 - ~~单模式串匹配算法~~
   - ~~BF 算法~~
   - ~~BM 算法~~
@@ -84,40 +89,35 @@
   - ~~单模式串匹配题目~~
 - 多模式串匹配
   - 字典树
-    - [字典树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/05.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree.md)
-    - [字典树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/05.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree-List.md)
+    - [字典树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree.md)
+    - [字典树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree-List.md)
   - ~~AC 自动机~~
 
-## 06. 树
+## 07. 树
 
-- [树基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/01.Tree-Basic/01.Tree-Basic.md)
+- [树基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/01.Tree-Basic/01.Tree-Basic.md)
 - 二叉树
-  - [二叉树基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/02.Binary-Tree/01.Binary-Tree-Basic/01.Binary-Tree-Basic.md)
+  - [二叉树基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Tree/01.Binary-Tree-Basic/01.Binary-Tree-Basic.md)
   - 二叉树遍历
-    - ~~[二叉树遍历知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/02.Binary-Tree/02.Binary-Tree-Traverse/01.Binary-Tree-Traverse.md)~~
-    - [二叉树遍历题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/02.Binary-Tree/02.Binary-Tree-Traverse/10.Binary-Tree-Traverse-List.md)
+    - ~~[二叉树遍历知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Tree/02.Binary-Tree-Traverse/01.Binary-Tree-Traverse.md)~~
+    - [二叉树遍历题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Tree/02.Binary-Tree-Traverse/10.Binary-Tree-Traverse-List.md)
   - 二叉树递归
-    - ~~[二叉树递归知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/02.Binary-Tree/03.Binary-Tree-Recursive/01.Binary-Tree-Recursive.md)~~
-    - [二叉树递归题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/02.Binary-Tree/03.Binary-Tree-Recursive/10.Binary-Tree-Recursive-List.md)
+    - ~~[二叉树递归知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Tree/03.Binary-Tree-Recursive/01.Binary-Tree-Recursive.md)~~
+    - [二叉树递归题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Tree/03.Binary-Tree-Recursive/10.Binary-Tree-Recursive-List.md)
   - 二叉树构造
-    - ~~[二叉树构造知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/02.Binary-Tree/04.Binary-Tree-Construction/01.Binary-Tree-Construction.md)~~
-    - [二叉树构造题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/02.Binary-Tree/04.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
+    - ~~[二叉树构造知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Tree/04.Binary-Tree-Construction/01.Binary-Tree-Construction.md)~~
+    - [二叉树构造题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Tree/04.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
 - 二叉搜索树
-  - ~~[二叉搜索树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/03.Binary-Search-Tree/01.Binary-Search-Tree.md)~~
-  - [二叉搜索树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/03.Binary-Search-Tree/10.Binary-Search-Tree-List.md)
+  - ~~[二叉搜索树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/03.Binary-Search-Tree/01.Binary-Search-Tree.md)~~
+  - [二叉搜索树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/03.Binary-Search-Tree/10.Binary-Search-Tree-List.md)
 - 线段树
-  - [线段树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/04.Segment-Tree/01.Segment-Tree.md)
+  - [线段树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/04.Segment-Tree/01.Segment-Tree.md)
 - 树状数组
-  - ~~[树状数组知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/05.Binary-Indexed-Tree/01.Binary-Indexed-Tree.md)~~
-  - [树状数组题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/05.Binary-Indexed-Tree/10.Binary-Indexed-Tree-List.md)
+  - ~~[树状数组知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/05.Binary-Indexed-Tree/01.Binary-Indexed-Tree.md)~~
+  - [树状数组题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/05.Binary-Indexed-Tree/10.Binary-Indexed-Tree-List.md)
 - 并查集
-  - ~~[并查集知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/06.Union-Find/01.Union-Find.md)~~
-  - [并查集题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.Tree/06.Union-Find/10.Union-Find-List.md)
-
-## 07. 哈希表
-
-- ~~[哈希表知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Hash-Table/01.Hash-Table.md)~~
-- [哈希表题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Hash-Table/10.Hash-Table-List.md)
+  - ~~[并查集知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/06.Union-Find/01.Union-Find.md)~~
+  - [并查集题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/06.Union-Find/10.Union-Find-List.md)
 
 ## 08. 图论
 
