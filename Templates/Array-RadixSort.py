@@ -13,7 +13,5 @@ class Solution:
 
         return arr
 
-        return arr
-
     def sortArray(self, nums: List[int]) -> List[int]:
         return self.radixSort(nums)
