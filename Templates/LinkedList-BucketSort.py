@@ -19,6 +19,7 @@ class Solution:
         if not head:
             return head
         
+        # 找出链表中最大值 list_max 和最小值 list_min
         list_min, list_max = float('inf'), float('-inf')
         cur = head
         while cur:
@@ -28,9 +29,11 @@ class Solution:
                 list_max = cur.val
             cur = cur.next
             
+        # 计算桶的个数，并定义桶
         bucket_count = (list_max - list_min) // bucket_size + 1
         buckets = [[] for _ in range(bucket_count)]
         
+        # 将链表节点值依次添加到对应桶中
         cur = head
         while cur:
             buckets[(cur.val - list_min) // bucket_size].append(cur.val)
@@ -39,6 +42,7 @@ class Solution:
         dummy_head = ListNode(-1)
         cur = dummy_head
         for bucket in buckets:
+            # 对桶中元素单独排序
             self.sortLinkedList(bucket)
             for num in bucket:
                 cur.next = ListNode(num)
