@@ -15,11 +15,13 @@ class Solution:
         
         while cur:
             if sorted_list.val <= cur.val:
+                # 将 cur 插入到 sorted_list 之后
                 sorted_list = sorted_list.next 
             else:
                 prev = dummy_head
                 while prev.next.val <= cur.val:
                     prev = prev.next
+                # 将 cur 到链表中间
                 sorted_list.next = cur.next
                 cur.next = prev.next
                 prev.next = curr
