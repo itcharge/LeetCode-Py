@@ -5,6 +5,7 @@ class ListNode:
 
 class Solution:
     def radixSort(self, head: ListNode):
+        # 计算位数最长的位数
         size = 0
         cur = head
         while cur:
@@ -13,13 +14,16 @@ class Solution:
                 size = val_len
             cur = cur.next
             
+        # 从个位到高位遍历位数
         for i in range(size):
             buckets = [[] for _ in range(10)]
             cur = head
             while cur:
+                # 以每个节点对应位数上的数字为索引，将节点值放入到对应桶中
                 buckets[cur.val // (10 ** i) % 10].append(cur.val)
                 cur = cur.next
-                
+            
+            # 生成新的链表
             dummy_head = ListNode(-1)
             cur = dummy_head
             for bucket in buckets:
