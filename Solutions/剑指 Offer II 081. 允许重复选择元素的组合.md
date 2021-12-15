@@ -22,10 +22,10 @@
 - 如果 `sum > target`，则直接返回。
 - 如果 `sum == target`，则将 `path` 中的元素加入到 `res` 数组中。
 - 然后对 `[start_index, n]` 范围内的数进行遍历取值。
-	- 如果 `sum + candidates[i] > target`，可以直接跳出循环。
-	- 将和累积，即 `sum += candidates[i]`，然后将当前元素 `i` 加入 `path` 数组。
-	- 递归遍历 `[start_index, n]` 上的数。
-	- 加之前的和回退，即 `sum -= candidates[i]`，然后将遍历的 `i` 元素进行回退。
+    - 如果 `sum + candidates[i] > target`，可以直接跳出循环。
+    - 将和累积，即 `sum += candidates[i]`，然后将当前元素 `i` 加入 `path` 数组。
+    - 递归遍历 `[start_index, n]` 上的数。
+    - 加之前的和回退，即 `sum -= candidates[i]`，然后将遍历的 `i` 元素进行回退。
 - 最终返回 `res` 数组。
 
 ## 代码
