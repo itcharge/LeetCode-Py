@@ -109,7 +109,7 @@ def gen_solutions_list(solotions_path, solotions_output_path):
             if not title_label:
                 title_label = " "
             
-            if title_offer_id and title_name and title_url and title_label and title_diff:                    
+            if title_offer_id and title_name and title_url and title_label and title_diff:
                 title_chinese = quote(title_offer_id + ". " + title_name + ".md")
                 title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
                 title_name_url = "[" + title_name + "](" + title_url + ")"
@@ -348,26 +348,26 @@ def get_problem_id_row(problem_id_path, problem_id):
     if not title_label:
         title_label = " "
         
-    if title_offer_id and title_name and title_url and title_label and title_diff:                    
-    	title_chinese = quote(title_offer_id + ". " + title_name + ".md")
-		title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
-		title_name_url = "[" + title_name + "](" + title_url + ")"
-		
-		res = [title_offer_id, title_name_url, title_solution_url, title_label, title_diff]
-	elif title_id and title_name and title_url and title_label and title_diff:
-		title_id = "{:0>4d}".format(int(title_id))
-		title_chinese = quote(title_id + ". " + title_name + ".md")
-		title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
-		title_name_url = "[" + title_name + "](" + title_url + ")"
-		
-		res = [title_id, title_name_url, title_solution_url, title_label, title_diff]
-	else:
-		title_id = problem_id
-		title_chinese = " "
-		title_solution_url = " "
-		title_name_url = " "
-		title_label = " "
-		title_diff = " "
-		res = [title_id, title_name_url, title_solution_url, title_label, title_diff]
-	f.close()
-	return res
+    if title_offer_id and title_name and title_url and title_label and title_diff:
+        title_chinese = quote(title_offer_id + ". " + title_name + ".md")
+        title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
+        title_name_url = "[" + title_name + "](" + title_url + ")"
+        
+        res = [title_offer_id, title_name_url, title_solution_url, title_label, title_diff]
+    elif title_id and title_name and title_url and title_label and title_diff:
+        title_id = "{:0>4d}".format(int(title_id))
+        title_chinese = quote(title_id + ". " + title_name + ".md")
+        title_solution_url = "[Python](https://github.com/itcharge/LeetCode-Py/blob/main/Solutions/" + title_chinese + ")"
+        title_name_url = "[" + title_name + "](" + title_url + ")"
+        
+        res = [title_id, title_name_url, title_solution_url, title_label, title_diff]
+    else:
+        title_id = problem_id
+        title_chinese = " "
+        title_solution_url = " "
+        title_name_url = " "
+        title_label = " "
+        title_diff = " "
+        res = [title_id, title_name_url, title_solution_url, title_label, title_diff]
+    f.close()
+    return res
