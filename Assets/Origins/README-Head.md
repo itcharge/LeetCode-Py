@@ -12,7 +12,7 @@
 
 ### 项目地址：
 
-欢迎 **「Star ⭐️  」** 和 **「Fork」**，这是对我最大的鼓励和支持。
+欢迎右上角 **「Star ⭐️  」** 和 **「Fork」**，这是对我最大的鼓励和支持。
 
 - GitHub 地址：[https://github.com/itcharge/LeetCode-Py](https://github.com/itcharge/LeetCode-Py)
 
@@ -20,9 +20,9 @@
 
 - 电子书地址：[https://algo.itcharge.cn](https://algo.itcharge.cn)
 
-![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/algo-book-light.png)
+![](./Assets/Images/algo-book-light.png)
 
-![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/algo-book-dark.png)
+![](./Assets/Images/algo-book-dark.png)
 
 ## 关于作者
 
@@ -35,7 +35,7 @@
 - 进群暗号：**算法打卡**
 - 进群要求：少闲聊、多分享、改备注。
 
-![](https://github.com/itcharge/LeetCode-Py/blob/main/Assets/Images/itcharge-qr-code.png)
+![](./Assets/Images/itcharge-qr-code.png)
 
 ## 版权说明
 

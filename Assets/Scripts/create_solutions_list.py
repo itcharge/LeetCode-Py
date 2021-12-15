@@ -141,27 +141,40 @@ def gen_solutions_list(solotions_path, solotions_output_path):
 
 # 将 readme_head、list 合并到，自动生成 README.md 并保存到 readme_path 中
 def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_list_path, content_index_path, readme_path, solutions_count):
-	readme_head_file = open(readme_head_path)
-	readme_catelogue_list_file = open(readme_catalogue_list_path)
-	list_file = open(solotions_output_path)
+	
+	
+	
+	
+	# 生成项目 README.md 文件
 	readme_file = open(readme_path,'w')
-	content_index_file = open(content_index_path, 'w')
 	
-	for line in readme_head_file:
-		readme_file.writelines(line)
-		content_index_file.writelines(line)
-#	readme_file.writelines("# LeetCode 题解（已完成 {} 道）\n ".format(solutions_count))
-	
-	for line in readme_catelogue_list_file:
-		readme_file.writelines(line)
-#		content_index_file.writelines(line)
-	
-	for line in list_file:
-		readme_file.writelines(line)
-	
+	# 将 README 开头部分写入 README.md 中
+	readme_head_file = open(readme_head_path)
+	readme_file.writelines(readme_head_file.readlines())
 	readme_head_file.close()
-	list_file.close()
+	
+	# 将章节目录写入 README.md 中
+	readme_catelogue_list_file = open(readme_catalogue_list_path)
+	readme_file.writelines(readme_catelogue_list_file.readlines())
+	readme_catelogue_list_file.close()
+	
+	# 将题解写入 readme 文件
+	catalogue_list_file = open(solotions_output_path)
+	readme_file.writelines(catalogue_list_file.readlines())
+	catalogue_list_file.close()
+	
 	readme_file.close()
+	
+	
+	# 生成 Contents/index.md 文件
+	content_index_file = open(content_index_path, 'w')
+	content_index_file.writelines("# 算法通关手册（LeetCode）\n\n")
+	
+	# 将章节目录写入 Contents/index.md 文件中
+	readme_catelogue_list_file = open(readme_catalogue_list_path)
+	content_index_file.writelines(readme_catelogue_list_file.readlines())
+	readme_catelogue_list_file.close()
+	
 	content_index_file.close()
 
 # 根据题解目录, 题目分类原始列表目录，生成分类题解，并将整体保存到 categories_list_path
