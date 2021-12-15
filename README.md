@@ -96,7 +96,7 @@
   - [堆栈基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/01.Stack-Basic/01.Stack-Basic.md)
   - [堆栈基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/01.Stack-Basic/10.Stack-Basic-List.md)
 - 堆栈和深度优先搜索
-  - ~~[深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/01.Stack-DFS.md)~~
+  - [深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/01.Stack-DFS.md)
   - [深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/10.Stack-DFS-List.md)
 - 单调栈
   - ~~[单调栈知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/01.Monotone-Stack.md)~~
