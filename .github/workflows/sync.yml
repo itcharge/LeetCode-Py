@@ -1,0 +1,18 @@
+name: Mirror to Gitee Repo
+
+on: [ push ]
+
+# Ensures that only one mirror task will run at a time.
+concurrency:
+  group: git-mirror
+
+jobs:
+  git-mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wearerequired/git-mirror-action@v1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SYNC_GITEE_PRI_KEY }}
+        with:
+          source-repo: "git@github.com:itcharge/LeetCode-Py.git"
+          destination-repo: "git@gitee.com:itcharge/LeetCode-Py.git"
