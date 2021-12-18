@@ -1,9 +1,11 @@
+from queue import Queue
+
 def bfs(graph, start):
     visited = set(start)
-    queue = []
-    queue.append(start)
-    while queue:
-        node_u = q.pop(0)
+    q = Queue()
+    q.put(start)
+    while not q.empty():
+        node_u = q.get()
         print(node_u)
         for node_v in graph[node_u]:
             if node_v not in visited:
