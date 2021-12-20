@@ -22,6 +22,12 @@
 
 {{< /columns >}}
 
+## 源码地址
+
+本书内容及代码都放在 [Github repo](https://github.com/itcharge/LeetCode-Py) 中，欢迎在下方项目中 **「Star ⭐️ 」** 和 **「Fork」**，这是对我最大的鼓励和支持。
+
+- Github 地址：[https://github.com/itcharge/LeetCode-Py](https://github.com/itcharge/LeetCode-Py)
+
 ## 本书前言
 
 **「算法和数据结构」** 是计算机程序设计的重要理论技术基础，但很多程序员忽略了它的重要性。在日常开发工作中，最多的情况是使用成熟的开发框架，利用已经封装好的接口，进行 CRUD（增删改查）操作，似乎很少会需要自己实现相应的数据结构和算法。
