@@ -52,7 +52,7 @@
   - [0019. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [更多链表双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/03.Linked-List-Two-Pointers/10.Linked-List-Two-Pointers-List.md)
 
-### Task 02：堆栈（6 天）
+### Task 02：堆栈与深度优先搜索（5 天）
 
 #### 02-01 堆栈基础知识（2 天）
 
@@ -86,7 +86,8 @@
   - [1254. 统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/)
 - [更多栈与深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/10.Stack-DFS-List.md)
 
-#### 02-03 单调栈（1 天）
+### Task 03 单调栈（1 天）
+
 - 第 10 天学习内容：
   - [单调栈](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/01.Monotone-Stack.md)
 - 第 10 天课程题目：
@@ -95,9 +96,9 @@
   - [0316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
 - [更多单调栈题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/10.Monotone-Stack-List.md)
 
-### Task 03：队列（4 天）
+### Task 04：队列与广度优先搜索（3 天）
 
-#### 03-01 队列基础知识（1 天）
+#### 04-01 队列基础知识（1 天）
 
 - 第 11 天学习内容：
   - [队列基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/01.Queue-Basic.md)
@@ -107,7 +108,7 @@
   - [0225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 - [更多队列基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/10.Queue-Basic-List.md)
 
-#### 03-02 队列与广度优先搜索（2 天）
+#### 04-02 队列与广度优先搜索（2 天）
 
 - 第 12 天学习内容：
   - [队列与广度优先搜索](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/01.Queue-BFS.md)
@@ -121,7 +122,7 @@
   - [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
 - [更多队列与广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/10.Queue-BFS-List.md)
 
-#### 03-02 优先队列（1 天）
+### Task 05 优先队列（1 天）
 
 - 第 14 天学习内容：
   - [优先队列](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/03.Priority-Queue/01.Priority-Queue.md)
