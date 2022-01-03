@@ -52,7 +52,7 @@
   - [0019. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [更多链表双指针题目](https://algo.itcharge.cn/02.%E9%93%BE%E8%A1%A8/03.%E9%93%BE%E8%A1%A8%E5%8F%8C%E6%8C%87%E9%92%88/10.%E9%93%BE%E8%A1%A8%E5%8F%8C%E6%8C%87%E9%92%88%E9%A2%98%E7%9B%AE/)
 
-### Task 02：堆栈（6 天）
+### Task 02：堆栈与深度优先搜索（5 天）
 
 #### 02-01 堆栈基础知识（2 天）
 
@@ -86,7 +86,7 @@
   - [1254. 统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/)
 - [更多栈与深度优先搜索题目](https://algo.itcharge.cn/03.%E5%A0%86%E6%A0%88/02.%E5%A0%86%E6%A0%88%E4%B8%8E%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/10.%E5%A0%86%E6%A0%88%E4%B8%8E%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2%E9%A2%98%E7%9B%AE/)
 
-#### 02-03 单调栈（1 天）
+### Task 03 单调栈（1 天）
 
 - 第 10 天学习内容：
   - [单调栈](https://algo.itcharge.cn/03.%E5%A0%86%E6%A0%88/03.%E5%8D%95%E8%B0%83%E6%A0%88/01.%E5%8D%95%E8%B0%83%E6%A0%88%E7%9F%A5%E8%AF%86/)
@@ -96,9 +96,9 @@
   - [0316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
 - [更多单调栈题目](https://algo.itcharge.cn/03.%E5%A0%86%E6%A0%88/03.%E5%8D%95%E8%B0%83%E6%A0%88/10.%E5%8D%95%E8%B0%83%E6%A0%88%E9%A2%98%E7%9B%AE/)
 
-### Task 03：队列（4 天）
+### Task 04：队列与广度优先搜索（3 天）
 
-#### 03-01 队列基础知识（1 天）
+#### 04-01 队列基础知识（1 天）
 
 - 第 11 天学习内容：
   - [队列基础知识](https://algo.itcharge.cn/04.%E9%98%9F%E5%88%97/01.%E9%98%9F%E5%88%97%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/01.%E9%98%9F%E5%88%97%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/)
@@ -108,7 +108,7 @@
   - [0225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 - [更多队列基础题目](https://algo.itcharge.cn/04.%E9%98%9F%E5%88%97/01.%E9%98%9F%E5%88%97%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/10.%E9%98%9F%E5%88%97%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE/)
 
-#### 03-02 队列与广度优先搜索（2 天）
+#### 04-02 队列与广度优先搜索（2 天）
 
 - 第 12 天学习内容：
   - [队列与广度优先搜索](https://algo.itcharge.cn/04.%E9%98%9F%E5%88%97/02.%E9%98%9F%E5%88%97%E4%B8%8E%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/01.%E9%98%9F%E5%88%97%E4%B8%8E%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2%E7%9F%A5%E8%AF%86/)
@@ -122,7 +122,7 @@
   - [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
 - [更多队列与广度优先搜索题目](https://algo.itcharge.cn/04.%E9%98%9F%E5%88%97/02.%E9%98%9F%E5%88%97%E4%B8%8E%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/10.%E9%98%9F%E5%88%97%E4%B8%8E%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2%E9%A2%98%E7%9B%AE/)
 
-#### 03-02 优先队列（1 天）
+### Task 05 优先队列（1 天）
 
 - 第 14 天学习内容：
   - [优先队列](https://algo.itcharge.cn/04.%E9%98%9F%E5%88%97/03.%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/01.%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97%E7%9F%A5%E8%AF%86/)
