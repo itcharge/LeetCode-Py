@@ -22,7 +22,7 @@ class Solution:
     # 初始化大顶堆
     def buildMaxHeap(self, nums: [int]):
         size = len(nums)
-        # (size-2) // 2 是最后一个非叶节点，叶节点不用调整
+        # (size - 2) // 2 是最后一个非叶节点，叶节点不用调整
         for i in range((size - 2) // 2, -1, -1):
             self.heapify(nums, i, size - 1)
         return nums
