@@ -155,7 +155,10 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
     
     # 将章节目录写入 README.md 中
     readme_catelogue_list_file = open(readme_catalogue_list_path)
-    readme_file.writelines(readme_catelogue_list_file.readlines())
+    readme_catelogue_list_lines = readme_catelogue_list_file.readlines()
+    for readme_catelogue_list_line in readme_catelogue_list_lines:
+        readme_catelogue_list_line = readme_catelogue_list_line.replace('https://github.com/itcharge/LeetCode-Py/blob/main', '.')
+        readme_file.write(readme_catelogue_list_line)
     readme_catelogue_list_file.close()
     
     # 将题解写入 readme 文件
@@ -172,9 +175,11 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
     
     # 将章节目录写入 Contents/index.md 文件中
     readme_catelogue_list_file = open(readme_catalogue_list_path)
-    content_index_file.writelines(readme_catelogue_list_file.readlines())
+    catalogue_list_lines = readme_catelogue_list_file.readlines()
+    for catalogue_list_line in catalogue_list_lines:
+        catalogue_list_line = catalogue_list_line.replace('https://github.com/itcharge/LeetCode-Py/blob/main/Contents', '.')
+        content_index_file.write(catalogue_list_line)
     readme_catelogue_list_file.close()
-    
     content_index_file.close()
 
 # 根据题解目录, 题目分类原始列表目录，生成分类题解，并将整体保存到 categories_list_path

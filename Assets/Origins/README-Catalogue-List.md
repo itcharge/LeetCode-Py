@@ -56,7 +56,7 @@
   - [深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/01.Stack-DFS.md)
   - [深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/10.Stack-DFS-List.md)
 - 单调栈
-  - ~~[单调栈知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/01.Monotone-Stack.md)~~
+  - [单调栈知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/01.Monotone-Stack.md)
   - [单调栈题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/10.Monotone-Stack-List.md)
 
 ## 04. 队列
@@ -65,10 +65,10 @@
   - [队列基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/01.Queue-Basic.md)
   - [队列基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/10.Queue-Basic-List.md)
 - 队列和广度优先搜索
-  - ~~[广度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/01.Queue-BFS.md)~~
+  - [广度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/01.Queue-BFS.md)
   - [广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/10.Queue-BFS-List.md)
 - 优先队列
-  - ~~[优先队列知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/03.Priority-Queue/01.Priority-Queue.md)~~
+  - [优先队列知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/03.Priority-Queue/01.Priority-Queue.md)
   - [优先队列题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/03.Priority-Queue/10.Priority-Queue-List.md)
 
 ## 05. 哈希表
