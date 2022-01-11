@@ -142,9 +142,6 @@ def gen_solutions_list(solotions_path, solotions_output_path):
 # 将 readme_head、list 合并到，自动生成 README.md 并保存到 readme_path 中
 def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_list_path, content_index_path, readme_path, solutions_count):
     
-    
-    
-    
     # 生成项目 README.md 文件
     readme_file = open(readme_path,'w')
     
@@ -161,9 +158,13 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
         readme_file.write(readme_catelogue_list_line)
     readme_catelogue_list_file.close()
     
-    # 将题解写入 readme 文件
+    # 将题解标题写入 readme 文件
     catalogue_list_file = open(solotions_output_path)
-    readme_file.writelines(catalogue_list_file.readlines())
+    catalogue_list_lines = catalogue_list_file.readlines()
+    if len(catalogue_list_lines) > 0:
+        catalogue_list_title = '[' + catalogue_list_lines[0] + '](./Contents/00.Introduction/04.Solutions-List.md)'
+        catalogue_list_title = catalogue_list_title.replace('# LeetCode 题解', '## 10. LeetCode 题解')
+        readme_file.writelines(catalogue_list_title)
     catalogue_list_file.close()
     
     readme_file.close()
