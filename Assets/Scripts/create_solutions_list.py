@@ -162,8 +162,9 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
     catalogue_list_file = open(solotions_output_path)
     catalogue_list_lines = catalogue_list_file.readlines()
     if len(catalogue_list_lines) > 0:
-        catalogue_list_title = '[' + catalogue_list_lines[0] + '](./Contents/00.Introduction/04.Solutions-List.md)'
-        catalogue_list_title = catalogue_list_title.replace('# LeetCode 题解', '## 10. LeetCode 题解')
+        catalogue_list_title = catalogue_list_lines[0].strip('\n')
+        catalogue_list_title = '## [' + catalogue_list_title + '](./Contents/00.Introduction/04.Solutions-List.md)'
+        catalogue_list_title = catalogue_list_title.replace('# LeetCode 题解', '10. LeetCode 题解')
         readme_file.writelines(catalogue_list_title)
     catalogue_list_file.close()
     
