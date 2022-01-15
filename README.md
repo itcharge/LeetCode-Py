@@ -116,7 +116,7 @@
 
 ## 05. 哈希表
 
-- ~~[哈希表知识](./Contents/05.Hash-Table/01.Hash-Table.md)~~
+- [哈希表知识](./Contents/05.Hash-Table/01.Hash-Table.md)
 - [哈希表题目](./Contents/05.Hash-Table/10.Hash-Table-List.md)
 
 ## 06. 字符串
