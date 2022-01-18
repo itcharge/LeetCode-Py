@@ -39,8 +39,8 @@ graph = {
 }
 
 # 基于递归实现的深度优先搜索
-#visited = set()
-#dfs_recursive(graph, "A", visited)
+visited = set()
+dfs_recursive(graph, "A", visited)
 
 
 # 基于堆栈实现的深度优先搜索
