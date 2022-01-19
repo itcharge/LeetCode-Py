@@ -81,7 +81,7 @@
 ## 06. 字符串
 
 - 字符串基础知识
-  - ~~[字符串基础知识](./06.String/01.String-Basic/01.String-Basic.md)~~
+  - [字符串基础知识](./06.String/01.String-Basic/01.String-Basic.md)
   - [字符串经典题目](./06.String/01.String-Basic/10.String-Basic-List.md)
 - ~~单模式串匹配算法~~
   - ~~BF 算法~~
