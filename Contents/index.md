@@ -83,13 +83,12 @@
 - 字符串基础知识
   - [字符串基础知识](./06.String/01.String-Basic/01.String-Basic.md)
   - [字符串经典题目](./06.String/01.String-Basic/10.String-Basic-List.md)
-- ~~单模式串匹配算法~~
-  - ~~BF 算法~~
-  - ~~BM 算法~~
+- 单模式串匹配算法
+  - [BF 算法和 RK 算法](./06.String/02.String-Single-Pattern-Matching/01.String-BF-RK.md)
+  - ~~[BM 算法和 Sunday 算法](./06.String/02.String-Single-Pattern-Matching/02.String-BM-Sunday.md)~~
   - ~~KMP 算法~~
-  - ~~RK 算法~~
-  - ~~Sunday 算法~~
-  - ~~单模式串匹配题目~~
+  - [单模式串匹配题目](./06.String/02.String-Single-Pattern-Matching/10.String-Single-Pattern-Matching-List.md)
+  
 - 多模式串匹配
   - 字典树
     - [字典树知识](./06.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree.md)
