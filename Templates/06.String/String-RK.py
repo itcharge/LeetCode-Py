@@ -7,8 +7,8 @@ def rabinKarp(T: str, p: str, d, q) -> int:
     hash_p, hash_t = 0, 0
     
     for i in range(m):
-        hash_p = (hash_p * d + ord(p[i])) % q
-        hash_t = (hash_t * d + ord(T[i])) % q
+        hash_p = (hash_p * d + ord(p[i])) % q           # 计算模式串 p 的哈希值
+        hash_t = (hash_t * d + ord(T[i])) % q           # 计算文本串 T 中第一个子串的哈希值
     
     power = pow(d, m - 1) % q                           # power 用于移除字符哈希时
     
