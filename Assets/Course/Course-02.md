@@ -104,7 +104,7 @@
   - [队列基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/01.Queue-Basic.md)
 - 第 11 天课程题目：
   - [0622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
-  - [0346. 数据流中的移动平均值](https://leetcode-cn.com/problems/moving-average-from-data-stream/)
+  - [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode-cn.com/problems/qIsx9U/)
   - [0225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 - [更多队列基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/10.Queue-Basic-List.md)
 
@@ -113,7 +113,7 @@
 - 第 12 天学习内容：
   - [队列与广度优先搜索](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/01.Queue-BFS.md)
 - 第 12 天课程题目：
-  - [0286. 墙与门](https://leetcode-cn.com/problems/walls-and-gates/)
+  - [0463. 岛屿的周长](https://leetcode-cn.com/problems/island-perimeter/)
   - [0752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)
   - [0279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 - 第 13 天课程题目：
