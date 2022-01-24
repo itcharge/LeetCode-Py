@@ -206,4 +206,4 @@
   - ~~[位运算知识](./Contents/09.Algorithm-Base/07.Bit-Operation/01.Bit-Operation.md)~~
   - [位运算题目](./Contents/09.Algorithm-Base/07.Bit-Operation/10.Bit-Operation-List.md)
 
-## [10. LeetCode 题解（已完成 664 道）](./Contents/00.Introduction/04.Solutions-List.md)
+## [10. LeetCode 题解（已完成 666 道）](./Contents/00.Introduction/04.Solutions-List.md)
