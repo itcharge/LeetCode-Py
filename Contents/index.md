@@ -85,10 +85,10 @@
   - [字符串经典题目](./06.String/01.String-Basic/10.String-Basic-List.md)
 - 单模式串匹配算法
   - [BF 算法和 RK 算法](./06.String/02.String-Single-Pattern-Matching/01.String-BF-RK.md)
-  - ~~[BM 算法和 Sunday 算法](./06.String/02.String-Single-Pattern-Matching/02.String-BM-Sunday.md)~~
-  - ~~KMP 算法~~
+  - ~~[KMP 算法](./06.String/02.String-Single-Pattern-Matching/02.String-KMP.md)~~
+  - [BM 算法](./06.String/02.String-Single-Pattern-Matching/03.String-BM.md)
+  - ~~[Horspool 算法 和 Sunday 算法](./06.String/02.String-Single-Pattern-Matching/04.String-Horspool-Sunday.md)~~
   - [单模式串匹配题目](./06.String/02.String-Single-Pattern-Matching/10.String-Single-Pattern-Matching-List.md)
-  
 - 多模式串匹配
   - 字典树
     - [字典树知识](./06.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree.md)
