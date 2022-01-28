@@ -85,7 +85,7 @@
   - [BF 算法和 RK 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/01.String-BF-RK.md)
   - ~~[KMP 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/02.String-KMP.md)~~
   - [BM 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/03.String-BM.md)
-  - ~~[Horspool 算法 和 Sunday 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/04.String-Horspool-Sunday.md)~~
+  - [Horspool 算法 和 Sunday 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/04.String-Horspool-Sunday.md)
   - [单模式串匹配题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/10.String-Single-Pattern-Matching-List.md)
 - 多模式串匹配
   - 字典树
