@@ -92,7 +92,7 @@
 - 多模式串匹配
   - 字典树
     - [字典树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/03.String-Multi-Pattern-Matching/01.Tire/01.Tire.md)
-    - [字典树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/03.String-Multi-Pattern-Matching/01.Tire/01.Tire-List.md)
+    - [字典树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/03.String-Multi-Pattern-Matching/01.Tire/10.Tire-List.md)
   - ~~AC 自动机~~
     - [AC 自动机知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/03.String-Multi-Pattern-Matching/02.AC-Automaton/01.AC-Automaton.md)
 
