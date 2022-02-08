@@ -93,35 +93,35 @@
   - [单模式串匹配题目](./06.String/02.String-Single-Pattern-Matching/10.String-Single-Pattern-Matching-List.md)
 - 多模式串匹配
   - 字典树
-    - [字典树知识](./06.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree.md)
-    - [字典树题目](./06.String/03.String-Multi-Pattern-Matching/01.Tire-Tree/01.Tire-Tree-List.md)
+    - [字典树知识](./06.String/03.String-Multi-Pattern-Matching/01.Tire/01.Tire.md)
+    - [字典树题目](./06.String/03.String-Multi-Pattern-Matching/01.Tire/01.Tire-List.md)
   - ~~AC 自动机~~
+    - [AC 自动机知识](./06.String/03.String-Multi-Pattern-Matching/02.AC-Automaton/01.AC-Automaton.md)
 
 ## 07. 树
 
-- [树基础知识](./07.Tree/01.Tree-Basic/01.Tree-Basic.md)
 - 二叉树
-  - [二叉树基础知识](./07.Tree/02.Binary-Tree/01.Binary-Tree-Basic/01.Binary-Tree-Basic.md)
-  - 二叉树遍历
-    - ~~[二叉树遍历知识](./07.Tree/02.Binary-Tree/02.Binary-Tree-Traverse/01.Binary-Tree-Traverse.md)~~
-    - [二叉树遍历题目](./07.Tree/02.Binary-Tree/02.Binary-Tree-Traverse/10.Binary-Tree-Traverse-List.md)
+  - [树与二叉树基础知识](./07.Tree/01.Binary-Tree/01.Binary-Tree-Basic/01.Binary-Tree-Basic.md)
+  - 二叉树的遍历
+    - ~~[二叉树的遍历知识](./07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/01.Binary-Tree-Traverse.md)~~
+    - [二叉树的遍历题目](./07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/10.Binary-Tree-Traverse-List.md)
   - 二叉树递归
-    - ~~[二叉树递归知识](./07.Tree/02.Binary-Tree/03.Binary-Tree-Recursive/01.Binary-Tree-Recursive.md)~~
-    - [二叉树递归题目](./07.Tree/02.Binary-Tree/03.Binary-Tree-Recursive/10.Binary-Tree-Recursive-List.md)
+    - ~~[二叉树递归知识](./07.Tree/01.Binary-Tree/03.Binary-Tree-Recursive/01.Binary-Tree-Recursive.md)~~
+    - [二叉树递归题目](./07.Tree/01.Binary-Tree/03.Binary-Tree-Recursive/10.Binary-Tree-Recursive-List.md)
   - 二叉树构造
-    - ~~[二叉树构造知识](./07.Tree/02.Binary-Tree/04.Binary-Tree-Construction/01.Binary-Tree-Construction.md)~~
-    - [二叉树构造题目](./07.Tree/02.Binary-Tree/04.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
+    - ~~[二叉树构造知识](./07.Tree/01.Binary-Tree/04.Binary-Tree-Construction/01.Binary-Tree-Construction.md)~~
+    - [二叉树构造题目](./07.Tree/01.Binary-Tree/04.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
 - 二叉搜索树
-  - ~~[二叉搜索树知识](./07.Tree/03.Binary-Search-Tree/01.Binary-Search-Tree.md)~~
-  - [二叉搜索树题目](./07.Tree/03.Binary-Search-Tree/10.Binary-Search-Tree-List.md)
+  - ~~[二叉搜索树知识](./07.Tree/02.Binary-Search-Tree/01.Binary-Search-Tree.md)~~
+  - [二叉搜索树题目](./07.Tree/02.Binary-Search-Tree/10.Binary-Search-Tree-List.md)
 - 线段树
-  - [线段树知识](./07.Tree/04.Segment-Tree/01.Segment-Tree.md)
+  - [线段树知识](./07.Tree/03.Segment-Tree/01.Segment-Tree.md)
 - 树状数组
-  - ~~[树状数组知识](./07.Tree/05.Binary-Indexed-Tree/01.Binary-Indexed-Tree.md)~~
-  - [树状数组题目](./07.Tree/05.Binary-Indexed-Tree/10.Binary-Indexed-Tree-List.md)
+  - ~~[树状数组知识](./07.Tree/04.Binary-Indexed-Tree/01.Binary-Indexed-Tree.md)~~
+  - [树状数组题目](./07.Tree/04.Binary-Indexed-Tree/10.Binary-Indexed-Tree-List.md)
 - 并查集
-  - ~~[并查集知识](./07.Tree/06.Union-Find/01.Union-Find.md)~~
-  - [并查集题目](./07.Tree/06.Union-Find/10.Union-Find-List.md)
+  - ~~[并查集知识](./07.Tree/05.Union-Find/01.Union-Find.md)~~
+  - [并查集题目](./07.Tree/05.Union-Find/10.Union-Find-List.md)
 
 ## 08. 图论
 
