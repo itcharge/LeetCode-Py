@@ -152,7 +152,7 @@
 
 ###### 0028. 实现 strStr()、0459. 重复的子字符串、0686. 重复叠加字符串匹配、0796. 旋转字符串
 
-### [字典树题目](../../Contents/06.String/03.String-Multi-Pattern-Matching/01.Tire/10.Tire-List.md)
+### [字典树题目](../../Contents/06.String/03.String-Multi-Pattern-Matching/01.Trie/10.Trie-List.md)
 
 ###### 0208. 实现 Trie (前缀树)、0677. 键值映射、0648. 单词替换、0642. 设计搜索自动补全系统、0211. 添加与搜索单词 - 数据结构设计、0421. 数组中两个数的最大异或值、0212. 单词搜索 II、0425. 单词方块、0336. 回文对
 
