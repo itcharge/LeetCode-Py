@@ -134,8 +134,8 @@
   - [单模式串匹配题目](./Contents/06.String/02.String-Single-Pattern-Matching/10.String-Single-Pattern-Matching-List.md)
 - 多模式串匹配
   - 字典树
-    - [字典树知识](./Contents/06.String/03.String-Multi-Pattern-Matching/01.Tire/01.Tire.md)
-    - [字典树题目](./Contents/06.String/03.String-Multi-Pattern-Matching/01.Tire/10.Tire-List.md)
+    - [字典树知识](./Contents/06.String/03.String-Multi-Pattern-Matching/01.Trie/01.Trie.md)
+    - [字典树题目](./Contents/06.String/03.String-Multi-Pattern-Matching/01.Trie/10.Trie-List.md)
   - ~~AC 自动机~~
     - [AC 自动机知识](./Contents/06.String/03.String-Multi-Pattern-Matching/02.AC-Automaton/01.AC-Automaton.md)
 
