@@ -160,13 +160,9 @@
 
 ### [二叉树遍历题目](../../Contents/07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/10.Binary-Tree-Traverse-List.md)
 
-###### 0144. 二叉树的前序遍历、0094. 二叉树的中序遍历、0145. 二叉树的后序遍历、0102. 二叉树的层序遍历、0103. 二叉树的锯齿形层序遍历、0107. 二叉树的层序遍历 II
+###### 0144. 二叉树的前序遍历、0094. 二叉树的中序遍历、0145. 二叉树的后序遍历、0102. 二叉树的层序遍历、0103. 二叉树的锯齿形层序遍历、0107. 二叉树的层序遍历 II、0104. 二叉树的最大深度、0101. 对称二叉树、0112. 路径总和、0113. 路径总和 II、0236. 二叉树的最近公共祖先、0297. 二叉树的序列化与反序列化
 
-### [二叉树递归题目](../../Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Recursive/10.Binary-Tree-Recursive-List.md)
-
-###### 0104. 二叉树的最大深度、0101. 对称二叉树、0112. 路径总和、0113. 路径总和 II、0236. 二叉树的最近公共祖先、0297. 二叉树的序列化与反序列化
-
-### [二叉树构造题目](../../Contents/07.Tree/01.Binary-Tree/04.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
+### [二叉树构造题目](../../Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
 
 ###### 0105. 从前序与中序遍历序列构造二叉树、0106. 从中序与后序遍历序列构造二叉树、0116. 填充每个节点的下一个右侧节点指针、0117. 填充每个节点的下一个右侧节点指针 II
 
@@ -194,7 +190,7 @@
 
 ### [递归、递推算法题目](../../Contents/09.Algorithm-Base/02.Recursive-Algorithm/10.Recursive-Algorithm-List.md)
 
-###### 0344. 反转字符串、0024. 两两交换链表中的节点、0118. 杨辉三角、0119. 杨辉三角 II、0206. 反转链表、剑指 Offer 24. 反转链表、剑指 Offer II 024. 反转链表、0509. 斐波那契数、0070. 爬楼梯、0104. 二叉树的最大深度、0050. Pow(x, n)、0021. 合并两个有序链表、0779. 第K个语法符号、0095. 不同的二叉搜索树 II
+###### 0344. 反转字符串、0024. 两两交换链表中的节点、0118. 杨辉三角、0119. 杨辉三角 II、0206. 反转链表、0509. 斐波那契数、0070. 爬楼梯、0104. 二叉树的最大深度、0050. Pow(x, n)、0021. 合并两个有序链表、0779. 第K个语法符号、0095. 不同的二叉搜索树 II
 
 ### [回溯算法题目](../../Contents/09.Algorithm-Base/05.Backtracking-Algorithm/10.Backtracking-Algorithm-List.md)
 
