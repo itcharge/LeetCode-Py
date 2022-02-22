@@ -134,7 +134,7 @@
   - 字典树
     - [字典树知识](./Contents/06.String/03.String-Multi-Pattern-Matching/01.Trie/01.Trie.md)
     - [字典树题目](./Contents/06.String/03.String-Multi-Pattern-Matching/01.Trie/10.Trie-List.md)
-  - ~~AC 自动机~~
+  - AC 自动机
     - [AC 自动机知识](./Contents/06.String/03.String-Multi-Pattern-Matching/02.AC-Automaton/01.AC-Automaton.md)
 
 ## 07. 树
@@ -142,14 +142,11 @@
 - 二叉树
   - [树与二叉树基础知识](./Contents/07.Tree/01.Binary-Tree/01.Binary-Tree-Basic/01.Binary-Tree-Basic.md)
   - 二叉树的遍历
-    - ~~[二叉树的遍历知识](./Contents/07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/01.Binary-Tree-Traverse.md)~~
+    - [二叉树的遍历知识](./Contents/07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/01.Binary-Tree-Traverse.md)
     - [二叉树的遍历题目](./Contents/07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/10.Binary-Tree-Traverse-List.md)
-  - 二叉树递归
-    - ~~[二叉树递归知识](./Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Recursive/01.Binary-Tree-Recursive.md)~~
-    - [二叉树递归题目](./Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Recursive/10.Binary-Tree-Recursive-List.md)
   - 二叉树构造
-    - ~~[二叉树构造知识](./Contents/07.Tree/01.Binary-Tree/04.Binary-Tree-Construction/01.Binary-Tree-Construction.md)~~
-    - [二叉树构造题目](./Contents/07.Tree/01.Binary-Tree/04.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
+    - ~~[二叉树构造知识](./Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Construction/01.Binary-Tree-Construction.md)~~
+    - [二叉树构造题目](./Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
 - 二叉搜索树
   - ~~[二叉搜索树知识](./Contents/07.Tree/02.Binary-Search-Tree/01.Binary-Search-Tree.md)~~
   - [二叉搜索树题目](./Contents/07.Tree/02.Binary-Search-Tree/10.Binary-Search-Tree-List.md)
