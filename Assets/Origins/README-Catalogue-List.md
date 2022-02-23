@@ -75,7 +75,7 @@
 - 字符串基础知识
   - [字符串基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/01.String-Basic/01.String-Basic.md)
   - [字符串经典题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/01.String-Basic/10.String-Basic-List.md)
-- 单模式串匹配算法
+- 单模式串匹配
   - [Brute Force 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/01.String-Brute-Force.md)
   - [Rabin Karp 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/02.String-Rabin-Karp.md)
   - [KMP 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/02.String-Single-Pattern-Matching/03.String-KMP.md)
@@ -98,9 +98,9 @@
   - 二叉树的遍历
     - [二叉树的遍历知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/01.Binary-Tree-Traverse.md)
     - [二叉树的遍历题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/10.Binary-Tree-Traverse-List.md)
-  - 二叉树构造
-    - [二叉树构造知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Construction/01.Binary-Tree-Construction.md)
-    - [二叉树构造题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Construction/10.Binary-Tree-Construction-List.md)
+  - 二叉树的还原
+    - [二叉树的还原知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Reduction/01.Binary-Tree-Reduction.md)
+    - [二叉树的还原题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Reduction/10.Binary-Tree-Reduction-List.md)
 - 二叉搜索树
   - [二叉搜索树知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Search-Tree/01.Binary-Search-Tree.md)
   - [二叉搜索树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Search-Tree/10.Binary-Search-Tree-List.md)
@@ -117,42 +117,42 @@
 
 - [图的基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/01.Graph-Basic/01.Graph-Basic.md)
 - 图的遍历
-	- 图的深度优先搜索
-	  - [图的深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/01.Graph-DFS/01.Graph-DFS.md)
-	  - [图的深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/01.Graph-DFS/10.Graph-DFS-List.md)
-	- 图的广度优先搜索
-		- [图的广度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/02.Graph-BFS/01.Graph-BFS.md)
-		- [图的广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/02.Graph-BFS/10.Graph-BFS-List.md)
-	- 图的拓扑排序
-		- [图的拓扑排序知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/03.Graph-Topological-Sorting/01.Graph-Topological-Sorting.md)
-		- [图的拓扑排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/03.Graph-Topological-Sorting/10.Graph-Topological-Sorting-List.md)
+  - 图的深度优先搜索
+    - [图的深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/01.Graph-DFS/01.Graph-DFS.md)
+    - [图的深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/01.Graph-DFS/10.Graph-DFS-List.md)
+  - 图的广度优先搜索
+    - [图的广度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/02.Graph-BFS/01.Graph-BFS.md)
+    - [图的广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/02.Graph-BFS/10.Graph-BFS-List.md)
+  - 图的拓扑排序
+    - [图的拓扑排序知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/03.Graph-Topological-Sorting/01.Graph-Topological-Sorting.md)
+    - [图的拓扑排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/03.Graph-Topological-Sorting/10.Graph-Topological-Sorting-List.md)
 - 图的生成树
-	- [Prim 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/03.Gaph-Spanning-Tree/01.Graph-Prim.md)
-	- [Kruskal 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/03.Gaph-Spanning-Tree/02.Graph-Kruskal.md)
-	- [图的生成树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/03.Gaph-Spanning-Tree/10.Gaph-Spanning-Tree-List.md)
+  - [Prim 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/03.Gaph-Spanning-Tree/01.Graph-Prim.md)
+  - [Kruskal 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/03.Gaph-Spanning-Tree/02.Graph-Kruskal.md)
+  - [图的生成树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/03.Gaph-Spanning-Tree/10.Gaph-Spanning-Tree-List.md)
 - 最短路径
-	- 单源最短路径
-		- [Dijkstra 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/01.Graph-Dijkstra.md)
-		- [Bellman-Ford 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/02.Graph-Bellman-Ford.md)
-		- [SPFA 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/03.Graph-SPFA.md)
-		- [单源最短路径题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/10.Graph-Single-Source-Shortest-Path-List.md)
-	- 多源最短路径
-		- [Floyed 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/02.Graph-Multi-Source-Shortest-Path/01.Graph-Floyed.md)
-		- [多源最短路径题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/02.Graph-Multi-Source-Shortest-Path/10.Graph-Multi-Source-Shortest-Path-List.md)
-	- 次短路径
-		- [次短路径知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/03.Graph-The-Second-Shortest-Path/01.Graph-The-Second-Shortest-Path.md)
-		- [次短路径题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/03.Graph-The-Second-Shortest-Path/10.Graph-The-Second-Shortest-Path-List.md)
-	- 差分约束系统
-		- [差分约束系统知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/04.Graph-System-Of-Difference-Constraints/01.Graph-System-Of-Difference-Constraints.md)
-		- [差分约束系统题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/04.Graph-System-Of-Difference-Constraints/10.Graph-System-Of-Difference-Constraints-List.md)
+  - 单源最短路径
+    - [Dijkstra 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/01.Graph-Dijkstra.md)
+    - [Bellman-Ford 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/02.Graph-Bellman-Ford.md)
+    - [SPFA 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/03.Graph-SPFA.md)
+    - [单源最短路径题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/10.Graph-Single-Source-Shortest-Path-List.md)
+  - 多源最短路径
+    - [Floyed 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/02.Graph-Multi-Source-Shortest-Path/01.Graph-Floyed.md)
+    - [多源最短路径题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/02.Graph-Multi-Source-Shortest-Path/10.Graph-Multi-Source-Shortest-Path-List.md)
+  - 次短路径
+    - [次短路径知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/03.Graph-The-Second-Shortest-Path/01.Graph-The-Second-Shortest-Path.md)
+    - [次短路径题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/03.Graph-The-Second-Shortest-Path/10.Graph-The-Second-Shortest-Path-List.md)
+  - 差分约束系统
+    - [差分约束系统知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/04.Graph-System-Of-Difference-Constraints/01.Graph-System-Of-Difference-Constraints.md)
+    - [差分约束系统题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/04.Graph-Shortest-Path/04.Graph-System-Of-Difference-Constraints/10.Graph-System-Of-Difference-Constraints-List.md)
 - 二分图
-	- 二分图基础知识
-		- [二分图基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/01.Graph-Bipartite-Basic/01.Graph-Bipartite-Basic.md)
-		- [二分图基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/01.Graph-Bipartite-Basic/10.Graph-Bipartite-Basic-List.md)
-	- 二分图最大匹配
-		- [匈牙利算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/01.Graph-Hungarian-Algorithm.md)
-		- [Hopcroft-Karp 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/02.Graph-Hopcroft-Karp.md)
-		- [二分图最大匹配题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/10.Graph-Bipartite-Matching-List.md)
+  - 二分图基础知识
+    - [二分图基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/01.Graph-Bipartite-Basic/01.Graph-Bipartite-Basic.md)
+    - [二分图基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/01.Graph-Bipartite-Basic/10.Graph-Bipartite-Basic-List.md)
+  - 二分图最大匹配
+    - [匈牙利算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/01.Graph-Hungarian-Algorithm.md)
+    - [Hopcroft-Karp 算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/02.Graph-Hopcroft-Karp.md)
+    - [二分图最大匹配题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/10.Graph-Bipartite-Matching-List.md)
 
 ## 09. 基础算法
 
