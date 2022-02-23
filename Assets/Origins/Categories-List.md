@@ -1,6 +1,6 @@
 ## 01. 数组
 
-### [数组基础题目](../../Contents/01.Array/01.Array-Basic/10.Array-Basic-List.md)
+### [数组基础题目](../../Contents/01.Array/01.Array-Basic/02.Array-Basic-List.md)
 
 #### 数组操作题目
 
@@ -10,7 +10,7 @@
 
 ###### 面试题 01.07. 旋转矩阵、面试题 01.08. 零矩阵、0498. 对角线遍历、0048. 旋转图像、0118. 杨辉三角、0119. 杨辉三角 II、0073. 矩阵置零、0054. 螺旋矩阵、0289. 生命游戏
 
-### [排序算法题目](../../Contents/01.Array/02.Array-Sort/10.Array-Sort-List.md)
+### [排序算法题目](../../Contents/01.Array/02.Array-Sort/11.Array-Sort-List.md)
 
 #### 冒泡排序题目
 
@@ -56,7 +56,7 @@
 
 ###### 0217. 存在重复元素、0136. 只出现一次的数字、0056. 合并区间
 
-### [二分查找题目](../../Contents/01.Array/03.Array-Binary-Search/10.Array-Binary-Search-List.md)
+### [二分查找题目](../../Contents/01.Array/03.Array-Binary-Search/02.Array-Binary-Search-List.md)
 
 #### 二分下标题目
 
@@ -70,7 +70,7 @@
 
 ###### 0875. 爱吃香蕉的珂珂、0410. 分割数组的最大值、0209. 长度最小的子数组、0658. 找到 K 个最接近的元素、0270. 最接近的二叉搜索树值、0702. 搜索长度未知的有序数组、0349. 两个数组的交集、0350. 两个数组的交集 II、0287. 寻找重复数、0719. 找出第 k 小的距离对、0259. 较小的三数之和、1011. 在 D 天内送达包裹的能力、1482. 制作 m 束花所需的最少天数
 
-### [双指针题目](../../Contents/01.Array/04.Array-Two-Pointers/10.Array-Two-Pointers-List.md)
+### [双指针题目](../../Contents/01.Array/04.Array-Two-Pointers/02.Array-Two-Pointers-List.md)
 
 #### 对撞指针题目
 
@@ -84,7 +84,7 @@
 
 ###### 0350. 两个数组的交集 II、0925. 长按键入、0844. 比较含退格的字符串、1229. 安排会议日程
 
-### [滑动窗口题目](../../Contents/01.Array/05.Array-Sliding-Window/10.Array-Sliding-Window-List.md)
+### [滑动窗口题目](../../Contents/01.Array/05.Array-Sliding-Window/02.Array-Sliding-Window-List.md)
 
 #### 固定长度窗口题目
 
@@ -96,115 +96,115 @@
 
 ## 02. 链表
 
-### [链表经典题目](../../Contents/02.Linked-List/01.Linked-List-Basic/10.Linked-List-Basic-List.md)
+### [链表经典题目](../../Contents/02.Linked-List/01.Linked-List-Basic/02.Linked-List-Basic-List.md)
 
 ###### 0707. 设计链表、0206. 反转链表、剑指 Offer 24. 反转链表、剑指 Offer II 024. 反转链表、0203. 移除链表元素、0328. 奇偶链表、0234. 回文链表、0430. 扁平化多级双向链表、0138. 复制带随机指针的链表、0061. 旋转链表
 
-### [链表排序题目](../../Contents/02.Linked-List/02.Linked-List-Sort/10.Linked-List-Sort-List.md)
+### [链表排序题目](../../Contents/02.Linked-List/02.Linked-List-Sort/02.Linked-List-Sort-List.md)
 
 ###### 0148. 排序链表、0021. 合并两个有序链表、0023. 合并K个升序链表、0147. 对链表进行插入排序
 
-### [链表双指针题目](../../Contents/02.Linked-List/03.Linked-List-Two-Pointers/10.Linked-List-Two-Pointers-List.md)
+### [链表双指针题目](../../Contents/02.Linked-List/03.Linked-List-Two-Pointers/02.Linked-List-Two-Pointers-List.md)
 
 ###### 0141. 环形链表、0142. 环形链表 II、0160. 相交链表、0019. 删除链表的倒数第 N 个结点、0876. 链表的中间结点
 
 ## 03. 堆栈
 
-### [堆栈基础题目](../../Contents/03.Stack/01.Stack-Basic/10.Stack-Basic-List.md)
+### [堆栈基础题目](../../Contents/03.Stack/01.Stack-Basic/02.Stack-Basic-List.md)
 
 ###### 0155. 最小栈、0020. 有效的括号、0227. 基本计算器 II、0739. 每日温度、剑指 Offer II 038. 每日温度、0150. 逆波兰表达式求值、0232. 用栈实现队列、0394. 字符串解码、0946. 验证栈序列、剑指 Offer 06. 从尾到头打印链表
 
-### [单调栈](../../Contents/03.Stack/02.Monotone-Stack/10.Monotone-Stack-List.md)
+### [单调栈](../../Contents/03.Stack/02.Monotone-Stack/02.Monotone-Stack-List.md)
 
 ###### 0739. 每日温度、0496. 下一个更大元素 I、0503. 下一个更大元素 II、0901. 股票价格跨度、0084. 柱状图中最大的矩形、0316. 去除重复字母、1081. 不同字符的最小子序列、0042. 接雨水
 
 ## 04. 队列
 
-### [队列基础题目](../../Contents/04.Queue/01.Queue-Basic/10.Queue-Basic-List.md)
+### [队列基础题目](../../Contents/04.Queue/01.Queue-Basic/02.Queue-Basic-List.md)
 
 ###### 0622. 设计循环队列、0346. 数据流中的移动平均值、0225. 用队列实现栈
 
-### [优先队列题目](../../Contents/04.Queue/02.Priority-Queue/10.Priority-Queue-List.md)
+### [优先队列题目](../../Contents/04.Queue/02.Priority-Queue/02.Priority-Queue-List.md)
 
 ###### 0703. 数据流中的第 K 大元素、0347. 前 K 个高频元素、0451. 根据字符出现频率排序、0973. 最接近原点的 K 个点、1296. 划分数组为连续数字的集合、0239. 滑动窗口最大值、0295. 数据流的中位数、0023. 合并K个升序链表、0218. 天际线问题
 
 ## 05. 哈希表
 
-### [哈希表题目](../../Contents/05.Hash-Table/10.Hash-Table-List.md)
+### [哈希表题目](../../Contents/05.Hash-Table/02.Hash-Table-List.md)
 
 ###### 0705. 设计哈希集合、0706. 设计哈希映射、0217. 存在重复元素、0219. 存在重复元素 II、0220. 存在重复元素 III、0136. 只出现一次的数字、0383. 赎金信、0349. 两个数组的交集、0350. 两个数组的交集 II、0036. 有效的数独、0001. 两数之和、0015. 三数之和、0018. 四数之和、0454. 四数相加 II、0041. 缺失的第一个正数、0128. 最长连续序列、0202. 快乐数、0242. 有效的字母异位词、0205. 同构字符串、0451. 根据字符出现频率排序、0049. 字母异位词分组、0599. 两个列表的最小索引总和、0387. 字符串中的第一个唯一字符、0447. 回旋镖的数量、0149. 直线上最多的点数、0359. 日志速率限制器
 
 ## 06. 字符串
 
-### [字符串经典题目](../../Contents/06.String/01.String-Basic/10.String-Basic-List.md)
+### [字符串经典题目](../../Contents/06.String/01.String-Basic/02.String-Basic-List.md)
 
 ###### 0125. 验证回文串、0557. 反转字符串中的单词 III、0049. 字母异位词分组、0003. 无重复字符的最长子串、0005. 最长回文子串、0344. 反转字符串
 
-### [单模式串匹配题目](../../Contents/06.String/02.String-Single-Pattern-Matching/10.String-Single-Pattern-Matching-List.md)
+### [单模式串匹配题目](../../Contents/06.String/02.String-Single-Pattern-Matching/07.String-Single-Pattern-Matching-List.md)
 
 ###### 0028. 实现 strStr()、0459. 重复的子字符串、0686. 重复叠加字符串匹配、0796. 旋转字符串
 
-### [字典树题目](../../Contents/06.String/03.String-Multi-Pattern-Matching/01.Trie/10.Trie-List.md)
+### [字典树题目](../../Contents/06.String/03.String-Multi-Pattern-Matching/01.Trie/02.Trie-List.md)
 
 ###### 0208. 实现 Trie (前缀树)、0677. 键值映射、0648. 单词替换、0642. 设计搜索自动补全系统、0211. 添加与搜索单词 - 数据结构设计、0421. 数组中两个数的最大异或值、0212. 单词搜索 II、0425. 单词方块、0336. 回文对
 
 ## 07. 树
 
-### [二叉树的遍历题目](../../Contents/07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/10.Binary-Tree-Traverse-List.md)
+### [二叉树的遍历题目](../../Contents/07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/02.Binary-Tree-Traverse-List.md)
 
 ###### 0144. 二叉树的前序遍历、0094. 二叉树的中序遍历、0145. 二叉树的后序遍历、0102. 二叉树的层序遍历、0103. 二叉树的锯齿形层序遍历、0107. 二叉树的层序遍历 II、0104. 二叉树的最大深度、0101. 对称二叉树、0112. 路径总和、0113. 路径总和 II、0236. 二叉树的最近公共祖先、0297. 二叉树的序列化与反序列化、0116. 填充每个节点的下一个右侧节点指针、0117. 填充每个节点的下一个右侧节点指针 II
 
-### [二叉树的还原题目](../../Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Reduction/10.Binary-Tree-Reduction-List.md)
+### [二叉树的还原题目](../../Contents/07.Tree/01.Binary-Tree/03.Binary-Tree-Reduction/02.Binary-Tree-Reduction-List.md)
 
 ###### 0105. 从前序与中序遍历序列构造二叉树、0106. 从中序与后序遍历序列构造二叉树、0889. 根据前序和后序遍历构造二叉树
 
-### [二叉搜索树题目](../../Contents/07.Tree/02.Binary-Search-Tree/10.Binary-Search-Tree-List.md)
+### [二叉搜索树题目](../../Contents/07.Tree/02.Binary-Search-Tree/02.Binary-Search-Tree-List.md)
 
 ###### 0098. 验证二叉搜索树、0173. 二叉搜索树迭代器、0700. 二叉搜索树中的搜索、0701. 二叉搜索树中的插入操作、0450. 删除二叉搜索树中的节点、0703. 数据流中的第 K 大元素、0235. 二叉搜索树的最近公共祖先、剑指 Offer 68 - I. 二叉搜索树的最近公共祖先、0110. 平衡二叉树、剑指 Offer 55 - II. 平衡二叉树、0108. 将有序数组转换为二叉搜索树
 
 ### 线段树
 
-### [树状数组题目](../../Contents/07.Tree/04.Binary-Indexed-Tree/10.Binary-Indexed-Tree-List.md)
+### [树状数组题目](../../Contents/07.Tree/04.Binary-Indexed-Tree/02.Binary-Indexed-Tree-List.md)
 
 ###### 0315. 计算右侧小于当前元素的个数
 
-### [并查集题目](../../Contents/07.Tree/05.Union-Find/10.Union-Find-List.md)
+### [并查集题目](../../Contents/07.Tree/05.Union-Find/02.Union-Find-List.md)
 
 ###### 0990. 等式方程的可满足性、0547. 省份数量、剑指 Offer II 116. 朋友圈、0684. 冗余连接、1319. 连通网络的操作次数、0765. 情侣牵手、0399. 除法求值、0959. 由斜杠划分区域、1631. 最小体力消耗路径、0778. 水位上升的泳池中游泳、1202. 交换字符串中的元素、0947. 移除最多的同行或同列石头、0803. 打砖块
 
 ## 08. 图论
 
-### [深度优先搜索题目](../../Contents/08.Graph/02.Graph-Traversal/01.Graph-DFS/10.Graph-DFS-List.md)
+### [图的深度优先搜索题目](../../Contents/08.Graph/02.Graph-Traversal/01.Graph-DFS/02.Graph-DFS-List.md)
 
 ###### 0200. 岛屿数量、0133. 克隆图、0494. 目标和、0144. 二叉树的前序遍历、0094. 二叉树的中序遍历、0145. 二叉树的后序遍历、0589. N 叉树的前序遍历、0590. N 叉树的后序遍历、0841. 钥匙和房间、0129. 求根节点到叶节点数字之和、0323. 无向图中连通分量的数目、0684. 冗余连接、0802. 找到最终的安全状态、0785. 判断二分图、0886. 可能的二分法、0323. 无向图中连通分量的数目、0695. 岛屿的最大面积、0130. 被围绕的区域、0417. 太平洋大西洋水流问题、1020. 飞地的数量、1254. 统计封闭岛屿的数目、1034. 边框着色、剑指 Offer 13. 机器人的运动范围、0529. 扫雷游戏
 
-### [广度优先搜索题目](../../Contents/08.Graph/02.Graph-Traversal/02.Graph-BFS/10.Graph-DFS-List.md)
+### [图的广度优先搜索题目](../../Contents/08.Graph/02.Graph-Traversal/02.Graph-BFS/02.Graph-BFS-List.md)
 
 ###### 0286. 墙与门、0200. 岛屿数量、0752. 打开转盘锁、0279. 完全平方数、0133. 克隆图、0733. 图像渲染、0542. 01 矩阵、0322. 零钱兑换、0207. 课程表、0210. 课程表 II、1136. 平行课程、0323. 无向图中连通分量的数目、剑指 Offer 13. 机器人的运动范围
 
 ## 09. 基础算法
 
-### [枚举算法题目](../../Contents/09.Algorithm-Base/01.Enumeration-Algorithm/10.Enumeration-Algorithm-List.md)
+### [枚举算法题目](../../Contents/09.Algorithm-Base/01.Enumeration-Algorithm/02.Enumeration-Algorithm-List.md)
 
 ###### 0204. 计数质数、剑指 Offer 57 - II. 和为s的连续正数序列、0800. 相似 RGB 颜色
 
-### [递归、递推算法题目](../../Contents/09.Algorithm-Base/02.Recursive-Algorithm/10.Recursive-Algorithm-List.md)
+### [递归、递推算法题目](../../Contents/09.Algorithm-Base/02.Recursive-Algorithm/02.Recursive-Algorithm-List.md)
 
 ###### 0344. 反转字符串、0024. 两两交换链表中的节点、0118. 杨辉三角、0119. 杨辉三角 II、0206. 反转链表、0509. 斐波那契数、0070. 爬楼梯、0104. 二叉树的最大深度、0050. Pow(x, n)、0021. 合并两个有序链表、0779. 第K个语法符号、0095. 不同的二叉搜索树 II
 
-### [回溯算法题目](../../Contents/09.Algorithm-Base/05.Backtracking-Algorithm/10.Backtracking-Algorithm-List.md)
+### [回溯算法题目](../../Contents/09.Algorithm-Base/05.Backtracking-Algorithm/02.Backtracking-Algorithm-List.md)
 
 ###### 0046. 全排列、0047. 全排列 II、0037. 解数独、0022. 括号生成、0017. 电话号码的字母组合、0784. 字母大小写全排列、0039. 组合总和、0040. 组合总和 II、0078. 子集、0090. 子集 II、0473. 火柴拼正方形、1593. 拆分字符串使唯一子字符串的数目最大、1079. 活字印刷、0079. 单词搜索
 
-### [贪心算法题目](../../Contents/09.Algorithm-Base/03.Greedy-Algorithm/10.Greedy-Algorithm-List.md)
+### [贪心算法题目](../../Contents/09.Algorithm-Base/03.Greedy-Algorithm/02.Greedy-Algorithm-List.md)
 
 ###### 0455. 分发饼干、0860. 柠檬水找零、 0056. 合并区间、0435. 无重叠区间、0452. 用最少数量的箭引爆气球、0055. 跳跃游戏、0045. 跳跃游戏 II、0392. 判断子序列、0122. 买卖股票的最佳时机 II、0561. 数组拆分 I、1710. 卡车上的最大单元数、1217. 玩筹码、1247. 交换字符使得字符串相同、1400. 构造 K 个回文字符串、0921. 使括号有效的最少添加、1029. 两地调度、1605. 给定行和列的和求可行矩阵、0135. 分发糖果、0053. 最大子序和、0376. 摆动序列、0738. 单调递增的数字、0402. 移掉 K 位数字、0861. 翻转矩阵后的得分
 
-### [分治算法](../../Contents/09.Algorithm-Base/04.Divide-And-Conquer-Algorithm/10.Divide-And-Conquer-Algorithm-List.md)
+### [分治算法](../../Contents/09.Algorithm-Base/04.Divide-And-Conquer-Algorithm/02.Divide-And-Conquer-Algorithm-List.md)
 
 ###### 0004. 寻找两个正序数组的中位数、0023. 合并K个升序链表、0053. 最大子序和、0241. 为运算表达式设计优先级、0169. 多数元素、0050. Pow(x, n)
 
-### [位运算](../../Contents/09.Algorithm-Base/06.Bit-Operation/10.Bit-Operation-List.md)
+### [位运算](../../Contents/09.Algorithm-Base/06.Bit-Operation/02.Bit-Operation-List.md)
 
 ###### 0504. 七进制数、0405. 数字转换为十六进制数、0190. 颠倒二进制位、0191. 位1的个数、0371. 两整数之和、0089. 格雷编码、0201. 数字范围按位与、0338. 比特位计数、0136. 只出现一次的数字、0137. 只出现一次的数字 II、260. 只出现一次的数字 III、1349. 参加考试的最大学生数、0645. 错误的集合
 
