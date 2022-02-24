@@ -222,4 +222,4 @@
 - [动态规划知识](./Contents/10.Dynamic-Programming/01.Dynamic-Programming.md)
 - [动态规划题目](./Contents/10.Dynamic-Programming/02.Dynamic-Programming-List.md)
 
-## [10. LeetCode 题解（已完成 670 道）](./Contents/00.Introduction/04.Solutions-List.md)
+## [11. LeetCode 题解（已完成 671 道）](./Contents/00.Introduction/04.Solutions-List.md)
