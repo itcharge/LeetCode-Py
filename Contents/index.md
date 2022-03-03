@@ -92,6 +92,9 @@
   - AC 自动机
     - [AC 自动机知识](./06.String/03.String-Multi-Pattern-Matching/02.AC-Automaton/01.AC-Automaton.md)
     - [AC 自动机题目](./06.String/03.String-Multi-Pattern-Matching/02.AC-Automaton/02.AC-Automaton-List.md)
+  - 后缀数组
+    - [后缀数组知识](./06.String/03.String-Multi-Pattern-Matching/03.Suffix-Array/01.Suffix-Array.md)
+    - [后缀数组题目](./06.String/03.String-Multi-Pattern-Matching/03.Suffix-Array/02.Suffix-Array-List.md)
 
 ## 07. 树
 
