@@ -257,4 +257,4 @@
   - [斜率优化](./Contents/10.Dynamic-Programming/11.DP-Optimization/02.Slope-Optimization.md)
   - [四边形不等式优化](./Contents/10.Dynamic-Programming/11.DP-Optimization/03.Quadrangle-Optimization.md)
   - [动态规划优化题目](./Contents/10.Dynamic-Programming/11.DP-Optimization/04.DP-Optimization-List.md)
-## [11. LeetCode 题解（已完成 675 道）](./Contents/00.Introduction/04.Solutions-List.md)
+## [11. LeetCode 题解（已完成 676 道）](./Contents/00.Introduction/04.Solutions-List.md)
