@@ -21,6 +21,7 @@ class Graph:
     def __valid(self, v):
         return 0 <= v <= self.ver_count
     
+    # 图的创建操作，edges 为边信息
     def creatGraph(self, edges=[]):
         for vi, vj, val in edges:
             self.add_edge(vi, vj, val)
@@ -34,7 +35,6 @@ class Graph:
         edge = EdgeNode(vj, val)
         edge.next = vertex.head
         vertex.head = edge
-
 
     # 获取 vi - vj 边的权值
     def get_edge(self, vi, vj):
