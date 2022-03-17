@@ -36,8 +36,8 @@ class Graph:                                    # 基本图类，采用邻接矩
                     print(str(vi) + ' - ' + str(vj) + ' : ' + str(val))
     
 
-graph = Graph(6)
-edges = [[1, 4, 3],[1, 3, 9],[3, 4, 6],[2, 5, 4],[4, 5, 2]]
+graph = Graph(5)
+edges = [[1, 2, 5],[2, 1, 5],[1, 3, 30],[3, 1, 30],[2, 3, 14],[3, 2, 14],[2, 4, 26], [4, 2, 26]]
 graph.creatGraph(edges)
 print(graph.get_edge(3, 4))
 graph.printGraph()
