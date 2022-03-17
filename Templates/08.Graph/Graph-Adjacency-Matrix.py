@@ -1,5 +1,5 @@
 class Graph:                                    # 基本图类，采用邻接矩阵表示
-    # 图的初始化操作，vertices 为顶点
+    # 图的初始化操作，ver_count 为顶点个数
     def __init__(self, ver_count):
         self.ver_count = ver_count              # 顶点个数
         self.adj_matrix = [[None for _ in range(ver_count)] for _ in range(ver_count)]  # 邻接矩阵
