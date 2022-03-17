@@ -51,8 +51,10 @@ class Graph:
                 print(str(vi) + ' - ' + str(self.edges[index].vj) + ' : ' + str(self.edges[index].val))
                 index = self.edges[index].next  # 取顶点 vi 相连的下一条边在边集数组的下标
                 
-graph = Graph(6, 5)
-edges = [[1, 4, 3],[1, 3, 9],[3, 4, 6],[2, 5, 4],[4, 5, 2]]
-graph.creatGraph(edges)
-print(graph.get_edge(3, 4))
+
+graph = Graph(7, 7)
+edges = [[1, 2, 5],[1, 5, 6],[2, 4, 7],[4, 3, 9],[3, 1, 2],[5, 6, 8],[6, 4, 3]]
+graph.creatGraph(edges)    
+print(graph.get_edge(4, 3))
+print(graph.get_edge(4, 5))
 graph.printGraph()
