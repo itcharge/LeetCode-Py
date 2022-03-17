@@ -32,7 +32,7 @@ class Graph:                                    # 基本图类，采用边集数
             print(str(edge.vi) + ' - ' + str(edge.vj) + ' : ' + str(edge.val))
             
 graph = Graph()
-edges = [[1, 4, 3],[1, 3, 9],[3, 4, 6],[2, 5, 4],[4, 5, 2]]
+edges = [[1, 2, 5],[1, 5, 6],[2, 4, 7],[4, 3, 9],[3, 1, 2],[5, 6, 8],[6, 4, 3]]
 graph.creatGraph(edges)
 print(graph.get_edge(3, 4))
 graph.printGraph()
