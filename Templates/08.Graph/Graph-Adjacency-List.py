@@ -57,8 +57,8 @@ class Graph:
                 print(str(vertex.vi) + ' - ' + str(cur_edge.vj) + ' : ' + str(cur_edge.val))
                 cur_edge = cur_edge.next
                 
-graph = Graph(6)
-edges = [[1, 4, 3],[1, 3, 9],[3, 4, 6],[2, 5, 4],[4, 5, 2]]
+graph = Graph(7)
+edges = [[1, 2, 5],[1, 5, 6],[2, 4, 7],[4, 3, 9],[3, 1, 2],[5, 6, 8],[6, 4, 3]]
 graph.creatGraph(edges)
 print(graph.get_edge(3, 4))
 graph.printGraph()
