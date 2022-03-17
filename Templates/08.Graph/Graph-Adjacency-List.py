@@ -12,10 +12,10 @@ class VertexNode:                               # 顶点信息类
 class Graph:
     def __init__(self, ver_count):
         self.ver_count = ver_count
-        self.vertexs = []
+        self.vertices = []
         for vi in range(ver_count):
             vertex = VertexNode(vi)
-            self.vertexs.append(vertex)
+            self.vertices.append(vertex)
     
     # 判断顶点 v 是否有效
     def __valid(self, v):
@@ -31,7 +31,7 @@ class Graph:
         if not self.__valid(vi) or not self.__valid(vj):
             raise ValueError(str(vi) + ' or ' + str(vj) + " is not a valid vertex.")
             
-        vertex = self.vertexs[vi]
+        vertex = self.vertices[vi]
         edge = EdgeNode(vj, val)
         edge.next = vertex.head
         vertex.head = edge
@@ -41,7 +41,7 @@ class Graph:
         if not self.__valid(vi) or not self.__valid(vj):
             raise ValueError(str(vi) + ' or ' + str(vj) + " is not a valid vertex.")
         
-        vertex = self.vertexs[vi]
+        vertex = self.vertices[vi]
         cur_edge = vertex.head
         while cur_edge:
             if cur_edge.vj == vj:
@@ -51,7 +51,7 @@ class Graph:
         
     # 根据邻接表打印图的边
     def printGraph(self):
-        for vertex in self.vertexs:
+        for vertex in self.vertices:
             cur_edge = vertex.head
             while cur_edge:
                 print(str(vertex.vi) + ' - ' + str(cur_edge.vj) + ' : ' + str(cur_edge.val))
