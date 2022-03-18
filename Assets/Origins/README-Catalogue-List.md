@@ -120,6 +120,8 @@
 ## 08. 图论
 
 - [图的基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/01.Graph-Basic/01.Graph-Basic.md)
+  - [图的定义和分类](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/01.Graph-Basic/01.Graph-Basic.md)
+  - [图的存储结构和问题应用](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/01.Graph-Basic/02.Graph-Structure.md)
 - 图的遍历
   - 图的深度优先搜索
     - [图的深度优先搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/08.Graph/02.Graph-Traversal/01.Graph-DFS/01.Graph-DFS.md)
