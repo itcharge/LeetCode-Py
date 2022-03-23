@@ -86,26 +86,22 @@
   - [Sunday 算法](./06.String/02.String-Single-Pattern-Matching/06.String-Sunday.md)
   - [单模式串匹配题目](./06.String/02.String-Single-Pattern-Matching/07.String-Single-Pattern-Matching-List.md)
 - 多模式串匹配
-  - 字典树
-    - [字典树知识](./06.String/03.String-Multi-Pattern-Matching/01.Trie/01.Trie.md)
-    - [字典树题目](./06.String/03.String-Multi-Pattern-Matching/01.Trie/02.Trie-List.md)
-  - AC 自动机
-    - [AC 自动机知识](./06.String/03.String-Multi-Pattern-Matching/02.AC-Automaton/01.AC-Automaton.md)
-    - [AC 自动机题目](./06.String/03.String-Multi-Pattern-Matching/02.AC-Automaton/02.AC-Automaton-List.md)
-  - 后缀数组
-    - [后缀数组知识](./06.String/03.String-Multi-Pattern-Matching/03.Suffix-Array/01.Suffix-Array.md)
-    - [后缀数组题目](./06.String/03.String-Multi-Pattern-Matching/03.Suffix-Array/02.Suffix-Array-List.md)
+  - [字典树知识](./06.String/03.String-Multi-Pattern-Matching/01.Trie.md)
+  - [字典树题目](./06.String/03.String-Multi-Pattern-Matching/02.Trie-List.md)
+  - [AC 自动机知识](./06.String/03.String-Multi-Pattern-Matching/03.AC-Automaton.md)
+  - [AC 自动机题目](./06.String/03.String-Multi-Pattern-Matching/04.AC-Automaton-List.md)
+  - [后缀数组知识](./06.String/03.String-Multi-Pattern-Matching/05.Suffix-Array.md)
+  - [后缀数组题目](./06.String/03.String-Multi-Pattern-Matching/06.Suffix-Array-List.md)
+  
 
 ## 07. 树
 
 - 二叉树
   - [树与二叉树基础知识](./07.Tree/01.Binary-Tree/01.Binary-Tree-Basic/01.Binary-Tree-Basic.md)
-  - 二叉树的遍历
-    - [二叉树的遍历知识](./07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/01.Binary-Tree-Traverse.md)
-    - [二叉树的遍历题目](./07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse/02.Binary-Tree-Traverse-List.md)
-  - 二叉树的还原
-    - [二叉树的还原知识](./07.Tree/01.Binary-Tree/03.Binary-Tree-Reduction/01.Binary-Tree-Reduction.md)
-    - [二叉树的还原题目](./07.Tree/01.Binary-Tree/03.Binary-Tree-Reduction/02.Binary-Tree-Reduction-List.md)
+  - [二叉树的遍历知识](./07.Tree/01.Binary-Tree/02.Binary-Tree-Traverse.md)
+  - [二叉树的遍历题目](./07.Tree/01.Binary-Tree/03.Binary-Tree-Traverse-List.md)
+  - [二叉树的还原知识](./07.Tree/01.Binary-Tree/04.Binary-Tree-Reduction.md)
+  - [二叉树的还原题目](./07.Tree/01.Binary-Tree/05.Binary-Tree-Reduction-List.md)
 - 二叉搜索树
   - [二叉搜索树知识](./07.Tree/02.Binary-Search-Tree/01.Binary-Search-Tree.md)
   - [二叉搜索树题目](./07.Tree/02.Binary-Search-Tree/02.Binary-Search-Tree-List.md)
@@ -121,46 +117,41 @@
 
 ## 08. 图论
 
-- [图的基础知识](./08.Graph/01.Graph-Basic/01.Graph-Basic.md)
+- 图的基础知识
   - [图的定义和分类](./08.Graph/01.Graph-Basic/01.Graph-Basic.md)
   - [图的存储结构和问题应用](./08.Graph/01.Graph-Basic/02.Graph-Structure.md)
 - 图的遍历
-  - 图的深度优先搜索
-    - [图的深度优先搜索知识](./08.Graph/02.Graph-Traversal/01.Graph-DFS/01.Graph-DFS.md)
-    - [图的深度优先搜索题目](./08.Graph/02.Graph-Traversal/01.Graph-DFS/02.Graph-DFS-List.md)
-  - 图的广度优先搜索
-    - [图的广度优先搜索知识](./08.Graph/02.Graph-Traversal/02.Graph-BFS/01.Graph-BFS.md)
-    - [图的广度优先搜索题目](./08.Graph/02.Graph-Traversal/02.Graph-BFS/02.Graph-BFS-List.md)
-  - 图的拓扑排序
-    - [图的拓扑排序知识](./08.Graph/02.Graph-Traversal/03.Graph-Topological-Sorting/01.Graph-Topological-Sorting.md)
-    - [图的拓扑排序题目](./08.Graph/02.Graph-Traversal/03.Graph-Topological-Sorting/02.Graph-Topological-Sorting-List.md)
+  - [图的深度优先搜索知识](./08.Graph/02.Graph-Traversal/01.Graph-DFS.md)
+  - [图的深度优先搜索题目](./08.Graph/02.Graph-Traversal/02.Graph-DFS-List.md)
+  - [图的广度优先搜索知识](./08.Graph/02.Graph-Traversal/03.Graph-BFS.md)
+  - [图的广度优先搜索题目](./08.Graph/02.Graph-Traversal/04.Graph-BFS-List.md)
+  - [图的拓扑排序知识](./08.Graph/02.Graph-Traversal/05.Graph-Topological-Sorting.md)
+  - [图的拓扑排序题目](./08.Graph/02.Graph-Traversal/06.Graph-Topological-Sorting-List.md)
 - 图的生成树
-  - [Prim 算法](./08.Graph/03.Gaph-Spanning-Tree/01.Graph-Prim.md)
-  - [Kruskal 算法](./08.Graph/03.Gaph-Spanning-Tree/02.Graph-Kruskal.md)
-  - [图的生成树题目](./08.Graph/03.Gaph-Spanning-Tree/03.Gaph-Spanning-Tree-List.md)
+  - [图的生成树知识](./08.Graph/03.Gaph-Spanning-Tree/01.Gaph-Spanning-Tree.md)
+  - [Prim 算法](./08.Graph/03.Gaph-Spanning-Tree/02.Graph-Prim.md)
+  - [Kruskal 算法](./08.Graph/03.Gaph-Spanning-Tree/03.Graph-Kruskal.md)
+  - [图的生成树题目](./08.Graph/03.Gaph-Spanning-Tree/04.Gaph-Spanning-Tree-List.md)
 - 最短路径
-  - 单源最短路径
-    - [Dijkstra 算法](./08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/01.Graph-Dijkstra.md)
-    - [Bellman-Ford 算法](./08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/02.Graph-Bellman-Ford.md)
-    - [SPFA 算法](./08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/03.Graph-SPFA.md)
-    - [单源最短路径题目](./08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path/04.Graph-Single-Source-Shortest-Path-List.md)
-  - 多源最短路径
-    - [Floyed 算法](./08.Graph/04.Graph-Shortest-Path/02.Graph-Multi-Source-Shortest-Path/01.Graph-Floyed.md)
-    - [多源最短路径题目](./08.Graph/04.Graph-Shortest-Path/02.Graph-Multi-Source-Shortest-Path/02.Graph-Multi-Source-Shortest-Path-List.md)
-  - 次短路径
-    - [次短路径知识](./08.Graph/04.Graph-Shortest-Path/03.Graph-The-Second-Shortest-Path/01.Graph-The-Second-Shortest-Path.md)
-    - [次短路径题目](./08.Graph/04.Graph-Shortest-Path/03.Graph-The-Second-Shortest-Path/02.Graph-The-Second-Shortest-Path-List.md)
-  - 差分约束系统
-    - [差分约束系统知识](./08.Graph/04.Graph-Shortest-Path/04.Graph-System-Of-Difference-Constraints/01.Graph-System-Of-Difference-Constraints.md)
-    - [差分约束系统题目](./08.Graph/04.Graph-Shortest-Path/04.Graph-System-Of-Difference-Constraints/02.Graph-System-Of-Difference-Constraints-List.md)
+  - [单源最短路径知识](./08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path.md) 
+  - [Dijkstra 算法](./08.Graph/04.Graph-Shortest-Path/02.Graph-Dijkstra.md)
+  - [Bellman-Ford 算法](./08.Graph/04.Graph-Shortest-Path/03.Graph-Bellman-Ford.md)
+  - [SPFA 算法](./08.Graph/04.Graph-Shortest-Path/04.Graph-SPFA.md)
+  - [单源最短路径题目](./08.Graph/04.Graph-Shortest-Path/05.Graph-Single-Source-Shortest-Path-List.md)
+  - [多源最短路径知识](./08.Graph/04.Graph-Shortest-Path/06.Graph-Multi-Source-Shortest-Path.md)
+  - [Floyed 算法](./08.Graph/04.Graph-Shortest-Path/07.Graph-Floyed.md)
+  - [多源最短路径题目](./08.Graph/04.Graph-Shortest-Path/08.Graph-Multi-Source-Shortest-Path-List.md)
+  - [次短路径知识](./08.Graph/04.Graph-Shortest-Path/09.Graph-The-Second-Shortest-Path.md)
+  - [次短路径题目](./08.Graph/04.Graph-Shortest-Path/10.Graph-The-Second-Shortest-Path-List.md)
+  - [差分约束系统知识](./08.Graph/04.Graph-Shortest-Path/11.Graph-System-Of-Difference-Constraints.md)
+  - [差分约束系统题目](./08.Graph/04.Graph-Shortest-Path/12.Graph-System-Of-Difference-Constraints-List.md)
 - 二分图
-  - 二分图基础知识
-    - [二分图基础知识](./08.Graph/05.Graph-Bipartite/01.Graph-Bipartite-Basic/01.Graph-Bipartite-Basic.md)
-    - [二分图基础题目](./08.Graph/05.Graph-Bipartite/01.Graph-Bipartite-Basic/02.Graph-Bipartite-Basic-List.md)
-  - 二分图最大匹配
-    - [匈牙利算法](./08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/01.Graph-Hungarian-Algorithm.md)
-    - [Hopcroft-Karp 算法](./08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/02.Graph-Hopcroft-Karp.md)
-    - [二分图最大匹配题目](./08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Matching/03.Graph-Bipartite-Matching-List.md)
+  - [二分图基础知识](./08.Graph/05.Graph-Bipartite/01.Graph-Bipartite-Basic.md)
+  - [二分图基础题目](./08.Graph/05.Graph-Bipartite/02.Graph-Bipartite-Basic-List.md)
+  - [二分图最大匹配知识](./08.Graph/05.Graph-Bipartite/03.Graph-Bipartite-Matching.md)
+  - [匈牙利算法](./08.Graph/05.Graph-Bipartite/04.Graph-Hungarian-Algorithm.md)
+  - [Hopcroft-Karp 算法](./08.Graph/05.Graph-Bipartite/05.Graph-Hopcroft-Karp.md)
+  - [二分图最大匹配题目](./08.Graph/05.Graph-Bipartite/06.Graph-Bipartite-Matching-List.md)
 
 ## 09. 基础算法
 
