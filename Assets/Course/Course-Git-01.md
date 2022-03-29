@@ -2,7 +2,7 @@
 
 ## 课程信息
 
-- 学习周期：13 天，每天平均花费时间 1 小时 - 3 小时不等，根据个人学习接受能力强弱有所浮动。
+- 学习周期：14 天，每天平均花费时间 1 小时 - 3 小时不等，根据个人学习接受能力强弱有所浮动。
 - 学习形式：理论学习 + 题目刷题
 - 人群定位：有 Python 语言编程基础，想要学习算法、数据结构基础知识，想在 LeetCode 刷算法题的学员。
 - 难度系数：⭐⭐
@@ -13,17 +13,16 @@
 
 - 组队、修改群昵称。
 - 熟悉打卡规则。
+- 可预习内容：[LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/03.LeetCode-Guide.md)
 
 ---
 
-### Task 01：数据结构与算法简介、LeetCode 入门及攻略（1 天）
+### Task 01：数据结构与算法简介、LeetCode 入门及攻略（2 天）
 
 - 第 01 天学习内容：
 
   - [数据结构与算法](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/01.Data-Structures-Algorithms.md)
-
   - [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/02.Algorithm-Complexity.md)
-
   - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/03.LeetCode-Guide.md)
 
 
