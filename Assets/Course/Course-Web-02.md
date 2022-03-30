@@ -13,7 +13,7 @@
 
 - 组队、修改群昵称。
 - 熟悉打卡规则。
-- 之前从未在 LeetCode 上刷过题的同学建议阅读相关内容：[LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/03.LeetCode-Guide.md)。
+- 之前从未在 LeetCode 上刷过题的同学建议阅读相关内容：[LeetCode 入门与攻略](https://algo.itcharge.cn/00.Introduction/03.LeetCode-Guide.md)。
 
 ---
 
