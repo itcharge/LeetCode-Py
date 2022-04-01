@@ -235,7 +235,7 @@
 
 ### [枚举算法题目](../../Contents/09.Algorithm-Base/01.Enumeration-Algorithm/02.Enumeration-Algorithm-List.md)
 
-###### 0204. 计数质数、剑指 Offer 57 - II. 和为s的连续正数序列、0800. 相似 RGB 颜色
+###### 0001. 两数之和、0204. 计数质数、1925. 统计平方和三元组的数目、剑指 Offer 57 - II. 和为s的连续正数序列、0078. 子集、0090. 子集 II、0800. 相似 RGB 颜色
 
 ### [递归、递推算法题目](../../Contents/09.Algorithm-Base/02.Recursive-Algorithm/02.Recursive-Algorithm-List.md)
 
