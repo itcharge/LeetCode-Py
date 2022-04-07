@@ -237,21 +237,21 @@
 
 ###### 0001. 两数之和、0204. 计数质数、1925. 统计平方和三元组的数目、1450. 在既定时间做作业的学生人数、剑指 Offer 57 - II. 和为s的连续正数序列、0078. 子集、0090. 子集 II、0800. 相似 RGB 颜色
 
-### [递归、递推算法题目](../../Contents/09.Algorithm-Base/02.Recursive-Algorithm/02.Recursive-Algorithm-List.md)
+### [递归算法题目](../../Contents/09.Algorithm-Base/02.Recursive-Algorithm/02.Recursive-Algorithm-List.md)
 
 ###### 0344. 反转字符串、0024. 两两交换链表中的节点、0118. 杨辉三角、0119. 杨辉三角 II、0206. 反转链表、0509. 斐波那契数、0070. 爬楼梯、0104. 二叉树的最大深度、0050. Pow(x, n)、0021. 合并两个有序链表、0779. 第K个语法符号、0095. 不同的二叉搜索树 II
 
-### [回溯算法题目](../../Contents/09.Algorithm-Base/05.Backtracking-Algorithm/02.Backtracking-Algorithm-List.md)
+### [分治算法题目](../../Contents/09.Algorithm-Base/03.Divide-And-Conquer-Algorithm/02.Divide-And-Conquer-Algorithm-List.md)
+
+###### 0004. 寻找两个正序数组的中位数、0023. 合并K个升序链表、0053. 最大子数组和、0241. 为运算表达式设计优先级、0169. 多数元素、0050. Pow(x, n)
+
+### [回溯算法题目](../../Contents/09.Algorithm-Base/04.Backtracking-Algorithm/02.Backtracking-Algorithm-List.md)
 
 ###### 0046. 全排列、0047. 全排列 II、0037. 解数独、0022. 括号生成、0017. 电话号码的字母组合、0784. 字母大小写全排列、0039. 组合总和、0040. 组合总和 II、0078. 子集、0090. 子集 II、0473. 火柴拼正方形、1593. 拆分字符串使唯一子字符串的数目最大、1079. 活字印刷、0079. 单词搜索
 
-### [贪心算法题目](../../Contents/09.Algorithm-Base/03.Greedy-Algorithm/02.Greedy-Algorithm-List.md)
+### [贪心算法题目](../../Contents/09.Algorithm-Base/05.Greedy-Algorithm/02.Greedy-Algorithm-List.md)
 
 ###### 0455. 分发饼干、0860. 柠檬水找零、 0056. 合并区间、0435. 无重叠区间、0452. 用最少数量的箭引爆气球、0055. 跳跃游戏、0045. 跳跃游戏 II、0392. 判断子序列、0122. 买卖股票的最佳时机 II、0561. 数组拆分 I、1710. 卡车上的最大单元数、1217. 玩筹码、1247. 交换字符使得字符串相同、1400. 构造 K 个回文字符串、0921. 使括号有效的最少添加、1029. 两地调度、1605. 给定行和列的和求可行矩阵、0135. 分发糖果、0053. 最大子数组和、0376. 摆动序列、0738. 单调递增的数字、0402. 移掉 K 位数字、0861. 翻转矩阵后的得分
-
-### [分治算法题目](../../Contents/09.Algorithm-Base/04.Divide-And-Conquer-Algorithm/02.Divide-And-Conquer-Algorithm-List.md)
-
-###### 0004. 寻找两个正序数组的中位数、0023. 合并K个升序链表、0053. 最大子数组和、0241. 为运算表达式设计优先级、0169. 多数元素、0050. Pow(x, n)
 
 ### [位运算题目](../../Contents/09.Algorithm-Base/06.Bit-Operation/02.Bit-Operation-List.md)
 
