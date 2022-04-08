@@ -30,4 +30,4 @@ graph = {
     'e': {'d': -3}
 }
 dist = Solution().bellmanFord(graph, 'a')
-print(dist)				
+print(dist)
