@@ -1,4 +1,4 @@
-## [剑指 Offer II 027. 回文链表](https://leetcode-cn.com/problems/aMhZSa/)
+# [剑指 Offer II 027. 回文链表](https://leetcode-cn.com/problems/aMhZSa/)
 
 - 标签：栈、递归、链表、双指针
 - 难度：简单

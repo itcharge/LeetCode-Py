@@ -1,4 +1,4 @@
-## [剑指 Offer 64. 求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)
+# [剑指 Offer 64. 求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)
 
 - 标签：位运算、递归、脑筋急转弯
 - 难度：中等

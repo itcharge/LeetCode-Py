@@ -1,4 +1,4 @@
-## [剑指 Offer II 078. 合并排序链表](https://leetcode-cn.com/problems/vvXgSW/)
+# [剑指 Offer II 078. 合并排序链表](https://leetcode-cn.com/problems/vvXgSW/)
 
 - 标签：链表、分治、堆（优先队列）、归并排序
 - 难度：困难

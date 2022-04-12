@@ -1,4 +1,4 @@
-## [剑指 Offer II 067. 最大的异或](https://leetcode-cn.com/problems/ms70jA/)
+# [剑指 Offer II 067. 最大的异或](https://leetcode-cn.com/problems/ms70jA/)
 
 - 标签：位运算、字典树、数组、哈希表
 - 难度：中等

@@ -1,4 +1,4 @@
-## [剑指 Offer II 054. 所有大于等于节点的值之和](https://leetcode-cn.com/problems/w6cpku/)
+# [剑指 Offer II 054. 所有大于等于节点的值之和](https://leetcode-cn.com/problems/w6cpku/)
 
 - 标签：树、深度优先搜索、二叉搜索树、二叉树
 - 难度：中等

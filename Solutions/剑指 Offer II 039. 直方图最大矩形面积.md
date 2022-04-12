@@ -1,4 +1,4 @@
-## [剑指 Offer II 039. 直方图最大矩形面积](https://leetcode-cn.com/problems/0ynMMM/)
+# [剑指 Offer II 039. 直方图最大矩形面积](https://leetcode-cn.com/problems/0ynMMM/)
 
 - 标签：栈、数组、单调栈
 - 难度：困难

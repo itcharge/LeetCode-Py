@@ -1,4 +1,4 @@
-## [剑指 Offer II 103. 最少的硬币数目](https://leetcode-cn.com/problems/gaM7Ch/)
+# [剑指 Offer II 103. 最少的硬币数目](https://leetcode-cn.com/problems/gaM7Ch/)
 
 - 标签：广度优先搜索、数组、动态规划
 - 难度：中等

@@ -1,4 +1,4 @@
-## [剑指 Offer II 068. 查找插入位置](https://leetcode-cn.com/problems/N6YdxV/)
+# [剑指 Offer II 068. 查找插入位置](https://leetcode-cn.com/problems/N6YdxV/)
 
 - 标签：数组、二分查找
 - 难度：简单

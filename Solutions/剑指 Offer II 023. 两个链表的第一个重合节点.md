@@ -1,4 +1,4 @@
-## [剑指 Offer II 023. 两个链表的第一个重合节点](https://leetcode-cn.com/problems/3u1WK4/)
+# [剑指 Offer II 023. 两个链表的第一个重合节点](https://leetcode-cn.com/problems/3u1WK4/)
 
 - 标签：哈希表、链表、双指针
 - 难度：简单

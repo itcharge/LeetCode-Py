@@ -1,4 +1,4 @@
-## [剑指 Offer II 109. 开密码锁](https://leetcode-cn.com/problems/zlDJc7/)
+# [剑指 Offer II 109. 开密码锁](https://leetcode-cn.com/problems/zlDJc7/)
 
 - 标签：广度优先搜索、数组、哈希表、字符串
 - 难度：中等

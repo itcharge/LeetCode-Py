@@ -1,4 +1,4 @@
-## [剑指 Offer II 030. 插入、删除和随机访问都是 O(1) 的容器](https://leetcode-cn.com/problems/FortPu/)
+# [剑指 Offer II 030. 插入、删除和随机访问都是 O(1) 的容器](https://leetcode-cn.com/problems/FortPu/)
 
 - 标签：设计、数组、哈希表、数学、随机化
 - 难度：中等

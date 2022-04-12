@@ -1,4 +1,4 @@
-## [剑指 Offer II 019. 最多删除一个字符得到回文](https://leetcode-cn.com/problems/RQku0D/)
+# [剑指 Offer II 019. 最多删除一个字符得到回文](https://leetcode-cn.com/problems/RQku0D/)
 
 - 标签：贪心、双指针、字符串
 - 难度：简单

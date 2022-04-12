@@ -1,4 +1,4 @@
-## [剑指 Offer II 025. 链表中的两数相加](https://leetcode-cn.com/problems/lMSNwu/)
+# [剑指 Offer II 025. 链表中的两数相加](https://leetcode-cn.com/problems/lMSNwu/)
 
 - 标签：栈、链表、数学
 - 难度：中等

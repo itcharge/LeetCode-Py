@@ -1,4 +1,4 @@
-## [剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)
+# [剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)
 
 - 标签：位运算、数学、字符串、模拟
 - 难度：简单

@@ -1,4 +1,4 @@
-## [剑指 Offer II 009. 乘积小于 K 的子数组](https://leetcode-cn.com/problems/ZVAVXX/)
+# [剑指 Offer II 009. 乘积小于 K 的子数组](https://leetcode-cn.com/problems/ZVAVXX/)
 
 - 标签：数组、滑动窗口
 - 难度：中等

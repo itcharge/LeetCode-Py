@@ -1,4 +1,4 @@
-## [剑指 Offer II 065. 最短的单词编码](https://leetcode-cn.com/problems/iSwD2y/)
+# [剑指 Offer II 065. 最短的单词编码](https://leetcode-cn.com/problems/iSwD2y/)
 
 - 标签：字典树、数组、哈希表、字符串
 - 难度：中等

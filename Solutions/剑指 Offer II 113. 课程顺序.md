@@ -1,4 +1,4 @@
-## [剑指 Offer II 113. 课程顺序](https://leetcode-cn.com/problems/QA2IGt/)
+# [剑指 Offer II 113. 课程顺序](https://leetcode-cn.com/problems/QA2IGt/)
 
 - 标签：深度优先搜索、广度优先搜索、图、拓扑排序
 - 难度：中等

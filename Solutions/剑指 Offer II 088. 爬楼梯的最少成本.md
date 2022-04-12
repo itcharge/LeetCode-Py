@@ -1,4 +1,4 @@
-## [剑指 Offer II 088. 爬楼梯的最少成本](https://leetcode-cn.com/problems/GzCJIP/)
+# [剑指 Offer II 088. 爬楼梯的最少成本](https://leetcode-cn.com/problems/GzCJIP/)
 
 - 标签：数组、动态规划
 - 难度：简单

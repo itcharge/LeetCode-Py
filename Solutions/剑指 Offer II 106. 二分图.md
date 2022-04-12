@@ -1,4 +1,4 @@
-## [剑指 Offer II 106. 二分图](https://leetcode-cn.com/problems/vEAB3K/)
+# [剑指 Offer II 106. 二分图](https://leetcode-cn.com/problems/vEAB3K/)
 
 - 标签：深度优先搜索、广度优先搜索、并查集、图
 - 难度：中等

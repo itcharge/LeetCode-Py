@@ -1,4 +1,4 @@
-## [剑指 Offer II 055. 二叉搜索树迭代器](https://leetcode-cn.com/problems/kTOapQ/)
+# [剑指 Offer II 055. 二叉搜索树迭代器](https://leetcode-cn.com/problems/kTOapQ/)
 
 - 标签：栈、树、设计、二叉搜索树、二叉树、迭代器
 - 难度：中等

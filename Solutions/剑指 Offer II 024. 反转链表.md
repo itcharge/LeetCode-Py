@@ -1,4 +1,4 @@
-## [剑指 Offer II 024. 反转链表](https://leetcode-cn.com/problems/UHnkqh/)
+# [剑指 Offer II 024. 反转链表](https://leetcode-cn.com/problems/UHnkqh/)
 
 - 标签：递归、链表
 - 难度：简单

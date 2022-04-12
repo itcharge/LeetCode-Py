@@ -1,4 +1,4 @@
-## [剑指 Offer 49. 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)
+# [剑指 Offer 49. 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)
 
 - 标签：哈希表、数学、动态规划、堆（优先队列）
 - 难度：中等

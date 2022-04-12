@@ -1,4 +1,4 @@
-## [剑指 Offer II 051. 节点之和最大的路径](https://leetcode-cn.com/problems/jC7MId/)
+# [剑指 Offer II 051. 节点之和最大的路径](https://leetcode-cn.com/problems/jC7MId/)
 
 - 标签：树、深度优先搜索、动态规划、二叉树
 - 难度：困难

@@ -1,4 +1,4 @@
-## [剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)
+# [剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)
 
 - 标签：树、深度优先搜索、广度优先搜索、二叉树
 - 难度：简单

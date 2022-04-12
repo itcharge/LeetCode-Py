@@ -1,4 +1,4 @@
-## [剑指 Offer II 086. 分割回文子字符串](https://leetcode-cn.com/problems/M99OJA/)
+# [剑指 Offer II 086. 分割回文子字符串](https://leetcode-cn.com/problems/M99OJA/)
 
 - 标签：字符串、动态规划、回溯
 - 难度：中等

@@ -1,4 +1,4 @@
-## [剑指 Offer II 006. 排序数组中两个数字之和](https://leetcode-cn.com/problems/kLl5u1/)
+# [剑指 Offer II 006. 排序数组中两个数字之和](https://leetcode-cn.com/problems/kLl5u1/)
 
 - 标签：数组、双指针、二分查找
 - 难度：简单

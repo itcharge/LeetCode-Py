@@ -1,4 +1,4 @@
-## [剑指 Offer II 048. 序列化与反序列化二叉树](https://leetcode-cn.com/problems/h54YBf/)
+# [剑指 Offer II 048. 序列化与反序列化二叉树](https://leetcode-cn.com/problems/h54YBf/)
 
 - 标签：树、深度优先搜索、广度优先搜索、设计、字符串、二叉树
 - 难度：困难

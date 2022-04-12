@@ -1,4 +1,4 @@
-## [剑指 Offer II 102. 加减的目标值](https://leetcode-cn.com/problems/YaVDxD/)
+# [剑指 Offer II 102. 加减的目标值](https://leetcode-cn.com/problems/YaVDxD/)
 
 - 标签：数组、动态规划、回溯
 - 难度：中等

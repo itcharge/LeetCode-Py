@@ -1,4 +1,4 @@
-## [剑指 Offer II 046. 二叉树的右侧视图](https://leetcode-cn.com/problems/WNC0Lk/)
+# [剑指 Offer II 046. 二叉树的右侧视图](https://leetcode-cn.com/problems/WNC0Lk/)
 
 - 标签：树、深度优先搜索、广度优先搜索、二叉树
 - 难度：中等

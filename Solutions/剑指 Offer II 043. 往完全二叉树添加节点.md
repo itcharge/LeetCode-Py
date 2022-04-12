@@ -1,4 +1,4 @@
-## [剑指 Offer II 043. 往完全二叉树添加节点](https://leetcode-cn.com/problems/NaqhDT/)
+# [剑指 Offer II 043. 往完全二叉树添加节点](https://leetcode-cn.com/problems/NaqhDT/)
 
 - 标签：树、广度优先搜索、设计、二叉树
 - 难度：中等

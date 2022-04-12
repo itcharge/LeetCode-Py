@@ -1,4 +1,4 @@
-## [剑指 Offer II 036. 后缀表达式](https://leetcode-cn.com/problems/8Zf90G/)
+# [剑指 Offer II 036. 后缀表达式](https://leetcode-cn.com/problems/8Zf90G/)
 
 - 标签：栈、数组、数学
 - 难度：中等

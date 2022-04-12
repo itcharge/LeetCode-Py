@@ -1,4 +1,4 @@
-## [剑指 Offer II 029. 排序的循环链表](https://leetcode-cn.com/problems/4ueAj6/)
+# [剑指 Offer II 029. 排序的循环链表](https://leetcode-cn.com/problems/4ueAj6/)
 
 - 标签：链表
 - 难度：中等

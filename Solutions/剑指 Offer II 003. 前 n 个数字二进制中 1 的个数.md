@@ -1,4 +1,4 @@
-## [剑指 Offer II 003. 前 n 个数字二进制中 1 的个数](https://leetcode-cn.com/problems/w3tCBm/)
+# [剑指 Offer II 003. 前 n 个数字二进制中 1 的个数](https://leetcode-cn.com/problems/w3tCBm/)
 
 - 标签：位运算、动态规划
 - 难度：简单

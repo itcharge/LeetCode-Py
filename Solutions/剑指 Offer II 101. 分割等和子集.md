@@ -1,4 +1,4 @@
-## [剑指 Offer II 101. 分割等和子集](https://leetcode-cn.com/problems/NUPfPr/)
+# [剑指 Offer II 101. 分割等和子集](https://leetcode-cn.com/problems/NUPfPr/)
 
 - 标签：数组、字符串、模拟
 - 难度：简单

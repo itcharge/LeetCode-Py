@@ -1,4 +1,4 @@
-## [剑指 Offer II 077. 链表排序](https://leetcode-cn.com/problems/7WHec2/)
+# [剑指 Offer II 077. 链表排序](https://leetcode-cn.com/problems/7WHec2/)
 
 - 标签：链表、双指针、分治、排序、归并排序
 - 难度：中等

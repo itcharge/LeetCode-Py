@@ -1,4 +1,4 @@
-## [剑指 Offer 40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
+# [剑指 Offer 40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
 
 - 标签：数组、分治、快速选择、排序、堆（优先队列）
 - 难度：简单

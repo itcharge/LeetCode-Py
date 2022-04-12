@@ -1,4 +1,4 @@
-## [剑指 Offer II 011. 0 和 1 个数相同的子数组](https://leetcode-cn.com/problems/A1NYOS/)
+# [剑指 Offer II 011. 0 和 1 个数相同的子数组](https://leetcode-cn.com/problems/A1NYOS/)
 
 - 标签：数组、哈希表、前缀和
 - 难度：中等

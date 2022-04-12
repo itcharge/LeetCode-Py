@@ -1,4 +1,4 @@
-## [剑指 Offer II 052. 展平二叉搜索树](https://leetcode-cn.com/problems/NYBBNL/)
+# [剑指 Offer II 052. 展平二叉搜索树](https://leetcode-cn.com/problems/NYBBNL/)
 
 - 标签：栈、树、深度优先搜索、二叉搜索树、二叉树
 - 难度：简单

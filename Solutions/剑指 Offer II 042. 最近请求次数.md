@@ -1,4 +1,4 @@
-## [剑指 Offer II 042. 最近请求次数](https://leetcode-cn.com/problems/H8086Q/)
+# [剑指 Offer II 042. 最近请求次数](https://leetcode-cn.com/problems/H8086Q/)
 
 - 标签：设计、队列、数据流
 - 难度：简单

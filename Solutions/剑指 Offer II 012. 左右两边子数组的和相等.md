@@ -1,4 +1,4 @@
-## [剑指 Offer II 012. 左右两边子数组的和相等](https://leetcode-cn.com/problems/tvdfij/)
+# [剑指 Offer II 012. 左右两边子数组的和相等](https://leetcode-cn.com/problems/tvdfij/)
 
 - 标签：数组、前缀和
 - 难度：简单
