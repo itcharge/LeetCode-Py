@@ -24,7 +24,7 @@
 
 总结下就是：
 
-$dp[i] = \left\{ \begin{array} {**lr**}  nums[0] & i = 0 \cr max( nums[0], nums[1]) & i = 1 \cr max( dp[i-2] + nums[i], dp[i-1]) & i \ge 2 \end{array} \right.$
+$dp[i] = \begin{cases} \begin{array} {**lr**}  nums[0] & i = 0 \cr max( nums[0], nums[1]) & i = 1 \cr max( dp[i-2] + nums[i], dp[i-1]) & i \ge 2 \end{array} \end{cases}$
 
 ## 代码
 
