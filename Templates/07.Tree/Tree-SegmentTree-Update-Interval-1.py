@@ -18,6 +18,11 @@ class SegmentTree:
         if self.size > 0:
             self.__build(0, 0, self.size - 1)
     
+    # 单点更新接口：将 nums[i] 更改为 val
+    def update_point(self, i, val):
+        self.nums[i] = val
+        self.__update_point(i, val, 0)
+            
     # 区间更新接口：将区间为 [q_left, q_right] 上的元素值修改为 val
     def update_interval(self, q_left, q_right, val):
         self.__update_interval(q_left, q_right, val, 0)
@@ -50,6 +55,24 @@ class SegmentTree:
         self.__build(right_index, mid + 1, right)   # 递归创建右子树
         self.__pushup(index)                        # 向上更新节点的区间值
     
+    # 单点更新实现方法：将 nums[i] 更改为 val，节点的存储下标为 index
+    def __update_point(self, i, val, index):
+        left = self.tree[index].left
+        right = self.tree[index].right
+        
+        if left == right:
+            self.tree[index].val = val              # 叶子节点，节点值修改为 val
+            return
+        
+        mid = left + (right - left) // 2            # 左右节点划分点
+        left_index = index * 2 + 1                  # 左子节点的存储下标
+        right_index = index * 2 + 2                 # 右子节点的存储下标
+        if i <= mid:                                # 在左子树中更新节点值
+            self.__update_point(i, val, left_index)
+        else:                                       # 在右子树中更新节点值
+            self.__update_point(i, val, right_index)
+        
+        self.__pushup(index)                        # 向上更新节点的区间值
 
     # 区间更新实现方法
     def __update_interval(self, q_left, q_right, val, index):
@@ -79,7 +102,7 @@ class SegmentTree:
         self.__pushup(index)                        # 向上更新节点的区间值
         
         
-    # 区间查询，在线段树的 [left, right] 区间范围中搜索区间为 [q_left, q_right] 的区间值
+    # 区间查询实现方法：在线段树中搜索区间为 [q_left, q_right] 的区间值
     def __query_interval(self, q_left, q_right, index):
         left = self.tree[index].left
         right = self.tree[index].right
@@ -103,7 +126,7 @@ class SegmentTree:
         
         return self.function(res_left, res_right)   # 返回左右子树元素值的聚合计算结果
     
-    # 向上更新实现方法：下标为 index 的节点区间值 等于 该节点左右子节点元素值的聚合计算结果
+    # 向上更新实现方法：更新下标为 index 的节点区间值 等于 该节点左右子节点元素值的聚合计算结果
     def __pushup(self, index):
         left_index = index * 2 + 1                  # 左子节点的存储下标
         right_index = index * 2 + 2                 # 右子节点的存储下标
@@ -112,7 +135,7 @@ class SegmentTree:
     # 向下更新实现方法：更新下标为 index 的节点所在区间的左右子节点的值和懒惰标记
     def __pushdown(self, index):
         lazy_tag = self.tree[index].lazy_tag
-        if not lazy_tag:
+        if lazy_tag is None:
             return
         
         left_index = index * 2 + 1                  # 左子节点的存储下标
