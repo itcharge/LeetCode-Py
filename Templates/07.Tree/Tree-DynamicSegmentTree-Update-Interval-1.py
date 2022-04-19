@@ -1,6 +1,6 @@
 # 线段树的节点类
-class TreeNode:
-    def __init__(self, left=-1, right=-1, val=0):
+class SegTreeNode:
+    def __init__(self, left=-1, right=-1, val=False, lazy_tag=None, leftNode=None, rightNode=None):
         self.left = left                            # 区间左边界
         self.right = right                          # 区间右边界
         self.mid = left + (right - left) // 2
@@ -12,16 +12,15 @@ class TreeNode:
         
 # 线段树类
 class SegmentTree:
+    # 初始化线段树接口
     def __init__(self, function):
-        self.tree = TreeNode(0, int(1e9))
+        self.tree = SegTreeNode(0, int(1e9))
         self.function = function                    # function 是一个函数，左右区间的聚合方法
             
     # 向上更新 node 节点区间值，节点的区间值等于该节点左右子节点元素值的聚合计算结果
     def __pushup(self, node):
-        leftNode = node.leftNode
-        rightNode = node.rightNode
-        if leftNode and rightNode:
-            node.val = self.function(leftNode.val, rightNode.val)
+        if node.leftNode and node.rightNode:
+            node.val = self.function(node.leftNode.val, node.rightNode.val)
             
     # 单点更新，将 nums[i] 更改为 val
     def update_point(self, i, val):
@@ -34,12 +33,8 @@ class SegmentTree:
             return
         
         if i <= node.mid:                           # 在左子树中更新节点值
-            if not node.leftNode:
-                node.leftNode = TreeNode(node.left, node.mid)
             self.__update_point(i, val, node.leftNode)
         else:                                       # 在右子树中更新节点值
-            if not node.rightNode:
-                node.rightNode = TreeNode(node.mid + 1, node.right)
             self.__update_point(i, val, node.rightNode)
         self.__pushup(node)                         # 向上更新节点的区间值
         
@@ -59,12 +54,8 @@ class SegmentTree:
         res_left = 0                                # 左子树查询结果
         res_right = 0                               # 右子树查询结果
         if q_left <= node.mid:                      # 在左子树中查询
-            if not node.leftNode:
-                node.leftNode = TreeNode(node.left, node.mid)
             res_left = self.__query_interval(q_left, q_right, node.leftNode)
         if q_right > node.mid:                      # 在右子树中查询
-            if not node.rightNode:
-                node.rightNode = TreeNode(node.mid + 1, node.right)
             res_right = self.__query_interval(q_left, q_right, node.rightNode)
         return self.function(res_left, res_right)   # 返回左右子树元素值的聚合计算结果
     
@@ -75,25 +66,18 @@ class SegmentTree:
     # 区间更新
     def __update_interval(self, q_left, q_right, val, node):
         if node.left >= q_left and node.right <= q_right:  # 节点所在区间被 [q_left, q_right] 所覆盖
-            if node.lazy_tag:
-                node.lazy_tag += val                # 将当前节点的延迟标记增加 val
-            else:
-                node.lazy_tag = val                 # 将当前节点的延迟标记增加 val
+            node.lazy_tag = val                     # 将当前节点的延迟标记增加 val
             interval_size = (node.right - node.left + 1)    # 当前节点所在区间大小
-            node.val += val * interval_size         # 当前节点所在区间每个元素值增加 val
+            node.val = val * interval_size          # 当前节点所在区间每个元素值改为 val
             return
         if node.right < q_left or node.left > q_right:  # 节点所在区间与 [q_left, q_right] 无关
-            return 0
+            return
     
         self.__pushdown(node)                       # 向下更新节点所在区间的左右子节点的值和懒惰标记
     
         if q_left <= node.mid:                      # 在左子树中更新区间值
-            if not node.leftNode:
-                node.leftNode = TreeNode(node.left, node.mid)
             self.__update_interval(q_left, q_right, val, node.leftNode)
         if q_right > node.mid:                      # 在右子树中更新区间值
-            if not node.rightNode:
-                node.rightNode = TreeNode(node.mid + 1, node.right)
             self.__update_interval(q_left, q_right, val, node.rightNode)
             
         self.__pushup(node)
@@ -101,27 +85,21 @@ class SegmentTree:
     # 向下更新 node 节点所在区间的左右子节点的值和懒惰标记
     def __pushdown(self, node):
         lazy_tag = node.lazy_tag
-        if not node.lazy_tag:
+        if node.lazy_tag is None:
             return
         
-        if not node.leftNode:
-            node.leftNode = TreeNode(node.left, node.mid)
-        if not node.rightNode:
-            node.rightNode = TreeNode(node.mid + 1, node.right)
+        if node.leftNode is None:
+            node.leftNode = SegTreeNode(node.left, node.mid)
+        if node.rightNode is None:
+            node.rightNode = SegTreeNode(node.mid + 1, node.right)
             
-        if node.leftNode.lazy_tag:
-            node.leftNode.lazy_tag += lazy_tag      # 更新左子节点懒惰标记
-        else:
-            node.leftNode.lazy_tag = lazy_tag       # 更新左子节点懒惰标记
+        node.leftNode.lazy_tag = lazy_tag           # 更新左子节点懒惰标记
         left_size = (node.leftNode.right - node.leftNode.left + 1)
-        node.leftNode.val += lazy_tag * left_size   # 左子节点每个元素值增加 lazy_tag
+        node.leftNode.val = lazy_tag * left_size    # 更新左子节点值
         
-        if node.rightNode.lazy_tag:
-            node.rightNode.lazy_tag += lazy_tag     # 更新右子节点懒惰标记
-        else:
-            node.rightNode.lazy_tag = lazy_tag      # 更新右子节点懒惰标记
+        node.rightNode.lazy_tag = lazy_tag          # 更新右子节点懒惰标记
         right_size = (node.rightNode.right - node.rightNode.left + 1)
-        node.rightNode.val += lazy_tag * right_size # 右子节点每个元素值增加 lazy_tag
+        node.rightNode.val = lazy_tag * right_size  # 更新右子节点值
         
         node.lazy_tag = None                        # 更新当前节点的懒惰标记
     
