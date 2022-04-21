@@ -94,14 +94,14 @@ class SegmentTree:
             
     # 向下更新实现方法：更新 node 节点所在区间的左右子节点的值和懒惰标记
     def __pushdown(self, node):
-        lazy_tag = node.lazy_tag
-        if node.lazy_tag is None:
-            return
-        
         if node.leftNode is None:
             node.leftNode = SegTreeNode(node.left, node.mid)
         if node.rightNode is None:
             node.rightNode = SegTreeNode(node.mid + 1, node.right)
+            
+        lazy_tag = node.lazy_tag
+        if node.lazy_tag is None:
+            return
             
         node.leftNode.lazy_tag = lazy_tag           # 更新左子节点懒惰标记
         left_size = (node.leftNode.right - node.leftNode.left + 1)
