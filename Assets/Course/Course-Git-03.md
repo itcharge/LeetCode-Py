@@ -73,7 +73,7 @@
   - [0676. 实现一个魔法字典](https://leetcode-cn.com/problems/implement-magic-dictionary/)
 - [更多字典树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/03.String-Multi-Pattern-Matching/02.Trie-List.md)
 
-### Task 03 二叉树（7 天）
+### Task 03 二叉树（5 天）
 
 #### 03-01 二叉树的遍历（2 天）
 

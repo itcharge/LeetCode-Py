@@ -75,7 +75,7 @@
 
 - [更多字典树题目](https://algo.itcharge.cn/06.String/03.String-Multi-Pattern-Matching/02.Trie-List.md)
 
-### Task 03 二叉树（7 天）
+### Task 03 二叉树（5 天）
 
 #### 03-01 二叉树的遍历（2 天）
 
