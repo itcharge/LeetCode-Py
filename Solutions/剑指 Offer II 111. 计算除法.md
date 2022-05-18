@@ -1,4 +1,4 @@
-# [剑指 Offer II 111. 计算除法](https://leetcode-cn.com/problems/vlzXQL/)
+# [剑指 Offer II 111. 计算除法](https://leetcode.cn/problems/vlzXQL/)
 
 - 标签：深度优先搜索、广度优先搜索、并查集、图、数组、最短路
 - 难度：中等
@@ -11,7 +11,7 @@
 
 ## 解题思路
 
-在「[等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations)」的基础上增加了倍数关系。在「[等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations)」中我们处理传递关系使用了并查集，这道题也是一样，不过在使用并查集的同时还要维护倍数关系。
+在「[等式方程的可满足性](https://leetcode.cn/problems/satisfiability-of-equality-equations)」的基础上增加了倍数关系。在「[等式方程的可满足性](https://leetcode.cn/problems/satisfiability-of-equality-equations)」中我们处理传递关系使用了并查集，这道题也是一样，不过在使用并查集的同时还要维护倍数关系。
 
 举例说明：
 

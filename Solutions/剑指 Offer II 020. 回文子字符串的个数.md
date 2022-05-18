@@ -1,4 +1,4 @@
-# [剑指 Offer II 020. 回文子字符串的个数](https://leetcode-cn.com/problems/a7VOhD/)
+# [剑指 Offer II 020. 回文子字符串的个数](https://leetcode.cn/problems/a7VOhD/)
 
 - 标签：字符串、动态规划
 - 难度：中等

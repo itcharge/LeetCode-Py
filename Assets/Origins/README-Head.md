@@ -38,4 +38,4 @@
 ## 版权说明
 
 - 本教程采用 [知识署名—非商业性使用—禁止演绎（BY-NC-ND）4.0 协议国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans) 进行许可。
-- 本教程题解中的所有题目版权均归  [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode-cn.com/) 所有。
+- 本教程题解中的所有题目版权均归  [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode.cn/) 所有。

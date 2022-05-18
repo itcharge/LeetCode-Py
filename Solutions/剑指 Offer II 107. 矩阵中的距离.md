@@ -1,4 +1,4 @@
-# [剑指 Offer II 107. 矩阵中的距离](https://leetcode-cn.com/problems/2bCMpM/)
+# [剑指 Offer II 107. 矩阵中的距离](https://leetcode.cn/problems/2bCMpM/)
 
 - 标签：广度优先搜索、数组、动态规划、矩阵
 - 难度：中等

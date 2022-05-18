@@ -1,4 +1,4 @@
-# [剑指 Offer II 037. 小行星碰撞](https://leetcode-cn.com/problems/XagZNi/)
+# [剑指 Offer II 037. 小行星碰撞](https://leetcode.cn/problems/XagZNi/)
 
 - 标签：栈、数组
 - 难度：中等

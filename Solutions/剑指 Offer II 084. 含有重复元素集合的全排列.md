@@ -1,4 +1,4 @@
-# [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode-cn.com/problems/7p8L0Z/)
+# [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode.cn/problems/7p8L0Z/)
 
 - 标签：数组、回溯
 - 难度：中等
@@ -11,7 +11,7 @@
 
 ## 解题思路
 
-这道题跟「[剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode-cn.com/problems/VvJkup/)」不一样的地方在于增加了序列中的元素可重复这一条件。这就涉及到了去重。先对 `nums` 进行排序，然后使用 visited 数组标记该元素在当前排列中是否被访问过。若未被访问过则将其加入排列中，并在访问后将该元素变为未访问状态。
+这道题跟「[剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode.cn/problems/VvJkup/)」不一样的地方在于增加了序列中的元素可重复这一条件。这就涉及到了去重。先对 `nums` 进行排序，然后使用 visited 数组标记该元素在当前排列中是否被访问过。若未被访问过则将其加入排列中，并在访问后将该元素变为未访问状态。
 
 然后再递归遍历下一层元素之前，增加一句语句进行判重：`if i > 0 and nums[i] == nums[i - 1] and not visited[i - 1]: continue`。
 

@@ -1,4 +1,4 @@
-# [剑指 Offer II 098. 路径的数目](https://leetcode-cn.com/problems/2AoeFn/)
+# [剑指 Offer II 098. 路径的数目](https://leetcode.cn/problems/2AoeFn/)
 
 - 标签：数组、动态规划、组合数学
 - 难度：中等

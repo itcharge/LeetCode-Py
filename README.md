@@ -38,7 +38,7 @@
 ## 版权说明
 
 - 本教程采用 [知识署名—非商业性使用—禁止演绎（BY-NC-ND）4.0 协议国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans) 进行许可。
-- 本教程题解中的所有题目版权均归  [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode-cn.com/) 所有。
+- 本教程题解中的所有题目版权均归  [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode.cn/) 所有。
 # 内容章节
 
 ## 00. 绪论
@@ -252,4 +252,4 @@
   - [动态规划优化题目](./Contents/10.Dynamic-Programming/11.DP-Optimization/04.DP-Optimization-List.md)
 
 ## 11. 附加内容
-## [12. LeetCode 题解（已完成 690 道）](./Contents/00.Introduction/04.Solutions-List.md)
+## [12. LeetCode 题解（已完成 691 道）](./Contents/00.Introduction/04.Solutions-List.md)

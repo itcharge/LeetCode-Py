@@ -1,4 +1,4 @@
-# [剑指 Offer 51. 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
+# [剑指 Offer 51. 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
 
 - 标签：树状数组、线段树、数组、二分查找、分治、有序集合、归并排序
 - 难度：困难

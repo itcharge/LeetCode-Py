@@ -1,4 +1,4 @@
-# [剑指 Offer II 105. 岛屿的最大面积](https://leetcode-cn.com/problems/ZL6zAn/)
+# [剑指 Offer II 105. 岛屿的最大面积](https://leetcode.cn/problems/ZL6zAn/)
 
 - 标签：深度优先搜索、广度优先搜索、并查集、数组、矩阵
 - 难度：中等

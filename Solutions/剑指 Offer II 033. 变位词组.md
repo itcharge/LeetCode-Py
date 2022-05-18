@@ -1,4 +1,4 @@
-# [剑指 Offer II 033. 变位词组](https://leetcode-cn.com/problems/sfvd7V/)
+# [剑指 Offer II 033. 变位词组](https://leetcode.cn/problems/sfvd7V/)
 
 - 标签：哈希表、字符串、排序
 - 难度：中等

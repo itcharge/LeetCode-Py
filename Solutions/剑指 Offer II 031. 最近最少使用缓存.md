@@ -1,4 +1,4 @@
-# [剑指 Offer II 031. 最近最少使用缓存](https://leetcode-cn.com/problems/OrIXps/)
+# [剑指 Offer II 031. 最近最少使用缓存](https://leetcode.cn/problems/OrIXps/)
 
 - 标签：设计、哈希表、链表、双向链表
 - 难度：中等

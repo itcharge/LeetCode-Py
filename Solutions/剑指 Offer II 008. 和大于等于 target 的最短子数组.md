@@ -1,4 +1,4 @@
-# [剑指 Offer II 008. 和大于等于 target 的最短子数组](https://leetcode-cn.com/problems/2VG8Kg/)
+# [剑指 Offer II 008. 和大于等于 target 的最短子数组](https://leetcode.cn/problems/2VG8Kg/)
 
 - 标签：数组、二分查找、前缀和、滑动窗口
 - 难度：中等

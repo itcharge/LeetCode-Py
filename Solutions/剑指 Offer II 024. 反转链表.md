@@ -1,4 +1,4 @@
-# [剑指 Offer II 024. 反转链表](https://leetcode-cn.com/problems/UHnkqh/)
+# [剑指 Offer II 024. 反转链表](https://leetcode.cn/problems/UHnkqh/)
 
 - 标签：递归、链表
 - 难度：简单
@@ -75,5 +75,5 @@ class Solution:
 
 ## 参考资料
 
-- 【题解】[反转链表 - 反转链表 - 力扣](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-leetcode-solution-d1k2/)
-- 【题解】[【反转链表】：双指针，递归，妖魔化的双指针 - 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-shuang-zhi-zhen-di-gui-yao-mo-/)
+- 【题解】[反转链表 - 反转链表 - 力扣](https://leetcode.cn/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-leetcode-solution-d1k2/)
+- 【题解】[【反转链表】：双指针，递归，妖魔化的双指针 - 反转链表 - 力扣（LeetCode）](https://leetcode.cn/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-shuang-zhi-zhen-di-gui-yao-mo-/)

@@ -1,4 +1,4 @@
-# [剑指 Offer 62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
+# [剑指 Offer 62. 圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
 
 - 标签：递归、数学
 - 难度：简单
@@ -52,5 +52,5 @@ class Solution:
 
 ## 参考资料：
 
-- [字节题库 - #剑62 - 简单 - 圆圈中最后剩下的数字 - 1刷](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/zi-jie-ti-ku-jian-62-jian-dan-yuan-quan-3hlji/)
+- [字节题库 - #剑62 - 简单 - 圆圈中最后剩下的数字 - 1刷](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/zi-jie-ti-ku-jian-62-jian-dan-yuan-quan-3hlji/)
 

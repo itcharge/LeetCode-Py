@@ -1,4 +1,4 @@
-# [剑指 Offer II 053. 二叉搜索树中的中序后继](https://leetcode-cn.com/problems/P5rCT8/)
+# [剑指 Offer II 053. 二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8/)
 
 - 标签：树、深度优先搜索、二叉搜索树、二叉树
 - 难度：中等

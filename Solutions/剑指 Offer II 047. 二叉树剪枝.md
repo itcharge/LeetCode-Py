@@ -1,4 +1,4 @@
-# [剑指 Offer II 047. 二叉树剪枝](https://leetcode-cn.com/problems/pOCWxh/)
+# [剑指 Offer II 047. 二叉树剪枝](https://leetcode.cn/problems/pOCWxh/)
 
 - 标签：树、深度优先搜索、二叉树
 - 难度：中等

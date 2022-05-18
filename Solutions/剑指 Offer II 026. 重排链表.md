@@ -1,4 +1,4 @@
-# [剑指 Offer II 026. 重排链表](https://leetcode-cn.com/problems/LGjMqU/)
+# [剑指 Offer II 026. 重排链表](https://leetcode.cn/problems/LGjMqU/)
 
 - 标签：栈、递归、链表、双指针
 - 难度：中等

@@ -1,4 +1,4 @@
-# [剑指 Offer II 057. 值和下标之差都在给定的范围内](https://leetcode-cn.com/problems/7WqeDu/)
+# [剑指 Offer II 057. 值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu/)
 
 - 标签：数组、桶排序、有序集合、排序、滑动窗口
 - 难度：中等

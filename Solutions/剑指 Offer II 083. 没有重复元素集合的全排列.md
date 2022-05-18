@@ -1,4 +1,4 @@
-# [剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode-cn.com/problems/VvJkup/)
+# [剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode.cn/problems/VvJkup/)
 
 - 标签：数组、回溯
 - 难度：中等

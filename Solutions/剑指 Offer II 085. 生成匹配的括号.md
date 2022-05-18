@@ -1,4 +1,4 @@
-# [剑指 Offer II 085. 生成匹配的括号](https://leetcode-cn.com/problems/IDBivT/)
+# [剑指 Offer II 085. 生成匹配的括号](https://leetcode.cn/problems/IDBivT/)
 
 - 标签：字符串、动态规划、回溯
 - 难度：中等

@@ -1,4 +1,4 @@
-# [剑指 Offer II 119. 最长连续序列](https://leetcode-cn.com/problems/WhsWhI/)
+# [剑指 Offer II 119. 最长连续序列](https://leetcode.cn/problems/WhsWhI/)
 
 - 标签：并查集、数组、哈希表
 - 难度：中等

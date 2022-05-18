@@ -1,4 +1,4 @@
-# [剑指 Offer II 050. 向下的路径节点之和](https://leetcode-cn.com/problems/6eUYwP/)
+# [剑指 Offer II 050. 向下的路径节点之和](https://leetcode.cn/problems/6eUYwP/)
 
 - 标签：树、深度优先搜索、二叉树
 - 难度：中等

@@ -1,4 +1,4 @@
-# [剑指 Offer II 018. 有效的回文](https://leetcode-cn.com/problems/XltzEq/)
+# [剑指 Offer II 018. 有效的回文](https://leetcode.cn/problems/XltzEq/)
 
 - 标签：双指针、字符串
 - 难度：简单

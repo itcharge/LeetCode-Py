@@ -1,4 +1,4 @@
-# [剑指 Offer II 073. 狒狒吃香蕉](https://leetcode-cn.com/problems/nZZqjQ/)
+# [剑指 Offer II 073. 狒狒吃香蕉](https://leetcode.cn/problems/nZZqjQ/)
 
 - 标签：数组、二分查找
 - 难度：中等

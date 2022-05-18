@@ -1,4 +1,4 @@
-# [剑指 Offer II 034. 外星语言是否排序](https://leetcode-cn.com/problems/lwyVBB/)
+# [剑指 Offer II 034. 外星语言是否排序](https://leetcode.cn/problems/lwyVBB/)
 
 - 标签：数组、哈希表、字符串
 - 难度：简单

@@ -1,4 +1,4 @@
-# [剑指 Offer II 028. 展平多级双向链表](https://leetcode-cn.com/problems/Qv1Da2/)
+# [剑指 Offer II 028. 展平多级双向链表](https://leetcode.cn/problems/Qv1Da2/)
 
 - 标签：深度优先搜索、链表、双向链表
 - 难度：中等

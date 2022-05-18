@@ -1,4 +1,4 @@
-# [剑指 Offer II 032. 有效的变位词](https://leetcode-cn.com/problems/dKk3P7/)
+# [剑指 Offer II 032. 有效的变位词](https://leetcode.cn/problems/dKk3P7/)
 
 - 标签：哈希表、字符串、排序
 - 难度：简单

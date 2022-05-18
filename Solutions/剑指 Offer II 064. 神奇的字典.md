@@ -1,4 +1,4 @@
-# [剑指 Offer II 064. 神奇的字典](https://leetcode-cn.com/problems/US1pGT/)
+# [剑指 Offer II 064. 神奇的字典](https://leetcode.cn/problems/US1pGT/)
 
 - 标签：设计、字典树、哈希表、字符串
 - 难度：中等

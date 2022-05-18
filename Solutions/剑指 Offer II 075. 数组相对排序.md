@@ -1,4 +1,4 @@
-# [剑指 Offer II 075. 数组相对排序](https://leetcode-cn.com/problems/0H97ZC/)
+# [剑指 Offer II 075. 数组相对排序](https://leetcode.cn/problems/0H97ZC/)
 
 - 标签：数组、哈希表、计数排序、排序
 - 难度：简单

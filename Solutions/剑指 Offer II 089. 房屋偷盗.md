@@ -1,4 +1,4 @@
-# [剑指 Offer II 089. 房屋偷盗](https://leetcode-cn.com/problems/Gu0c2T/)
+# [剑指 Offer II 089. 房屋偷盗](https://leetcode.cn/problems/Gu0c2T/)
 
 - 标签：数组、动态规划
 - 难度：中等

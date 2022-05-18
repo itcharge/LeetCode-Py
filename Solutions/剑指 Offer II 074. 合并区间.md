@@ -1,4 +1,4 @@
-# [剑指 Offer II 074. 合并区间](https://leetcode-cn.com/problems/SsGoHC/)
+# [剑指 Offer II 074. 合并区间](https://leetcode.cn/problems/SsGoHC/)
 
 - 标签：数组、排序
 - 难度：中等

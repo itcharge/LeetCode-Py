@@ -1,4 +1,4 @@
-# [剑指 Offer II 005. 单词长度的最大乘积](https://leetcode-cn.com/problems/aseY1I/)
+# [剑指 Offer II 005. 单词长度的最大乘积](https://leetcode.cn/problems/aseY1I/)
 
 - 标签：位运算、数组、字符串
 - 难度：中等

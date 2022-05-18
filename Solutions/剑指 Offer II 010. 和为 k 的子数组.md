@@ -1,4 +1,4 @@
-# [剑指 Offer II 010. 和为 k 的子数组](https://leetcode-cn.com/problems/QTMn0o/)
+# [剑指 Offer II 010. 和为 k 的子数组](https://leetcode.cn/problems/QTMn0o/)
 
 - 标签：数组、哈希表、前缀和
 - 难度：中等

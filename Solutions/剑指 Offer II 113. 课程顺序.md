@@ -1,4 +1,4 @@
-# [剑指 Offer II 113. 课程顺序](https://leetcode-cn.com/problems/QA2IGt/)
+# [剑指 Offer II 113. 课程顺序](https://leetcode.cn/problems/QA2IGt/)
 
 - 标签：深度优先搜索、广度优先搜索、图、拓扑排序
 - 难度：中等
@@ -11,7 +11,7 @@
 
 ## 解题思路
 
-拓扑排序。这道题是「[0207. 课程表](https://leetcode-cn.com/problems/course-schedule/)」的升级版，只需要在上一题的基础上增加一个答案数组即可。
+拓扑排序。这道题是「[0207. 课程表](https://leetcode.cn/problems/course-schedule/)」的升级版，只需要在上一题的基础上增加一个答案数组即可。
 
 1. 使用列表 `edges` 存放课程关系图，并统计每门课程节点的入度，存入入度列表 `indegrees`。
 

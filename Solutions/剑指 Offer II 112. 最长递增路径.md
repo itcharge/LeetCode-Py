@@ -1,4 +1,4 @@
-# [剑指 Offer II 112. 最长递增路径](https://leetcode-cn.com/problems/fpTFWP/)
+# [剑指 Offer II 112. 最长递增路径](https://leetcode.cn/problems/fpTFWP/)
 
 - 标签：深度优先搜索、广度优先搜索、图、拓扑排序、记忆化搜索、动态规划
 - 难度：困难

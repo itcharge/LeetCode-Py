@@ -1,4 +1,4 @@
-# [剑指 Offer 27. 二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
+# [剑指 Offer 27. 二叉树的镜像](https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/)
 
 - 标签：树、深度优先搜索、广度优先搜索、二叉树
 - 难度：简单

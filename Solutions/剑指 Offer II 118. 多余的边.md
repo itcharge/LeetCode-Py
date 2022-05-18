@@ -1,4 +1,4 @@
-# [剑指 Offer II 118. 多余的边](https://leetcode-cn.com/problems/7LpjUW/)
+# [剑指 Offer II 118. 多余的边](https://leetcode.cn/problems/7LpjUW/)
 
 - 标签：深度优先搜索、广度优先搜索、并查集、图
 - 难度：中等

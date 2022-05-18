@@ -1,4 +1,4 @@
-# [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode-cn.com/problems/xx4gT2/)
+# [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/)
 
 - 标签：数组、分治、快速排序、排序、堆（优先队列）
 - 难度：中等

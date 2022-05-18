@@ -1,4 +1,4 @@
-# [剑指 Offer II 035. 最小时间差](https://leetcode-cn.com/problems/569nqc/)
+# [剑指 Offer II 035. 最小时间差](https://leetcode.cn/problems/569nqc/)
 
 - 标签：数组、数学、字符串、排序
 - 难度：中等

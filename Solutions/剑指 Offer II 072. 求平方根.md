@@ -1,4 +1,4 @@
-# [剑指 Offer II 072. 求平方根](https://leetcode-cn.com/problems/jJ0w9p/)
+# [剑指 Offer II 072. 求平方根](https://leetcode.cn/problems/jJ0w9p/)
 
 - 标签：数学、二分查找
 - 难度：简单

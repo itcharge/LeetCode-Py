@@ -1,4 +1,4 @@
-# [剑指 Offer II 038. 每日温度](https://leetcode-cn.com/problems/iIQa4I/)
+# [剑指 Offer II 038. 每日温度](https://leetcode.cn/problems/iIQa4I/)
 
 - 标签：栈、数组、单调栈
 - 难度：中等

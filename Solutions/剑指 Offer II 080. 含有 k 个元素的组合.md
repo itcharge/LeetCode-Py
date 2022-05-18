@@ -1,4 +1,4 @@
-# [剑指 Offer II 080. 含有 k 个元素的组合](https://leetcode-cn.com/problems/uUsW3B/)
+# [剑指 Offer II 080. 含有 k 个元素的组合](https://leetcode.cn/problems/uUsW3B/)
 
 - 标签：数组、回溯
 - 难度：中等

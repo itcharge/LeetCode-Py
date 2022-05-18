@@ -1,4 +1,4 @@
-# [剑指 Offer II 049. 从根节点到叶节点的路径数字之和](https://leetcode-cn.com/problems/3Etpl5/)
+# [剑指 Offer II 049. 从根节点到叶节点的路径数字之和](https://leetcode.cn/problems/3Etpl5/)
 
 - 标签：树、深度优先搜索、二叉树
 - 难度：中等

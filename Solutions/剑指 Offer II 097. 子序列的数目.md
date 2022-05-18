@@ -1,4 +1,4 @@
-# [剑指 Offer II 097. 子序列的数目](https://leetcode-cn.com/problems/21dk04/)
+# [剑指 Offer II 097. 子序列的数目](https://leetcode.cn/problems/21dk04/)
 
 - 标签：字符串、动态规划
 - 难度：困难

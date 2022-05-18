@@ -1,4 +1,4 @@
-# [剑指 Offer II 059. 数据流的第 K 大数值](https://leetcode-cn.com/problems/jBjn9C/)
+# [剑指 Offer II 059. 数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C/)
 
 - 标签：树、设计、二叉搜索树、二叉树、数据流、堆（优先队列）
 - 难度：简单

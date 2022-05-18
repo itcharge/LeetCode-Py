@@ -1,4 +1,4 @@
-# [剑指 Offer II 079. 所有子集](https://leetcode-cn.com/problems/TVdhkn/)
+# [剑指 Offer II 079. 所有子集](https://leetcode.cn/problems/TVdhkn/)
 
 - 标签：位运算、数组、回溯
 - 难度：中等

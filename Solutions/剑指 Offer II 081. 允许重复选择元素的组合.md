@@ -1,4 +1,4 @@
-# [剑指 Offer II 081. 允许重复选择元素的组合](https://leetcode-cn.com/problems/Ygoe9J/)
+# [剑指 Offer II 081. 允许重复选择元素的组合](https://leetcode.cn/problems/Ygoe9J/)
 
 - 标签：数组、回溯
 - 难度：中等

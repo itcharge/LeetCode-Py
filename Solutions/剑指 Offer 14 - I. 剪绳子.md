@@ -1,4 +1,4 @@
-# [剑指 Offer 14 - I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
+# [剑指 Offer 14 - I. 剪绳子](https://leetcode.cn/problems/jian-sheng-zi-lcof/)
 
 - 标签：数学、动态规划
 - 难度：中等
