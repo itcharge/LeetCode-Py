@@ -316,9 +316,9 @@ def gen_interview_list(solotions_path, interview_origin_list_path, interview_lis
     if interview_file_content:
         with open(interview_list_path, 'w') as fi:
             if "Interview-100-List.md" in interview_origin_list_path:
-                fi.write("# 面试最常考 100 题（按分类排序）\n\n")
+                fi.write("# LeetCode 面试最常考 100 题（按分类排序）\n\n")
             elif "Interview-200-List.md" in interview_origin_list_path:
-                fi.write("# 面试最常考 200 题（按分类排序）\n\n")
+                fi.write("# LeetCode 面试最常考 200 题（按分类排序）\n\n")
             fi.write(interview_file_content)
             fi.write("\n## 参考资料\n")
             fi.write("\n- 【清单】[CodeTop 企业题库](https://codetop.cc/home)\n")
