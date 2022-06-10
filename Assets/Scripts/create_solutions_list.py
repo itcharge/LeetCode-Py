@@ -62,7 +62,6 @@ def gen_solutions_list(solotions_path, solotions_output_path):
                     if re.search(pattern_1, lines[i]):
                         match_1 = pattern_1.finditer(lines[i])
                         for a in match_1:
-#                            print(a)
                             title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3,4)
                             if title_offer_id2:
                                 title_offer_id = "剑指 Offer " + title_offer_id1 + title_offer_id2
@@ -74,7 +73,6 @@ def gen_solutions_list(solotions_path, solotions_output_path):
                     if re.search(pattern_2, lines[i]):
                         match_2 = pattern_2.finditer(lines[i])
                         for a in match_2:
-                            print(a)
                             title_offer_id1, title_name, title_url = a.group(1,2,3)
                             title_offer_id = "剑指 Offer II " + title_offer_id1
                         continue
@@ -83,7 +81,6 @@ def gen_solutions_list(solotions_path, solotions_output_path):
                     if re.search(pattern_3, lines[i]):
                         match_3 = pattern_3.finditer(lines[i])
                         for a in match_3:
-                            print(a)
                             title_offer_id1, title_offer_id2, title_name, title_url = a.group(1,2,3,4)
                             title_offer_id = "面试题 " + title_offer_id1 + "." + title_offer_id2
                         continue
@@ -92,7 +89,6 @@ def gen_solutions_list(solotions_path, solotions_output_path):
                     pattern = re.compile(r'\[([0-9]\d*|0)+\. (.*)\]\((.*)\)')
                     match = pattern.finditer(lines[i])
                     for a in match:
-                        print(a)
                         title_id, title_name, title_url = a.group(1,2,3)
                 elif "标签" in lines[i]:
                     pattern = re.compile(r'- 标签：(.*)')
@@ -207,7 +203,6 @@ def gen_categories_list(solotions_path, categories_origin_list_path, categories_
                 category_file_content += "## " + category_h2 + "\n\n"
             elif title_size == "###":
                 if category_h3 and category_h3_file_path and category_h3_file_content:
-#                    print(category_h3_file_content)
                     with open(category_h3_file_path, 'w') as fi:
                         fi.write(category_h3_file_content)
                     fi.close()
@@ -252,11 +247,86 @@ def gen_categories_list(solotions_path, categories_origin_list_path, categories_
         
     if category_file_content:
         with open(categories_list_path, 'w') as fi:
+            fi.write("# LeetCode 题解（按分类排序，推荐刷题列表 ★★★）\n\n")
             fi.write(category_file_content)
         fi.close()
     
     print("Create Categories List Success")
         
+
+# 根据题解目录, 面试题目分类原始列表目录，生成面试题解，并将整体保存到 interview_list_path
+def gen_interview_list(solotions_path, interview_origin_list_path, interview_list_path):
+    
+    f = open(interview_origin_list_path)
+    lines = f.readlines()
+    interview_h2 = None
+    interview_h3 = None
+    interview_h4 = None
+    interview_h6 = None
+    interview_h3_file_path = None
+    interview_h3_file_content = ""
+    interview_file_content = ""
+    
+    problems_set = set()
+    for i in range(len(lines)):
+        pattern = re.compile(r'(#{2,6}) (.*)')
+        match = pattern.match(lines[i])
+        if match:
+            title_size, title_content =  match.group(1,2)
+            if title_size == "##":
+                interview_h2 = title_content
+                interview_file_content += "## " + interview_h2 + "\n\n"
+            elif title_size == "###":
+                if interview_h3 and interview_h3_file_path and interview_h3_file_content:
+                    interview_h3 = None
+                    interview_h3_file_path = None
+                    interview_h3_file_content = ""
+                pattern1 = re.compile(r'\[(.*)\]\((.*)\)')
+                match1 = pattern1.match(title_content)
+                if match1:
+                    interview_h3, interview_h3_file_path = match1.group(1,2)
+                    interview_h3_file_content += "### " + interview_h3 + "\n\n"
+                    interview_file_content += "### " + interview_h3 + "\n\n"
+                else:
+                    interview_h3 = title_content
+                    interview_file_content += "### " + interview_h3 + "\n\n"
+            elif title_size == "####":
+                interview_h4 = title_content
+                interview_h3_file_content += "#### " + interview_h4 + "\n\n"
+                interview_file_content += "#### " + interview_h4 + "\n\n"
+            elif title_size == "######":
+                interview_h6 = title_content
+                problem_ids = title_content.split('、')
+                if not problem_ids:
+                    continue
+                
+                frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+                frame_cout = 0
+                for problem_id in problem_ids:
+                    problems_set.add(problem_id)
+                    problem_id_path = solotions_path + "/" + problem_id + ".md"
+                    res = get_problem_id_row(problem_id_path, problem_id)
+                    if res:
+                        frame.loc[frame_cout] = res
+                        frame_cout += 1
+                table = gen_markdown_table(frame, False)
+                interview_h3_file_content += table + "\n\n"
+                interview_file_content += table + "\n\n"
+            
+    if interview_file_content:
+        with open(interview_list_path, 'w') as fi:
+            if "Interview-100-List.md" in interview_origin_list_path:
+                fi.write("# 面试最常考 100 题（按分类排序）\n\n")
+            elif "Interview-200-List.md" in interview_origin_list_path:
+                fi.write("# 面试最常考 200 题（按分类排序）\n\n")
+            fi.write(interview_file_content)
+            fi.write("\n## 参考资料\n")
+            fi.write("\n- 【清单】[CodeTop 企业题库](https://codetop.cc/home)\n")
+        fi.close()
+    
+    print("Total Problems Count: " + str(len(problems_set)))
+    print(sorted(list(problems_set)))
+    print("Create Interview List Success")
         
 # 根据本地题解目录，获取对应题目 id 编号对应的行
 def get_problem_id_row(problem_id_path, problem_id):

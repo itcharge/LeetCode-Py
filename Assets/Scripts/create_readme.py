@@ -7,6 +7,15 @@ categories_list_path = '../../Contents/00.Introduction/05.Categories-List.md'
 
 gen.gen_categories_list(solotions_path, categories_origin_list_path, categories_list_path)
 
+# 生成面试 Top 100 题解列表
+interview_100_origin_list_path = '../Origins/Interview-100-List.md'
+interview_100_list_path = '../../Contents/00.Introduction/06.Interview-100-List.md'
+gen.gen_interview_list(solotions_path, interview_100_origin_list_path, interview_100_list_path)
+
+# 生成面试 Top 200 题解列表
+interview_200_origin_list_path = '../Origins/Interview-200-List.md'
+interview_200_list_path = '../../Contents/00.Introduction/07.Interview-200-List.md'
+gen.gen_interview_list(solotions_path, interview_200_origin_list_path, interview_200_list_path)
 
 # 生成全部题解列表
 solotions_output_path = '../../Contents/00.Introduction/04.Solutions-List.md'
