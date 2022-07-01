@@ -79,6 +79,9 @@ class SegmentTree:
         left = self.tree[index].left
         right = self.tree[index].right
         
+        if right < q_left or left > q_right:        # 节点所在区间与 [q_left, q_right] 无关
+            return
+        
         if left >= q_left and right <= q_right:     # 节点所在区间被 [q_left, q_right] 所覆盖
             self.tree[index].lazy_tag = val         # 将当前节点的延迟标记为区间值
             interval_size = (right - left + 1)      # 当前节点所在区间大小
@@ -86,8 +89,7 @@ class SegmentTree:
         
             return
     
-        if right < q_left or left > q_right:        # 节点所在区间与 [q_left, q_right] 无关
-            return
+        
     
         self.__pushdown(index)                      # 向下更新节点的区间值
     
