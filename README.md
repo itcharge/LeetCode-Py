@@ -223,12 +223,12 @@
 - 记忆化搜索
   - [记忆化搜索知识](./Contents/10.Dynamic-Programming/02.Memoization/01.Memoization.md)
   - [记忆化搜索题目](./Contents/10.Dynamic-Programming/02.Memoization/02.Memoization-List.md)
-- 背包问题
-  - [背包问题知识](./Contents/10.Dynamic-Programming/03.Knapsack-Problem/01.Knapsack-Problem.md)
-  - [背包问题题目](./Contents/10.Dynamic-Programming/03.Knapsack-Problem/02.Knapsack-Problem-List.md)
 - 线性 DP
-  - [线性 DP 知识](./Contents/10.Dynamic-Programming/04.Linear-DP/01.Linear-DP.md)
-  - [线性 DP 题目](./Contents/10.Dynamic-Programming/04.Linear-DP/02.Linear-DP-List.md)
+  - [线性 DP 知识](./Contents/10.Dynamic-Programming/03.Linear-DP/01.Linear-DP.md)
+  - [线性 DP 题目](./Contents/10.Dynamic-Programming/03.Linear-DP/02.Linear-DP-List.md)
+- 背包问题
+  - [背包问题知识](./Contents/10.Dynamic-Programming/04.Knapsack-Problem/01.Knapsack-Problem.md)
+  - [背包问题题目](./Contents/10.Dynamic-Programming/04.Knapsack-Problem/02.Knapsack-Problem-List.md)
 - 区间 DP
   - [区间 DP 知识](./Contents/10.Dynamic-Programming/05.Interval-DP/01.Interval-DP.md)
   - [区间 DP 题目](./Contents/10.Dynamic-Programming/05.Interval-DP/02.Interval-DP-List.md)
