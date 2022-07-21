@@ -283,20 +283,20 @@
 
 ###### 0124. 二叉树中的最大路径和、0543. 二叉树的直径、0337. 打家劫舍 III、0333. 最大 BST 子树
 
-### [数位 DP 题目](../../Contents/10.Dynamic-Programming/07.Number-DP/02.Number-DP-List.md)
-
-###### 0600. 不含连续1的非负整数、0233. 数字 1 的个数、0902. 最大为 N 的数字组合、1015. 可被 K 整除的最小整数
-
-### [状态压缩 DP 题目](../../Contents/10.Dynamic-Programming/08.State-DP/02.State-DP-List.md)
+### [状态压缩 DP 题目](../../Contents/10.Dynamic-Programming/07.State-DP/02.State-DP-List.md)
 
 ###### 0526. 优美的排列、0464. 我能赢吗、0847. 访问所有节点的最短路径、1994. 好子集的数目、0935. 骑士拨号器、1349. 参加考试的最大学生数
 
-### [概率 DP 题目](../../Contents/10.Dynamic-Programming/09.Probability-DP/02.Probability-DP-List.md)
-
-###### 0688. 骑士在棋盘上的概率、0808. 分汤、0837. 新 21 点
-
-### [计数 DP 题目](../../Contents/10.Dynamic-Programming/10.Count-DP/10.Count-DP-List.md)
+### [计数 DP 题目](../../Contents/10.Dynamic-Programming/08.Count-DP/02.Count-DP-List.md)
 
 ###### 0062. 不同路径、0063. 不同路径 II、0096. 不同的二叉搜索树、1259. 不相交的握手
+
+### [数位 DP 题目](../../Contents/10.Dynamic-Programming/09.Number-DP/02.Number-DP-List.md)
+
+###### 0600. 不含连续1的非负整数、0233. 数字 1 的个数、0902. 最大为 N 的数字组合、1015. 可被 K 整除的最小整数
+
+### [概率 DP 题目](../../Contents/10.Dynamic-Programming/10.Probability-DP/02.Probability-DP-List.md)
+
+###### 0688. 骑士在棋盘上的概率、0808. 分汤、0837. 新 21 点
 
 ### [动态规划优化题目](../../Contents/10.Dynamic-Programming/11.DP-Optimization/04.DP-Optimization-List.md)

@@ -194,18 +194,18 @@
 - 树形 DP
   - [树形 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/06.Tree-DP/01.Tree-DP.md)
   - [树形 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/06.Tree-DP/02.Tree-DP-List.md)
-- 数位 DP
-  - [数位 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/07.Number-DP/01.Number-DP.md)
-  - [数位 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/07.Number-DP/02.Number-DP-List.md)
 - 状态压缩 DP
-  - [状态压缩 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/08.State-DP/01.State-DP.md)
-  - [状态压缩 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/08.State-DP/02.State-DP-List.md)
-- 概率 DP
-  - [概率 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/09.Probability-DP/01.Probability-DP.md)
-  - [概率 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/09.Probability-DP/02.Probability-DP-List.md)
+  - [状态压缩 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/07.State-DP/01.State-DP.md)
+  - [状态压缩 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/07.State-DP/02.State-DP-List.md)
 - 计数 DP
-  - [计数 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/10.Count-DP/01.Count-DP.md)
-  - [计数 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/10.Count-DP/10.Count-DP-List.md)
+  - [计数 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/08.Count-DP/01.Count-DP.md)
+  - [计数 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/08.Count-DP/02.Count-DP-List.md)
+- 数位 DP
+  - [数位 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/09.Number-DP/01.Number-DP.md)
+  - [数位 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/09.Number-DP/02.Number-DP-List.md)
+- 概率 DP
+  - [概率 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/10.Probability-DP/01.Probability-DP.md)
+  - [概率 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/10.Probability-DP/02.Probability-DP-List.md)
 - 动态规划优化
   - [单调栈 / 优先队列优化](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/11.DP-Optimization/01.Monotone-Stack-Queue-Optimization.md)
   - [斜率优化](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/11.DP-Optimization/02.Slope-Optimization.md)
