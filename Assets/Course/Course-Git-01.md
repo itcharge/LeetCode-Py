@@ -24,7 +24,7 @@
   - [算法复杂度](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/02.Algorithm-Complexity.md)
   - [LeetCode 入门与攻略](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/03.LeetCode-Guide.md)
 - 第 01 天课程题目列表：
-  - [0001. 两数之和](https://leetcode.cn/problems/two-sum/)
+  - [2235. 两整数相加](https://leetcode.cn/problems/add-two-integers/)
   - [1929. 数组串联](https://leetcode.cn/problems/concatenation-of-array/)
   - [0771. 宝石与石头](https://leetcode.cn/problems/jewels-and-stones/)
 
