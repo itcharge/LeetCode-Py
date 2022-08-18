@@ -1,5 +1,5 @@
 class Solution:
-    def merge(self, left_arr, right_arr):           # 归并
+    def merge(self, left_arr, right_arr):           # 归并过程
         arr = []
         left_i, right_i = 0, 0
         while left_i < len(left_arr) and right_i < len(right_arr):
@@ -23,7 +23,7 @@ class Solution:
         
         return arr                                  # 返回排好序的结果数组
 
-    def mergeSort(self, arr):                       # 分割
+    def mergeSort(self, arr):                       # 分割过程
         if len(arr) <= 1:                           # 数组元素个数小于等于 1 时，直接返回原数组
             return arr
         
