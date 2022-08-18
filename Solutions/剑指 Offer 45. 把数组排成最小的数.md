@@ -53,6 +53,11 @@ class Solution:
         return ''.join(nums_s)
 ```
 
+### 思路 1：复杂度分析
+
+- **时间复杂度**：$O(n \times \log_2n)$。排序算法的时间复杂度为 $O(n \times \log_2n)$。
+- **空间复杂度**：$O(1)$。
+
 ## 参考资料
 
 - 【题解】[剑指 Offer 45. 把数组排成最小的数（自定义排序，清晰图解） - 把数组排成最小的数 - 力扣](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/solution/mian-shi-ti-45-ba-shu-zu-pai-cheng-zui-xiao-de-s-4/)
