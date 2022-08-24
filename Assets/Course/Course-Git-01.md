@@ -47,7 +47,7 @@
   - [0048. 旋转图像](https://leetcode.cn/problems/rotate-image/)
   - [0054. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
   - [0498. 对角线遍历](https://leetcode.cn/problems/diagonal-traverse/)
-- [更多数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/01.Array-Basic/10.Array-Basic-List.md)
+- [更多数组基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/01.Array-Basic/02.Array-Basic-List.md)
 
 ---
 
@@ -77,7 +77,7 @@
   - [1122. 数组的相对排序](https://leetcode.cn/problems/relative-sort-array/)
   - [0220. 存在重复元素 III](https://leetcode.cn/problems/contains-duplicate-iii/)
   - [0164. 最大间距](https://leetcode.cn/problems/maximum-gap/)
-- [更多排序相关题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/10.Array-Sort-List.md)
+- [更多排序相关题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/11.Array-Sort-List.md)
 
 ---
 
@@ -97,7 +97,7 @@
   - [0278. 第一个错误的版本](https://leetcode.cn/problems/first-bad-version/)
   - [0033. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/)
   - [0153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/)
-- [更多二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/10.Array-Binary-Search-List.md)
+- [更多二分查找题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/03.Array-Binary-Search/02.Array-Binary-Search-List.md)
 
 ---
 
@@ -113,11 +113,11 @@
   - [0283. 移动零](https://leetcode.cn/problems/move-zeroes/)
   - [0075. 颜色分类](https://leetcode.cn/problems/sort-colors/)
   - [0088. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/)
-- [更多双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/10.Array-Two-Pointers-List.md)
+- [更多双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/04.Array-Two-Pointers/02.Array-Two-Pointers-List.md)
 - 第 14 天学习内容：
   - [滑动窗口基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/01.Array-Sliding-Window.md)
 - 第 14 天课程题目：
   - [0674. 最长连续递增序列](https://leetcode.cn/problems/longest-continuous-increasing-subsequence/)
   - [1004. 最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/)
   - [0220. 存在重复元素 III](https://leetcode.cn/problems/contains-duplicate-iii/)
-- [更多滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/10.Array-Sliding-Window-List.md)
+- [更多滑动窗口题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/05.Array-Sliding-Window/02.Array-Sliding-Window-List.md)
