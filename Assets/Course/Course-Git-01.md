@@ -75,7 +75,7 @@
   - [计数排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/08.Array-Counting-Sort.md)、[桶排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/09.Array-Bucket-Sort.md)、[基数排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/10.Array-Radix-Sort.md)
 - 第 08 天课程题目：
   - [1122. 数组的相对排序](https://leetcode.cn/problems/relative-sort-array/)
-  - [0908. 最小差值 I](https://leetcode.cn/problems/smallest-range-i/)
+  - [0220. 存在重复元素 III](https://leetcode.cn/problems/contains-duplicate-iii/)
   - [0164. 最大间距](https://leetcode.cn/problems/maximum-gap/)
 - [更多排序相关题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/01.Array/02.Array-Sort/10.Array-Sort-List.md)
 
