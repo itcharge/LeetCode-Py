@@ -4,16 +4,55 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def insertionSort(self, arr):
-        for i in range(1, len(arr)):
-            temp = arr[i]
-            j = i
-            while j > 0 and arr[j - 1] > temp:
-                arr[j] = arr[j - 1]
-                j -= 1
-            arr[j] = temp
+    # 将链表节点值 val 添加到对应桶 buckets[index] 中
+    def insertion(self, buckets, index, val):
+        if not buckets[index]:
+            buckets[index] = ListNode(val)
+            return
+        
+        node = ListNode(val)
+        node.next = buckets[index]
+        buckets[index] = node
+        
+    # 归并环节
+    def merge(self, left, right):
+        
+        dummy_head = ListNode(-1)
+        cur = dummy_head
+        while left and right:
+            if left.val <= right.val:
+                cur.next = left
+                left = left.next
+            else:
+                cur.next = right
+                right = right.next
+            cur = cur.next
             
-        return arr
+        if left:
+            cur.next = left
+        elif right:
+            cur.next = right
+            
+        return dummy_head.next
+    
+    # 归并排序
+    def mergeSort(self, head: ListNode):
+        # 分割环节
+        if not head or not head.next:
+            return head
+        
+        # 快慢指针找到中心链节点
+        slow, fast = head, head.next
+        while fast and fast.next:
+            slow = slow.next 
+            fast = fast.next.next 
+            
+        # 断开左右链节点
+        left_head, right_head = head, slow.next 
+        slow.next = None
+        
+        # 归并操作
+        return self.merge(self.mergeSort(left_head), self.mergeSort(right_head))        
     
     def bucketSort(self, head: ListNode, bucket_size=5):
         if not head:
@@ -36,19 +75,21 @@ class Solution:
         # 将链表节点值依次添加到对应桶中
         cur = head
         while cur:
-            buckets[(cur.val - list_min) // bucket_size].append(cur.val)
+            index = (cur.val - list_min) // bucket_size
+            self.insertion(buckets, index, cur.val)
             cur = cur.next
-        
+            
         dummy_head = ListNode(-1)
         cur = dummy_head
-        for bucket in buckets:
-            # 对桶中元素单独排序
-            self.sortLinkedList(bucket)
-            for num in bucket:
-                cur.next = ListNode(num)
+        # 将元素依次出桶，并拼接成有序链表
+        for bucket_head in buckets:
+            bucket_cur = self.mergeSort(bucket_head)
+            while bucket_cur:
+                cur.next = bucket_cur
                 cur = cur.next
-        
+                bucket_cur = bucket_cur.next
+                
         return dummy_head.next
-        
-    def sortLinkedList(self, head: ListNode):
+    
+    def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         return self.bucketSort(head)
