@@ -25,7 +25,7 @@ class Solution:
         # 将基准节点放到正确位置上
         node_i.val, left.val = left.val, node_i.val
         return node_i
-        
+    
     def quickSort(self, left: ListNode, right: ListNode):
         if left == right or left.next == right:
             return left
@@ -33,7 +33,8 @@ class Solution:
         self.quickSort(left, pi)
         self.quickSort(pi.next, right)
         return left
-        
+    
+    def quickSort(self, head):
     
     def sortLinkedList(self, head: ListNode):
         if not head or not head.next:
