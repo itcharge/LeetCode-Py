@@ -1,16 +1,19 @@
 import collections
 
 def bfs(graph, start):
-    visited = set(start)
-    q = collections.deque([start])
+    visited = set()
+    queue = collections.deque([])
     
-    while q:
-        node_u = q.popleft()
+    visited.add(start)
+    queue.append(start)
+    
+    while queue:
+        node_u = queue.popleft()
         print(node_u)
         for node_v in graph[node_u]:
             if node_v not in visited:
                 visited.add(node_v)
-                q.append(node_v)
+                queue.append(node_v)
                 
 
 graph = {
