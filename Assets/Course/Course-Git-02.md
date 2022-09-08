@@ -1,8 +1,8 @@
-# Leetcode 刷题课程第二期
+# Leetcode 刷题课程第 2 期：基础数据结构篇（上）：链表、堆栈、队列（共 15 天）
 
 ## 课程信息
 
-- 学习周期：14 天，每天平均花费时间 1 小时 ~ 3 小时不等，根据个人学习接受能力强弱有所浮动。
+- 学习周期：15 天，每天平均花费时间 1 小时 ~ 3 小时不等，根据个人学习接受能力强弱有所浮动。
 - 学习形式：理论学习 + 题目刷题
 - 人群定位：有 Python 语言编程基础，想要学习算法、数据结构基础知识，想在 LeetCode 刷算法题的学员。
 - 难度系数：⭐⭐
@@ -17,9 +17,7 @@
 
 ---
 
-### Task 01：链表（4 天）
-
-#### 01-01 链表基础知识（2 天）
+### Task 01：链表（第 01 ~ 04 天）
 
 - 第 01 ~ 02 天学习内容：
   - [链表基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/01.Linked-List-Basic/01.Linked-List-Basic.md)
@@ -33,17 +31,14 @@
   - [0138. 复制带随机指针的链表](https://leetcode.cn/problems/copy-list-with-random-pointer/)
 - [更多链表基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/01.Linked-List-Basic/10.Linked-List-Basic-List.md)
 
-#### 01-02 链表排序（1 天）
-
 - 第 03 天学习内容：
   - [链表排序](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/02.Linked-List-Sort/01.Linked-List-Sort.md)
 - 第 03 天课程题目：
-  - [0148. 排序链表](https://leetcode.cn/problems/sort-list/)
-  - [0021. 合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)
   - [0147. 对链表进行插入排序](https://leetcode.cn/problems/insertion-sort-list/)
+  - [0021. 合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)
+  - [0148. 排序链表](https://leetcode.cn/problems/sort-list/)
+  
 - [更多链表排序题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/02.Linked-List-Sort/10.Linked-List-Sort-List.md)
-
-#### 01-03 链表双指针（1 天）
 
 - 第 04 天学习内容：
   - [链表双指针](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/03.Linked-List-Two-Pointers/01.Linked-List-Two-Pointers.md)
@@ -53,9 +48,7 @@
   - [0019. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
 - [更多链表双指针题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/02.Linked-List/03.Linked-List-Two-Pointers/10.Linked-List-Two-Pointers-List.md)
 
-### Task 02：堆栈与深度优先搜索（5 天）
-
-#### 02-01 堆栈基础知识（2 天）
+### Task 02：堆栈与单调栈（第 05 ~ 07 天）
 
 - 第 05 ~ 06 天学习内容：
   - [堆栈基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/01.Stack-Basic/01.Stack-Basic.md)
@@ -69,37 +62,33 @@
   - [0946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/)
 - [更多堆栈基础知识相关题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/01.Stack-Basic/10.Stack-Basic-List.md)
 
-#### 02-02 栈与深度优先搜索（3 天）
-
-- 第 07 ~ 09 天学习内容：
-  - [栈与深度优先搜索](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/01.Stack-DFS.md)
-- 第 07 天课程题目：
-  - [0200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/)
-  - [0133. 克隆图](https://leetcode.cn/problems/clone-graph/)
-  - [0494. 目标和](https://leetcode.cn/problems/target-sum/)
-- 第 08 天课程题目：
-  - [0841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/)
-  - [0695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/)
-  - [0130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
-- 第 09 天课程题目：
-  - [0417. 太平洋大西洋水流问题](https://leetcode.cn/problems/pacific-atlantic-water-flow/)
-  - [1020. 飞地的数量](https://leetcode.cn/problems/number-of-enclaves/)
-  - [1254. 统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/)
-- [更多栈与深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/10.Stack-DFS-List.md)
-
-### Task 03 单调栈（1 天）
-
-- 第 10 天学习内容：
+- 第 07 天学习内容：
   - [单调栈](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/01.Monotone-Stack.md)
-- 第 10 天课程题目：
+- 第 07 天课程题目：
   - [0496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
   - [0739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
   - [0316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)
 - [更多单调栈题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/03.Monotone-Stack/10.Monotone-Stack-List.md)
 
-### Task 04：队列与广度优先搜索（3 天）
+### Task 03 深度优先搜索（第 08 ~ 10 天）
 
-#### 04-01 队列基础知识（1 天）
+- 第 08 ~ 10 天学习内容：
+  - [深度优先搜索](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/01.Stack-DFS.md)
+- 第 08 天课程题目：
+  - [0200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/)
+  - [0133. 克隆图](https://leetcode.cn/problems/clone-graph/)
+  - [0494. 目标和](https://leetcode.cn/problems/target-sum/)
+- 第 09 天课程题目：
+  - [0841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/)
+  - [0695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/)
+  - [0130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
+- 第 10 天课程题目：
+  - [0417. 太平洋大西洋水流问题](https://leetcode.cn/problems/pacific-atlantic-water-flow/)
+  - [1020. 飞地的数量](https://leetcode.cn/problems/number-of-enclaves/)
+  - [1254. 统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/)
+- [更多栈与深度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/03.Stack/02.Stack-DFS/10.Stack-DFS-List.md)
+
+### Task 04：队列与优先队列（第 11 ~ 12 天）
 
 - 第 11 天学习内容：
   - [队列基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/01.Queue-Basic.md)
@@ -109,26 +98,27 @@
   - [0225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
 - [更多队列基础题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/01.Queue-Basic/10.Queue-Basic-List.md)
 
-#### 04-02 队列与广度优先搜索（2 天）
-
 - 第 12 天学习内容：
-  - [队列与广度优先搜索](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/01.Queue-BFS.md)
-- 第 12 天课程题目：
-  - [0463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/)
-  - [0752. 打开转盘锁](https://leetcode.cn/problems/open-the-lock/)
-  - [0279. 完全平方数](https://leetcode.cn/problems/perfect-squares/)
-- 第 13 天课程题目：
-  - [0542. 01 矩阵](https://leetcode.cn/problems/01-matrix/)
-  - [0322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
-  - [剑指 Offer 13. 机器人的运动范围](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
-- [更多队列与广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/10.Queue-BFS-List.md)
-
-### Task 05 优先队列（1 天）
-
-- 第 14 天学习内容：
   - [优先队列](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/03.Priority-Queue/01.Priority-Queue.md)
-- 第 14 天课程题目：
+- 第 12 天课程题目：
   - [0215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
   - [0347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
   - [0451. 根据字符出现频率排序](https://leetcode.cn/problems/sort-characters-by-frequency/)
 - [更多优先队列题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/03.Priority-Queue/10.Priority-Queue-List.md)
+
+### Task 05 广度优先搜索（第 13 ~ 14 天）
+
+- 第 13 ~ 14 天学习内容：
+  - [广度优先搜索](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/01.Queue-BFS.md)
+- 第 13 天课程题目：
+  - [0463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/)
+  - [0752. 打开转盘锁](https://leetcode.cn/problems/open-the-lock/)
+  - [0279. 完全平方数](https://leetcode.cn/problems/perfect-squares/)
+- 第 14 天课程题目：
+  - [0542. 01 矩阵](https://leetcode.cn/problems/01-matrix/)
+  - [0322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
+  - [剑指 Offer 13. 机器人的运动范围](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
+- [更多广度优先搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/04.Queue/02.Queue-BFS/10.Queue-BFS-List.md)
+
+### Task 06 拓扑排序（第 15 天）
+
