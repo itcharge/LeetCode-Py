@@ -143,7 +143,7 @@
 
 ### [单模式串匹配题目](../../Contents/06.String/02.String-Single-Pattern-Matching/07.String-Single-Pattern-Matching-List.md)
 
-###### 0028. 实现 strStr()、0459. 重复的子字符串、0686. 重复叠加字符串匹配、0796. 旋转字符串、1408. 数组中的字符串匹配、2156. 查找给定哈希值的子串
+###### 0028. 找出字符串中第一个匹配项的下标、0459. 重复的子字符串、0686. 重复叠加字符串匹配、0796. 旋转字符串、1408. 数组中的字符串匹配、2156. 查找给定哈希值的子串
 
 ### [字典树题目](../../Contents/06.String/03.String-Multi-Pattern-Matching/02.Trie-List.md)
 
