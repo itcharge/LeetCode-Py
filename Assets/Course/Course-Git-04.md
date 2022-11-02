@@ -47,8 +47,6 @@
 
 ### Task 03 分治算法与回溯算法（第 05 ~ 09 天）
 
-#### 03-01 分治算法（2 天）
-
 - 第 05 ~ 06 天学习内容：
   - [分治算法知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/03.Divide-And-Conquer-Algorithm/01.Divide-And-Conquer-Algorithm.md)
 - 第 05 天课程题目：
@@ -60,9 +58,6 @@
   - [0241. 为运算表达式设计优先级](https://leetcode.cn/problems/different-ways-to-add-parentheses/)
   - [0023. 合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
 - [更多分治算法题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/03.Divide-And-Conquer-Algorithm/02.Divide-And-Conquer-Algorithm-List.md)
-
-#### 03-02 回溯算法（3 天）
-
 - 第 07 ~ 09 天学习内容：
   - [回溯算法知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/09.Algorithm-Base/04.Backtracking-Algorithm/01.Backtracking-Algorithm.md)
 - 第 07 天课程题目：
