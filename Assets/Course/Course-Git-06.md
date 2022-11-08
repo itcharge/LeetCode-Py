@@ -98,7 +98,6 @@
 
 ### 附加题目
 
-- 附加题目：
-  - [0146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
-  - [0460. LFU 缓存](https://leetcode.cn/problems/lfu-cache/)
-  - [0031. 下一个排列](https://leetcode.cn/problems/next-permutation/)
+- [0146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
+- [0460. LFU 缓存](https://leetcode.cn/problems/lfu-cache/)
+- [0031. 下一个排列](https://leetcode.cn/problems/next-permutation/)
