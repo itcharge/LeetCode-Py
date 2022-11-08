@@ -90,8 +90,15 @@
   - [0152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/)
   - [0198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
 - 第 16 天课程题目：
+  - [0138. 复制带随机指针的链表](https://leetcode.cn/problems/copy-list-with-random-pointer/)
+  - [0297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)
+  - [0209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)
+  - [0139. 单词拆分](https://leetcode.cn/problems/word-break/)
+- [更多面试题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/07.Interview-200-List.md)
+
+### 附加题目
+
+- 附加题目：
   - [0165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)
   - [0468. 验证IP地址](https://leetcode.cn/problems/validate-ip-address/)
-  - [0031. 下一个排列](https://leetcode.cn/problems/next-permutation/)
   - [0470. 用 Rand7() 实现 Rand10()](https://leetcode.cn/problems/implement-rand10-using-rand7/)
-- [更多面试题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/00.Introduction/07.Interview-200-List.md)
