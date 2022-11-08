@@ -65,7 +65,7 @@
   - [0676. 实现一个魔法字典](https://leetcode.cn/problems/implement-magic-dictionary/)
 - [更多字典树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/06.String/03.String-Multi-Pattern-Matching/02.Trie-List.md)
 
-### Task 03 二叉树（5 天）
+### Task 03 二叉树（第 08 ~ 12 天）
 
 - 第 08 ~ 09 天学习内容：
   - [树与二叉树基础知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/01.Binary-Tree/01.Binary-Tree-Basic.md)
@@ -98,7 +98,7 @@
   - [0235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - [更多二叉搜索树题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/02.Binary-Search-Tree/02.Binary-Search-Tree-List.md)
 
-### Task 04：并查集（2 天）
+### Task 04：并查集（第 13 ~ 14 天）
 
 - 第 13 ~14 天学习内容：
   - [并查集知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/07.Tree/05.Union-Find/01.Union-Find.md)
