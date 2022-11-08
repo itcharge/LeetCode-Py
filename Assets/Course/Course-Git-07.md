@@ -98,7 +98,6 @@
 
 ### 附加题目
 
-- 附加题目：
-  - [0165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)
-  - [0468. 验证IP地址](https://leetcode.cn/problems/validate-ip-address/)
-  - [0470. 用 Rand7() 实现 Rand10()](https://leetcode.cn/problems/implement-rand10-using-rand7/)
+- [0165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)
+- [0468. 验证IP地址](https://leetcode.cn/problems/validate-ip-address/)
+- [0470. 用 Rand7() 实现 Rand10()](https://leetcode.cn/problems/implement-rand10-using-rand7/)
