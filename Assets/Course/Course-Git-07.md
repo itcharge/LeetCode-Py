@@ -58,7 +58,7 @@
 ### Task 03 第 075 ~ 087（第 09 ~ 12 天）
 
 - 第 09 天课程题目：
-  - [0199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/)
+  - [0958. 二叉树的完全性检验](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/)
   - [0543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)
   - [0662. 二叉树最大宽度](https://leetcode.cn/problems/maximum-width-of-binary-tree/)
 - 第 10 天课程题目：
