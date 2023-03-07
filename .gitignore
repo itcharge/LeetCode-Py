@@ -131,3 +131,4 @@ dmypy.json
 # Custom
 Temp
 .idea
+.DS_Store
