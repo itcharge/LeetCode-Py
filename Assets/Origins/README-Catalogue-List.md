@@ -183,8 +183,9 @@
   - [记忆化搜索知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/02.Memoization/01.Memoization.md)
   - [记忆化搜索题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/02.Memoization/02.Memoization-List.md)
 - 线性 DP
-  - [线性 DP 知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/03.Linear-DP/01.Linear-DP.md)
-  - [线性 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/03.Linear-DP/02.Linear-DP-List.md)
+  - [线性 DP 知识（一）](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/03.Linear-DP/01.Linear-DP-01.md)
+  - [线性 DP 知识（二）](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/03.Linear-DP/02.Linear-DP-02.md)
+  - [线性 DP 题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/03.Linear-DP/03.Linear-DP-List.md)
 - 背包问题
   - [背包问题知识](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/04.Knapsack-Problem/01.Knapsack-Problem.md)
   - [背包问题题目](https://github.com/itcharge/LeetCode-Py/blob/main/Contents/10.Dynamic-Programming/04.Knapsack-Problem/02.Knapsack-Problem-List.md)
