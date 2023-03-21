@@ -9,8 +9,8 @@ class Solution:
             for w in range(1, W + 1):
                 # 枚举第 i 种物品能取个数
                 for k in range(w // weight[i - 1] + 1):
-                    # dp[i][w] 取所有 dp[i][w - k * weight[i - 1] + k * value[i - 1] 中最大值
-                    dp[i][w] = max(dp[i][w], dp[i][w - k * weight[i - 1]] + k * value[i - 1])
+                    # dp[i][w] 取所有 dp[i - 1][w - k * weight[i - 1] + k * value[i - 1] 中最大值
+                    dp[i][w] = max(dp[i][w], dp[i - 1][w - k * weight[i - 1]] + k * value[i - 1])
         
         return dp[size][W]
         
