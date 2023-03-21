@@ -1,5 +1,5 @@
 class Solution:
-    def zeroOnePack(self, weight: [int], value: [int], W: int):
+    def zeroOnePackMethod1(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [[0 for _ in range(W + 1)] for _ in range(size + 1)]
         
@@ -18,7 +18,7 @@ class Solution:
         return dp[size][W]
 
 
-    def zeroOnePackOptimization(self, weight: [int], value: [int], W: int):
+    def zeroOnePackMethod2(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [0 for _ in range(W + 1)]
         
