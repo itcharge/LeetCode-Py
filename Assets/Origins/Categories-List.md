@@ -285,7 +285,7 @@
 
 ###### 1137. 第 N 个泰波那契数、0650. 只有两个键的键盘、0264. 丑数 II、0279. 完全平方数、0343. 整数拆分
 
-### [背包问题题目](../../Contents/10.Dynamic-Programming/04.Knapsack-Problem/03.Knapsack-Problem-List.md)
+### [背包问题题目](../../Contents/10.Dynamic-Programming/04.Knapsack-Problem/05.Knapsack-Problem-List.md)
 
 #### 0-1 背包问题
 
