@@ -1,5 +1,5 @@
 class Solution:
-    def completePack(self, weight: [int], value: [int], W: int):
+    def completePackMethod1(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [[0 for _ in range(W + 1)] for _ in range(size + 1)]
         
@@ -14,7 +14,7 @@ class Solution:
         
         return dp[size][W]
         
-    def completePackOptimization1(self, weight: [int], value: [int], W: int):
+    def completePackMethod2(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [[0 for _ in range(W + 1)] for _ in range(size + 1)]
         
@@ -33,7 +33,7 @@ class Solution:
         return dp[size][W]
     
     
-    def completePackOptimization2(self, weight: [int], value: [int], W: int):
+    def completePackMethod3(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [0 for _ in range(W + 1)]
         
