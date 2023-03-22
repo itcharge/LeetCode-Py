@@ -1,4 +1,5 @@
 class Solution:
+    # 思路 1：动态规划 + 二维基本思路
     def completePackMethod1(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [[0 for _ in range(W + 1)] for _ in range(size + 1)]
@@ -13,7 +14,8 @@ class Solution:
                     dp[i][w] = max(dp[i][w], dp[i - 1][w - k * weight[i - 1]] + k * value[i - 1])
         
         return dp[size][W]
-        
+    
+    # 思路 2：动态规划 + 状态转移方程优化
     def completePackMethod2(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [[0 for _ in range(W + 1)] for _ in range(size + 1)]
@@ -32,7 +34,7 @@ class Solution:
                     
         return dp[size][W]
     
-    
+    # 思路 3：动态规划 + 滚动数组优化
     def completePackMethod3(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [0 for _ in range(W + 1)]
