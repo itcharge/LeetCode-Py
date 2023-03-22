@@ -1,4 +1,5 @@
 class Solution:
+    # 思路 1：动态规划 + 二维基本思路
     def zeroOnePackMethod1(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [[0 for _ in range(W + 1)] for _ in range(size + 1)]
@@ -17,7 +18,7 @@ class Solution:
                     
         return dp[size][W]
 
-
+    # 思路 2：动态规划 + 滚动数组优化
     def zeroOnePackMethod2(self, weight: [int], value: [int], W: int):
         size = len(weight)
         dp = [0 for _ in range(W + 1)]
