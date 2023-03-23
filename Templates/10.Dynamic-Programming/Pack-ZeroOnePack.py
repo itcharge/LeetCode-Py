@@ -7,7 +7,7 @@ class Solution:
         # 枚举前 i 种物品
         for i in range(1, size + 1):
             # 枚举背包装载重量
-            for w in range(1, W + 1):
+            for w in range(W + 1):
                 # 第 i - 1 件物品装不下
                 if w < weight[i - 1]:
                     # dp[i][w] 取「前 i - 1 件物品装入载重为 w 的背包中的最大价值」
