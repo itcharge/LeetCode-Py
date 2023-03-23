@@ -7,7 +7,7 @@ class Solution:
         # 枚举前 i 种物品
         for i in range(1, size + 1):
             # 枚举背包装载重量
-            for w in range(1, W + 1):
+            for w in range(W + 1):
                 # 枚举第 i 种物品能取个数
                 for k in range(min(count[i - 1], w // weight[i - 1]) + 1):
                     # dp[i][w] 取所有 dp[i - 1][w - k * weight[i - 1] + k * value[i - 1] 中最大值
@@ -35,6 +35,7 @@ class Solution:
     def multiplePackMethod3(self, weight: [int], value: [int], count: [int], W: int):
         weight_new, value_new = [], []
         
+        # 二进制优化
         for i in range(len(weight)):
             cnt = count[i]
             k = 1
