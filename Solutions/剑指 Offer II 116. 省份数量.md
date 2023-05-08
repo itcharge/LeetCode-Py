@@ -1,4 +1,4 @@
-# [剑指 Offer II 116. 朋友圈](https://leetcode.cn/problems/bLyHh0/)
+# [剑指 Offer II 116. 省份数量](https://leetcode.cn/problems/bLyHh0/)
 
 - 标签：深度优先搜索、广度优先搜索、并查集、图
 - 难度：中等

@@ -1,4 +1,4 @@
-# [剑指 Offer 10 - II. 青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+# [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
 
 - 标签：记忆化搜索、数学、动态规划
 - 难度：简单

@@ -1,4 +1,4 @@
-# [剑指 Offer II 004. 只出现一次的数字 ](https://leetcode.cn/problems/WGki4K/)
+# [剑指 Offer II 004. 只出现一次的数字](https://leetcode.cn/problems/WGki4K/)
 
 - 标签：位运算、数组
 - 难度：中等

@@ -1,4 +1,4 @@
-# [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode.cn/problems/7p8L0Z/)
+# [剑指 Offer II 084. 含有重复元素集合的全排列](https://leetcode.cn/problems/7p8L0Z/)
 
 - 标签：数组、回溯
 - 难度：中等

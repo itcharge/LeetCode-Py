@@ -81,7 +81,7 @@
 
 ### [链表排序题目](../../Contents/02.Linked-List/02.Linked-List-Sort/02.Linked-List-Sort-List.md)
 
-###### 0148. 排序链表、0021. 合并两个有序链表、0023. 合并K个升序链表
+###### 0148. 排序链表、0021. 合并两个有序链表、0023. 合并 K 个升序链表
 
 ### [链表双指针题目](../../Contents/02.Linked-List/03.Linked-List-Two-Pointers/02.Linked-List-Two-Pointers-List.md)
 
@@ -105,7 +105,7 @@
 
 ### [优先队列题目](../../Contents/04.Queue/02.Priority-Queue/02.Priority-Queue-List.md)
 
-###### 0023. 合并K个升序链表、0239. 滑动窗口最大值
+###### 0023. 合并 K 个升序链表、0239. 滑动窗口最大值
 
 ## 05. 哈希表
 
@@ -117,7 +117,7 @@
 
 ### [字符串基础题目](../../Contents/06.String/01.String-Basic/02.String-Basic-List.md)
 
-###### 0003. 无重复字符的最长子串、0005. 最长回文子串、0415. 字符串相加、0151. 颠倒字符串中的单词、0043. 字符串相乘、0014. 最长公共前缀
+###### 0003. 无重复字符的最长子串、0005. 最长回文子串、0415. 字符串相加、0151. 反转字符串中的单词、0043. 字符串相乘、0014. 最长公共前缀
 
 ## 07. 树
 
@@ -159,7 +159,7 @@
 
 ### [分治算法题目](../../Contents/09.Algorithm-Base/03.Divide-And-Conquer-Algorithm/02.Divide-And-Conquer-Algorithm-List.md)
 
-###### 0053. 最大子数组和、0023. 合并K个升序链表、0004. 寻找两个正序数组的中位数、0169. 多数元素、0014. 最长公共前缀
+###### 0053. 最大子数组和、0023. 合并 K 个升序链表、0004. 寻找两个正序数组的中位数、0169. 多数元素、0014. 最长公共前缀
 
 ### [回溯算法题目](../../Contents/09.Algorithm-Base/04.Backtracking-Algorithm/02.Backtracking-Algorithm-List.md)
 

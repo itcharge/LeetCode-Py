@@ -1,6 +1,6 @@
 # [剑指 Offer 65. 不用加减乘除做加法](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)
 
-- 标签：位运算、数组
+- 标签：位运算、数学
 - 难度：简单
 
 ## 题目大意
