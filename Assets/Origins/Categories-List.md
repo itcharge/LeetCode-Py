@@ -229,7 +229,7 @@
 
 ### [二分图最大匹配题目](../../Contents/08.Graph/05.Graph-Bipartite/06.Graph-Bipartite-Matching-List.md)
 
-###### LCP 04. 覆盖、1947. 最大兼容性评分和
+###### LCP 04. 覆盖、1947. 最大兼容性评分和、1595. 连通两组点的最小成本
 
 ## 09. 基础算法
 
