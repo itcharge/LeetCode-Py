@@ -70,7 +70,7 @@ class Solution:
             
         # 计算桶的个数，并定义桶
         bucket_count = (list_max - list_min) // bucket_size + 1
-        buckets = [[] for _ in range(bucket_count)]
+        buckets = [None for _ in range(bucket_count)]
         
         # 将链表节点值依次添加到对应桶中
         cur = head
