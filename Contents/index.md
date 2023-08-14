@@ -130,10 +130,8 @@
   - [图的拓扑排序知识](./08.Graph/02.Graph-Traversal/05.Graph-Topological-Sorting.md)
   - [图的拓扑排序题目](./08.Graph/02.Graph-Traversal/06.Graph-Topological-Sorting-List.md)
 - 图的生成树
-  - [图的生成树知识](./08.Graph/03.Gaph-Spanning-Tree/01.Gaph-Spanning-Tree.md)
-  - [Prim 算法](./08.Graph/03.Gaph-Spanning-Tree/02.Graph-Prim.md)
-  - [Kruskal 算法](./08.Graph/03.Gaph-Spanning-Tree/03.Graph-Kruskal.md)
-  - [图的生成树题目](./08.Graph/03.Gaph-Spanning-Tree/04.Gaph-Spanning-Tree-List.md)
+  - [图的最小生成树](./08.Graph/03.Gaph-Spanning-Tree/01.Gaph-Minimum-Spanning-Tree.md)
+  - [图的最小生成树题目](./08.Graph/03.Gaph-Spanning-Tree/02.Gaph-Minimum-Spanning-Tree-List.md)
 - 最短路径
   - [单源最短路径知识](./08.Graph/04.Graph-Shortest-Path/01.Graph-Single-Source-Shortest-Path.md) 
   - [Dijkstra 算法](./08.Graph/04.Graph-Shortest-Path/02.Graph-Dijkstra.md)

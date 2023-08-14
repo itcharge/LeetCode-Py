@@ -203,7 +203,7 @@
 
 ###### 0207. 课程表、0210. 课程表 II、1136. 并行课程、2050. 并行课程 III、0802. 找到最终的安全状态、0851. 喧闹和富有
 
-### [图的生成树题目](../../Contents/08.Graph/03.Gaph-Spanning-Tree/04.Gaph-Spanning-Tree-List.md)
+### [图的最小生成树题目](../../Contents/08.Graph/03.Gaph-Spanning-Tree/02.Gaph-Minimum-Spanning-Tree-List.md)
 
 ###### 1584. 连接所有点的最小费用、1631. 最小体力消耗路径、0778. 水位上升的泳池中游泳
 
