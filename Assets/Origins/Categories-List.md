@@ -207,19 +207,19 @@
 
 ###### 1584. 连接所有点的最小费用、1631. 最小体力消耗路径、0778. 水位上升的泳池中游泳
 
-### [单源最短路径题目](../../Contents/08.Graph/04.Graph-Shortest-Path/05.Graph-Single-Source-Shortest-Path-List.md)
+### [单源最短路径题目](../../Contents/08.Graph/04.Graph-Shortest-Path/03.Graph-Single-Source-Shortest-Path-List.md)
 
 ###### 0407. 接雨水 II、0743. 网络延迟时间、0787. K 站中转内最便宜的航班、1631. 最小体力消耗路径、1786. 从第一个节点出发到最后一个节点的受限路径数
 
-### [多源最短路径题目](../../Contents/08.Graph/04.Graph-Shortest-Path/08.Graph-Multi-Source-Shortest-Path-List.md)
+### [多源最短路径题目](../../Contents/08.Graph/04.Graph-Shortest-Path/05.Graph-Multi-Source-Shortest-Path-List.md)
 
 ###### 0815. 公交路线、1162. 地图分析
 
-### [次短路径题目](../../Contents/08.Graph/04.Graph-Shortest-Path/10.Graph-The-Second-Shortest-Path-List.md)
+### [次短路径题目](../../Contents/08.Graph/04.Graph-Shortest-Path/07.Graph-The-Second-Shortest-Path-List.md)
 
 ###### 2045. 到达目的地的第二短时间
 
-### [差分约束系统](../../Contents/08.Graph/04.Graph-Shortest-Path/12.Graph-System-Of-Difference-Constraints-List.md)
+### [差分约束系统](../../Contents/08.Graph/04.Graph-Shortest-Path/09.Graph-System-Of-Difference-Constraints-List.md)
 
 ###### 0995. K 连续位的最小翻转次数、1109. 航班预订统计
 
