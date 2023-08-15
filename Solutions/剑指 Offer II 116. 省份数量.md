@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class UnionFind:
 
     def __init__(self, n):

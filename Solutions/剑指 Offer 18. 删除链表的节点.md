@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def deleteNode(self, head: ListNode, val: int) -> ListNode:
         newHead = ListNode(0, head)

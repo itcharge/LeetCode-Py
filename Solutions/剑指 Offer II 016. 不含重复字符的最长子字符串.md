@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         if not s:

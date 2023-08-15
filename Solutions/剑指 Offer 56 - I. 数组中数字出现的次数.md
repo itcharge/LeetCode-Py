@@ -18,7 +18,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def singleNumbers(self, nums: List[int]) -> List[int]:
         all_xor = 0

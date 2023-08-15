@@ -29,7 +29,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         if not headA or not headB:

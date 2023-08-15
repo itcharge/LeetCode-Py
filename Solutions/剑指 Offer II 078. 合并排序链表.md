@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def merge_sort(self, lists: List[ListNode], left: int, right: int) -> ListNode:
         if left == right:

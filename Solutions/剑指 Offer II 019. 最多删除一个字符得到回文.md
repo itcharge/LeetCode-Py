@@ -26,7 +26,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def checkPalindrome(self, s: str, left: int, right: int):
         i, j = left, right

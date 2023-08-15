@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def largestValues(self, root: TreeNode) -> List[int]:
         queue = []

@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         def backtrack(size, arrange, index):

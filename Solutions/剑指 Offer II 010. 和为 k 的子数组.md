@@ -15,7 +15,7 @@
 
 先考虑暴力做法，外层两重循环，遍历所有连续子数组，然后最内层再计算一下子数组的和。部分代码如下：
 
-```Python
+```python
 for i in range(len(nums)):
     for j in range(i + 1):
         sum = countSum(i, j)
@@ -44,7 +44,7 @@ for i in range(len(nums)):
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         pre_dic = {0: 1}

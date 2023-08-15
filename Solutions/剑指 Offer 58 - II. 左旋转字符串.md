@@ -20,7 +20,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def reverseLeftWords(self, s: str, n: int) -> str:
         res = []

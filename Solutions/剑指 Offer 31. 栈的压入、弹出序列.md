@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         stack = []

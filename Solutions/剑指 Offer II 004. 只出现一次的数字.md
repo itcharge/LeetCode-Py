@@ -27,7 +27,7 @@
 
 1. 哈希表
 
-```Python
+```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         nums_dict = dict()
@@ -45,7 +45,7 @@ class Solution:
 
 2. 位运算
 
-```Python
+```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         ans = 0

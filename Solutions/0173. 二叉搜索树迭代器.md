@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class BSTIterator:
 
     def __init__(self, root: TreeNode):

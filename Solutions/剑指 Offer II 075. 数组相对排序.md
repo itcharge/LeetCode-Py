@@ -26,7 +26,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         count = [0 for _ in range(1010)]

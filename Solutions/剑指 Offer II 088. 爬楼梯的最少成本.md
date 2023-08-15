@@ -23,7 +23,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         size = len(cost)

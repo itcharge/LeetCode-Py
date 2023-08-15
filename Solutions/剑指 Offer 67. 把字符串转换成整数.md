@@ -28,7 +28,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def strToInt(self, str: str) -> int:
         num_str = ""

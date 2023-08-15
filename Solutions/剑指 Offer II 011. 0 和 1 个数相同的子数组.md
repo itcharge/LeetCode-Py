@@ -44,7 +44,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def findMaxLength(self, nums: List[int]) -> int:
         pre_dic = {0: -1}

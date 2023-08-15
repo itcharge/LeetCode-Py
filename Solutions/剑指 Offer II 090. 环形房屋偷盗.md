@@ -36,7 +36,7 @@ $dp[i] = \begin{cases} nums[0], &  i = 0 \cr max( nums[0], nums[1]) & i = 1 \cr 
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
         def helper(nums):

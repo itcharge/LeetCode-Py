@@ -47,7 +47,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
         left = 0

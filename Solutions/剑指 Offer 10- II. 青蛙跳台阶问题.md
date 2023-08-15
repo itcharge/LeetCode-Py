@@ -28,7 +28,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def numWays(self, n: int) -> int:
         if n == 0:

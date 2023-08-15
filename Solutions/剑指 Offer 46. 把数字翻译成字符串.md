@@ -20,7 +20,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def translateNum(self, num: int) -> int:
         s = str(num)

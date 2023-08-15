@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def reorderList(self, head: ListNode) -> None:
         """

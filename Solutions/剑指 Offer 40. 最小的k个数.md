@@ -18,14 +18,14 @@
 
 - 示例 1：
 
-```Python
+```python
 输入：arr = [3,2,1], k = 2
 输出：[1,2] 或者 [2,1]
 ```
 
 - 示例 2：
 
-```Python
+```python
 输入：arr = [0,1,2,1], k = 1
 输出：[0]
 ```
@@ -48,7 +48,7 @@
 
 ### 思路 1：代码
 
-```Python
+```python
 class Solution:
     def heapify(self, nums: [int], index: int, end: int):
         left = index * 2 + 1
@@ -106,7 +106,7 @@ class Solution:
 
 ### 思路 2：代码
 
-```Python
+```python
 import random
 
 class Solution:

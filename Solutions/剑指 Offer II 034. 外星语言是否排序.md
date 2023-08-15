@@ -19,7 +19,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
         order_map = dict()

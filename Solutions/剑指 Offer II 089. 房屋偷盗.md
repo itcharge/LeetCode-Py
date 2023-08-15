@@ -28,7 +28,7 @@ $dp[i] = \begin{cases} \begin{array} {**lr**}  nums[0] & i = 0 \cr max( nums[0],
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
         size = len(nums)

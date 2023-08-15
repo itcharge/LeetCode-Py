@@ -23,7 +23,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         newHead = ListNode(-1)

@@ -29,7 +29,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         size1 = len(text1)

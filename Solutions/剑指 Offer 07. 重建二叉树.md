@@ -20,7 +20,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         def createTree(preorder, inorder, n):

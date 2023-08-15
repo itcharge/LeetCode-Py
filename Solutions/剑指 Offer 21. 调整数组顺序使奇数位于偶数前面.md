@@ -19,7 +19,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         slow, fast = 0, 0

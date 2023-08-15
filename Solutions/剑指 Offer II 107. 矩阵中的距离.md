@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         row_count = len(mat)

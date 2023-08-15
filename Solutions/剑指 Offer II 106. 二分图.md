@@ -31,7 +31,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def dfs(self, graph, colors, i, color):
         colors[i] = color

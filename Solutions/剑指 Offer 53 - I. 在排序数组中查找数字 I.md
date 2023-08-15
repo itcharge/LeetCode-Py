@@ -19,7 +19,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def searchLeft(self, nums, target):
         left, right = 0, len(nums) - 1

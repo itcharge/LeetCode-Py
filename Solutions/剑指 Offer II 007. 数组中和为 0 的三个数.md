@@ -24,7 +24,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)

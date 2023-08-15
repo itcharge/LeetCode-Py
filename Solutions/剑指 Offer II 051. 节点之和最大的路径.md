@@ -28,7 +28,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def __init__(self):
         self.max_sum = float('-inf')

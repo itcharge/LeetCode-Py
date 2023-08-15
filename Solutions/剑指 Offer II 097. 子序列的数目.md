@@ -32,7 +32,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
         size_s = len(s)

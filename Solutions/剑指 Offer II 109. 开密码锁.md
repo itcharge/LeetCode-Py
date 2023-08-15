@@ -27,7 +27,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
         queue = collections.deque(['0000'])

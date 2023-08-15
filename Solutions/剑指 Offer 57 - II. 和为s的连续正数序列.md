@@ -17,14 +17,14 @@
 
 - 示例 1：
 
-```Python
+```python
 输入：target = 9
 输出：[[2,3,4],[4,5]]
 ```
 
 - 示例 2：
 
-```Python
+```python
 输入：target = 15
 输出：[[1,2,3,4,5],[4,5,6],[7,8]]
 ```
@@ -49,7 +49,7 @@
 
 ### 思路 1：代码
 
-```Python
+```python
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         res = []
@@ -86,7 +86,7 @@ class Solution:
 
 ### 思路 2：滑动窗口代码
 
-```Python
+```python
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         left, right = 1, 2

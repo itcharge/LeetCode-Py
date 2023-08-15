@@ -23,7 +23,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def isStraight(self, nums: List[int]) -> bool:
         max_num, min_num = 0, 14

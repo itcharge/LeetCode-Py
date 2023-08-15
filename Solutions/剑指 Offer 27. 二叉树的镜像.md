@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def mirrorTree(self, root: TreeNode) -> TreeNode:
         if not root:

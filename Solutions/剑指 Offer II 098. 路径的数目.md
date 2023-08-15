@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         dp = [1 for _ in range(n)]

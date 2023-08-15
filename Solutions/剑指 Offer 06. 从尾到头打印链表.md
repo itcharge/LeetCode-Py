@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def reversePrint(self, head: ListNode) -> List[int]:
         res = []

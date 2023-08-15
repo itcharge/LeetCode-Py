@@ -25,7 +25,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     # 调整为大顶堆
     def heapify(self, nums, nums_dict, index, end):

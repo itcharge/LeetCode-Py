@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def backtrack(parenthesis, symbol, index):

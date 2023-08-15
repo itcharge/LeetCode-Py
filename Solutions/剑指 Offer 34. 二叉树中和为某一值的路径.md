@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def pathSum(self, root: TreeNode, target: int) -> List[List[int]]:
         res = []

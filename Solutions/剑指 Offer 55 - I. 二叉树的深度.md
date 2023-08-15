@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root == None:

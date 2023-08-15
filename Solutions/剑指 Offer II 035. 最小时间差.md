@@ -18,7 +18,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def changeTime(self, timePoint: str):
         hours, minutes = timePoint.split(':')

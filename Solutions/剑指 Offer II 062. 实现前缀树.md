@@ -36,7 +36,7 @@
 
 ## 代码
 
-```Python
+```python
 class Trie:
 
     def __init__(self):

@@ -47,7 +47,7 @@
 
 1. 迭代
 
-```Python
+```python
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         pre = None
@@ -62,7 +62,7 @@ class Solution:
 
 2. 递归
 
-```Python
+```python
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         if head == None or head.next == None:

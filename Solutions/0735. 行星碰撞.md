@@ -27,7 +27,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         stack = []

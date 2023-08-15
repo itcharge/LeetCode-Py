@@ -13,7 +13,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def dfs(self, grid, i, j):
         size_n = len(grid)

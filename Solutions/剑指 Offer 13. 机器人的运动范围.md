@@ -18,14 +18,14 @@
 
 - 示例 1：
 
-```Python
+```python
 输入：m = 2, n = 3, k = 1
 输出：3
 ```
 
 - 示例 2：
 
-```Python
+```python
 输入：m = 3, n = 1, k = 0
 输出：1
 ```
@@ -45,7 +45,7 @@
 
 ### 思路 1：代码
 
-```Python
+```python
 import collections
 
 class Solution:

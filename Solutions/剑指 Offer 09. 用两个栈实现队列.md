@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class CQueue:
 
     def __init__(self):

@@ -23,7 +23,7 @@ $x^(n/2)$ 又可以继续向下递归划分。则我们可以利用低纬度的�
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if x == 0.0:

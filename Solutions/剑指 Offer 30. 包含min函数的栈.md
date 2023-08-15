@@ -18,7 +18,7 @@
 
 ## 代码
 
-```Python
+```python
 class MinStack:
 
     def __init__(self):

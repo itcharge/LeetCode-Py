@@ -15,7 +15,7 @@ Python 中的逻辑运算最终返回的是最后一个非空值。比如 `3 and
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def sumNums(self, n: int) -> int:
         return n and n + self.sumNums(n - 1)

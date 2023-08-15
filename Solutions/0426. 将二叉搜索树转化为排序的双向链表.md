@@ -26,7 +26,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def treeToDoublyList(self, root: 'Node') -> 'Node':
         def dfs(node: 'Node'):

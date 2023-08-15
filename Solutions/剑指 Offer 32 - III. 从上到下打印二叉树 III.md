@@ -33,7 +33,7 @@
 
 ## 代码
 
-```Python
+```python
 import collections
 
 class Solution:

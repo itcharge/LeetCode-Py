@@ -24,7 +24,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def inOrder(self, root, res):
         if not root:

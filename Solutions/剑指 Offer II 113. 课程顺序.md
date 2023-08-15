@@ -24,7 +24,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         indegrees = [0 for _ in range(numCourses)]

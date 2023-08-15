@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         size_m = len(matrix)

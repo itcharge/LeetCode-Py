@@ -29,7 +29,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def getSum(self, a: int, b: int) -> int:
         MAX_INT = 0x7FFFFFFF

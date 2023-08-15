@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     max_len = 0
     directions = {(1, 0), (-1, 0), (0, 1), (0, -1)}

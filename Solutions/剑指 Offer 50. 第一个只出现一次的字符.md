@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def firstUniqChar(self, s: str) -> str:
         dic = dict()

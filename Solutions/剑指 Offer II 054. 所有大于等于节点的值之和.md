@@ -25,7 +25,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     pre = 0
 

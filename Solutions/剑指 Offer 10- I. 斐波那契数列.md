@@ -19,7 +19,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def fib(self, n: int) -> int:
         if n < 2:

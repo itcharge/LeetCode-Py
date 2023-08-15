@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         def height(root: TreeNode) -> int:

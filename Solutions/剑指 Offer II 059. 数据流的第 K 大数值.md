@@ -18,7 +18,7 @@
 
 ## 代码
 
-```Python
+```python
 import heapq
 
 class KthLargest:

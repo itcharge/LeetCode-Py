@@ -23,7 +23,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def diagonalBinarySearch(self, matrix, diagonal, target):
         left = 0

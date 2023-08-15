@@ -24,7 +24,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def canEat(self, piles, hour, speed):
         time = 0

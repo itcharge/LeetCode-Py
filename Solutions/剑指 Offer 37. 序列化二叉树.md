@@ -28,7 +28,7 @@
 
 ## 代码
 
-```Python
+```python
 class Codec:
 
     def serialize(self, root):

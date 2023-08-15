@@ -50,7 +50,7 @@
 
 1. 堆排序
 
-```Python
+```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         # 调整为大顶堆
@@ -91,7 +91,7 @@ class Solution:
 
 2. 快速排序
 
-```Python
+```python
 import random
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
@@ -128,14 +128,14 @@ class Solution:
 
 3. 借用标准库
 
-```Python
+```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         nums.sort()
         return nums[len(nums)-k]
 ```
 
-```Python
+```python
 import heapq
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:

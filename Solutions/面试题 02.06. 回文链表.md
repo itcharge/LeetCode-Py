@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         nodes = []

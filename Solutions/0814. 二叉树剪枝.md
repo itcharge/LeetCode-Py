@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def containsOnlyZero(self, root: TreeNode):
         if not root:

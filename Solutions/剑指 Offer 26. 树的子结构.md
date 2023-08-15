@@ -28,7 +28,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def hasSubStructure(self, A: TreeNode, B: TreeNode) -> bool:
         if not B:

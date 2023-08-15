@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         n = len(s)

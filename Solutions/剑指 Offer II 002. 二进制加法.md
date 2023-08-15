@@ -31,7 +31,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         x = int(a, 2)

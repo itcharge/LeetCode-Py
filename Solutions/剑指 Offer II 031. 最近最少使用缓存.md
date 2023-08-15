@@ -19,7 +19,7 @@ LRU（最近最少使用缓存）是一种常用的页面置换算法，选择�
 
 ## 代码
 
-```Python
+```python
 class Node:
     def __init__(self, key=None, val=None, prev=None, next=None):
         self.key = key

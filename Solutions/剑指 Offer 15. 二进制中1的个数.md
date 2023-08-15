@@ -25,7 +25,7 @@
 
 1. 循环按位计算
 
-```Python
+```python
 class Solution:
     def hammingWeight(self, n: int) -> int:
         ans = 0
@@ -37,7 +37,7 @@ class Solution:
 
 2. 改进位运算
 
-```Python
+```python
 class Solution:
     def hammingWeight(self, n: int) -> int:
         ans = 0

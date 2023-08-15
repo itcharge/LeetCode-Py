@@ -19,7 +19,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         need = collections.defaultdict(int)

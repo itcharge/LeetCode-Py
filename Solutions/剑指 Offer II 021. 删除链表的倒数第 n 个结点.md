@@ -19,7 +19,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         newHead = ListNode(0, head)

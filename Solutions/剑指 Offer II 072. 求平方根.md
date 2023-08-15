@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def mySqrt(self, x: int) -> int:
         left = 0

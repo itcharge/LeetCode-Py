@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 import random
 
 class RandomizedSet:

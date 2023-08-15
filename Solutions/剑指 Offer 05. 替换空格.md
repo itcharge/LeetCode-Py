@@ -20,7 +20,7 @@ Python 的字符串是不可变类型，所以需要先用数组存储答案，�
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def replaceSpace(self, s: str) -> str:
         res = []

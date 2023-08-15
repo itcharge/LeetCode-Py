@@ -25,7 +25,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
         sum_nums = sum(nums)

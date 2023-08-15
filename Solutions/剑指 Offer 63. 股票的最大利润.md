@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         minprice = 10010

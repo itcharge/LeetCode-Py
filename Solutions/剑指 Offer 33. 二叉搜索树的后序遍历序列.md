@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         def verify(left, right):

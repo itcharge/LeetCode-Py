@@ -19,7 +19,7 @@
 
 - 示例 1：
 
-```Python
+```python
 输入：[3,30,34,5,9]
 输出："3033459"
 ```
@@ -37,7 +37,7 @@
 
 ### 思路 1：自定义排序代码
 
-```Python
+```python
 import functools
 
 class Solution:

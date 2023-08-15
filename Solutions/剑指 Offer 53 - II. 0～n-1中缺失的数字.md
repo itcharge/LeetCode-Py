@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         if len(nums) == 0:

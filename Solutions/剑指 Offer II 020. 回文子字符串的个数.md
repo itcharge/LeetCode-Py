@@ -33,7 +33,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def countSubstrings(self, s: str) -> int:
         size = len(s)

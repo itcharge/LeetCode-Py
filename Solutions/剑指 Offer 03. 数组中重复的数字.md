@@ -13,7 +13,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         nums_dict = dict()

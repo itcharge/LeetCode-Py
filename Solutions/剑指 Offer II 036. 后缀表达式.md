@@ -13,7 +13,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []

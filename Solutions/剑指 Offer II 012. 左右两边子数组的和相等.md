@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
         sum = 0

@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def dfs(self, root, pretotal):
         if not root:

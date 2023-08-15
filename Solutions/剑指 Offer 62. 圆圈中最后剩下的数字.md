@@ -41,7 +41,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         ans = 0

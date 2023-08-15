@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         def backtrack(size, subset, index):

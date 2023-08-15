@@ -28,7 +28,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def dfs(self, node: 'Node'):
         # 找到链表的尾节点或 child 链表不为空的节点

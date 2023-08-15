@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         if not head:

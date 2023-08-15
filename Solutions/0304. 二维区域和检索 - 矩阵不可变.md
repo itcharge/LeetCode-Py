@@ -22,7 +22,7 @@
 
 ## 代码
 
-```Python
+```python
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):

@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         dp = [float('inf') for _ in range(amount + 1)]

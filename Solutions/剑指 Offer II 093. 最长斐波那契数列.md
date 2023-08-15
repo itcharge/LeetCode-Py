@@ -36,7 +36,7 @@
 
 下面是暴力做法的代码：
 
-```Python
+```python
 class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
         size = len(arr)
@@ -72,7 +72,7 @@ class Solution:
 
 使用哈希表优化之后的代码如下：
 
-```Python
+```python
 class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
         size = len(arr)
@@ -119,7 +119,7 @@ class Solution:
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
         size = len(arr)

@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         str_dict = dict()

@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         if not root:

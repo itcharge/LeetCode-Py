@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         if not nums:

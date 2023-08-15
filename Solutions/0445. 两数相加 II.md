@@ -27,7 +27,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         stack1, stack2 = [], []

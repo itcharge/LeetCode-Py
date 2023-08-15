@@ -22,7 +22,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         max_ans = nums[0]

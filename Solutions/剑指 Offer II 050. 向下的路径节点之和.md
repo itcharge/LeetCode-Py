@@ -13,7 +13,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     prefixsum_count = dict()
     def dfs(self, root, prefixsum_count, target_sum, cur_sum):

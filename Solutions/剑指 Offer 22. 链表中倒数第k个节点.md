@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def getKthFromEnd(self, head: ListNode, k: int) -> ListNode:
         slow = head

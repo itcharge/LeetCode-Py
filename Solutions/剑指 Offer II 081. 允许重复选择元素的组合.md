@@ -30,7 +30,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     res = []
     path = []

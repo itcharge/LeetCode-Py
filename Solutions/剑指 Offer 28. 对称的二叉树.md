@@ -15,7 +15,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         if not root:

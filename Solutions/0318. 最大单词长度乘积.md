@@ -19,7 +19,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
         size = len(words)

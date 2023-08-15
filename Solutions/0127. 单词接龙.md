@@ -22,7 +22,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         if not wordList or endWord not in wordList:

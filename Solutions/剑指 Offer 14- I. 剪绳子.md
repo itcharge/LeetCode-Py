@@ -28,7 +28,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def cuttingRope(self, n: int) -> int:
         dp = [0 for _ in range(n + 1)]

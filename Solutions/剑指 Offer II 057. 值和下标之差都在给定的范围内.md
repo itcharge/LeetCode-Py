@@ -24,7 +24,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:
         bucket_dict = dict()

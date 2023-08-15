@@ -21,7 +21,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         dp = [1 for _ in range(n)]

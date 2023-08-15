@@ -23,7 +23,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         size = 100010

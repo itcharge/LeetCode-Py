@@ -17,7 +17,7 @@
 
 ## 代码
 
-```Python
+```python
 import collections
 import queue
 

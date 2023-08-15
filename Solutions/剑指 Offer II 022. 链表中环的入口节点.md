@@ -23,7 +23,7 @@ $2(a + b) = a + n(b + c) + b$。可以推出：$a = c + (n-1)(b + c)$。
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
         fast, slow = head, head

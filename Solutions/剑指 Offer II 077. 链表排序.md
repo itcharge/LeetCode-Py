@@ -19,7 +19,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def merge_sort(self, head: ListNode, tail: ListNode) -> ListNode:
         if not head:

@@ -18,7 +18,7 @@
 
 ## 代码
 
-```Python
+```python
 class RecentCounter:
 
     def __init__(self):

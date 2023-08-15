@@ -22,7 +22,7 @@
 
 ## 代码
 
-```Python
+```python
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         ans = 0
