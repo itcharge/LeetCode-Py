@@ -11,10 +11,7 @@ class Solution:
         return self.partition(nums, low, high)
     
     # 哨兵划分：以第 1 位元素 nums[low] 为基准数，然后将比基准数小的元素移动到基准数左侧，将比基准数大的元素移动到基准数右侧，最后将基准数放到正确位置上
-    def partition(self, nums: [int], low: int, high: int) -> int:
-        if low >= high:
-            return nums
-        
+    def partition(self, nums: [int], low: int, high: int) -> int:        
         # 以第 1 位元素为基准数
         pivot = nums[low]
         
@@ -31,8 +28,6 @@ class Solution:
         
         # 将基准数放到正确位置上
         nums[j], nums[low] = nums[low], nums[j]
-        # 返回基准数的索引
-        print(nums)
         return j
 
     def quickSort(self, nums: [int], low: int, high: int) -> [int]:
