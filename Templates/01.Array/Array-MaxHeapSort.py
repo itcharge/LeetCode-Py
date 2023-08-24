@@ -1,45 +1,99 @@
-class Solution:
-    # 调整为大顶堆
-    def heapify(self, arr: [int], index: int, end: int):
-        # 根节点为 index，左节点为 2 * index + 1， 右节点为 2 * index + 2
-        left = index * 2 + 1
-        right = left + 1
-        while left <= end:
-            # 当前节点为非叶子结点
-            max_index = index
-            if arr[left] > arr[max_index]:
-                max_index = left
-            if right <= end and arr[right] > arr[max_index]:
-                max_index = right
-            if index == max_index:
-                # 如果不用交换，则说明已经交换结束
+class MaxHeap:
+    def __init__(self):
+        self.max_heap = []
+        
+    def peek(self) -> int:
+        # 大顶堆为空
+        if not self.max_heap:
+            return None
+        # 返回堆顶元素
+        return self.max_heap[0]
+    
+    def push(self, val: int):
+        # 将新元素添加到堆的末尾
+        self.max_heap.append(val)
+        
+        size = len(self.max_heap)
+        # 从新插入的元素节点开始，进行上移调整
+        self.__shift_up(size - 1)
+        
+    def __shift_up(self, i: int):
+        while (i - 1) // 2 >= 0 and self.max_heap[i] > self.max_heap[(i - 1) // 2]:
+            self.max_heap[i], self.max_heap[(i - 1) // 2] = self.max_heap[(i - 1) // 2], self.max_heap[i]
+            i = (i - 1) // 2
+            
+    def pop(self) -> int:
+        # 堆为空
+        if not self.max_heap:
+            raise IndexError("堆为空")
+        
+        size = len(self.max_heap)
+        self.max_heap[0], self.max_heap[size - 1] = self.max_heap[size - 1], self.max_heap[0]
+        # 删除堆顶元素
+        val = self.max_heap.pop()
+        # 节点数减 1
+        size -= 1 
+        
+        self.__shift_down(0, size)
+        
+        # 返回堆顶元素
+        return val
+
+    
+    def __shift_down(self, i: int, n: int):
+        while 2 * i + 1 < n:
+            # 左右子节点编号
+            left, right = 2 * i + 1, 2 * i + 2
+            
+            # 找出左右子节点中的较大值节点编号
+            if 2 * i + 2 >= n:
+                # 右子节点编号超出范围（只有左子节点
+                larger = left
+            else:
+                # 左子节点、右子节点都存在
+                if self.max_heap[left] >= self.max_heap[right]:
+                    larger = left
+                else:
+                    larger = right
+            
+            # 将当前节点值与其较大的子节点进行比较
+            if self.max_heap[i] < self.max_heap[larger]:
+                # 如果当前节点值小于其较大的子节点，则将它们交换
+                self.max_heap[i], self.max_heap[larger] = self.max_heap[larger], self.max_heap[i]
+                i = larger
+            else:
+                # 如果当前节点值大于等于于其较大的子节点，此时结束
                 break
-            arr[index], arr[max_index] = arr[max_index], arr[index]
-            # 继续调整子树
-            index = max_index
-            left = index * 2 + 1
-            right = left + 1
-
-    # 初始化大顶堆
-    def buildMaxHeap(self, arr: [int]):
-        size = len(arr)
-        # (size - 2) // 2 是最后一个非叶节点，叶节点不用调整
-        for i in range((size - 2) // 2, -1, -1):
-            self.heapify(arr, i, size - 1)
-        return arr
-
-    # 升序堆排序，思路如下：
-    # 1. 先建立大顶堆
-    # 2. 让堆顶最大元素与最后一个交换，然后调整第一个元素到倒数第二个元素，这一步获取最大值
-    # 3. 再交换堆顶元素与倒数第二个元素，然后调整第一个元素到倒数第三个元素，这一步获取第二大值
-    # 4. 以此类推，直到最后一个元素交换之后完毕。
-    def maxHeapSort(self, arr: [int]):
-        self.buildMaxHeap(arr)
-        size = len(arr)
+    
+    def __buildMaxHeap(self, nums: [int]):
+        size = len(nums)
+        # 先将数组 nums 的元素按顺序添加到 max_heap 中
         for i in range(size):
-            arr[0], arr[size - i - 1] = arr[size - i - 1], arr[0]
-            self.heapify(arr, 0, size - i - 2)
-        return arr
+            self.max_heap.append(nums[i])
+        
+        # 从最后一个非叶子节点开始，进行下移调整
+        for i in range((size - 2) // 2, -1, -1):
+            self.__shift_down(i, size)
 
-    def sortArray(self, nums: List[int]) -> List[int]:
+    def maxHeapSort(self, nums: [int]) -> [int]:
+        # 根据数组 nums 建立初始堆
+        self.__buildMaxHeap(nums)
+        
+        size = len(self.max_heap)
+        for i in range(size - 1, -1, -1):
+            # 交换根节点与当前堆的最后一个节点
+            self.max_heap[0], self.max_heap[i] = self.max_heap[i], self.max_heap[0]
+            # 从根节点开始，对当前堆进行下移调整
+            self.__shift_down(0, i)
+        
+        # 返回排序后的数组
+        return self.max_heap
+    
+class Solution:
+    def maxHeapSort(self, nums: [int]) -> [int]:
+        return MaxHeap().maxHeapSort(nums)
+        
+    def sortArray(self, nums: [int]) -> [int]:
         return self.maxHeapSort(nums)
+    
+print(Solution().sortArray([10, 25, 6, 8, 7, 1, 20, 23, 16, 19, 17, 3, 18, 14]))
