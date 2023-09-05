@@ -1,33 +1,32 @@
-def dfs_recursive(graph, start, visited):
-    # 标记节点
-    visited.add(start)
-    # 访问节点
-    print(start)
-    for end in graph[start]:
-        if end not in visited:
-            dfs_recursive(graph, end, visited)
+class Solution:
+    def dfs_recursive(self, graph, u, visited):
+        print(u)                        # 访问节点
+        visited.add(u)                  # 节点 u 标记其已访问
 
-def dfs_stack(graph, start):
-    print(start)                        # 访问节点 start
-    visited = set(start)                # 使用 visited 标记访问过的节点，先标记 start
-    stack = [start]                     # 创建一个栈，并将 start 加入栈中
+        for v in graph[u]:
+            if v not in visited:        # 节点 v 未访问过
+                # 深度优先搜索遍历节点
+                self.dfs_recursive(graph, v, visited)
+
+    def dfs_stack(self, graph, u):
+        print(u)                        # 访问节点 u
+        visited, stack = set(), []      # 使用 visited 标记访问过的节点, 使用栈 stack 存放临时节点
+        
+        stack.append([u, 0])            # 将起始节点 u 以及节点 u 的下一个邻接节点下标放入栈中，下一次将遍历 graph[u][0]
+        visited.add(u)                  # 将起始节点 u 标记为已访问
+        
     
-    while stack:
-        node_u = stack[-1]              # 取栈顶元素
-        
-        i = 0
-        while i < len(graph[node_u]):   # 遍历栈顶元素，遇到未访问节点，访问节点并跳出。
-            node_v = graph[node_u][i]
+        while stack:
+            u, i = stack.pop()          # 取出节点 u，以及节点 u 下一个将要访问的邻接节点下标 i
             
-            if node_v not in visited:   # node_v 未访问过
-                print(node_v)           # 访问节点 node_v
-                stack.append(node_v)    # 将 node_v 加入栈中
-                visited.add(node_v)     # 标记为访问过 node_v
-                break
-            i += 1
+            if i < len(graph[u]):
+                v = graph[u][i]         # 取出邻接节点 v
+                stack.append([u, i + 1])# 将节点 u 以及节点 u 的下一个邻接节点下标 i + 1 放入栈中，下一次将遍历 graph[u][i + 1]
+                if v not in visited:    # 节点 v 未访问过
+                    print(v)            # 访问节点 v
+                    stack.append([v, 0])# 将节点 v 以及节点 v 的下一个邻接节点下标 0 放入栈中，下一次将遍历 graph[v][0]
+                    visited.add(v)      # 将节点 v 标记为已访问
         
-        if i == len(graph[node_u ]):    # node_u 相邻的节点都访问结束了，弹出 node_u
-            stack.pop()
 
 graph = {
     "A": ["B", "C"],
@@ -35,15 +34,14 @@ graph = {
     "C": ["A", "B", "D", "E"],
     "D": ["B", "C", "E", "F"],
     "E": ["C", "D"],
-    "F": ["D"]
+    "F": ["D", "G"],
+    "G": []
 }
 
 # 基于递归实现的深度优先搜索
 visited = set()
-dfs_recursive(graph, "A", visited)
+Solution().dfs_recursive(graph, "A", visited)
 
 
 # 基于堆栈实现的深度优先搜索
-dfs_stack(graph, "A")
-    
-    
+Solution().dfs_stack(graph, "A")
