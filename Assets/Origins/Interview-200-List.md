@@ -50,8 +50,7 @@
 
 ###### 0136. 只出现一次的数字、0056. 合并区间、0179. 最大数、0384. 打乱数组、剑指 Offer 45. 把数组排成最小的数
 
-
-### [二分查找题目](../../Contents/01.Array/03.Array-Binary-Search/02.Array-Binary-Search-List.md)
+### [二分查找题目](../../Contents/01.Array/03.Array-Binary-Search/03.Array-Binary-Search-List.md)
 
 #### 二分下标题目
 
