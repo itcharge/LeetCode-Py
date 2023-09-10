@@ -3,7 +3,7 @@ class Solution:
         # 第 i 趟「冒泡」
         for i in range(len(nums) - 1):
             flag = False    # 是否发生交换的标志位
-            # 从数组中前 n - i + 1 个元素的第 1 个元素开始，相邻两个元素进行比较
+            # 对数组未排序区间 [0, n - i - 1] 的元素执行「冒泡」
             for j in range(len(nums) - i - 1):
                 # 相邻两个元素进行比较，如果前者大于后者，则交换位置
                 if nums[j] > nums[j + 1]:
