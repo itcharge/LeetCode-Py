@@ -16,7 +16,7 @@ class LinkedList:
             cur.next = node
             cur = cur.next
     
-    # 获取链表长度
+    # 获取线性链表长度
     def length(self):
         count = 0
         cur = self.head
@@ -25,7 +25,7 @@ class LinkedList:
             cur = cur.next 
         return count
     
-    # 查找元素
+    # 查找元素：在链表中查找值为 val 的元素
     def find(self, val):
         cur = self.head
         while cur:
@@ -35,13 +35,13 @@ class LinkedList:
         
         return None
     
-    # 头部插入元素
+    # 链表头部插入元素
     def insertFront(self, val):
         node = ListNode(val)
         node.next = self.head
         self.head = node
     
-    # 尾部插入元素
+    # 链表尾部插入元素
     def insertRear(self, val):
         node = ListNode(val)
         cur = self.head
@@ -50,7 +50,7 @@ class LinkedList:
         cur.next = node
 
     
-    # 中间插入元素
+    # 链表中间插入元素
     def insertInside(self, index, val):
         count = 0
         cur = self.head
@@ -65,7 +65,7 @@ class LinkedList:
         node.next = cur.next
         cur.next = node
         
-    # 改变元素
+    # 改变元素：将链表中第 i 个元素值改为 val
     def change(self, index, val):
         count = 0
         cur = self.head
@@ -78,14 +78,14 @@ class LinkedList:
         
         cur.val = val
     
-    # 移除链表头部元素
+    # 链表头部删除元素
     def removeFront(self):
         if self.head:
             self.head = self.head.next
             
-    # 移除链表尾部元素
+    # 链表尾部删除元素
     def removeRear(self):
-        if not self.head.next:
+        if not self.head or not self.head.next:
             return 'Error'
         
         cur = self.head
@@ -93,7 +93,7 @@ class LinkedList:
             cur = cur.next
         cur.next = None
         
-    # 移除链表中间元素
+    # 链表中间删除元素
     def removeInside(self, index):
         count = 0
         cur = self.head
