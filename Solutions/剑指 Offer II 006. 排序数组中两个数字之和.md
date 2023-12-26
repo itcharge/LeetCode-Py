@@ -3,6 +3,10 @@
 - 标签：数组、双指针、二分查找
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer II 006. 排序数组中两个数字之和 - 力扣](https://leetcode.cn/problems/kLl5u1/)
+
 ## 题目大意
 
 给定一个升序数组：`numbers` 和一个目标值 `target`。

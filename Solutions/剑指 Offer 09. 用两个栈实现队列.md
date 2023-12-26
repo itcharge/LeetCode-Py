@@ -3,6 +3,10 @@
 - 标签：栈、设计、队列
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 09. 用两个栈实现队列 - 力扣](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+
 ## 题目大意
 
 要求：使用两个栈实现先入先出队列。需要实现对应的两个函数：

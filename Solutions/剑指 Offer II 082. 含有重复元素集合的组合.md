@@ -3,6 +3,10 @@
 - 标签：数组、回溯
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 082. 含有重复元素集合的组合 - 力扣](https://leetcode.cn/problems/4sjJUc/)
+
 ## 题目大意
 
 给定一个数组 `candidates` 和一个目标数 `target`。

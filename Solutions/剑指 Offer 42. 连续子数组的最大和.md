@@ -3,6 +3,10 @@
 - 标签：数组、分治、动态规划
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 42. 连续子数组的最大和 - 力扣](https://leetcode.cn/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)
+
 ## 题目大意
 
 给定一个整数数组 `nums` 。

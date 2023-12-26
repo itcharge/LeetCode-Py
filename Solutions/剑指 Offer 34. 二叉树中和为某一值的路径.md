@@ -3,6 +3,10 @@
 - 标签：树、深度优先搜索、回溯、二叉树
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 34. 二叉树中和为某一值的路径 - 力扣](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)
+
 ## 题目大意
 
 给定一棵二叉树的根节点 `root` 和一个整数 `target`。

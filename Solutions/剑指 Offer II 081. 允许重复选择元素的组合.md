@@ -3,6 +3,10 @@
 - 标签：数组、回溯
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 081. 允许重复选择元素的组合 - 力扣](https://leetcode.cn/problems/Ygoe9J/)
+
 ## 题目大意
 
 给定一个无重复元素的正整数数组 `candidates` 和一个正整数 `target`。

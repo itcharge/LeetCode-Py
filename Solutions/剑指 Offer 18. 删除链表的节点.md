@@ -3,6 +3,10 @@
 - 标签：链表
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 18. 删除链表的节点 - 力扣](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
+
 ## 题目大意
 
 给定一个链表。

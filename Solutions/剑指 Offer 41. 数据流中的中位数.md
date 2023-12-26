@@ -3,6 +3,10 @@
 - 标签：设计、双指针、数据流、排序、堆（优先队列）
 - 难度：困难
 
+## 题目链接
+
+- [剑指 Offer 41. 数据流中的中位数 - 力扣](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/)
+
 ## 题目大意
 
 要求：设计一个支持一下两种操作的数组结构：

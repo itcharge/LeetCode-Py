@@ -3,6 +3,10 @@
 - 标签：队列、哈希表、字符串、计数
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 50. 第一个只出现一次的字符 - 力扣](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
+
 ## 题目大意
 
 给定一个字符串 `s`。

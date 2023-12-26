@@ -3,6 +3,10 @@
 - 标签：并查集、数组、哈希表
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 119. 最长连续序列 - 力扣](https://leetcode.cn/problems/WhsWhI/)
+
 ## 题目大意
 
 给定一个未排序的整数数组 `nums`。

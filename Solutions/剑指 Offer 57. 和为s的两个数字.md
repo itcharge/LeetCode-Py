@@ -3,6 +3,10 @@
 - 标签：数组、双指针、二分查找
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 57. 和为s的两个数字 - 力扣](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
+
 ## 题目大意
 
 给定一个升序数组 `nums`，以及一个目标整数 `target`。

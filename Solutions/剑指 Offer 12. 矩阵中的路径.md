@@ -3,6 +3,10 @@
 - 标签：数组、回溯、矩阵
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 12. 矩阵中的路径 - 力扣](https://leetcode.cn/problems/ju-zhen-zhong-de-lu-jing-lcof/)
+
 ## 题目大意
 
 给定一个 `m * n` 大小的二维字符矩阵 `board` 和一个字符串单词 `word`。如果 `word` 存在于网格中，返回 `True`，否则返回 `False`。

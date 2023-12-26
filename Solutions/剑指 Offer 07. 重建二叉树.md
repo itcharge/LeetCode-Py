@@ -3,6 +3,10 @@
 - 标签：树、数组、哈希表、分治、二叉树
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 07. 重建二叉树 - 力扣](https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/)
+
 ## 题目大意
 
 给定一棵二叉树的前序遍历结果和中序遍历结果。

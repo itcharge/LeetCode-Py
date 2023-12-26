@@ -3,6 +3,10 @@
 - 标签：数组、回溯
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 080. 含有 k 个元素的组合 - 力扣](https://leetcode.cn/problems/uUsW3B/)
+
 ## 题目大意
 
 给定两个整数 `n` 和 `k`。

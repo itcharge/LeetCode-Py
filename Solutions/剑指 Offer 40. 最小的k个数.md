@@ -3,6 +3,10 @@
 - 标签：数组、分治、快速选择、排序、堆（优先队列）
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 40. 最小的k个数 - 力扣](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/)
+
 ## 题目大意
 
 **描述**：给定整数数组 $arr$，再给定一个整数 $k$。

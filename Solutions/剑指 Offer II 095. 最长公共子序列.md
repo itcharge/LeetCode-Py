@@ -3,6 +3,10 @@
 - 标签：字符串、动态规划
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 095. 最长公共子序列 - 力扣](https://leetcode.cn/problems/qJnOS7/)
+
 ## 题目大意
 
 给定两个字符串 `text1` 和 `text2`。

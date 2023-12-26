@@ -3,6 +3,10 @@
 - 标签：数组、二分查找
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer II 068. 查找插入位置 - 力扣](https://leetcode.cn/problems/N6YdxV/)
+
 ## 题目大意
 
 给定一个排好序的数组 `nums`，以及一个目标值 `target`。

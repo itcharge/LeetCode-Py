@@ -3,6 +3,10 @@
 - 标签：设计、队列、单调队列
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 59 - II. 队列的最大值 - 力扣](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/)
+
 ## 题目大意
 
 要求：设计一个「队列」，实现 `max_value` 函数，可通过 `max_value` 得到大年队列的最大值。并且要求 `max_value`、`push_back`、`pop_front` 的均摊时间复杂度都是 `O(1)`。

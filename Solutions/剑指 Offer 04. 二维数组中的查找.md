@@ -3,6 +3,10 @@
 - 标签：数组、二分查找、分治、矩阵
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 04. 二维数组中的查找 - 力扣](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
+
 ## 题目大意
 
 给定一个 `m * n` 大小的有序整数矩阵 `matrix`。每行元素从左到右升序排列，每列元素从上到下升序排列。再给定一个目标值 `target`。

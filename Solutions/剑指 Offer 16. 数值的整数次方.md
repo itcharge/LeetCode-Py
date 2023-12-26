@@ -3,6 +3,10 @@
 - 标签：递归、数学
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 16. 数值的整数次方 - 力扣](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)
+
 ## 题目大意
 
 给定浮点数 `x` 和整数 `n`。

@@ -3,6 +3,10 @@
 - 标签：栈、数组
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 037. 小行星碰撞 - 力扣](https://leetcode.cn/problems/XagZNi/)
+
 ## 题目大意
 
 给定一个整数数组 `asteroids`，表示在同一行的小行星。

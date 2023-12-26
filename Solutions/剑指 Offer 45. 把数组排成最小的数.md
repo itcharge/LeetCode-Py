@@ -3,6 +3,10 @@
 - 标签：贪心、字符串、排序
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 45. 把数组排成最小的数 - 力扣](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+
 ## 题目大意
 
 **描述**：给定一个非负整数数组 $nums$。

@@ -3,6 +3,10 @@
 - 标签：栈、递归、链表、双指针
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 06. 从尾到头打印链表 - 力扣](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+
 ## 题目大意
 
 给定一个链表的头节点 `head`。

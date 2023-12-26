@@ -3,6 +3,10 @@
 - 标签：双指针、字符串
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer II 018. 有效的回文 - 力扣](https://leetcode.cn/problems/XltzEq/)
+
 ## 题目大意
 
 给定一个字符串 `s`。

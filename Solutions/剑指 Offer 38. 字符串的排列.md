@@ -3,6 +3,10 @@
 - 标签：字符串、回溯
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 38. 字符串的排列 - 力扣](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/)
+
 ## 题目大意
 
 给定一个字符串 `s`。

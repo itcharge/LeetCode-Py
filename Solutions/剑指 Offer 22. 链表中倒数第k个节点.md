@@ -3,6 +3,10 @@
 - 标签：链表、双指针
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 22. 链表中倒数第k个节点 - 力扣](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
+
 ## 题目大意
 
 给定一个链表的头节点 `head`，以及一个整数 `k`。

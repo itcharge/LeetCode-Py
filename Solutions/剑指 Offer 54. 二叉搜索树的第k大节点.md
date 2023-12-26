@@ -3,6 +3,10 @@
 - 标签：树、深度优先搜索、二叉搜索树、二叉树
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 54. 二叉搜索树的第k大节点 - 力扣](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
+
 ## 题目大意
 
 **描述**：给定一棵二叉搜索树的根节点 $root$，以及一个整数 $k$。

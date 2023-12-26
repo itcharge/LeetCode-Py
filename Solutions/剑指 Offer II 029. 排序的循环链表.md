@@ -3,6 +3,10 @@
 - 标签：链表
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 029. 排序的循环链表 - 力扣](https://leetcode.cn/problems/4ueAj6/)
+
 ## 题目大意
 
 给定循环升序链表中的一个节点 `head` 和一个整数 `insertVal`。

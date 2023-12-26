@@ -3,6 +3,10 @@
 - 标签：树、深度优先搜索、广度优先搜索、设计、字符串、二叉树
 - 难度：困难
 
+## 题目链接
+
+- [剑指 Offer 37. 序列化二叉树 - 力扣](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof/)
+
 ## 题目大意
 
 给定一棵二叉树的根节点 `root`。

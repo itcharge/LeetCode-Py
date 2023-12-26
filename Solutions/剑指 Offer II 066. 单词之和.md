@@ -3,6 +3,10 @@
 - 标签：设计、字典树、哈希表、字符串
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 066. 单词之和 - 力扣](https://leetcode.cn/problems/z1R5dt/)
+
 ## 题目大意
 
 要求：实现一个 MapSum 类，支持两个方法，`insert` 和 `sum`：

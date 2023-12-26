@@ -3,6 +3,10 @@
 - 标签：数组、哈希表、分治、计数、排序
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 39. 数组中出现次数超过一半的数字 - 力扣](https://leetcode.cn/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/)
+
 ## 题目大意
 
 给定一个数组 `nums`，其中有一个数字出现次数超过数组长度一半。

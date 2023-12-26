@@ -3,6 +3,10 @@
 - 标签：数学、双指针、枚举
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 57 - II. 和为s的连续正数序列 - 力扣](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
+
 ## 题目大意
 
 **描述**：给定一个正整数 `target`。

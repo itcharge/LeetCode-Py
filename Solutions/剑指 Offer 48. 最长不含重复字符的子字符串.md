@@ -3,6 +3,10 @@
 - 标签：哈希表、字符串、滑动窗口
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 48. 最长不含重复字符的子字符串 - 力扣](https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)
+
 ## 题目大意
 
 给定一个字符串 `s`。

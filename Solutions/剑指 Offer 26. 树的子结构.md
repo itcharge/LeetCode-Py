@@ -3,6 +3,10 @@
 - 标签：树、深度优先搜索、二叉树
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 26. 树的子结构 - 力扣](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/)
+
 ## 题目大意
 
 给定两棵二叉树的根节点 `A`、`B`。

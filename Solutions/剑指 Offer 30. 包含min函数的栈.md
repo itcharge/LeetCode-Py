@@ -3,6 +3,10 @@
 - 标签：栈、设计
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 30. 包含min函数的栈 - 力扣](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/)
+
 ## 题目大意
 
 要求：设计一个「栈」，实现  `push` ，`pop` ，`top` ，`min` 操作，并且操作时间复杂度都是 `O(1)`。

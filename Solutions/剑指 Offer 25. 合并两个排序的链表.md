@@ -3,6 +3,10 @@
 - 标签：递归、链表
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 25. 合并两个排序的链表 - 力扣](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)
+
 ## 题目大意
 
 给定两个升序链表。

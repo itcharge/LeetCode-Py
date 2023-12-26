@@ -3,6 +3,10 @@
 - 标签：数组、二分查找、前缀和、滑动窗口
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 008. 和大于等于 target 的最短子数组 - 力扣](https://leetcode.cn/problems/2VG8Kg/)
+
 ## 题目大意
 
 给定一个只包含正整数的数组 `nums` 和一个正整数 `target`。

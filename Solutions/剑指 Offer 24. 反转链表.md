@@ -3,6 +3,10 @@
 - 标签：递归、链表
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 24. 反转链表 - 力扣](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/)
+
 ## 题目大意
 
 **描述**：给定一个链表的头节点 `head`。

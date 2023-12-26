@@ -3,6 +3,10 @@
 - 标签：哈希表、数学、动态规划、堆（优先队列）
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 49. 丑数 - 力扣](https://leetcode.cn/problems/chou-shu-lcof/)
+
 ## 题目大意
 
 给定一个整数 `n`。

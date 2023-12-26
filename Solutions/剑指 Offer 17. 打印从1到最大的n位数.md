@@ -3,6 +3,10 @@
 - 标签：数组、数学
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 17. 打印从1到最大的n位数 - 力扣](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
+
 ## 题目大意
 
 给定一个数字 `n`。

@@ -3,6 +3,10 @@
 - 标签：字典树、数组、哈希表、字符串
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 063. 替换单词 - 力扣](https://leetcode.cn/problems/UhWRSj/)
+
 ## 题目大意
 
 给定一个由许多词根组成的字典列表 `dictionary`，以及一个句子字符串 `sentence`。

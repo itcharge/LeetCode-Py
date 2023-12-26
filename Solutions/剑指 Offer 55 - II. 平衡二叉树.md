@@ -3,6 +3,10 @@
 - 标签：树、深度优先搜索、二叉树
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 55 - II. 平衡二叉树 - 力扣](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/)
+
 ## 题目大意
 
 给定一棵二叉树的根节点 `root`。

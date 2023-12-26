@@ -3,6 +3,10 @@
 - 标签：数组、动态规划
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 104. 排列的数目 - 力扣](https://leetcode.cn/problems/D0F0SV/)
+
 ## 题目大意
 
 给定一个由不同整数组成的数组 `nums` 和一个目标整数 `target`。

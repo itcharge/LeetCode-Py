@@ -3,6 +3,10 @@
 - 标签：数组、滑动窗口
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 009. 乘积小于 K 的子数组 - 力扣](https://leetcode.cn/problems/ZVAVXX/)
+
 ## 题目大意
 
 给定一个正整数数组 `nums` 和一个整数 `k`。

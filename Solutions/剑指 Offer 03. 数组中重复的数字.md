@@ -3,6 +3,10 @@
 - 标签：数组、哈希表、排序
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 03. 数组中重复的数字 - 力扣](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+
 ## 题目大意
 
 给定一个包含 `n + 1` 个整数的数组 `nums`，里边包含的值都在 `1 ~ n` 之间。假设 `nums` 中只存在一个重复的整数，要求找出这个重复的数。

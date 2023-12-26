@@ -3,6 +3,10 @@
 - 标签：递归、数学、动态规划
 - 难度：困难
 
+## 题目链接
+
+- [面试题 17.06. 2出现的次数 - 力扣](https://leetcode.cn/problems/number-of-2s-in-range-lcci/)
+
 ## 题目大意
 
 **描述**：给定一个整数 $n$。

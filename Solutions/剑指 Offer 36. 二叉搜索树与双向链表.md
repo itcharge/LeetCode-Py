@@ -3,6 +3,10 @@
 - 标签：栈、树、深度优先搜索、二叉搜索树、链表、二叉树、双向链表
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 36. 二叉搜索树与双向链表 - 力扣](https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)
+
 ## 题目大意
 
 给定一棵二叉树的根节点 `root`。

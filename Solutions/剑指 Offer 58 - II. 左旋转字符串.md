@@ -3,6 +3,10 @@
 - 标签：数学、双指针、字符串
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 58 - II. 左旋转字符串 - 力扣](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+
 ## 题目大意
 
 给定一个字符串 `s` 和一个整数 `n`。

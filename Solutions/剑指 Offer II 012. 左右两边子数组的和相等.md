@@ -3,6 +3,10 @@
 - 标签：数组、前缀和
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer II 012. 左右两边子数组的和相等 - 力扣](https://leetcode.cn/problems/tvdfij/)
+
 ## 题目大意
 
 给定一个数组 `nums`。

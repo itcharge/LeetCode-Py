@@ -3,6 +3,10 @@
 - 标签：哈希表、链表、双指针
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 52. 两个链表的第一个公共节点 - 力扣](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
+
 ## 题目大意
 
 给定 A、B 两个链表，判断两个链表是否相交，返回相交的起始点。如果不相交，则返回 None。

@@ -3,6 +3,10 @@
 - 标签：位运算、数学
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 65. 不用加减乘除做加法 - 力扣](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)
+
 ## 题目大意
 
 给定两个整数 `a`、`b`。

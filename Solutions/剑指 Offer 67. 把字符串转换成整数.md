@@ -3,6 +3,10 @@
 - 标签：字符串
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 67. 把字符串转换成整数 - 力扣](https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
+
 ## 题目大意
 
 给定一个字符串 `str`。

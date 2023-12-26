@@ -3,6 +3,10 @@
 - 标签：数组、双指针、排序
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面 - 力扣](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
+
 ## 题目大意
 
 给定一个整数数组 `nums`。

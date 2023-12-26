@@ -3,6 +3,10 @@
 - 标签：数组、二分查找
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 11. 旋转数组的最小数字 - 力扣](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+
 ## 题目大意
 
 给定一个数组 `numbers`，`numbers` 是有升序数组经过「旋转」得到的。但是旋转次数未知。数组中可能存在重复元素。

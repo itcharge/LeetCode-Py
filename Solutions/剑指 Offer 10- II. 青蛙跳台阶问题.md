@@ -3,6 +3,10 @@
 - 标签：记忆化搜索、数学、动态规划
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 10- II. 青蛙跳台阶问题 - 力扣](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+
 ## 题目大意
 
 一直青蛙一次可以跳上 `1` 级台阶，也可以跳上 `2` 级台阶。

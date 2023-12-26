@@ -3,6 +3,10 @@
 - 标签：树、深度优先搜索、二叉搜索树、二叉树
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先 - 力扣](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/)
+
 ## 题目大意
 
 给定一棵二叉搜索树的根节点 `root` 和两个指定节点 `p`、`q`。

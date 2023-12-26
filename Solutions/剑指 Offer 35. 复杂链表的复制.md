@@ -3,6 +3,10 @@
 - 标签：哈希表、链表
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 35. 复杂链表的复制 - 力扣](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
+
 ## 题目大意
 
 给定一个链表，每个节点除了 `next` 指针之后，还包含一个随机指针 `random`，该指针可以指向链表中的任何节点或者空节点。

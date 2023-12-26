@@ -3,6 +3,10 @@
 - 标签：位运算、数组
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 56 - I. 数组中数字出现的次数 - 力扣](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)
+
 ## 题目大意
 
 给定一个整型数组 `nums` 。`nums` 里除两个数字之外，其他数字都出现了两次。

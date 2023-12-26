@@ -3,6 +3,10 @@
 - 标签：栈、数组、模拟
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer 31. 栈的压入、弹出序列 - 力扣](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)
+
 ## 题目大意
 
 给定连个整数序列 `pushed` 和 `popped`，其中 `pushed` 表示栈的压入顺序。

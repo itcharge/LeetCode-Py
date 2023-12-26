@@ -3,6 +3,10 @@
 - 标签：树、深度优先搜索、广度优先搜索、二叉树
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 28. 对称的二叉树 - 力扣](https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/)
+
 ## 题目大意
 
 给定一个二叉树的根节点 `root`。

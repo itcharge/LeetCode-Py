@@ -3,6 +3,10 @@
 - 标签：数组、二分查找
 - 难度：简单
 
+## 题目链接
+
+- [剑指 Offer 53 - I. 在排序数组中查找数字 I - 力扣](https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)
+
 ## 题目大意
 
 给定一个排序数组 `nums`，以及一个整数 `target`。

@@ -3,6 +3,10 @@
 - 标签：广度优先搜索、数组、动态规划
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 103. 最少的硬币数目 - 力扣](https://leetcode.cn/problems/gaM7Ch/)
+
 ## 题目大意
 
 给定不同面额的硬币 `coins` 和一个总金额 `amount`。

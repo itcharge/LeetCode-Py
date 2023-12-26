@@ -3,6 +3,10 @@
 - 标签：数组、排序
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 074. 合并区间 - 力扣](https://leetcode.cn/problems/SsGoHC/)
+
 ## 题目大意
 
 给定一个数组 `intervals` 表示若干个区间的集合，`intervals[i] = [starti, endi]` 表示单个区间。

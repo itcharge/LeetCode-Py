@@ -3,6 +3,10 @@
 - 标签：设计、数组、矩阵、前缀和
 - 难度：中等
 
+## 题目链接
+
+- [剑指 Offer II 013. 二维子矩阵的和 - 力扣](https://leetcode.cn/problems/O4NDxx/)
+
 ## 题目大意
 
 给定一个二维矩阵 `matrix`。
