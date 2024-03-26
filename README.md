@@ -18,9 +18,9 @@
 
 - 电子书地址：[https://algo.itcharge.cn](https://algo.itcharge.cn)
 
-![](./Assets/Images/algo-book-light.png)
+![电子书浅色模式](./Assets/Images/algo-book-light.png)
 
-![](./Assets/Images/algo-book-dark.png)
+![电子书深色模式](./Assets/Images/algo-book-dark.png)
 
 ## 03. 关于作者
 
@@ -41,7 +41,7 @@
 - 本教程题解中的所有题目版权均归  [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode.cn/) 所有。
 ## 05. 章节目录
 
-![算法通关手册 （LeetCode）](http://qcdn.itcharge.cn/images/20240326175628.png)
+![章节目录](./Assets/Images/algo-book-contents.png)
 
 ### 00. 绪论
 
