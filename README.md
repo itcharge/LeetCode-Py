@@ -38,7 +38,8 @@
 ## 04. 版权说明
 
 - 本教程采用 [知识署名—非商业性使用—禁止演绎（BY-NC-ND）4.0 协议国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans) 进行许可。
-- 本教程题解中的所有题目版权均归  [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode.cn/) 所有。
+- 本教程题解中的所有题目版权均归 [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode.cn/) 所有。
+
 ## 05. 章节目录
 
 ![章节目录](./Assets/Images/algo-book-contents.png)
@@ -136,7 +137,6 @@
   - [AC 自动机题目](./Contents/06.String/03.String-Multi-Pattern-Matching/04.AC-Automaton-List.md)
   - [后缀数组知识](./Contents/06.String/03.String-Multi-Pattern-Matching/05.Suffix-Array.md)
   - [后缀数组题目](./Contents/06.String/03.String-Multi-Pattern-Matching/06.Suffix-Array-List.md)
-  
 
 ### 07. 树
 
@@ -259,5 +259,4 @@
 ### 11. 附加内容
 
 - [内容完成时间线](./Contents/Others/Update-Time.md)
-
 ### [12. LeetCode 题解（已完成 859 道）](./Contents/00.Introduction/04.Solutions-List.md)

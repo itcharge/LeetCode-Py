@@ -107,7 +107,7 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
     catalogue_list_lines = catalogue_list_file.readlines()
     if len(catalogue_list_lines) > 0:
         catalogue_list_title = catalogue_list_lines[0].strip('\n')
-        catalogue_list_title = '## [' + catalogue_list_title + '](./Contents/00.Introduction/04.Solutions-List.md)'
+        catalogue_list_title = '### [' + catalogue_list_title + '](./Contents/00.Introduction/04.Solutions-List.md)'
         catalogue_list_title = catalogue_list_title.replace('# LeetCode 题解', '12. LeetCode 题解')
         readme_file.writelines(catalogue_list_title)
     catalogue_list_file.close()
@@ -118,6 +118,7 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
     # 生成 Contents/index.md 文件
     content_index_file = open(content_index_path, 'w')
     content_index_file.writelines("# 算法通关手册（LeetCode）\n\n")
+    content_index_file.writelines("## 章节目录\n\n")
     
     # 将章节目录写入 Contents/index.md 文件中
     readme_catelogue_list_file = open(readme_catalogue_list_path)
@@ -125,6 +126,7 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
     for catalogue_list_line in catalogue_list_lines:
         catalogue_list_line = catalogue_list_line.replace('https://github.com/itcharge/LeetCode-Py/blob/main/Contents', '.')
         content_index_file.write(catalogue_list_line)
+    
     readme_catelogue_list_file.close()
     content_index_file.close()
 
