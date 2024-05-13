@@ -9,9 +9,11 @@ class LinkedList:
     
     # 根据 data 初始化一个新链表
     def create(self, data):
-        self.head = ListNode(0)
+        if not data:
+            return
+        self.head = ListNode(data[0])
         cur = self.head
-        for i in range(len(data)):
+        for i in range(1, len(data)):
             node = ListNode(data[i])
             cur.next = node
             cur = cur.next
