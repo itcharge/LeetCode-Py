@@ -33,9 +33,7 @@ class Solution:
         self.quickSort(left, pi)
         self.quickSort(pi.next, right)
         return left
-    
-    def quickSort(self, head):
-    
+
     def sortLinkedList(self, head: ListNode):
         if not head or not head.next:
             return head
