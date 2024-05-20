@@ -1,6 +1,6 @@
 class Solution:
     # graph 为图的邻接矩阵，start 为起始顶点
-    def prim(self, graph, start):
+    def Prim(self, graph, start):
         size = len(graph)
         vis = set()
         dist = [float('inf') for _ in range(size)]
@@ -44,4 +44,4 @@ for i in range(size):
         graph[j][i] = dist
         
 
-print(Solution().prim(graph))
+print(Solution().Prim(graph))
