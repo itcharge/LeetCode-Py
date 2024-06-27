@@ -21,7 +21,7 @@ class UnionFind:
             self.fa[root_y] = root_x                # y 的根节点连接到 x 的根节点上，成为 x 的根节点的子节点
         else:                                       # x 的根节点对应的树的深度 等于 y 的根节点对应的树的深度
             self.fa[root_x] = root_y                # 向任意一方合并即可
-            rank[y] += 1                            # 因为层数相同，被合并的树必然层数会 +1
+            self.rank[root_y] += 1                  # 因为层数相同，被合并的树必然层数会 +1
         return True
 
     def is_connected(self, x, y):                   # 查询操作：判断 x 和 y 是否同属于一个集合
